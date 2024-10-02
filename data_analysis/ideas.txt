@@ -1,0 +1,11 @@
+- optimized game play on every step (optimal game step vs actual game step) 
+- rhyme detector (rhyme overlap between game states)
+- tokeizer syllables (token overlap between game states) (probability distribution of token overlap) (compare those to optimal game states tokeizer syllables)
+- avg Levenshtein distance (between game states and optimal game states / between game states and previous game states)
+- clean data (game path, ez/hard modes, correct answer)
+
+
+
+the main report question is: 
+- Prove ppl dont play optimally by compairng Actual # of guesses vs optimal # of guesses. then say that the reason is casue they rely on rhymes or stuff like that - Probability distribution of token overlap, avg Levenshtein distance, and rhyming between the game play states.
+- How optimal do human player play on each step by comparing their game path characteristics to optimal game path characteristics

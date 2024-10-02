@@ -37,7 +37,7 @@ def avg_game_levenshtein(list_of_games):
     return distance/games
 
 def import_from_csv():
-    file = open("data_1.csv") # Put the name of the data file. Note: it shall be in the same folder as this file
+    file = open("data_analysis/data_1.csv") # Put the name of the data file. Note: it shall be in the same folder as this file
     csvreader = csv.reader(file)
     header = next(csvreader)
     print(header)
