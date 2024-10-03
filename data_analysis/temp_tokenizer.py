@@ -5,10 +5,10 @@ The result was that the nltk syllable tokenizer was the best for the purpose of 
 
 from nltk.tokenize import SyllableTokenizer
 from nltk.stem import WordNetLemmatizer
-import spacy
 from spacy.cli.download import download
 from transformers import GPT2Tokenizer
 import re
+import pronouncing
 
 def syllable_tokenize(text):
     syllable_tokenizer = SyllableTokenizer()
@@ -17,6 +17,9 @@ def syllable_tokenize(text):
 def pre_trained_bpe_tokenize(text):
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     return tokenizer.tokenize(text)
+
+def rhyme_tokenize(text1, text2):
+    return text2 in pronouncing.rhymes(text) or text1 in pronouncing.rhymes(text2)
 
 def morphological_tokenize(text):
     prefixes = r'(un|dis|re|pre|mis|in|im|non|over|under|sub|super|trans)'
@@ -59,8 +62,10 @@ if __name__ == '__main__':
     #download_resources()
     #nlp = spacy.load('en_core_web_sm')
 
-    text = "unspeakable"
+    text = "unable"
     print(syllable_tokenize(text))
+    print(phonetic_tokenize(text))
+    print(rhyme_tokenize(text, "vice"))
     #print(pre_trained_bpe_tokenize(text))
     #print(morphological_tokenize(text, nlp)) bad
     #print(morphological_tokenize(text))

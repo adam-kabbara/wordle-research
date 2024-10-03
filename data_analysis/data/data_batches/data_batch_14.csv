@@ -1,0 +1,1659 @@
+entry_id,author,wordle_guesses,num_guesses,wordle_answer,wordle_title,wordle_id,hard_mode
+23213,u/nowthatsmagic,"['crash', 'power', 'fewer']",3,fewer,unknown,unknown,False
+23214,u/andronicus_14,"['scare', 'berth', 'femur', 'fewer']",4,fewer,unknown,unknown,False
+23215,u/Acceptable_Drop_4198,"['crate', 'diner', 'poser', 'buyer', 'refer', 'fewer']",6,fewer,unknown,unknown,False
+23216,u/unaunan,"['arise', 'rowed', 'newer', 'fewer']",4,fewer,unknown,unknown,False
+23217,u/Natural-Bet-414,"['trace', 'plank', 'shawl']",3,shawl,unknown,unknown,False
+23218,u/SemRinke,"['would', 'cater', 'power', 'fewer']",4,fewer,unknown,unknown,False
+23219,u/ADownsHippie,"['petal', 'mercy', 'fever', 'fewer']",4,fewer,unknown,unknown,False
+23220,u/moomooland,"['lover', 'dials', 'slang', 'shawl']",4,shawl,unknown,unknown,False
+23221,u/j_tragic,"['react', 'heron', 'fever', 'fewer']",4,fewer,unknown,unknown,False
+23222,u/KJones77,"['house', 'great', 'nerdy', 'leper', 'fewer']",5,fewer,unknown,unknown,False
+23223,u/spronston,"['crate', 'spank', 'shawl']",3,shawl,unknown,unknown,False
+23224,u/Hurricanus42,"['plane', 'rider', 'tower', 'sewer', 'fewer']",5,fewer,unknown,unknown,False
+23225,u/mug3n,"['bread', 'haste', 'clash', 'shawl']",4,shawl,unknown,unknown,False
+23226,u/StomachGremlins,"['fence', 'feeds', 'fewer']",3,fewer,unknown,unknown,False
+23227,u/mongooseonaleash,"['roast', 'cline', 'defer', 'fewer']",4,fewer,unknown,unknown,False
+23228,u/minor-giraffe,"['water', 'lower', 'sewer', 'newer', 'fewer']",5,fewer,unknown,unknown,False
+23229,u/solming13,"['train', 'whale', 'shawl']",3,shawl,unknown,unknown,False
+23230,u/seafoodrice,"['salet', 'slack', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23231,u/Unscented_Candle,"['sword', 'water', 'fewer']",3,fewer,unknown,unknown,False
+23232,u/derkinator30,"['stale', 'money', 'cured', 'brief', 'refer', 'fewer']",6,fewer,unknown,unknown,False
+23233,u/ulandyw,"['crane', 'fever', 'fewer']",3,fewer,unknown,unknown,False
+23234,u/islandlily,"['frost', 'flare', 'fiery', 'fewer']",4,fewer,unknown,unknown,False
+23235,u/NakedSnakeEyes,"['stear', 'decor', 'lever', 'fewer']",4,fewer,unknown,unknown,False
+23236,u/caycethecat,"['dream', 'saint', 'slack', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23237,u/balcon,"['thine', 'soled', 'umber', 'waver', 'roper', 'fewer']",6,fewer,unknown,unknown,False
+23238,u/Ketchupfriedrice,"['louie', 'slart', 'shawl']",3,shawl,unknown,unknown,False
+23239,u/CH4EHYUN,"['stern', 'shack', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23240,u/IllogicalIllusionist,"['avoid', 'large', 'plant', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23241,u/ClashForeverrr,"['vouch', 'piths', 'shand', 'share', 'shaky', 'shalm']",-1,DNF,unknown,unknown,False
+23242,u/vbhiro,"['adieu', 'homer', 'sever', 'newer', 'sewer', 'fewer']",6,fewer,unknown,unknown,False
+23243,u/4iamnotaredditor,"['whorl', 'shawl']",2,shawl,unknown,unknown,False
+23244,u/changyang1230,"['crwth', 'adieu', 'shawl']",3,shawl,unknown,unknown,False
+23245,u/GlitteringAd9387,"['nutty', 'solve', 'shaul', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23246,u/ConfusedByPans,"['uncle', 'wrest', 'renew', 'fewer']",4,fewer,unknown,unknown,False
+23247,u/HayesChin,"['canoe', 'birth', 'musky', 'shawl']",4,shawl,unknown,unknown,False
+23248,u/aqua_zuma21,"['trick', 'angle', 'flash', 'shawl']",4,shawl,unknown,unknown,False
+23249,u/ndr0216,"['reast', 'slain', 'scalp', 'shawl']",4,shawl,Wordle,289,True
+23250,u/BUFBills_AfricasTeam,"['stare', 'crome', 'runed', 'viper', 'hewer', 'fewer']",6,fewer,unknown,unknown,False
+23251,u/BigBoi920,"['boils', 'sleep', 'salad', 'small', 'shaul', 'shawl']",6,shawl,unknown,unknown,False
+23252,u/sniffie45,"['slate', 'mourn', 'dying', 'phage', 'creek', 'refer']",-1,DNF,unknown,unknown,False
+23253,u/BrandoGil,"['stare', 'power', 'newer', 'fewer']",4,fewer,unknown,unknown,False
+23254,u/No-Track-205,"['raise', 'pluot', 'fewer']",3,fewer,unknown,unknown,False
+23255,u/Damnaged,"['stare', 'mercy', 'rebel', 'never', 'fewer']",5,fewer,unknown,unknown,False
+23256,u/CannedMango,"['valet', 'puree', 'green', 'sewer', 'fewer']",5,fewer,unknown,unknown,False
+23257,u/walaska,"['ports', 'raced', 'gruel', 'biker', 'fryer', 'fever']",-1,DNF,unknown,unknown,False
+23258,u/mrmister80,"['store', 'fried', 'fumer', 'faker', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23259,u/Bogus4Real,"['house', 'after', 'infer', 'flyer', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23260,u/alacklustrehindu,"['stare', 'slain', 'scald', 'shawl']",4,shawl,unknown,unknown,False
+23261,u/shinraizen,"['tears', 'shank', 'shady', 'shawl']",4,shawl,unknown,unknown,False
+23262,u/vspazv,"['tears', 'reply', 'heron', 'femur', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23263,u/whack-a-mole,"['later', 'super', 'diner', 'cover', 'fewer']",5,fewer,unknown,unknown,False
+23264,u/tutturuw,"['lunge', 'sloth', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23265,u/purple_porcupine,"['cheat', 'shawl']",2,shawl,Wordle,289,False
+23266,u/raarevalo96,"['raise', 'merch', 'never', 'fewer']",4,fewer,unknown,unknown,False
+23267,u/fixedtafernback,"['sable', 'diver', 'power', 'fewer']",4,fewer,unknown,unknown,False
+23268,u/WildcardAir,"['spade', 'fleek', 'fewer']",3,fewer,unknown,unknown,False
+23269,u/Binro_was_right,"['scalp', 'slash', 'shawl']",3,shawl,unknown,unknown,False
+23270,u/OneOfManyChildren,"['stare', 'spank', 'shawl']",3,shawl,unknown,unknown,False
+23271,u/958Silver,"['adieu', 'joker', 'meter', 'fever', 'fewer']",5,fewer,unknown,unknown,False
+23272,u/CorporalWotjek,"['plane', 'gourd', 'shift', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23273,u/distant22,"['scion', 'later', 'defer', 'fever', 'fewer']",5,fewer,unknown,unknown,False
+23274,u/_duncan_idaho_,"['scare', 'slant', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23275,u/EcoAffinity,"['perch', 'learn', 'renew', 'weber', 'fewer']",5,fewer,unknown,unknown,False
+23276,u/HS007,"['space', 'slant', 'shawl']",3,shawl,unknown,unknown,False
+23277,u/fundaman,"['audio', 'champ', 'share', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23278,u/llynn1981,"['frail', 'forge', 'femur', 'fever', 'fewer']",5,fewer,unknown,unknown,False
+23279,u/MyDearDapple,"['moist', 'clear', 'under', 'ember', 'fever', 'fewer']",6,fewer,Wordle,288,True
+23280,u/Specific_Addendum253,"['adieu', 'snort', 'freed', 'fleer', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23281,u/abaca002,"['trope', 'sheer', 'never', 'fewer']",4,fewer,unknown,unknown,False
+23282,u/matjoeman,"['today', 'shire', 'repel', 'never', 'fewer']",5,fewer,unknown,unknown,False
+23283,u/sud_a,"['brave', 'plaid', 'fouls', 'shawl']",4,shawl,unknown,unknown,False
+23284,u/Lextastic,"['trope', 'reach', 'nerds', 'leery', 'weber', 'fewer']",6,fewer,unknown,unknown,False
+23285,u/Hollywoostarsand,"['sneak', 'shady', 'sharp', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23286,u/Itspennington,"['arose', 'renew', 'weber', 'fewer']",4,fewer,unknown,unknown,False
+23287,u/_but_nobody_came,"['hotel', 'cares', 'diner', 'fever', 'fewer']",5,fewer,unknown,unknown,False
+23288,u/givemedimes,"['stare', 'power', 'fewer']",3,fewer,unknown,unknown,False
+23289,u/vivekadithya12,"['thorn', 'place', 'dusky', 'river', 'ember', 'fewer']",6,fewer,unknown,unknown,False
+23290,u/lost_james,"['money', 'salet', 'pried', 'queer', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23291,u/pandaatadesk,"['thorn', 'trope']",2,trope,unknown,unknown,False
+23292,u/julioo975,"['stear', 'cheer', 'lever', 'weber', 'fewer']",5,fewer,unknown,unknown,False
+23293,u/Tumojitekato,"['train', 'hyper', 'cover', 'ruler', 'flegs', 'fewer']",6,fewer,unknown,unknown,False
+23294,u/abvaaron216,"['maple', 'outer', 'chide', 'sneer', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23295,u/Coco5s,"['trace', 'video', 'whose', 'shawl']",4,shawl,unknown,unknown,False
+23296,u/IndigoMoonAdventure,"['crust', 'raper', 'homer', 'viler', 'fewer']",5,fewer,unknown,unknown,False
+23297,u/XeoPlay123,"['crwth', 'whose', 'shawl']",3,shawl,unknown,unknown,False
+23298,u/soulfulpurple,"['those', 'shack', 'sharp', 'shawl']",4,shawl,unknown,unknown,False
+23299,u/Q8Q,"['laser', 'slant', 'shawl']",3,shawl,unknown,unknown,False
+23300,u/BinaryPill,"['trade', 'spoil', 'small', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23301,u/Clever_Owl,"['today', 'pears', 'shack', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23302,u/ndr0216,"['salet', 'scalp', 'small', 'shall']",4,shall,Wordle,283,True
+23303,u/ChaosFollowing,"['hurls', 'shoal', 'shawl']",3,shawl,unknown,unknown,False
+23304,u/edfgedfg,"['pants', 'solar', 'small', 'swail', 'shawl']",5,shawl,unknown,unknown,False
+23305,u/Happifier,"['pries', 'stock', 'shady', 'shawl']",4,shawl,unknown,unknown,False
+23306,u/shazzanator11,"['smart', 'slave', 'shawl']",3,shawl,Wordle,289,True
+23307,u/soyalguien335,"['purse', 'slows', 'shawl']",3,shawl,unknown,unknown,False
+23308,u/TonightRemote,"['ghost', 'later', 'finer', 'fewer']",4,fewer,unknown,unknown,False
+23309,u/Initial_E,"['place', 'liars', 'shoal', 'shawl']",4,shawl,unknown,unknown,False
+23310,u/weavin,"['prowl', 'shawl']",2,shawl,unknown,unknown,False
+23311,u/redditr3ad1ngb1h,"['juice', 'elect', 'feels', 'fedex', 'fewer']",5,fewer,unknown,unknown,False
+23312,u/yorky1800,"['basin', 'stare', 'smack', 'slash', 'shawl']",5,shawl,unknown,unknown,False
+23313,u/PikachuIsBestPikachu,"['doing', 'frame', 'quack', 'stash', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23314,u/Zdoon_dnes,"['brain', 'repot', 'ferry', 'femur', 'fewer']",5,fewer,unknown,unknown,False
+23315,u/ElitistPopulist,"['train', 'blame', 'shawl']",3,shawl,unknown,unknown,False
+23316,u/AdrianMa,"['tears', 'slain', 'small', 'spaul', 'swayl', 'shawl']",6,shawl,unknown,unknown,False
+23317,u/n9obs_win,"['crate', 'slain', 'spald', 'shawl']",4,shawl,unknown,unknown,False
+23318,u/tottenhammad1234,"['adieu', 'story', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23319,u/The_Vat,"['ghoul', 'chill', 'shawl']",3,shawl,unknown,unknown,False
+23320,u/Spiritual_Ad_9267,"['sweat', 'shawl']",2,shawl,unknown,unknown,False
+23321,u/badmother,"['plain', 'leash', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23322,u/robophile-ta,"['smear', 'soapy', 'swash', 'shawl']",4,shawl,unknown,unknown,False
+23323,u/Ladnarr2,"['house', 'shark', 'shaly', 'shawl']",4,shawl,unknown,unknown,False
+23324,u/postness,"['plain', 'shawl']",2,shawl,Wordle,289,False
+23325,u/JL1823,"['birth', 'power', 'sewer', 'fewer']",4,fewer,unknown,unknown,False
+23326,u/pabpab999,"['slice', 'group', 'thank', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23327,u/Justin113113,"['chain', 'shard', 'shape', 'shalt', 'shawl']",5,shawl,unknown,unknown,False
+23328,u/ReviewerNoTwo,"['roate', 'miner', 'chugs', 'flyer', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23329,u/lyovi,"['steam', 'scald', 'snail', 'shawl']",4,shawl,unknown,unknown,False
+23330,u/JeeplessinSeattle,"['fresh', 'refer', 'moldy', 'caput', 'fever', 'fewer']",6,fewer,unknown,unknown,False
+23331,u/PattuX,"['fewer', 'whack', 'shawn', 'shawl']",4,shawl,unknown,unknown,False
+23332,u/evetrapeze,"['crush', 'mower', 'fewer']",3,fewer,unknown,unknown,False
+23333,u/HtheExtraterrestrial,"['peace', 'slant', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23334,u/FulaCityCreator,"['roate', 'black', 'snail', 'shawl']",4,shawl,unknown,unknown,False
+23335,u/SamVulcan,"['crane', 'pious', 'swath', 'shawl']",4,shawl,unknown,unknown,False
+23336,u/missella98,"['shoal', 'shawl']",2,shawl,unknown,unknown,False
+23337,u/gobluthmagician,"['raise', 'clout', 'spall', 'shawl']",4,shawl,unknown,unknown,False
+23338,u/Frestho,"['salet', 'ghyll', 'shawl']",3,shawl,unknown,unknown,False
+23339,u/SolaTotaScriptura,"['crate', 'opals', 'slang', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23340,u/r_osit,"['fewer', 'wagon', 'shawl']",3,shawl,unknown,unknown,False
+23341,u/AshamedMusician5482,"['store', 'slank', 'spail', 'small', 'shaul', 'shawl']",6,shawl,unknown,unknown,False
+23342,u/King_Kai_Camacho,"['speak', 'sandy', 'swarm', 'shawl']",4,shawl,unknown,unknown,False
+23343,u/respectthechemistry1,"['slate', 'snail', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23344,u/Miles-JB,"['straw', 'swain', 'shawl']",3,shawl,unknown,unknown,False
+23345,u/KimchiBearChile,"['arise', 'nould', 'blags', 'spawl', 'shawl']",5,shawl,unknown,unknown,False
+23346,u/khorijinn,"['scald', 'slant', 'shawl']",3,shawl,unknown,unknown,False
+23347,u/hellomaw,"['quiet', 'prong', 'shawl']",3,shawl,unknown,unknown,False
+23348,u/[deleted],"['clear', 'snail', 'small', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23349,u/droford,"['reign', 'total', 'awful', 'shawl']",4,shawl,unknown,unknown,False
+23350,u/tingdemsweet,"['slack', 'stale', 'shawl']",3,shawl,unknown,unknown,False
+23351,u/sleigh_queen,"['stale', 'small', 'snail', 'shawl']",4,shawl,unknown,unknown,False
+23352,u/Insatiableheart,"['blame', 'frail', 'shawl']",3,shawl,unknown,unknown,False
+23353,u/Yepyep911,"['stear', 'spawn', 'shawl']",3,shawl,unknown,unknown,False
+23354,u/NaaleBaaGuru,"['tweak', 'wards', 'shawl']",3,shawl,unknown,unknown,False
+23355,u/ZappySnap,"['crate', 'plaid', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23356,u/poftim,"['manly', 'slate', 'shawl']",3,shawl,unknown,unknown,False
+23357,u/SentimentalDebris,"['truly', 'clash', 'shale', 'shawl']",4,shawl,unknown,unknown,False
+23358,u/AikawaKizuna,"['woman', 'shawl']",2,shawl,unknown,unknown,False
+23359,u/Ecstatic_Tip3314,"['voice', 'damps', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23360,u/charmont97,"['sharp', 'shake', 'shaft', 'shaul', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23361,u/TheSultan1,"['douse', 'snail', 'shawl']",3,shawl,unknown,unknown,False
+23362,u/AnotherDetour,"['cries', 'shawl']",2,shawl,unknown,unknown,False
+23363,u/pk_12345,"['sound', 'shame', 'shack', 'sharp', 'shawl']",5,shawl,unknown,unknown,False
+23364,u/RishiSunak,"['soare', 'swaps', 'shawl']",3,shawl,unknown,unknown,False
+23365,u/madisonpalooza,"['train', 'chalk', 'shaul', 'shawl']",4,shawl,unknown,unknown,False
+23366,u/highway240,"['adieu', 'roast', 'slams', 'scalp', 'shawl']",5,shawl,unknown,unknown,False
+23367,u/BoardwalkKnitter,"['quart', 'loamy', 'shalm', 'shawl']",4,shawl,Wordle,289,True
+23368,u/DeVilleBT,"['chaos', 'shade', 'shank', 'shaft', 'shawl']",5,shawl,unknown,unknown,False
+23369,u/gazil9,"['irate', 'blank', 'scalp', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23370,u/taxi00,"['atone', 'crash', 'shaky', 'shawl']",4,shawl,unknown,unknown,False
+23371,u/poeticzonex,"['crane', 'pouts', 'shaly', 'shawl']",4,shawl,unknown,unknown,False
+23372,u/WildcardAir,"['tamed', 'rainy', 'plack', 'slabs', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23373,u/JazzmanJB,"['irate', 'plans', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23374,u/unreadable_captcha,"['wheat', 'shawn', 'shawm', 'shaws', 'shawl']",5,shawl,unknown,unknown,False
+23375,u/lost_james,"['clear', 'goals', 'fishy', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23376,u/PM_ME_SILLY_DOG_PICS,"['steam', 'sharp', 'shawl']",3,shawl,unknown,unknown,False
+23377,u/kadfr,"['stare', 'shawl']",2,shawl,unknown,unknown,False
+23378,u/caffeinated_teddy,"['grape', 'flask', 'scale', 'shawl']",4,shawl,unknown,unknown,False
+23379,u/alandizzle,"['yearn', 'perms', 'regur', 'lever', 'deter', 'fewer']",6,fewer,unknown,unknown,False
+23380,u/123choji,"['prime', 'sound', 'shack', 'shawl']",4,shawl,unknown,unknown,False
+23381,u/lavinient,"['grace', 'stamp', 'snail', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23382,u/reeposterr,"['crwth', 'whale', 'shawl']",3,shawl,unknown,unknown,False
+23383,u/mystiqueallie,"['horse', 'ships', 'shunt', 'shawl']",4,shawl,unknown,unknown,False
+23384,u/up2_no_good,"['heart', 'scalp', 'shawl']",3,shawl,unknown,unknown,False
+23385,u/CaptainFunn,"['story', 'sepia', 'swung', 'shawl']",4,shawl,unknown,unknown,False
+23386,u/FineCombination5583,"['diary', 'clash', 'shawl']",3,shawl,Wordle,289,False
+23387,u/Suicidal-Lysosome,"['peach', 'thank', 'shard', 'shawl']",4,shawl,unknown,unknown,False
+23388,u/VardaElentari86,"['snail', 'shall', 'shawl']",3,shawl,unknown,unknown,False
+23389,u/SaltedAndSugared,"['ovens', 'shirt', 'shawl']",3,shawl,unknown,unknown,False
+23390,u/yodindintoatto,"['adieu', 'poach', 'thank', 'shawl']",4,shawl,unknown,unknown,False
+23391,u/prograft,"['crwth', 'while', 'shawl']",3,shawl,unknown,unknown,False
+23392,u/skiffles,"['swims', 'sower', 'sucky', 'shawl']",4,shawl,unknown,unknown,False
+23393,u/lonelygagger,"['penis', 'short', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23394,u/cougar572,"['aegis', 'youth', 'brand', 'shack', 'shawl']",5,shawl,unknown,unknown,False
+23395,u/Sir0bin,"['stare', 'slain', 'shawl']",3,shawl,unknown,unknown,False
+23396,u/tjgamir,"['share', 'dicky', 'flute', 'shawl']",4,shawl,unknown,unknown,False
+23397,u/bajesus,"['clown', 'shawl']",2,shawl,unknown,unknown,False
+23398,u/958Silver,"['media', 'coral', 'awful', 'shawl']",4,shawl,unknown,unknown,False
+23399,u/avocadodreamink,"['tears', 'spank', 'shawl']",3,shawl,unknown,unknown,False
+23400,u/DuffyHimself,"['swole', 'shawl']",2,shawl,unknown,unknown,False
+23401,u/Drunk_Sorting_Hat,"['arose', 'stamp', 'shawl']",3,shawl,unknown,unknown,False
+23402,u/Neisseriaceae,"['tired', 'locks', 'slain', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23403,u/ryeshoes,"['tubes', 'fling', 'champ']",4,shawl,Wordle,289,False
+23404,u/AnotherAccount4This,"['water', 'swamp', 'shawl']",3,shawl,unknown,unknown,False
+23405,u/punieluna,"['strap', 'shale', 'shawl']",3,shawl,unknown,unknown,False
+23406,u/mengzhongmeng,"['crane', 'shawl']",2,shawl,unknown,unknown,False
+23407,u/mlc885,"['crane', 'glass', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23408,u/lucevan,"['mango', 'alert', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23409,u/madeleineruth19,"['arose', 'saint', 'sugar', 'shack', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23410,u/rollinwitrick,"['broil', 'spell', 'shawl']",3,shawl,Wordle,289,False
+23411,u/peacharnoldpalmer,"['saint', 'spare', 'smack', 'shawl']",4,shawl,unknown,unknown,False
+23412,u/SUPERsquirrelPower,"['heart', 'shand', 'shack', 'shaly', 'shaul', 'shawl']",6,shawl,unknown,unknown,False
+23413,u/9PaperStars,"['sonic', 'swear', 'shawl']",3,shawl,unknown,unknown,False
+23414,u/Deven_Ram,"['salet', 'slain', 'shawl']",3,shawl,unknown,unknown,False
+23415,u/EmbarrassedPiccolo2,"['react', 'snaps', 'swail', 'shawl']",4,shawl,unknown,unknown,False
+23416,u/unfoldyourself,"['shore', 'shalt', 'shall', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23417,u/andronicus_14,"['scare', 'stamp', 'slang', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23418,u/likwidfuzion,"['roate', 'slack', 'small', 'snail', 'shawl']",5,shawl,unknown,unknown,False
+23419,u/Kluuz,"['trash', 'shape', 'shack', 'shall', 'shaul', 'shawl']",6,shawl,unknown,unknown,False
+23420,u/bungle_bogs,"['stare', 'snail', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23421,u/Zabeczko,"['plant', 'chalk', 'shawl']",3,shawl,unknown,unknown,False
+23422,u/smribeiro16,"['adieu', 'snort', 'sales', 'slash', 'shack', 'shawl']",6,shawl,unknown,unknown,False
+23423,u/Ash12783,"['think', 'chump', 'shear', 'shawl']",4,shawl,unknown,unknown,False
+23424,u/_The_One_And_Only__,"['stern', 'spoil', 'shaul', 'shawl']",4,shawl,unknown,unknown,False
+23425,u/JaLu0820,"['crypt', 'blush', 'shoal', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23426,u/vermontgirl,"['steam', 'shank', 'shard', 'shawl']",4,shawl,unknown,unknown,False
+23427,u/tooooooodayrightnow,"['naked', 'abhor', 'chaps', 'shaft', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23428,u/OhSoManyMarbles,"['stare', 'spawn', 'shawl']",3,shawl,unknown,unknown,False
+23429,u/PimpeeMcgee,"['slate', 'snail', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23430,u/GreatBallsOfH20,"['crwth', 'whole', 'shawl']",3,shawl,unknown,unknown,False
+23431,u/jalissapi,"['raise', 'mount', 'shack', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23432,u/EcoAffinity,"['plant', 'leach', 'shawl']",3,shawl,unknown,unknown,False
+23433,u/NSNick,"['irate', 'mousy', 'shall', 'shawl']",4,shawl,Wordle,289,False
+23434,u/hersheybar22,"['paste', 'shark', 'shady', 'shawl']",4,shawl,unknown,unknown,False
+23435,u/Western-Gamer29,"['steak', 'shash', 'shams', 'shard', 'shawn', 'shawl']",6,shawl,unknown,unknown,False
+23436,u/MamboTB88,"['slice', 'stall', 'shawl']",3,shawl,unknown,unknown,False
+23437,u/opobdtfs,"['fewer', 'whack', 'brawn', 'thaws', 'shawl']",5,shawl,unknown,unknown,False
+23438,u/Kightsbridge,"['shale', 'shawl']",2,shawl,unknown,unknown,False
+23439,u/BlitzAceSamy,"['loser', 'claut', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23440,u/wildrice777,"['stare', 'scamp', 'shank', 'shawl']",4,shawl,unknown,unknown,False
+23441,u/AlarKemmotar,"['plush', 'shale', 'shawl']",3,shawl,unknown,unknown,False
+23442,u/Zdoon_dnes,"['boast', 'spark', 'slave', 'shawl']",4,shawl,unknown,unknown,False
+23443,u/soap_lady,"['chasm', 'polka', 'shawl']",3,shawl,unknown,unknown,False
+23444,u/inktags,"['house', 'paint', 'awash', 'shaws', 'shawl']",5,shawl,unknown,unknown,False
+23445,u/ExposedTamponString,"['knelt', 'frail', 'shawl']",3,shawl,unknown,unknown,False
+23446,u/kaksjsnns,"['lairs', 'palet', 'fatly', 'datal', 'monks', 'natal']",6,natal,unknown,unknown,False
+23447,u/unilateralhope,"['rhyme', 'shown', 'shawl']",3,shawl,unknown,unknown,False
+23448,u/wilma_phingerdew,"['plain', 'shale', 'shawl']",3,shawl,unknown,unknown,False
+23449,u/HiFiGuy197,"['steal', 'small', 'swail', 'shawl']",4,shawl,unknown,unknown,False
+23450,u/doseofvitamink,"['tares', 'soapy', 'scald', 'slash', 'shawl']",5,shawl,unknown,unknown,False
+23451,u/please-disregard,"['crane', 'slipt', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23452,u/jruhlman09,"['trace', 'spank', 'small', 'swail', 'shawl']",5,shawl,unknown,unknown,False
+23453,u/iiCrimsonVI,"['slate', 'shall', 'shawl']",3,shawl,Wordle,289,False
+23454,u/SucksVeryWell,"['pious', 'stare', 'snack', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23455,u/DelurkingtoComment,"['crane', 'dimly', 'along', 'nasal', 'naval', 'natal']",6,natal,unknown,unknown,False
+23456,u/Hydreigon_Lord,"['flush', 'shoal', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23457,u/evidens,"['trace', 'plaid', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23458,u/BingoBongoBang,"['crave', 'plain', 'stall', 'shawl']",4,shawl,unknown,unknown,False
+23459,u/cyrano4833,"['stern', 'shoal', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23460,u/quadzillas,"['thief', 'shawl']",2,shawl,unknown,unknown,False
+23461,u/Mmmbreemy,"['stare', 'spawn', 'shawl']",3,shawl,unknown,unknown,False
+23462,u/MortarChelle,"['stare', 'slack', 'small', 'snail', 'whump', 'shawl']",6,shawl,unknown,unknown,False
+23463,u/FileInside,"['ebony', 'vapid', 'crams', 'swath', 'shawl']",5,shawl,unknown,unknown,False
+23464,u/izzyvet,"['shade', 'point', 'curly', 'shawl']",4,shawl,unknown,unknown,False
+23465,u/bamagal89,"['hurts', 'shale', 'shawl']",3,shawl,unknown,unknown,False
+23466,u/airplane7407,"['stern', 'shady', 'shack', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23467,u/Acceptable_Drop_4198,"['crate', 'plans', 'small', 'swail', 'shawl']",5,shawl,unknown,unknown,False
+23468,u/khcollett,"['raise', 'soapy', 'shaft', 'shawl']",4,shawl,unknown,unknown,False
+23469,u/Aristophanes771,"['cramp', 'abuse', 'talon', 'natal']",4,natal,unknown,unknown,False
+23470,u/ObsidianDreamsRedux,"['prose', 'chain', 'bulky', 'mated', 'natal']",5,natal,unknown,unknown,False
+23471,u/BUFBills_AfricasTeam,"['stare', 'shall', 'shawl']",3,shawl,unknown,unknown,False
+23472,u/raarevalo96,"['raise', 'scalp', 'shaul', 'shawl']",4,shawl,unknown,unknown,False
+23473,u/Eazyyy,"['youth', 'heard', 'chasm', 'shank', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23474,u/BrettTieman,"['wrath', 'shawl']",2,shawl,unknown,unknown,False
+23475,u/Low_Persimmon_2145,"['farce', 'gnats', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23476,u/PreventFalls,"['paint', 'youth', 'heaps', 'shard', 'shawl']",5,shawl,unknown,unknown,False
+23477,u/sniffie45,"['soare', 'clint', 'shawl']",3,shawl,unknown,unknown,False
+23478,u/mug3n,"['crisp', 'heady', 'talon', 'natal']",4,natal,unknown,unknown,False
+23479,u/BGroovy_1,"['stare', 'spain', 'slack', 'small', 'shaul', 'shawl']",6,shawl,unknown,unknown,False
+23480,u/trickman01,"['alone', 'trial', 'shall', 'shaul', 'shawl']",5,shawl,unknown,unknown,False
+23481,u/ConfusedByPans,"['trash', 'shame', 'shack', 'shaft', 'shady', 'shawl']",6,shawl,unknown,unknown,False
+23482,u/Xephyrius,"['aspie', 'rants', 'shawl']",3,shawl,unknown,unknown,False
+23483,u/Mittervi,"['glide', 'lamps', 'tally', 'batch', 'fatal', 'ratal']",-1,DNF,unknown,unknown,False
+23484,u/Paracetamaul-AUS,"['salet', 'fatal', 'natal']",3,natal,unknown,unknown,False
+23485,u/optional_wax,"['stare', 'snail', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23486,u/Natural-Bet-414,"['trace', 'fluid', 'shalt', 'notal', 'natal']",5,natal,unknown,unknown,False
+23487,u/Moonlight_Sonata545,"['slate', 'small', 'shawl']",3,shawl,unknown,unknown,False
+23488,u/NotWorkingSorry,"['place', 'trail', 'shawl']",3,shawl,unknown,unknown,False
+23489,u/PsiMagi,"['forge', 'quick', 'stand', 'shawl']",4,shawl,unknown,unknown,False
+23490,u/sleigh_queen,"['slate', 'small', 'snail', 'shawl']",4,shawl,unknown,unknown,False
+23491,u/spronston,"['crate', 'tidal', 'natal']",3,natal,unknown,unknown,False
+23492,u/Starberriez,"['stern', 'slick', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23493,u/Binro_was_right,"['scalp', 'labor', 'valet', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23494,u/Snoo_38970,"['shame', 'sharp', 'shaft', 'shack', 'shady', 'shawl']",6,shawl,unknown,unknown,False
+23495,u/Ysteri,"['rates', 'shame', 'shawl']",3,shawl,unknown,unknown,False
+23496,u/Bogus4Real,"['adieu', 'stark', 'shawl']",3,shawl,unknown,unknown,False
+23497,u/llynn1981,"['strap', 'shawl']",2,shawl,unknown,unknown,False
+23498,u/smittalicious,"['champ', 'shank', 'shale', 'shawl']",4,shawl,unknown,unknown,False
+23499,u/IndigoMoonAdventure,"['quest', 'shard', 'shack', 'shawl']",4,shawl,unknown,unknown,False
+23500,u/Unscented_Candle,"['spite', 'shown', 'shawl']",3,shawl,unknown,unknown,False
+23501,u/seafoodrice,"['salet', 'patly', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23502,u/yourcountrycousin,"['spare', 'lawns', 'shawl']",3,shawl,unknown,unknown,False
+23503,u/NotLinkMain,"['adieu', 'plays', 'small', 'stall', 'swank', 'shawl']",6,shawl,unknown,unknown,False
+23504,u/derkinator30,"['stare', 'slain', 'shawl']",3,shawl,unknown,unknown,False
+23505,u/LawfulnessUpbeat5646,"['plant', 'shale', 'shawl']",3,shawl,unknown,unknown,False
+23506,u/Werner__Herzog,"['trunk', 'place', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23507,u/NakedSnakeEyes,"['stear', 'shady', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23508,u/PhoustPhoustPhoust,"['haste', 'shawl']",2,shawl,unknown,unknown,False
+23509,u/caycethecat,"['fresh', 'inlay', 'natal']",3,natal,unknown,unknown,False
+23510,u/PM-ME-UR-PETS,"['super', 'motif', 'latch', 'natal']",4,natal,unknown,unknown,False
+23511,u/alacklustrehindu,"['stare', 'canto', 'matin', 'natal']",4,natal,unknown,unknown,False
+23512,u/ZombieJockeyGames,"['intel', 'natal', 'natal', 'dekat', 'timah']",5,natal,Wordle,290,False
+23513,u/shinraizen,"['plate', 'fault', 'talon', 'natal']",4,natal,unknown,unknown,False
+23514,u/CH4EHYUN,"['stern', 'notch', 'natal']",3,natal,unknown,unknown,False
+23515,u/IllogicalIllusionist,"['avoid', 'lathe', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23516,u/Ketchupfriedrice,"['louie', 'slart', 'talky', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23517,u/Slimmynorthfish,"['pious', 'saver', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23518,u/aqua_zuma21,"['proud', 'false', 'lanky', 'natal']",4,natal,unknown,unknown,False
+23519,u/Thatgorl1,"['audio', 'maker', 'short', 'shawl']",4,shawl,unknown,unknown,False
+23520,u/brittanibelle,"['cough', 'print', 'shape', 'shawl']",4,shawl,unknown,unknown,False
+23521,u/MyDearDapple,"['stare', 'shack', 'shall', 'shawl']",4,shawl,Wordle,289,True
+23522,u/R4wrSh4rkR3dB34rd,"['fetch', 'horns', 'pushy', 'sighs', 'shawl']",5,shawl,unknown,unknown,False
+23523,u/daphne451,"['crane', 'shaft', 'shawl']",3,shawl,unknown,unknown,False
+23524,u/overthinkinginfj,"['crane', 'salon', 'naval', 'nahal', 'natal']",5,natal,unknown,unknown,False
+23525,u/parathrowawat,['natal'],1,natal,Wordle,290,False
+23526,u/Initial_E,"['prose', 'child', 'fault', 'talky', 'natal']",5,natal,unknown,unknown,False
+23527,u/j_tragic,"['grace', 'plant', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23528,u/GooseLow9897,"['stare', 'pious', 'slang', 'scald', 'small', 'shawl']",6,shawl,unknown,unknown,False
+23529,u/Jennarager,"['stear', 'snail', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23530,u/addictus_black,"['stare', 'spank', 'shady', 'shawl']",4,shawl,unknown,unknown,False
+23531,u/sugarbreath91,"['vegan', 'place', 'trail', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23532,u/zhc207,"['gifts', 'thank', 'natal']",3,natal,unknown,unknown,False
+23533,u/dvstland,"['glyph', 'shelf', 'shawl']",3,shawl,unknown,unknown,False
+23534,u/Jeff10w25,"['roach', 'aegis', 'daunt', 'panty', 'tanna', 'natal']",6,natal,unknown,unknown,False
+23535,u/CorporalWotjek,"['death', 'frogs', 'cumin', 'tawny', 'natal']",5,natal,unknown,unknown,False
+23536,u/BigBoi920,"['aegis', 'mould', 'canal', 'naval', 'natal']",5,natal,unknown,unknown,False
+23537,u/redmagic-v4,"['tough', 'stare', 'actin', 'natal']",4,natal,unknown,unknown,False
+23538,u/HayesChin,"['canoe', 'birth', 'taunt', 'natal']",4,natal,unknown,unknown,False
+23539,u/nerdy_raconteur,"['plant', 'leave', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23540,u/moselth,"['cause', 'nasty', 'swamp', 'shawl']",4,shawl,unknown,unknown,False
+23541,u/jenesuisunefemme,"['crazy', 'blade', 'shalt', 'shaul', 'shall', 'shawl']",6,shawl,unknown,unknown,False
+23542,u/ElWanderer_KSP,"['crypt', 'lanes', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23543,u/_but_nobody_came,"['parks', 'steam', 'slang', 'shall', 'shawl']",5,shawl,unknown,unknown,False
+23544,u/distant22,"['stare', 'snack', 'shady', 'shawl']",4,shawl,unknown,unknown,False
+23545,u/HS007,"['spare', 'about', 'match', 'fatty', 'lined', 'natal']",6,natal,unknown,unknown,False
+23546,u/sud_a,"['fried', 'bonus', 'clank', 'naval', 'natal']",5,natal,unknown,unknown,False
+23547,u/andreasbjorne,"['audio', 'stern', 'savvy', 'small', 'spawl', 'shawl']",6,shawl,unknown,unknown,False
+23548,u/Hollywoostarsand,"['water', 'patio', 'slunk', 'natal']",4,natal,unknown,unknown,False
+23549,u/KingD123,"['grown', 'shawl']",2,shawl,unknown,unknown,False
+23550,u/MeriBaatSun,"['adieu', 'storm', 'cheat', 'natal']",4,natal,unknown,unknown,False
+23551,u/OneOfManyChildren,"['stare', 'patch', 'baton', 'natal']",4,natal,unknown,unknown,False
+23552,u/JL1823,"['tired', 'walks', 'claws', 'shawl']",4,shawl,unknown,unknown,False
+23553,u/fundaman,"['audio', 'champ', 'false', 'tribe', 'natal']",5,natal,unknown,unknown,False
+23554,u/_coragray,"['party', 'tamin', 'natal']",3,natal,unknown,unknown,False
+23555,u/AliasR_r,"['pause', 'faint', 'tanky', 'baton', 'chart', 'natal']",6,natal,unknown,unknown,False
+23556,u/KDCaniell,"['south', 'trace', 'faint', 'natal']",4,natal,unknown,unknown,False
+23557,u/irisblues,"['sated', 'rhino', 'claws', 'shawl']",4,shawl,unknown,unknown,False
+23558,u/Tumojitekato,"['train', 'quads', 'smack', 'shape', 'welsh', 'shawl']",6,shawl,unknown,unknown,False
+23559,u/raejudge,"['crate', 'talon', 'natal']",3,natal,unknown,unknown,False
+23560,u/Marlon_M,"['chime', 'sharp', 'shank', 'shawl']",4,shawl,unknown,unknown,False
+23561,u/Exousiazo,"['stern', 'auloi', 'slash', 'shawl']",4,shawl,unknown,unknown,False
+23562,u/optional_wax,"['stare', 'baton', 'natal']",3,natal,unknown,unknown,False
+23563,u/XeoPlay123,"['crwth', 'lotus', 'palet', 'fatly', 'natal']",5,natal,unknown,unknown,False
+23564,u/Coco5s,"['crate', 'tails', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23565,u/Clever_Owl,"['today', 'steam', 'altar', 'natal']",4,natal,unknown,unknown,False
+23566,u/AnvilOfMisanthropy,"['crate', 'snail', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23567,u/AnvilOfMisanthropy,"['crate', 'snail', 'small', 'shawl']",4,shawl,unknown,unknown,False
+23568,u/Q8Q,"['craft', 'table', 'salty', 'natal']",4,natal,unknown,unknown,False
+23569,u/peace_97,"['reast', 'soaps', 'snail', 'small', 'shawl']",5,shawl,unknown,unknown,False
+23570,u/ChaosFollowing,"['hurls', 'clapt', 'tidal', 'fetal', 'natal']",5,natal,unknown,unknown,False
+23571,u/Blitzkrieg0524,"['peace', 'faint', 'santo', 'tarns', 'natty', 'natal']",6,natal,unknown,unknown,False
+23572,u/edfgedfg,"['pored', 'slain', 'annal', 'natal']",4,natal,unknown,unknown,False
+23573,u/vbhiro,"['tares', 'stain', 'smack', 'slash', 'shawl']",5,shawl,unknown,unknown,False
+23574,u/Happifier,"['rouse', 'plait', 'latch', 'natal']",4,natal,unknown,unknown,False
+23575,u/throwaway_account159,"['crane', 'nasty', 'natal']",3,natal,unknown,unknown,False
+23576,u/yorky1800,"['crawl', 'penal', 'nasal', 'naval', 'natal']",5,natal,unknown,unknown,False
+23577,u/KJones77,"['house', 'shaft', 'shank', 'shard', 'shawl']",5,shawl,unknown,unknown,False
+23578,u/VardaElentari86,"['stare', 'fault', 'talon', 'natal']",4,natal,unknown,unknown,False
+23579,u/Justin113113,"['chain', 'naval', 'nasal', 'natal']",4,natal,unknown,unknown,False
+23580,u/resatr,"['third', 'stone', 'nutty', 'natal']",4,natal,unknown,unknown,False
+23581,u/LoverofJLaw,"['trace', 'awful', 'basil', 'phony', 'natal']",5,natal,unknown,unknown,False
+23582,u/BZNagain,"['stain', 'scare', 'shawl']",3,shawl,unknown,unknown,False
+23583,u/asinyan,"['house', 'plant', 'natal']",3,natal,unknown,unknown,False
+23584,u/SaltedAndSugared,"['snowy', 'panda', 'human', 'navar', 'natal']",5,natal,unknown,unknown,False
+23585,u/weavin,"['great', 'topaz', 'tubal', 'natal']",4,natal,unknown,unknown,False
+23586,u/rxlcrab,"['prose', 'giant', 'natal']",3,natal,unknown,unknown,False
+23587,u/Torontoeikokujin,"['those', 'grant', 'blimp', 'natal']",4,natal,unknown,unknown,False
+23588,u/HereButQueer,"['crumb', 'upset', 'toxic', 'allay', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23589,u/Ps-Pencil,"['runes', 'thank', 'baton', 'natal']",4,natal,unknown,unknown,False
+23590,u/PikachuIsBestPikachu,"['canal', 'natal']",2,natal,unknown,unknown,False
+23591,u/alandizzle,"['yearn', 'toads', 'shawl']",3,shawl,unknown,unknown,False
+23592,u/Emergent444,"['orbit', 'tased', 'hatch', 'fatty', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23593,u/avocadodreamink,"['tears', 'aptly', 'vital', 'natal']",4,natal,unknown,unknown,False
+23594,u/AwesomeYears,"['brain', 'nasal', 'naval', 'natal']",4,natal,unknown,unknown,False
+23595,u/HairyBaws,"['smoke', 'burnt', 'tangy', 'watch', 'patin', 'natal']",6,natal,unknown,unknown,False
+23596,u/Ladnarr2,"['house', 'claim', 'party', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23597,u/kadfr,"['stare', 'paint', 'tangy', 'baton', 'natch', 'natal']",6,natal,unknown,unknown,False
+23598,u/pootlowevato,"['nurse', 'notch', 'natal']",3,natal,unknown,unknown,False
+23599,u/tottenhammad1234,"['adieu', 'story', 'munch', 'plant', 'natal']",5,natal,unknown,unknown,False
+23600,u/ElitistPopulist,"['waist', 'cater', 'baton', 'natal']",4,natal,unknown,unknown,False
+23601,u/PattuX,"['shawl', 'panel', 'naval', 'natal']",4,natal,unknown,unknown,False
+23602,u/robophile-ta,"['smear', 'cloak', 'triad', 'gloat', 'tubal', 'fatal']",-1,DNF,unknown,unknown,False
+23603,u/vspazv,"['tears', 'small', 'snail', 'shawl']",4,shawl,unknown,unknown,False
+23604,u/SleepThinker,"['plead', 'coral', 'binal', 'naval', 'nasal', 'natal']",6,natal,unknown,unknown,False
+23605,u/HtheExtraterrestrial,"['peace', 'rally', 'laugh', 'basil', 'naval', 'natal']",6,natal,unknown,unknown,False
+23606,u/sleigh_queen,"['stare', 'float', 'tidal', 'natal']",4,natal,unknown,unknown,False
+23607,u/Frestho,"['salet', 'fatal', 'natal']",3,natal,unknown,unknown,False
+23608,u/2Legit2Quiz,"['audit', 'table', 'salty', 'latch', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23609,u/prograft,"['crwth', 'toast', 'laten', 'natal']",4,natal,unknown,unknown,False
+23610,u/Abdullahman123,"['crane', 'nasal', 'natal']",3,natal,unknown,unknown,False
+23611,u/loucanfly,"['stone', 'frail', 'natal']",3,natal,unknown,unknown,False
+23612,u/glizzyboi4444,"['crawl', 'shawl']",2,shawl,unknown,unknown,False
+23613,u/WinterShine,"['parse', 'stoic', 'shawl']",3,shawl,unknown,unknown,False
+23614,u/HnNaldoR,"['crane', 'panda', 'naval', 'nasal', 'natal']",5,natal,unknown,unknown,False
+23615,u/sheriw1965,"['doubt', 'share', 'shack', 'shawl']",4,shawl,unknown,unknown,False
+23616,u/n9obs_win,"['crate', 'baton', 'natis', 'natal']",4,natal,unknown,unknown,False
+23617,u/CL1234_,"['opera', 'daunt', 'natch', 'natty', 'natal']",5,natal,unknown,unknown,False
+23618,u/gobluthmagician,"['raise', 'clout', 'tally', 'lathe', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23619,u/Flowersandplaid,"['grant', 'shawl']",2,shawl,unknown,unknown,False
+23620,u/up2_no_good,"['stare', 'bingo', 'panty', 'munch', 'natal']",5,natal,unknown,unknown,False
+23621,u/_duncan_idaho_,"['scare', 'adorn', 'unbag', 'final', 'naval', 'natal']",6,natal,unknown,unknown,False
+23622,u/-tardigr8-,"['hotel', 'whirl', 'shawl']",3,shawl,unknown,unknown,False
+23623,u/SamVulcan,"['crane', 'pious', 'nasty', 'ghast', 'milky', 'natal']",6,natal,unknown,unknown,False
+23624,u/MrAdelphi03,"['raise', 'clown', 'shawl']",3,shawl,unknown,unknown,False
+23625,u/BinaryPill,"['trade', 'latch', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23626,u/AikawaKizuna,"['cloak', 'natal']",2,natal,unknown,unknown,False
+23627,u/TimSonOfSteve,"['prawn', 'nacho', 'nails', 'naval', 'natal']",5,natal,unknown,unknown,False
+23628,u/droford,"['cable', 'rally', 'laugh', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23629,u/unreadable_captcha,"['spear', 'tonal', 'natal']",3,natal,unknown,unknown,False
+23630,u/Miles-JB,"['spare', 'human', 'tonal', 'natal']",4,natal,unknown,unknown,False
+23631,u/ryeshoes,"['tubes', 'fling', 'wordy', 'champ']",5,natal,Wordle,290,False
+23632,u/gord89,"['askew', 'carat', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23633,u/JazzmanJB,"['irate', 'talon', 'natal']",3,natal,unknown,unknown,False
+23634,u/mlc885,"['crane', 'mangy', 'naval', 'nasal', 'natal']",5,natal,unknown,unknown,False
+23635,u/Ecstatic_Tip3314,"['audio', 'plane', 'naval', 'natal']",4,natal,unknown,unknown,False
+23636,u/Yepyep911,"['stear', 'tonal', 'natal']",3,natal,unknown,unknown,False
+23637,u/MoreLikeMetaKite,"['crane', 'sloth', 'natal']",3,natal,unknown,unknown,False
+23638,u/XmertonX,"['roust', 'table', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23639,u/SentimentalDebris,"['snore', 'plain', 'canal', 'naval', 'natal']",5,natal,unknown,unknown,False
+23640,u/r_osit,"['shawl', 'medal', 'rural', 'vocal', 'final', 'natal']",6,natal,unknown,unknown,False
+23641,u/Hyperf0cused,"['forty', 'paved', 'shall', 'shawl']",4,shawl,unknown,unknown,False
+23642,u/TheSultan1,"['cleat', 'vital', 'natal']",3,natal,unknown,unknown,False
+23643,u/Tina-Slay,"['chase', 'party', 'baton', 'natal']",4,natal,unknown,unknown,False
+23644,u/SuzumiyaCham,"['plant', 'tonal', 'natal']",3,natal,unknown,unknown,False
+23645,u/poftim,"['nomad', 'nasal', 'natal']",3,natal,unknown,unknown,False
+23646,u/doseofvitamink,"['irate', 'stoat', 'natal']",3,natal,unknown,unknown,False
+23647,u/nerdy_raconteur,"['stain', 'taunt', 'month', 'natal']",4,natal,unknown,unknown,False
+23648,u/Balakidy,"['stern', 'plant', 'talon', 'natal']",4,natal,unknown,unknown,False
+23649,u/Prode101,"['tares', 'batty', 'fatso', 'lathy', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23650,u/yodindintoatto,"['adieu', 'shoal', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23651,u/quarantined_for_life,"['salet', 'scald', 'slang', 'swail', 'spawl', 'shawl']",6,shawl,unknown,unknown,False
+23652,u/ZappySnap,"['crane', 'sandy', 'talon', 'natal']",4,natal,unknown,unknown,False
+23653,u/DeVilleBT,"['china', 'ankle', 'plant', 'natal']",4,natal,unknown,unknown,False
+23654,u/isthatabee,"['clean', 'final', 'nasal', 'natal']",4,natal,unknown,unknown,False
+23655,u/gazil9,"['train', 'haunt', 'panty', 'natal']",4,natal,unknown,unknown,False
+23656,u/Boomyjo,"['crash', 'about', 'tamed', 'faint', 'natty', 'natal']",6,natal,unknown,unknown,False
+23657,u/PreventFalls,"['adieu', 'solar', 'style', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23658,u/madisonpalooza,"['plate', 'later', 'fatly', 'datal', 'katal', 'natal']",6,natal,unknown,unknown,False
+23659,u/abaca002,"['fewer', 'waist', 'spawn', 'shawl']",4,shawl,unknown,unknown,False
+23660,u/Xephyrius,"['aspie', 'chant', 'tango', 'natal']",4,natal,unknown,unknown,False
+23661,u/mariobros2048,"['crate', 'lions', 'plant', 'talon', 'natal']",5,natal,unknown,unknown,False
+23662,u/mapepo,"['stear', 'total', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23663,u/Cellmaster28,"['brain', 'naked', 'volts', 'natal']",4,natal,unknown,unknown,False
+23664,u/taxi00,"['atone', 'tunas', 'ratan', 'natal']",4,natal,unknown,unknown,False
+23665,u/PM_ME_SILLY_DOG_PICS,"['store', 'tidal', 'natal']",3,natal,unknown,unknown,False
+23666,u/arootytoottoot,"['ourie', 'banal', 'natal']",3,natal,Wordle,290,True
+23667,u/lost_james,"['grape', 'litas', 'total', 'natal']",4,natal,unknown,unknown,False
+23668,u/FrowzyF,"['cunts', 'payed', 'natal']",3,natal,unknown,unknown,False
+23669,u/123choji,"['honey', 'plant', 'natal']",3,natal,unknown,unknown,False
+23670,u/123choji,"['honey', 'plant', 'natal']",3,natal,unknown,unknown,False
+23671,u/BoardwalkKnitter,"['joint', 'rants', 'natal']",3,natal,Wordle,290,True
+23672,u/reeposterr,"['crwth', 'stale', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23673,u/Meowmeowsuplex,"['adieu', 'phony', 'track', 'films', 'natal']",5,natal,unknown,unknown,False
+23674,u/Suicidal-Lysosome,"['fudge', 'bloat', 'trial', 'natal']",4,natal,unknown,unknown,False
+23675,u/IllustriousAge9689,"['bloat', 'petal', 'natal']",3,natal,unknown,unknown,False
+23676,u/CaptainFunn,"['sight', 'trope', 'fluty', 'natal']",4,natal,unknown,unknown,False
+23677,u/958Silver,"['beard', 'paint', 'natch', 'natty', 'natal']",5,natal,unknown,unknown,False
+23678,u/bamagal89,"['hurts', 'toile', 'plant', 'natal']",4,natal,unknown,unknown,False
+23679,u/Prouze,"['whore', 'ticks', 'bandy', 'natal']",4,natal,Wordle,290,False
+23680,u/ElWanderer_KSP,"['crypt', 'teams', 'hound', 'flick', 'natal']",5,natal,unknown,unknown,False
+23681,u/LittleLordFuckleroy1,"['fried', 'pouts', 'tawny', 'natal']",4,natal,unknown,unknown,False
+23682,u/cougar572,"['aegis', 'youth', 'brand', 'natal']",4,natal,unknown,unknown,False
+23683,u/khorijinn,"['scald', 'later', 'natal']",3,natal,unknown,unknown,False
+23684,u/Marlon_M,"['snide', 'north', 'nutty', 'natal']",4,natal,unknown,unknown,False
+23685,u/Sir0bin,"['stare', 'faith', 'baton', 'natal']",4,natal,unknown,unknown,False
+23686,u/rayzin89,"['laugh', 'panel', 'nasal', 'naval', 'natal']",5,natal,unknown,unknown,False
+23687,u/peacharnoldpalmer,"['saint', 'baton', 'natal']",3,natal,unknown,unknown,False
+23688,u/lonelygagger,"['penis', 'north', 'gamut', 'natal']",4,natal,unknown,unknown,False
+23689,u/caveman512,"['heart', 'tacks', 'blimp', 'fouls', 'walty', 'natal']",6,natal,unknown,unknown,False
+23690,u/9PaperStars,"['plain', 'canal', 'natal']",3,natal,unknown,unknown,False
+23691,u/Drunk_Sorting_Hat,"['arose', 'chant', 'panty', 'natal']",4,natal,unknown,unknown,False
+23692,u/Sisyphus_8,"['stear', 'tonal', 'natal']",3,natal,unknown,unknown,False
+23693,u/AnotherAccount4This,"['movie', 'curls', 'plant', 'lanky', 'natal']",5,natal,unknown,unknown,False
+23694,u/WinterShine,"['train', 'panty', 'gaunt', 'natal']",4,natal,unknown,unknown,False
+23695,u/Deven_Ram,"['salet', 'faith', 'natal']",3,natal,unknown,unknown,False
+23696,u/badmother,"['stray', 'pleat', 'metal', 'vital', 'total', 'fatal']",-1,DNF,unknown,unknown,False
+23697,u/smribeiro16,"['adieu', 'snort', 'glyph', 'natal']",4,natal,unknown,unknown,False
+23698,u/Ash12783,"['think', 'noted', 'nutty', 'natal']",4,natal,unknown,unknown,False
+23699,u/[deleted],"['neigh', 'nates', 'natal']",3,natal,unknown,unknown,False
+23700,u/BZNagain,"['stain', 'grant', 'junta', 'match', 'natal']",5,natal,unknown,unknown,False
+23701,u/dahliadrinkskevita,"['piano', 'vault', 'later', 'natal']",4,natal,unknown,unknown,False
+23702,u/JaLu0820,"['glyph', 'crawl', 'final', 'nodal', 'nasal', 'naval']",-1,DNF,unknown,unknown,False
+23703,u/ReviewerNoTwo,"['roate', 'tawny', 'natal']",3,natal,unknown,unknown,False
+23704,u/JivanP,"['crane', 'shaft', 'shawl']",3,shawl,unknown,unknown,False
+23705,u/AdrianMa,"['draft', 'talon', 'natal']",3,natal,unknown,unknown,False
+23706,u/Insatiableheart,"['gleam', 'coral', 'final', 'naval', 'natal']",5,natal,unknown,unknown,False
+23707,u/[deleted],"['trash', 'paint', 'eaten', 'natal']",4,natal,unknown,unknown,False
+23708,u/full-metal-ashtray,"['heart', 'atoms', 'natal']",3,natal,unknown,unknown,False
+23709,u/full-metal-ashtray,"['heart', 'atoms', 'natal']",3,natal,unknown,unknown,False
+23710,u/SacramentoChupacabra,"['stonk', 'train', 'natal']",3,natal,unknown,unknown,False
+23711,u/vermontgirl,"['steam', 'tonal', 'natal']",3,natal,unknown,unknown,False
+23712,u/Immortalrh88,"['clear', 'loyal', 'final', 'natal']",4,natal,unknown,unknown,False
+23713,u/eliw23,"['stain', 'tangy', 'haunt', 'natal']",4,natal,unknown,unknown,False
+23714,u/madeleineruth19,"['house', 'diary', 'gawks', 'canal', 'naval', 'natal']",6,natal,unknown,unknown,False
+23715,u/TonightRemote,"['later', 'plait', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23716,u/murked2312,"['slime', 'round', 'natal']",3,natal,unknown,unknown,False
+23717,u/tfhaenodreirst,"['stern', 'audio', 'champ', 'natal']",4,natal,unknown,unknown,False
+23718,u/jalissapi,"['raise', 'mount', 'panty', 'natal']",4,natal,unknown,unknown,False
+23719,u/AmRetiredxd,"['times', 'larch', 'pound', 'batty', 'natal']",5,natal,unknown,unknown,False
+23720,u/dvstland,"['space', 'laugh', 'talon', 'natal']",4,natal,unknown,unknown,False
+23721,u/Blazik3n99,"['crate', 'satin', 'natal']",3,natal,unknown,unknown,False
+23722,u/wubbalubbadubdub_2,"['pious', 'weary', 'catch', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23723,u/sunflowerx,"['realm', 'lands', 'talon', 'natal']",4,natal,unknown,unknown,False
+23724,u/opobdtfs,"['shawl', 'renal', 'nodal', 'natal']",4,natal,unknown,unknown,False
+23725,u/jenesuisunefemme,"['grant', 'taped', 'santo', 'matin', 'natal']",5,natal,unknown,unknown,False
+23726,u/pk_12345,"['biome', 'vault', 'latch', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23727,u/wildrice777,"['stare', 'taint', 'baton', 'natal']",4,natal,unknown,unknown,False
+23728,u/MamboTB88,"['nasty', 'natch', 'natal']",3,natal,unknown,unknown,False
+23729,u/Moonlight_Sonata545,"['paste', 'tardy', 'baton', 'natal']",4,natal,unknown,unknown,False
+23730,u/therealtomdelonge,"['sauna', 'canal', 'naval', 'natal']",4,natal,unknown,unknown,False
+23731,u/wilma_phingerdew,"['dream', 'focal', 'vital', 'natal']",4,natal,unknown,unknown,False
+23732,u/HiFiGuy197,"['steal', 'trial', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23733,u/PimpeeMcgee,"['crane', 'nasty', 'natal']",3,natal,unknown,unknown,False
+23734,u/soap_lady,"['blurt', 'talon', 'natal']",3,natal,unknown,unknown,False
+23735,u/pabpab999,"['slice', 'group', 'thank', 'natal']",4,natal,unknown,unknown,False
+23736,u/andronicus_14,"['scare', 'habit', 'talon', 'natal']",4,natal,unknown,unknown,False
+23737,u/hopeless-opus,"['panty', 'natal']",2,natal,unknown,unknown,False
+23738,u/inktags,"['house', 'paint', 'frame', 'lowly', 'natal']",5,natal,unknown,unknown,False
+23739,u/More_Decision1416,"['slate', 'altar', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23740,u/DelurkingtoComment,"['score', 'colon', 'coach', 'comma']",4,comma,unknown,unknown,False
+23741,u/cyrano4833,"['stern', 'paint', 'natch', 'natal']",4,natal,unknown,unknown,False
+23742,u/Next-Ad-1712,"['stear', 'bloat', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23743,u/hanzabananza,"['scout', 'alien', 'natal']",3,natal,unknown,unknown,False
+23744,u/_coragray,"['party', 'minas', 'amole', 'comma']",4,comma,unknown,unknown,False
+23745,u/Pianostar4,"['great', 'howdy', 'fucks', 'plate', 'tails', 'natal']",6,natal,unknown,unknown,False
+23746,u/tooooooodayrightnow,"['raise', 'mouth', 'tangy', 'plant', 'natal']",5,natal,unknown,unknown,False
+23747,u/Acceptable_Drop_4198,"['crate', 'datum', 'satin', 'natal']",4,natal,unknown,unknown,False
+23748,u/DSM-6,"['timer', 'stand', 'baton', 'natal']",4,natal,unknown,unknown,False
+23749,u/Hydreigon_Lord,"['smith', 'tangy', 'daunt', 'taken', 'natal']",5,natal,unknown,unknown,False
+23750,u/GravityTortoise,"['arose', 'balmy', 'latch', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23751,u/bartman2099,"['resin', 'chant', 'tonal', 'natal']",4,natal,unknown,unknown,False
+23752,u/BlitzAceSamy,"['loser', 'bound', 'poach', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23753,u/evidens,"['trace', 'patsy', 'baton', 'flint', 'natal']",5,natal,unknown,unknown,False
+23754,u/Iowa_Dave,['natal'],1,natal,unknown,unknown,False
+23755,u/iiCrimsonVI,"['grate', 'waits', 'match', 'baton', 'natal']",5,natal,unknown,unknown,False
+23756,u/llynn1981,"['thing', 'snout', 'neath', 'natty', 'natal']",5,natal,unknown,unknown,False
+23757,u/Expired_insecticide,"['outer', 'snail', 'natal']",3,natal,unknown,unknown,False
+23758,u/_duncan_idaho_,"['scare', 'campy', 'comma']",3,comma,unknown,unknown,False
+23759,u/likwidfuzion,"['roate', 'satin', 'natal']",3,natal,unknown,unknown,False
+23760,u/HotPotatoTime,"['crops', 'width', 'meant', 'tangy', 'natal']",5,natal,unknown,unknown,False
+23761,u/FreeSloppy2020,"['penis', 'natal']",2,natal,unknown,unknown,False
+23762,u/gubbae,"['noise', 'natal']",2,natal,unknown,unknown,False
+23763,u/irisblues,"['sated', 'rhino', 'natal']",3,natal,unknown,unknown,False
+23764,u/khcollett,"['raise', 'tangy', 'haunt', 'natal']",4,natal,unknown,unknown,False
+23765,u/Bogus4Real,"['noted', 'natch', 'natal']",3,natal,unknown,unknown,False
+23766,u/ObsidianDreamsRedux,"['quake', 'drops', 'winch', 'acorn', 'cobra', 'comma']",6,comma,unknown,unknown,False
+23767,u/Kluuz,"['brown', 'naked', 'nasty', 'natal']",4,natal,unknown,unknown,False
+23768,u/trickman01,"['alone', 'manly', 'lands', 'grunt', 'panic', 'natal']",6,natal,unknown,unknown,False
+23769,u/rhobotzfromspace,"['plant', 'talon', 'lants', 'natal']",4,natal,unknown,unknown,False
+23770,u/AlecRacer22,"['salet', 'latch', 'natal']",3,natal,unknown,unknown,False
+23771,u/LawfulnessUpbeat5646,"['plant', 'natal']",2,natal,unknown,unknown,False
+23772,u/jrdndllla,"['proud', 'stage', 'flail', 'natal']",4,natal,unknown,unknown,False
+23773,u/postness,"['daisy', 'latch', 'natal']",3,natal,Wordle,290,False
+23774,u/kaksjsnns,"['flows', 'bodge', 'notch', 'comic', 'rural', 'comma']",6,comma,unknown,unknown,False
+23775,u/sniffie45,"['soare', 'clint', 'haply', 'natal']",4,natal,unknown,unknown,False
+23776,u/vbhiro,"['tares', 'laith', 'vault', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23777,u/Starberriez,"['slate', 'trial', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23778,u/Natural-Bet-414,"['slate', 'candy', 'croak', 'comma']",4,comma,unknown,unknown,False
+23779,u/yourcountrycousin,"['sonar', 'cleat', 'natal']",3,natal,unknown,unknown,False
+23780,u/MrYaba,"['ratio', 'place', 'chalk', 'shawl']",4,shawl,unknown,unknown,False
+23781,u/GiantEnemySpider385,"['crash', 'pains', 'natal']",3,natal,unknown,unknown,False
+23782,u/raarevalo96,"['raise', 'match', 'fatal', 'natal']",4,natal,unknown,unknown,False
+23783,u/yorky1800,"['slate', 'basin', 'modal', 'korma', 'comma']",5,comma,unknown,unknown,False
+23784,u/A_90s_Reference,"['strip', 'thank', 'baton', 'natty', 'natal']",5,natal,unknown,unknown,False
+23785,u/whack-a-mole,"['canes', 'patin', 'natal']",3,natal,unknown,unknown,False
+23786,u/minor-giraffe,"['paint', 'talon', 'natal']",3,natal,unknown,unknown,False
+23787,u/Unscented_Candle,"['short', 'thing', 'natal']",3,natal,unknown,unknown,False
+23788,u/redmagic-v4,"['tough', 'poser', 'modal', 'comma']",4,comma,unknown,unknown,False
+23789,u/seafoodrice,"['salet', 'poach', 'comma']",3,comma,unknown,unknown,False
+23790,u/soulfulpurple,"['super', 'bloat', 'aglow', 'cameo', 'comma']",5,comma,unknown,unknown,False
+23791,u/islandlily,"['frost', 'table', 'natal']",3,natal,unknown,unknown,False
+23792,u/socarrat,"['quote', 'polar', 'coach', 'comma']",4,comma,unknown,unknown,False
+23793,u/NotLinkMain,"['adieu', 'loans', 'naval', 'natal']",4,natal,unknown,unknown,False
+23794,u/lavinient,"['train', 'nasty', 'natch', 'natal']",4,natal,unknown,unknown,False
+23795,u/ndr0216,"['reast', 'fatal', 'natal']",3,natal,Wordle,290,True
+23796,u/OnlyTookTenMinutes,"['crwth', 'place', 'talon', 'natal']",4,natal,unknown,unknown,False
+23797,u/KJones77,"['house', 'faint', 'natal']",3,natal,unknown,unknown,False
+23798,u/AlarKemmotar,"['guard', 'panic', 'talon', 'natal']",4,natal,unknown,unknown,False
+23799,u/sugarbreath91,"['scare', 'laugh', 'valid', 'monty', 'natal']",5,natal,unknown,unknown,False
+23800,u/redbent_20,"['irate', 'stray', 'float', 'total', 'natal']",5,natal,unknown,unknown,False
+23801,u/CH4EHYUN,"['stern', 'glyph', 'wacko', 'comma']",4,comma,unknown,unknown,False
+23802,u/ClashForeverrr,"['angry', 'table', 'poach', 'comas', 'comma']",5,comma,unknown,unknown,False
+23803,u/alacklustrehindu,"['stare', 'audio', 'monal', 'comma']",4,comma,unknown,unknown,False
+23804,u/CorporalWotjek,"['lions', 'trade', 'jumpy', 'havoc', 'comma']",5,comma,unknown,unknown,False
+23805,u/wave_327,"['crane', 'cloak', 'costa', 'comma']",4,comma,unknown,unknown,False
+23806,u/shinraizen,"['place', 'cabin', 'codas', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23807,u/aqua_zuma21,"['fears', 'daunt', 'axial', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23808,u/caycethecat,"['after', 'slain', 'cacao', 'comma']",4,comma,unknown,unknown,False
+23809,u/caycethecat,"['after', 'slain', 'cacao', 'comma']",4,comma,unknown,unknown,False
+23810,u/HayesChin,"['canoe', 'coats', 'coral', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23811,u/kapnyc,"['lends', 'ratio', 'natal']",3,natal,unknown,unknown,False
+23812,u/Anon-eh-moose,"['spare', 'spare', 'talon', 'natal']",4,natal,unknown,unknown,False
+23813,u/andreasbjorne,"['audio', 'stern', 'natal']",3,natal,unknown,unknown,False
+23814,u/Anon-eh-moose,"['spare', 'talon', 'natal']",3,natal,unknown,unknown,False
+23815,u/Low_Persimmon_2145,"['north', 'noted', 'natch', 'natal']",4,natal,unknown,unknown,False
+23816,u/Jennarager,"['stear', 'gloat', 'vital', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23817,u/sixtyeight86,"['plows', 'learn', 'tally', 'natal']",4,natal,unknown,unknown,False
+23818,u/timdot352,"['crane', 'angst', 'panty', 'talon', 'natal']",5,natal,unknown,unknown,False
+23819,u/solming13,"['sicko', 'cores', 'comma']",3,comma,unknown,unknown,False
+23820,u/NakedSnakeEyes,"['stear', 'tonal', 'natal']",3,natal,unknown,unknown,False
+23821,u/izzyvet,"['shade', 'point', 'curly', 'natal']",4,natal,unknown,unknown,False
+23822,u/acaligirl,"['joust', 'think', 'canty', 'laten', 'natal']",5,natal,unknown,unknown,False
+23823,u/j_tragic,"['grace', 'daunt', 'tanks', 'natty', 'natal']",5,natal,unknown,unknown,False
+23824,u/PersonalityNearby222,"['steal', 'tidal', 'total', 'plume', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23825,u/Clickneck,"['penis', 'ninth', 'night', 'natty', 'natal']",5,natal,unknown,unknown,False
+23826,u/KingD123,"['wordy', 'speak', 'human', 'final', 'natal']",5,natal,unknown,unknown,False
+23827,u/mvandongen17,"['share', 'cloak', 'tidal', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23828,u/julioo975,"['stear', 'natal']",2,natal,unknown,unknown,False
+23829,u/abvaaron216,"['their', 'smack', 'pound', 'natal']",4,natal,unknown,unknown,False
+23830,u/ZasuFritzka,"['imply', 'least', 'altar', 'total', 'fatal', 'natal']",6,natal,unknown,unknown,False
+23831,u/tzm2016,"['cloud', 'belts', 'plane', 'lathe', 'natal']",5,natal,unknown,unknown,False
+23832,u/woodcircleontable,"['croup', 'eight', 'nasty', 'natal']",4,natal,unknown,unknown,False
+23833,u/Ch3rrytr1x,"['plant', 'natal']",2,natal,Wordle,290,False
+23834,u/craigmode,"['regal', 'canal', 'nasal', 'naval', 'natal']",5,natal,unknown,unknown,False
+23835,u/fundaman,"['audio', 'topaz', 'flesh', 'crank', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+23836,u/HS007,"['poker', 'woman', 'comma']",3,comma,unknown,unknown,False
+23837,u/ufoicu2,"['tread', 'stoas', 'vital', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23838,u/Henderson72,"['clean', 'natal']",2,natal,Wordle,290,False
+23839,u/sud_a,"['stare', 'cloud', 'canon', 'copay', 'comma']",5,comma,unknown,unknown,False
+23840,u/Hollywoostarsand,"['later', 'piano', 'quoad', 'accoy', 'comma']",5,comma,unknown,unknown,False
+23841,u/BigBoi920,"['bride', 'mount', 'foams', 'momma', 'comma']",5,comma,unknown,unknown,False
+23842,u/Mittervi,"['talks', 'brave', 'aways', 'doona', 'mocha', 'comma']",6,comma,unknown,unknown,False
+23843,u/eagleslanding,"['reads', 'point', 'aunty', 'natal']",4,natal,unknown,unknown,False
+23844,u/_but_nobody_came,"['guide', 'trans', 'natty', 'natal']",4,natal,unknown,unknown,False
+23845,u/BrandoGil,"['stare', 'talon', 'natal']",3,natal,unknown,unknown,False
+23846,u/FineCombination5583,"['farts', 'plank', 'abode', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23847,u/hymenbutterfly,"['slate', 'trial', 'natal']",3,natal,unknown,unknown,False
+23848,u/HnNaldoR,"['crane', 'clamp', 'comma']",3,comma,unknown,unknown,False
+23849,u/OneOfManyChildren,"['stare', 'balmy', 'anima', 'dogma', 'comma']",5,comma,unknown,unknown,False
+23850,u/Tumojitekato,"['shade', 'awful', 'royal', 'vital', 'natal']",5,natal,unknown,unknown,False
+23851,u/Mussu007,"['tares', 'found', 'local', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23852,u/Binro_was_right,"['scalp', 'cater', 'chain', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23853,u/addictus_black,"['stare', 'paint', 'tango', 'natch', 'natty', 'natal']",6,natal,unknown,unknown,False
+23854,u/Ogmino,"['crate', 'canon', 'coach', 'copay', 'comma']",5,comma,unknown,unknown,False
+23855,u/Clever_Owl,"['today', 'boars', 'mocha', 'comma']",4,comma,unknown,unknown,False
+23856,u/muensteranerin,"['arise', 'moony', 'tanga', 'natal']",4,natal,unknown,unknown,False
+23857,u/RayShhh,"['shape', 'comma']",2,comma,unknown,unknown,False
+23858,u/Severe-Intern1705,"['shame', 'karma', 'comma']",3,comma,unknown,unknown,False
+23859,u/ChaosFollowing,"['hurls', 'taped', 'woman', 'comma']",4,comma,unknown,unknown,False
+23860,u/spronston,"['crate', 'cabin', 'comma']",3,comma,unknown,unknown,False
+23861,u/robophile-ta,"['smear', 'maybe', 'lanky', 'pumas', 'woman', 'vomit']",-1,DNF,unknown,unknown,False
+23862,u/poppiipan,"['crate', 'cauld', 'chias', 'comma']",4,comma,unknown,unknown,False
+23863,u/Shorogwi,"['money', 'vomit', 'comma']",3,comma,unknown,unknown,False
+23864,u/please-disregard,"['crane', 'toils', 'natal']",3,natal,unknown,unknown,False
+23865,u/throwaway_account159,"['crane', 'mashy', 'comma']",3,comma,unknown,unknown,False
+23866,u/Wretched_Hunter,"['stern', 'child', 'cough', 'cocoa', 'cobza', 'comma']",6,comma,unknown,unknown,False
+23867,u/tutturuw,"['clamp', 'calmy', 'crime', 'gourd', 'comma']",5,comma,unknown,unknown,False
+23868,u/Ps-Pencil,"['bloat', 'poach', 'comma']",3,comma,unknown,unknown,False
+23869,u/Happifier,"['fries', 'plumb', 'atomy', 'dogma', 'comma']",5,comma,unknown,unknown,False
+23870,u/Justin113113,"['chain', 'cadet', 'cloak', 'cobra', 'comma']",5,comma,unknown,unknown,False
+23871,u/SaltedAndSugared,"['sandy', 'great', 'quack', 'flaws', 'movie', 'comma']",6,comma,unknown,unknown,False
+23872,u/LoverofJLaw,"['trace', 'casky', 'mould', 'comma']",4,comma,unknown,unknown,False
+23873,u/avocadodreamink,"['stare', 'audio', 'woman', 'momma', 'comma']",5,comma,unknown,unknown,False
+23874,u/infosackva,"['spurt', 'align', 'maybe', 'whack', 'occam', 'comma']",6,comma,unknown,unknown,False
+23875,u/resatr,"['lapse', 'train', 'mocha', 'comma']",4,comma,unknown,unknown,False
+23876,u/kadfr,"['stare', 'handy', 'cloak', 'comma']",4,comma,unknown,unknown,False
+23877,u/Initial_E,"['place', 'chair', 'cough', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23878,u/mickiehunt,"['moist', 'comma']",2,comma,unknown,unknown,False
+23879,u/SuzumiyaCham,"['brute', 'slick', 'comfy', 'comma']",4,comma,unknown,unknown,False
+23880,u/DayneTreader,"['tares', 'catch', 'baton', 'natal']",4,natal,unknown,unknown,False
+23881,u/tottenhammad1234,"['adieu', 'story', 'munch', 'comal', 'comma']",5,comma,unknown,unknown,False
+23882,u/PikachuIsBestPikachu,"['bongs', 'voila', 'porta', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23883,u/Ladnarr2,"['house', 'gonad', 'loath', 'cover', 'comma']",5,comma,unknown,unknown,False
+23884,u/BinaryPill,"['trade', 'align', 'sappy', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23885,u/VardaElentari86,"['least', 'adorn', 'cough', 'comma']",4,comma,unknown,unknown,False
+23886,u/Valuable-Educator-53,"['adieu', 'psych', 'catch', 'crams', 'comma']",5,comma,unknown,unknown,False
+23887,u/n9obs_win,"['crate', 'cabin', 'cuppa', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23888,u/Torontoeikokujin,"['those', 'round', 'vocal', 'comma']",4,comma,unknown,unknown,False
+23889,u/Might_Be_An_Aardvark,"['comet', 'comfy', 'comic', 'comma']",4,comma,unknown,unknown,False
+23890,u/Coco5s,"['crate', 'candy', 'mount', 'comma']",4,comma,unknown,unknown,False
+23891,u/pabpab999,"['slice', 'group', 'thank', 'vocab', 'comma']",5,comma,unknown,unknown,False
+23892,u/vspazv,"['tears', 'natal']",2,natal,unknown,unknown,False
+23893,u/low_effort_username,"['stern', 'piano', 'tangy', 'natal']",4,natal,unknown,unknown,False
+23894,u/sleigh_queen,"['price', 'chasm', 'comma']",3,comma,unknown,unknown,False
+23895,u/gobluthmagician,"['raise', 'clout', 'coach', 'copay', 'conga', 'comma']",6,comma,unknown,unknown,False
+23896,u/Damnaged,"['stare', 'tacky', 'datum', 'baton', 'natal']",5,natal,unknown,unknown,False
+23897,u/Frestho,"['salet', 'brond', 'poach', 'comma']",4,comma,unknown,unknown,False
+23898,u/ugochick3,"['nails', 'natal']",2,natal,unknown,unknown,False
+23899,u/dai_panfeng,"['stern', 'clamp', 'comma']",3,comma,unknown,unknown,False
+23900,u/up2_no_good,"['heart', 'soily', 'mucky', 'comma']",4,comma,unknown,unknown,False
+23901,u/SamVulcan,"['crane', 'pious', 'cocoa', 'milky', 'comma']",5,comma,unknown,unknown,False
+23902,u/IndigoMoonAdventure,"['chunk', 'slane', 'angel', 'nopal', 'natal']",5,natal,unknown,unknown,False
+23903,u/YaBoiOheb,"['crawl', 'camps', 'comma']",3,comma,unknown,unknown,False
+23904,u/Tina-Slay,"['their', 'bound', 'loopy', 'comas', 'comma']",5,comma,unknown,unknown,False
+23905,u/supercoolhannah,"['tears', 'nomad', 'comma']",3,comma,unknown,unknown,False
+23906,u/AshamedMusician5482,"['store', 'conga', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+23907,u/Yepyep911,"['stear', 'chain', 'clamp', 'comma']",4,comma,unknown,unknown,False
+23908,u/TheSultan1,"['teach', 'candy', 'croak', 'comma']",4,comma,unknown,unknown,False
+23909,u/droford,"['apple', 'board', 'woman', 'comma']",4,comma,unknown,unknown,False
+23910,u/ZappySnap,"['tares', 'cloak', 'coach', 'comma']",4,comma,unknown,unknown,False
+23911,u/MeijiDoom,"['prank', 'climb', 'comma']",3,comma,unknown,unknown,False
+23912,u/Ecstatic_Tip3314,"['prove', 'moths', 'comic', 'comma']",4,comma,unknown,unknown,False
+23913,u/poftim,"['manly', 'steam', 'cramp', 'comma']",4,comma,unknown,unknown,False
+23914,u/NaaleBaaGuru,"['spear', 'chant', 'calls', 'comma']",4,comma,unknown,unknown,False
+23915,u/mlc885,"['crane', 'comma']",2,comma,unknown,unknown,False
+23916,u/iswimsometimes,"['stare', 'handy', 'awful', 'pizza', 'comma']",5,comma,unknown,unknown,False
+23917,u/samcornwell,"['angst', 'happy', 'dream', 'llama', 'momma', 'comma']",6,comma,unknown,unknown,False
+23918,u/JayneVeidt,"['draft', 'alike', 'mango', 'comma']",4,comma,unknown,unknown,False
+23919,u/hitstun,"['cable', 'spike', 'trope']",3,trope,unknown,unknown,False
+23920,u/hc_84,"['pause', 'bloat', 'coach', 'conga', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+23921,u/KimchiBearChile,"['tares', 'blond', 'poach', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23922,u/walaska,"['ports', 'bogie', 'woman', 'comma']",4,comma,unknown,unknown,False
+23923,u/jio_tenchuu,"['tenia', 'flour', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+23924,u/Balakidy,"['stare', 'panic', 'cloak', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23925,u/CaptainFunn,"['cream', 'comma']",2,comma,unknown,unknown,False
+23926,u/SentimentalDebris,"['seize', 'laugh', 'annoy', 'board', 'comma']",5,comma,unknown,unknown,False
+23927,u/lavinient,"['stand', 'cheap', 'carol', 'comma']",4,comma,unknown,unknown,False
+23928,u/Cellmaster28,"['wreck', 'calms', 'comma']",3,comma,unknown,unknown,False
+23929,u/taxi00,"['atone', 'solar', 'foamy', 'dogma', 'comma']",5,comma,unknown,unknown,False
+23930,u/xkufix,"['south', 'wordy', 'forge', 'joint', 'koala', 'comma']",6,comma,Wordle,291,False
+23931,u/LondonUndergroundFan,"['flame', 'brick', 'podgy', 'shunt', 'comma']",5,comma,unknown,unknown,False
+23932,u/Immediate-Wall6000,"['irony', 'saute', 'poach', 'local', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+23933,u/ElWanderer_KSP,"['crypt', 'chase', 'conga', 'comma']",4,comma,unknown,unknown,False
+23934,u/BoardwalkKnitter,"['lucid', 'cheap', 'croak', 'canon', 'comma']",5,comma,Wordle,291,True
+23935,u/IllogicalIllusionist,"['avoid', 'polar', 'goaty', 'fossa', 'comma']",5,comma,unknown,unknown,False
+23936,u/tooooooodayrightnow,"['raise', 'aloof', 'poach', 'comma']",4,comma,unknown,unknown,False
+23937,u/LittleLordFuckleroy1,"['fairy', 'slate', 'audio', 'cloak', 'conga', 'cocoa']",-1,DNF,unknown,unknown,False
+23938,u/UnfunnyHuman,"['stale', 'groan', 'havoc', 'bocca', 'comma']",5,comma,unknown,unknown,False
+23939,u/DeVilleBT,"['route', 'focal', 'comma']",3,comma,unknown,unknown,False
+23940,u/PM_ME_SILLY_DOG_PICS,"['slate', 'groan', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+23941,u/tushy444,"['right', 'speed', 'clunk', 'combo', 'comfy', 'comma']",6,comma,unknown,unknown,False
+23942,u/yodindintoatto,"['adieu', 'charm', 'campy', 'comas', 'comma']",5,comma,unknown,unknown,False
+23943,u/ryeshoes,"['tubes', 'fling', 'champ', 'wordy']",5,comma,Wordle,291,False
+23944,u/craftshowgirl,"['dowry', 'mount', 'comma']",3,comma,unknown,unknown,False
+23945,u/Meowmeowsuplex,"['adieu', 'phony', 'bloat', 'frack', 'wagon', 'comma']",6,comma,unknown,unknown,False
+23946,u/Milk_was_a_bad_idea,"['lover', 'point', 'dough', 'foamy', 'comma']",5,comma,unknown,unknown,False
+23947,u/UsernameC-137,"['house', 'point', 'lordy', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23948,u/abaca002,"['shawl', 'alter', 'vital', 'fatal', 'natal']",5,natal,unknown,unknown,False
+23949,u/optional_wax,"['stare', 'bacon', 'comma']",3,comma,unknown,unknown,False
+23950,u/highparallel,"['learn', 'naval', 'nasal', 'natal']",4,natal,unknown,unknown,False
+23951,u/reeposterr,"['crwth', 'candy', 'clamp', 'comma']",4,comma,unknown,unknown,False
+23952,u/sleepwithoutalarm,"['thank', 'lumps', 'rabbi', 'gonad', 'jerky', 'comma']",6,comma,unknown,unknown,False
+23953,u/Neisseriaceae,"['tired', 'clown', 'chase', 'comby', 'comma']",5,comma,unknown,unknown,False
+23954,u/BudgetAggravating459,"['facet', 'champ', 'comma']",3,comma,unknown,unknown,False
+23955,u/lonelygagger,"['penis', 'track', 'laugh', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23956,u/cougar572,"['aegis', 'youth', 'brand', 'tonal', 'loofa', 'comma']",6,comma,unknown,unknown,False
+23957,u/misunderstoodduck,"['olive', 'sauna', 'porta', 'dogma', 'momma', 'comma']",6,comma,unknown,unknown,False
+23958,u/caveman512,"['stare', 'blimp', 'handy', 'comma']",4,comma,unknown,unknown,False
+23959,u/Sir0bin,"['stare', 'laugh', 'avoid', 'noway', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+23960,u/mongooseonaleash,"['soare', 'clint', 'copay', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+23961,u/stepoutthequeue,"['irate', 'sound', 'vocal', 'comma']",4,comma,unknown,unknown,False
+23962,u/highparallel,"['panel', 'track', 'comma']",3,comma,unknown,unknown,False
+23963,u/Starberriez,"['slate', 'broad', 'canon', 'comma']",4,comma,unknown,unknown,False
+23964,u/Marxounet,"['raise', 'boats', 'aorta', 'comma']",4,comma,unknown,unknown,False
+23965,u/[deleted],"['roman', 'comma']",2,comma,unknown,unknown,False
+23966,u/Drunk_Sorting_Hat,"['arose', 'tonal', 'poach', 'comma']",4,comma,unknown,unknown,False
+23967,u/Drunk_Sorting_Hat,"['arose', 'tonal', 'poach', 'comma']",4,comma,unknown,unknown,False
+23968,u/Ketchupfriedrice,"['louie', 'roast', 'copay', 'comma']",4,comma,unknown,unknown,False
+23969,u/rayzin89,"['clash', 'cater', 'comma']",3,comma,unknown,unknown,False
+23970,u/siriuslysad,"['adieu', 'other', 'moans', 'lomas', 'gompa', 'comma']",6,comma,unknown,unknown,False
+23971,u/raarevalo96,"['raise', 'plant', 'vocab', 'mocha', 'comma']",5,comma,unknown,unknown,False
+23972,u/RedHotFromAkiak,"['react', 'scans', 'clamp', 'comma']",4,comma,unknown,unknown,False
+23973,u/Familiar-Asparagus-1,"['stray', 'macho', 'comma']",3,comma,unknown,unknown,False
+23974,u/AnotherAccount4This,"['bread', 'plain', 'watch', 'comma']",4,comma,unknown,unknown,False
+23975,u/9PaperStars,"['sight', 'polar', 'foamy', 'comma']",4,comma,unknown,unknown,False
+23976,u/Yepyep911,"['stear', 'chain', 'clamp', 'comma']",4,comma,unknown,unknown,False
+23977,u/BGroovy_1,"['great', 'flask', 'panic', 'comma']",4,comma,unknown,unknown,False
+23978,u/likwidfuzion,"['roate', 'vocal', 'comma']",3,comma,unknown,unknown,False
+23979,u/vermontgirl,"['steam', 'march', 'clamp', 'comma']",4,comma,unknown,unknown,False
+23980,u/andreasbjorne,"['audio', 'stern', 'pokal', 'vocab', 'coach', 'comma']",6,comma,unknown,unknown,False
+23981,u/JaLu0820,"['lynch', 'scrap', 'facet', 'comma']",4,comma,unknown,unknown,False
+23982,u/MamboTB88,"['grape', 'haunt', 'alloy', 'viola', 'cobra', 'comma']",6,comma,unknown,unknown,False
+23983,u/punieluna,"['strap', 'loach', 'comma']",3,comma,unknown,unknown,False
+23984,u/madeleineruth19,"['house', 'point', 'rocky', 'coals', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+23985,u/AccomplishedRow6685,"['quiet', 'havoc', 'cloak', 'conga', 'cobra', 'comma']",6,comma,unknown,unknown,False
+23986,u/hersheybar22,"['later', 'spank', 'audio', 'comma']",4,comma,unknown,unknown,False
+23987,u/CharlieDancey,"['moral', 'foamy', 'comma']",3,comma,unknown,unknown,False
+23988,u/muensteranerin,"['beans', 'tough', 'milky', 'roams', 'dooms', 'comma']",6,comma,unknown,unknown,False
+23989,u/mystiqueallie,"['flame', 'balmy', 'aroma', 'comma']",4,comma,unknown,unknown,False
+23990,u/Werner__Herzog,"['train', 'samba', 'chode', 'comma']",4,comma,unknown,unknown,False
+23991,u/Miles-JB,"['dairy', 'shoal', 'comma']",3,comma,unknown,unknown,False
+23992,u/GreatBallsOfH20,"['shame', 'aroma', 'comma']",3,comma,unknown,unknown,False
+23993,u/quarktothemax,"['audio', 'gloat', 'manor', 'foamy', 'momma', 'comma']",6,comma,unknown,unknown,False
+23994,u/jenesuisunefemme,"['sight', 'sauce', 'crave', 'copay', 'comma']",5,comma,unknown,unknown,False
+23995,u/jalissapi,"['raise', 'mount', 'comma']",3,comma,unknown,unknown,False
+23996,u/LawfulnessUpbeat5646,"['plant', 'dream', 'magic', 'comma']",4,comma,unknown,unknown,False
+23997,u/Speaker-Unlucky,"['soare', 'tonka', 'momma', 'comma']",4,comma,unknown,unknown,False
+23998,u/BrandoGil,"['stare', 'nomad', 'comma']",3,comma,unknown,unknown,False
+23999,u/peacharnoldpalmer,"['saint', 'grape', 'awful', 'mocha', 'comma']",5,comma,unknown,unknown,False
+24000,u/JivanP,"['crane', 'latch', 'codas', 'cocoa', 'wimps', 'comma']",6,comma,unknown,unknown,False
+24001,u/HiFiGuy197,"['steal', 'prawn', 'mocha', 'comma']",4,comma,unknown,unknown,False
+24002,u/r_osit,"['natal', 'share', 'woman', 'comma']",4,comma,unknown,unknown,False
+24003,u/FulaCityCreator,"['roate', 'gonna', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+24004,u/Kluuz,"['price', 'count', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+24005,u/wilma_phingerdew,"['crime', 'chomp', 'comma']",3,comma,unknown,unknown,False
+24006,u/Hydreigon_Lord,"['wring', 'blush', 'comet', 'comma']",4,comma,unknown,unknown,False
+24007,u/randompas,"['audio', 'savor', 'goals', 'woman', 'comma']",5,comma,unknown,unknown,False
+24008,u/EcoAffinity,"['crust', 'chomp', 'comma']",3,comma,unknown,unknown,False
+24009,u/ElitistPopulist,"['train', 'sweal', 'quack', 'comma']",4,comma,unknown,unknown,False
+24010,u/unilateralhope,"['smart', 'maple', 'dingy', 'couch', 'comma']",5,comma,unknown,unknown,False
+24011,u/witfenek,"['earth', 'align', 'soapy', 'vocab', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+24012,u/izzyvet,"['shade', 'point', 'curly', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+24013,u/cyrano4833,"['stare', 'phial', 'bacon', 'comma']",4,comma,unknown,unknown,False
+24014,u/inktags,"['house', 'paint', 'break', 'ghoul', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+24015,u/eagleslanding,"['thief', 'solar', 'douma', 'comma']",4,comma,unknown,unknown,False
+24016,u/evidens,"['trace', 'cabin', 'cloak', 'comma']",4,comma,unknown,unknown,False
+24017,u/123_underscore_321,"['raise', 'champ', 'comma']",3,comma,unknown,unknown,False
+24018,u/BlitzAceSamy,"['loser', 'horny', 'wormy', 'porty', 'corky', 'forby']",-1,DNF,unknown,unknown,False
+24019,u/WildcardAir,"['safer', 'thank', 'audio', 'comma']",4,comma,unknown,unknown,False
+24020,u/soundboythriller,"['stare', 'cabin', 'cloak', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+24021,u/AaronFM3,"['irony', 'rocky', 'sorry', 'wordy', 'forty', 'foray']",6,foray,unknown,unknown,False
+24022,u/PimpeeMcgee,"['share', 'talon', 'vocab', 'comma']",4,comma,unknown,unknown,False
+24023,u/krayzeeaaron,"['plane', 'moist', 'comma']",3,comma,unknown,unknown,False
+24024,u/SadroSoul,"['canoe', 'comma']",2,comma,unknown,unknown,False
+24025,u/liizwiiz,"['soare', 'total', 'momma', 'comma']",4,comma,unknown,unknown,False
+24026,u/Even_Dog_6713,"['alure', 'stony', 'chimp', 'comma']",4,comma,unknown,unknown,False
+24027,u/sunset8949,"['pious', 'horde', 'jolly', 'woman', 'comma']",5,comma,unknown,unknown,False
+24028,u/drkwtrs,"['yeast', 'ancho', 'carom', 'comma']",4,comma,unknown,unknown,False
+24029,u/soap_lady,"['scald', 'cheat', 'cargo', 'comma']",4,comma,unknown,unknown,False
+24030,u/Sugarcaney4,['comma'],1,comma,unknown,unknown,False
+24031,u/pk_12345,"['mason', 'roate', 'comal', 'comma']",4,comma,unknown,unknown,False
+24032,u/baconpoutine89,"['alien', 'ghast', 'racks', 'cupid', 'cobra', 'comma']",6,comma,unknown,unknown,False
+24033,u/Acceptable_Drop_4198,"['crate', 'candy', 'comas', 'comma']",4,comma,unknown,unknown,False
+24034,u/Conspiracy_risk,"['stare', 'align', 'modal', 'momma', 'comma']",5,comma,unknown,unknown,False
+24035,u/Wonderful_Rest9228,"['water', 'poach', 'local', 'cobra', 'conga', 'comma']",6,comma,unknown,unknown,False
+24036,u/KJones77,"['house', 'point', 'goral', 'comma']",4,comma,unknown,unknown,False
+24037,u/gallagh9,"['sharp', 'demon', 'woman', 'momma', 'comma']",5,comma,unknown,unknown,False
+24038,u/AdrianMa,"['satin', 'flame', 'aroma', 'momma', 'comma']",5,comma,unknown,unknown,False
+24039,u/GravityTortoise,"['arose', 'loath', 'dogma', 'comma']",4,comma,unknown,unknown,False
+24040,u/TonightRemote,"['irate', 'shiny', 'fauna', 'polka', 'comma']",5,comma,unknown,unknown,False
+24041,u/ConfusedByPans,"['suave', 'atone', 'molar', 'comma']",4,comma,unknown,unknown,False
+24042,u/terlinguatx,"['aspen', 'track', 'cabal', 'comma']",4,comma,unknown,unknown,False
+24043,u/crazythinker101,"['aisle', 'court', 'comma']",3,comma,unknown,unknown,False
+24044,u/Emergent444,"['radio', 'shoal', 'conga', 'comma']",4,comma,unknown,unknown,False
+24045,u/trickman01,"['alone', 'moats', 'domic', 'comma']",4,comma,unknown,unknown,False
+24046,u/_duncan_idaho_,"['scare', 'valor', 'aroma', 'foray']",4,foray,unknown,unknown,False
+24047,u/sniffie45,"['soare', 'clint', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+24048,u/doseofvitamink,"['irate', 'solar', 'rowan', 'foray']",4,foray,unknown,unknown,False
+24049,u/WinterShine,"['stale', 'rapid', 'unman', 'momma', 'comma']",5,comma,unknown,unknown,False
+24050,u/Deven_Ram,"['salet', 'brond', 'mocha', 'comma']",4,comma,unknown,unknown,False
+24051,u/yorky1800,"['shout', 'break', 'polar', 'roman', 'foray']",5,foray,unknown,unknown,False
+24052,u/TheIllusiveGuy,"['audio', 'gloat', 'sonar', 'foray']",4,foray,unknown,unknown,False
+24053,u/petsta0,"['crane', 'party', 'moray', 'foray']",4,foray,unknown,unknown,False
+24054,u/PreventFalls,"['adieu', 'ramps', 'woman', 'finch', 'comma']",5,comma,unknown,unknown,False
+24055,u/please-disregard,"['crane', 'lamby', 'comma']",3,comma,unknown,unknown,False
+24056,u/mvandongen17,"['share', 'float', 'canon', 'comma']",4,comma,unknown,unknown,False
+24057,u/Jennarager,"['steal', 'chair', 'candy', 'comma']",4,comma,unknown,unknown,False
+24058,u/Fair_Ad9108,"['cheap', 'ruins', 'lofty', 'vodka', 'bingo', 'comma']",6,comma,unknown,unknown,False
+24059,u/islandlily,"['frost', 'honey', 'could', 'comma']",4,comma,unknown,unknown,False
+24060,u/oblongemperor,"['salet', 'mound', 'foamy', 'right', 'above', 'comma']",6,comma,unknown,unknown,False
+24061,u/spronston,"['crate', 'rayon', 'moray', 'foray']",4,foray,unknown,unknown,False
+24062,u/JL1823,"['cough', 'colds', 'cobra', 'comma']",4,comma,unknown,unknown,False
+24063,u/Bogus4Real,"['trash', 'audio', 'cloak', 'canon', 'comma']",5,comma,unknown,unknown,False
+24064,u/solming13,"['child', 'water', 'quark', 'borax', 'moray', 'foray']",6,foray,unknown,unknown,False
+24065,u/MyDearDapple,"['pride', 'aloft', 'coach', 'comma']",4,comma,Wordle,291,True
+24066,u/jepard55,"['soare', 'total', 'comma']",3,comma,unknown,unknown,False
+24067,u/seafoodrice,"['salet', 'roach', 'morra', 'foray']",4,foray,unknown,unknown,False
+24068,u/yourcountrycousin,"['spank', 'hater', 'alloy', 'comma']",4,comma,unknown,unknown,False
+24069,u/ZasuFritzka,"['imply', 'match', 'cream', 'comma']",4,comma,unknown,unknown,False
+24070,u/dvstland,"['stain', 'march', 'gleam', 'comma']",4,comma,unknown,unknown,False
+24071,u/bluebyrning,"['audio', 'broad', 'loans', 'fetch', 'comma']",5,comma,unknown,unknown,False
+24072,u/ijtarh2o,"['north', 'adieu', 'polka', 'comma']",4,comma,unknown,unknown,False
+24073,u/NSNick,"['rogue', 'stain', 'local', 'comma']",4,comma,Wordle,291,False
+24074,u/redmagic-v4,"['tough', 'sower', 'roman', 'coral', 'foray']",5,foray,unknown,unknown,False
+24075,u/andronicus_14,"['scare', 'batch', 'cloak', 'comma']",4,comma,unknown,unknown,False
+24076,u/Ketchupfriedrice,"['louie', 'roast', 'foray']",3,foray,unknown,unknown,False
+24077,u/shinraizen,"['share', 'valor', 'foray']",3,foray,unknown,unknown,False
+24078,u/958Silver,"['arise', 'bloat', 'mango', 'foamy', 'comma']",5,comma,unknown,unknown,False
+24079,u/Sparksman91,"['soare', 'today', 'polka', 'conga', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+24080,u/CH4EHYUN,"['stern', 'rough', 'borax', 'coral', 'foray']",5,foray,unknown,unknown,False
+24081,u/ObsidianDreamsRedux,"['retch', 'spawn', 'moldy', 'foray']",4,foray,unknown,unknown,False
+24082,u/mug3n,"['wrath', 'payer', 'royal', 'foray']",4,foray,unknown,unknown,False
+24083,u/moselth,"['churn', 'close', 'comma']",3,comma,unknown,unknown,False
+24084,u/mindcorners,"['roast', 'polka', 'mocha', 'comma']",4,comma,unknown,unknown,False
+24085,u/shespams,"['broke', 'roast', 'molar', 'foray']",4,foray,unknown,unknown,False
+24086,u/Zdoon_dnes,"['about', 'coral', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+24087,u/IllogicalIllusionist,"['avoid', 'coral', 'foray']",3,foray,unknown,unknown,False
+24088,u/HnNaldoR,"['crane', 'stomp', 'arrow', 'foray']",4,foray,unknown,unknown,False
+24089,u/NakedSnakeEyes,"['stear', 'daily', 'champ', 'comma']",4,comma,unknown,unknown,False
+24090,u/BigBoi920,"['place', 'manor', 'dobra', 'toras', 'foray']",5,foray,unknown,unknown,False
+24091,u/MegachiropsOnReddit,"['heist', 'plank', 'cargo', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+24092,u/sugarbreath91,"['light', 'mouse', 'foamy', 'comma']",4,comma,unknown,unknown,False
+24093,u/HayesChin,"['canoe', 'birth', 'musky', 'foray']",4,foray,unknown,unknown,False
+24094,u/_but_nobody_came,"['biker', 'chant', 'cloam', 'comma']",4,comma,unknown,unknown,False
+24095,u/j_tragic,"['react', 'capon', 'cloak', 'comma']",4,comma,unknown,unknown,False
+24096,u/NotLinkMain,"['adieu', 'loans', 'gloat', 'cobra', 'comma']",5,comma,unknown,unknown,False
+24097,u/gurbaz99,"['craze', 'cough', 'comic', 'combs', 'comma']",5,comma,unknown,unknown,False
+24098,u/nestofrebellion,"['whale', 'ratio', 'comma']",3,comma,unknown,unknown,False
+24099,u/full-metal-ashtray,"['clear', 'chats', 'cabin', 'comma']",4,comma,unknown,unknown,False
+24100,u/parathrowawat,['foray'],1,foray,unknown,unknown,False
+24101,u/958Silver,"['arise', 'bloat', 'mango', 'foamy', 'comma']",5,comma,unknown,unknown,False
+24102,u/SuzieXu,"['adieu', 'flora', 'foray']",3,foray,unknown,unknown,False
+24103,u/Zogonzo,"['broil', 'mouth', 'woman', 'momma', 'comma']",5,comma,unknown,unknown,False
+24104,u/zhc207,"['youth', 'joyed', 'wooly', 'comfy', 'foggy', 'forky']",-1,DNF,unknown,unknown,False
+24105,u/KingD123,"['porch', 'conga', 'comma']",3,comma,unknown,unknown,False
+24106,u/alazybisexual,"['churn', 'coped', 'coals', 'comma']",4,comma,unknown,unknown,False
+24107,u/Paracetamaul-AUS,"['salet', 'chair', 'apron', 'moray', 'foray']",5,foray,unknown,unknown,False
+24108,u/CarterBennett,"['great', 'pandy', 'coast', 'cobra', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+24109,u/plscallmeRain,"['flare', 'candy', 'croak', 'cotta', 'comma']",5,comma,unknown,unknown,False
+24110,u/fundaman,"['audio', 'bacon', 'flesh', 'foram', 'foray']",5,foray,unknown,unknown,False
+24111,u/HS007,"['churn', 'tramp', 'rabid', 'agree', 'foray']",5,foray,unknown,unknown,False
+24112,u/Prouze,"['bitch', 'pound', 'lores', 'foray']",4,foray,unknown,unknown,False
+24113,u/Hollywoostarsand,"['cheat', 'solar', 'roman', 'foray']",4,foray,unknown,unknown,False
+24114,u/XeoPlay123,"['crwth', 'cline', 'combs', 'comfy', 'pudge', 'comma']",6,comma,unknown,unknown,False
+24115,u/rayrayravona,"['soare', 'local', 'conga', 'comma']",4,comma,unknown,unknown,False
+24116,u/woodcircleontable,"['horse', 'tonal', 'cupid', 'cocky', 'comma']",5,comma,unknown,unknown,False
+24117,u/badmother,"['strap', 'laugh', 'media', 'comma']",4,comma,unknown,unknown,False
+24118,u/Shorogwi,"['heard', 'ratio', 'moral', 'foray']",4,foray,unknown,unknown,False
+24119,u/PersonalityNearby222,"['plead', 'south', 'moans', 'dogma', 'comma']",5,comma,unknown,unknown,False
+24120,u/Tumojitekato,"['beast', 'hairy', 'awful', 'nomad', 'comma']",5,comma,unknown,unknown,False
+24121,u/OneOfManyChildren,"['stare', 'march', 'viral', 'foray']",4,foray,unknown,unknown,False
+24122,u/hymenbutterfly,"['slate', 'round', 'comma']",3,comma,unknown,unknown,False
+24123,u/[deleted],"['fling', 'cream', 'campy', 'comma']",4,comma,unknown,unknown,False
+24124,u/cranial13,"['tread', 'psalm', 'manic', 'amuck', 'comma']",5,comma,unknown,unknown,False
+24125,u/llynn1981,"['floor', 'money', 'south', 'comic', 'comma']",5,comma,unknown,unknown,False
+24126,u/ndr0216,"['reast', 'cobra', 'foray']",3,foray,Wordle,292,True
+24127,u/alternativealternats,"['trace', 'cloak', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+24128,u/GooseLow9897,"['alien', 'pours', 'toady', 'mocha', 'comma']",5,comma,unknown,unknown,False
+24129,u/wcm48,"['prost', 'loach', 'comma']",3,comma,unknown,unknown,False
+24130,u/ChaosFollowing,"['hurls', 'apron', 'foray']",3,foray,unknown,unknown,False
+24131,u/kaksjsnns,"['while', 'proud', 'groat', 'sonar', 'moray', 'foray']",6,foray,unknown,unknown,False
+24132,u/___neXus__,"['raise', 'moult', 'foray']",3,foray,unknown,unknown,False
+24133,u/Binro_was_right,"['scalp', 'tarot', 'borax', 'foray']",4,foray,unknown,unknown,False
+24134,u/Q8Q,"['today', 'moray', 'foray']",3,foray,unknown,unknown,False
+24135,u/tu-BROOKE-ulosis,"['speak', 'trail', 'handy', 'comma']",4,comma,unknown,unknown,False
+24136,u/optional_wax,"['roast', 'coral', 'foray']",3,foray,unknown,unknown,False
+24137,u/bumblenut99,"['plant', 'fared', 'foray']",3,foray,unknown,unknown,False
+24138,u/MrAdelphi03,"['raise', 'clown', 'cocoa', 'comma']",4,comma,unknown,unknown,False
+24139,u/Swabbie89,"['ouija', 'myoma', 'momma', 'comma']",4,comma,unknown,unknown,False
+24140,u/Marlon_M,"['grind', 'paces', 'clack', 'comma']",4,comma,unknown,unknown,False
+24141,u/loucanfly,"['brine', 'pouch', 'solar', 'foray']",4,foray,unknown,unknown,False
+24142,u/peace_97,"['reast', 'along', 'modal', 'polka', 'comma']",5,comma,unknown,unknown,False
+24143,u/AnvilOfMisanthropy,"['crate', 'capon', 'comma']",3,comma,unknown,unknown,False
+24144,u/parrisjd,"['early', 'stamp', 'bound', 'comma']",4,comma,unknown,unknown,False
+24145,u/robophile-ta,"['smear', 'topaz', 'coral', 'borax', 'foray']",5,foray,unknown,unknown,False
+24146,u/IllustriousAge9689,"['train', 'pause', 'focal', 'cobra', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+24147,u/Blitzkrieg0524,"['peace', 'rains', 'broad', 'moray', 'foray']",5,foray,unknown,unknown,False
+24148,u/lost_james,"['money', 'worms', 'dogma', 'comma']",4,comma,unknown,unknown,False
+24149,u/cedriceent,"['buoys', 'today', 'copay', 'noway', 'moray', 'foray']",6,foray,unknown,unknown,False
+24150,u/HtheExtraterrestrial,"['peace', 'candy', 'coral', 'comma']",4,comma,unknown,unknown,False
+24151,u/shazzanator11,"['price', 'round', 'sorry', 'forty', 'forby', 'foray']",6,foray,unknown,unknown,False
+24152,u/addictus_black,"['stare', 'croak', 'polar', 'roman', 'foray']",5,foray,unknown,unknown,False
+24153,u/Happifier,"['ariel', 'roast', 'umbra', 'jowar', 'foray']",5,foray,unknown,unknown,False
+24154,u/Clever_Owl,"['today', 'foray']",2,foray,unknown,unknown,False
+24155,u/opobdtfs,"['natal', 'share', 'audio', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+24156,u/lilly071,"['drugs', 'plate', 'chafe', 'comma']",4,comma,unknown,unknown,False
+24157,u/IndigoMoonAdventure,"['ghost', 'rapid', 'coral', 'coble', 'jocky', 'comma']",6,comma,unknown,unknown,False
+24158,u/up2_no_good,"['crwth', 'slump', 'bigot', 'ankle', 'joyed', 'foray']",6,foray,unknown,unknown,False
+24159,u/Mittervi,"['brews', 'rally', 'hairy', 'alway', 'moray', 'foray']",6,foray,unknown,unknown,False
+24160,u/arootytoottoot,"['ourie', 'sound', 'topaz', 'coach', 'comma']",5,comma,Wordle,291,False
+24161,u/8Yoongles,"['score', 'proud', 'horny', 'forty', 'foray']",5,foray,unknown,unknown,False
+24162,u/avocadodreamink,"['spate', 'fauld', 'foray']",3,foray,unknown,unknown,False
+24163,u/resatr,"['winch', 'tread', 'polar', 'foram', 'foray']",5,foray,unknown,unknown,False
+24164,u/rxlcrab,"['cream', 'viral', 'foray']",3,foray,unknown,unknown,False
+24165,u/LoverofJLaw,"['trace', 'rains', 'moped', 'foray']",4,foray,unknown,unknown,False
+24166,u/INEEDDISTRIBUTION,"['druid', 'cater', 'snarl', 'foray']",4,foray,unknown,unknown,False
+24167,u/asinyan,"['cheap', 'solar', 'roman', 'foray']",4,foray,unknown,unknown,False
+24168,u/Initial_E,"['thank', 'rapid', 'scare', 'flour', 'foray']",5,foray,unknown,unknown,False
+24169,u/wildrice777,"['stare', 'along', 'cacao', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+24170,u/kadfr,"['stare', 'rangy', 'moray', 'foray']",4,foray,unknown,unknown,False
+24171,u/Pecansameatseggs,"['mouse', 'vomit', 'comma']",3,comma,unknown,unknown,False
+24172,u/yusufchoudhury,"['vozhd', 'frets', 'burly', 'foray']",4,foray,unknown,unknown,False
+24173,u/SaltedAndSugared,"['trash', 'dares', 'mural', 'borax', 'foray']",5,foray,unknown,unknown,False
+24174,u/fatshakes,"['early', 'foray']",2,foray,unknown,unknown,False
+24175,u/PikachuIsBestPikachu,"['ready', 'marry', 'foray']",3,foray,unknown,unknown,False
+24176,u/tottenhammad1234,"['adieu', 'story', 'roary', 'moray', 'foray']",5,foray,unknown,unknown,False
+24177,u/BinaryPill,"['trade', 'rails', 'apron', 'foray']",4,foray,unknown,unknown,False
+24178,u/Wretched_Hunter,"['wreck', 'moral', 'borax', 'goras', 'toran', 'horah']",-1,DNF,unknown,unknown,False
+24179,u/Wretched_Hunter,"['wreck', 'moral', 'borax', 'goras', 'toran', 'horah']",-1,DNF,unknown,unknown,False
+24180,u/Freysey,"['salet', 'round', 'fight', 'foamy', 'foray']",5,foray,unknown,unknown,False
+24181,u/toafster,"['audio', 'flora', 'faros', 'foram', 'foray']",5,foray,unknown,unknown,False
+24182,u/vspazv,"['tears', 'panic', 'cloak', 'cocoa', 'comma']",5,comma,unknown,unknown,False
+24183,u/Ladnarr2,"['house', 'comma', 'total', 'bogan', 'foray']",5,foray,unknown,unknown,False
+24184,u/PattuX,"['natal', 'spear', 'farad', 'foram', 'foray']",5,foray,unknown,unknown,False
+24185,u/HtheExtraterrestrial,"['peace', 'abort', 'razor', 'moral', 'foray']",5,foray,unknown,unknown,False
+24186,u/aqua_zuma21,"['relay', 'prost', 'foray']",3,foray,unknown,unknown,False
+24187,u/Samio25,"['raise', 'tough', 'foray']",3,foray,Wordle,292,False
+24188,u/wave_327,"['trail', 'dares', 'moray', 'foray']",4,foray,unknown,unknown,False
+24189,u/eaglebtc,"['zebra', 'sauna', 'quota', 'dogma', 'momma', 'comma']",6,comma,unknown,unknown,False
+24190,u/gobluthmagician,"['raise', 'track', 'molar', 'foray']",4,foray,unknown,unknown,False
+24191,u/FulaCityCreator,"['roate', 'moral', 'foray']",3,foray,unknown,unknown,False
+24192,u/redditsucksass_,"['learn', 'fight', 'docks', 'comma']",4,comma,unknown,unknown,False
+24193,u/throwaway_account159,"['crane', 'atria', 'moral', 'foray']",4,foray,unknown,unknown,False
+24194,u/BZNagain,"['parts', 'above', 'cloak', 'coach', 'cocoa', 'comma']",6,comma,unknown,unknown,False
+24195,u/sud_a,"['guile', 'ovary', 'foray']",3,foray,unknown,unknown,False
+24196,u/stenseven,"['house', 'roman', 'comma']",3,comma,unknown,unknown,False
+24197,u/UllarSokkar,"['adieu', 'shawl', 'party', 'foray']",4,foray,unknown,unknown,False
+24198,u/rustyfries,"['lymph', 'soare', 'foray']",3,foray,unknown,unknown,False
+24199,u/sheriw1965,"['blade', 'party', 'among', 'comas', 'comma']",5,comma,unknown,unknown,False
+24200,u/SamVulcan,"['crane', 'pious', 'coral', 'torah', 'foray']",5,foray,unknown,unknown,False
+24201,u/spaceman_______spiff,"['aside', 'coral', 'foray']",3,foray,unknown,unknown,False
+24202,u/AliasR_r,"['crypt', 'fairy', 'foray']",3,foray,unknown,unknown,False
+24203,u/ReviewerNoTwo,"['roate', 'modal', 'woman', 'chubs', 'comma']",5,comma,unknown,unknown,False
+24204,u/Illustrious_Glove_18,"['crude', 'roast', 'moral', 'horah', 'foray']",5,foray,unknown,unknown,False
+24205,u/AshamedMusician5482,"['store', 'roach', 'polar', 'dinky', 'moray', 'foray']",6,foray,unknown,unknown,False
+24206,u/please-disregard,"['crane', 'porty', 'foray']",3,foray,unknown,unknown,False
+24207,u/Spanky_McJiggles,"['stare', 'ranch', 'friar', 'foray']",4,foray,unknown,unknown,False
+24208,u/r_osit,"['comma', 'sonar', 'royal', 'foray']",4,foray,unknown,unknown,False
+24209,u/Yepyep911,"['stear', 'moray', 'foray']",3,foray,unknown,unknown,False
+24210,u/droford,"['pitch', 'raven', 'award', 'aroma', 'foray']",5,foray,unknown,unknown,False
+24211,u/Yepyep911,"['stear', 'moray', 'foray']",3,foray,unknown,unknown,False
+24212,u/SentimentalDebris,"['write', 'roach', 'foray']",3,foray,unknown,unknown,False
+24213,u/scott610,"['trace', 'radio', 'moral', 'foray']",4,foray,unknown,unknown,False
+24214,u/Ecstatic_Tip3314,"['flake', 'fancy', 'foray']",3,foray,unknown,unknown,False
+24215,u/Ash12783,"['think', 'courd', 'comps', 'comma']",4,comma,unknown,unknown,False
+24216,u/KimchiBearChile,"['rents', 'blond', 'favor', 'foray']",4,foray,unknown,unknown,False
+24217,u/Justin113113,"['chain', 'relax', 'strap', 'mound', 'foray']",5,foray,unknown,unknown,False
+24218,u/byrdjitters,"['share', 'rainy', 'array', 'foray']",4,foray,unknown,unknown,False
+24219,u/Xephyrius,"['aspie', 'toran', 'dogma', 'comma']",4,comma,unknown,unknown,False
+24220,u/2Legit2Quiz,"['voice', 'lotus', 'porny', 'worry', 'foray']",5,foray,Wordle,292,True
+24221,u/alandizzle,"['churn', 'cleat', 'campy', 'comma']",4,comma,unknown,unknown,False
+24222,u/Hyperf0cused,"['lives', 'front', 'kooky', 'pouch', 'comma']",5,comma,unknown,unknown,False
+24223,u/ryeshoes,"['tubes', 'fling', 'champ', 'wordy']",5,foray,Wordle,292,False
+24224,u/New_Exchange195,"['wacky', 'plane', 'fight', 'jours', 'foray']",5,foray,unknown,unknown,False
+24225,u/TheSultan1,"['waste', 'chain', 'plumb', 'agora', 'foray']",5,foray,unknown,unknown,False
+24226,u/poftim,"['pasty', 'delay', 'foray']",3,foray,unknown,unknown,False
+24227,u/Haleighleaf,"['synth', 'crazy', 'fairy', 'foray']",4,foray,unknown,unknown,False
+24228,u/iswimsometimes,"['stare', 'parch', 'viral', 'foray']",4,foray,unknown,unknown,False
+24229,u/liizwiiz,"['soare', 'roach', 'moray', 'foray']",4,foray,unknown,unknown,False
+24230,u/SuzumiyaCham,"['blurt', 'ready', 'array', 'spray', 'foray']",5,foray,unknown,unknown,False
+24231,u/khorijinn,"['shade', 'groan', 'oscar', 'royal', 'moray', 'foray']",6,foray,unknown,unknown,False
+24232,u/Xephyrius,"['aspie', 'toran', 'moral', 'foray']",4,foray,unknown,unknown,False
+24233,u/Fawaz_Bahar,"['slate', 'picky', 'forum', 'foray']",4,foray,unknown,unknown,False
+24234,u/EinsteinQRockefeller,"['radio', 'foray']",2,foray,unknown,unknown,False
+24235,u/madisonpalooza,"['plane', 'oaths', 'croak', 'moray', 'foray']",5,foray,unknown,unknown,False
+24236,u/BoardwalkKnitter,"['bonus', 'hoard', 'polar', 'foray']",4,foray,Wordle,292,True
+24237,u/jimpogson,"['henry', 'pricy', 'rorty', 'wordy', 'forky', 'foray']",6,foray,unknown,unknown,False
+24238,u/JazzmanJB,"['irate', 'coral', 'foray']",3,foray,unknown,unknown,False
+24239,u/JohnnyEagle,"['plate', 'avoid', 'foray']",3,foray,unknown,unknown,False
+24240,u/CaptainFunn,"['freak', 'farad', 'foram', 'foray']",4,foray,unknown,unknown,False
+24241,u/SidekickHamster,"['slant', 'havoc', 'omega', 'borax', 'foray']",5,foray,unknown,unknown,False
+24242,u/lavinient,"['drain', 'party', 'foray']",3,foray,unknown,unknown,False
+24243,u/yodindintoatto,"['adieu', 'storm', 'gator', 'crwth', 'boral', 'foray']",6,foray,unknown,unknown,False
+24244,u/ElWanderer_KSP,"['crypt', 'yearn', 'hardy', 'foray']",4,foray,unknown,unknown,False
+24245,u/gazil9,"['salet', 'chain', 'aroma', 'borax', 'foray']",5,foray,unknown,unknown,False
+24246,u/VardaElentari86,"['stare', 'rapid', 'mural', 'borax', 'foray']",5,foray,unknown,unknown,False
+24247,u/dane1706,"['trial', 'sonar', 'foray']",3,foray,unknown,unknown,False
+24248,u/Marlon_M,"['drunk', 'reach', 'pairs', 'molar', 'borax', 'foray']",6,foray,unknown,unknown,False
+24249,u/GeniusPeanut,"['soare', 'roach', 'moral', 'toran', 'borak', 'foray']",6,foray,unknown,unknown,False
+24250,u/reeposterr,"['crwth', 'snare', 'radio', 'moral', 'foray']",5,foray,unknown,unknown,False
+24251,u/Suicidal-Lysosome,"['board', 'roman', 'coral', 'foray']",4,foray,unknown,unknown,False
+24252,u/Meowmeowsuplex,"['adieu', 'phony', 'coaly', 'foray']",4,foray,unknown,unknown,False
+24253,u/mystiqueallie,"['court', 'roped', 'molar', 'foray']",4,foray,unknown,unknown,False
+24254,u/raarevalo96,"['raise', 'tramp', 'coral', 'borax', 'foray']",5,foray,unknown,unknown,False
+24255,u/SteelStriker123,"['rates', 'aroma', 'coral', 'borax', 'foray']",5,foray,unknown,unknown,False
+24256,u/Intelligent_Case86,"['teams', 'foray']",2,foray,unknown,unknown,False
+24257,u/LittleLordFuckleroy1,"['freon', 'forgo', 'forky', 'foray']",4,foray,unknown,unknown,False
+24258,u/Lamlam28,"['party', 'foray']",2,foray,unknown,unknown,False
+24259,u/thaisteal,"['rouse', 'board', 'foray']",3,foray,unknown,unknown,False
+24260,u/958Silver,"['fruit', 'favor', 'flora', 'foray']",4,foray,unknown,unknown,False
+24261,u/walaska,"['ports', 'horny', 'worry', 'lordy', 'corky', 'foray']",6,foray,unknown,unknown,False
+24262,u/darpblog,"['arise', 'found', 'forza', 'foray']",4,foray,unknown,unknown,False
+24263,u/cougar572,"['aegis', 'youth', 'brand', 'royal', 'moray', 'foray']",6,foray,unknown,unknown,False
+24264,u/Electronic-Chef-5487,"['pleas', 'groan', 'moray', 'foray']",4,foray,unknown,unknown,False
+24265,u/UMeister,"['royal', 'foray']",2,foray,unknown,unknown,False
+24266,u/Jetman54,"['steak', 'foray']",2,foray,unknown,unknown,False
+24267,u/lonelygagger,"['penis', 'lucky', 'troat', 'foray']",4,foray,unknown,unknown,False
+24268,u/Drunk_Sorting_Hat,"['arose', 'torah', 'coral', 'foray']",4,foray,unknown,unknown,False
+24269,u/Sir0bin,"['stare', 'ranch', 'coral', 'foray']",4,foray,unknown,unknown,False
+24270,u/caveman512,"['spear', 'morat', 'coral', 'foray']",4,foray,unknown,unknown,False
+24271,u/peacharnoldpalmer,"['saint', 'grape', 'molar', 'borax', 'foray']",5,foray,unknown,unknown,False
+24272,u/soulfulpurple,"['angel', 'roads', 'porta', 'horah', 'juice', 'moray']",-1,DNF,unknown,unknown,False
+24273,u/123choji,"['spear', 'broad', 'roman', 'coral', 'torah', 'foray']",6,foray,unknown,unknown,False
+24274,u/PM_ME_SILLY_DOG_PICS,"['chart', 'range', 'molar', 'foray']",4,foray,unknown,unknown,False
+24275,u/AnotherAccount4This,"['cream', 'solar', 'foray']",3,foray,unknown,unknown,False
+24276,u/OmegonAlphariusXX,"['reads', 'prays', 'foray']",3,foray,unknown,unknown,False
+24277,u/buy_scale,"['earth', 'poral', 'moray', 'foray']",4,foray,unknown,unknown,False
+24278,u/Miles-JB,"['stair', 'large', 'apron', 'mucky', 'foray']",5,foray,unknown,unknown,False
+24279,u/DeVilleBT,"['spine', 'molar', 'foray']",3,foray,unknown,unknown,False
+24280,u/GooseLow9897,"['stare', 'groan', 'foray']",3,foray,unknown,unknown,False
+24281,u/anonymousname133,"['crane', 'pious', 'tarot', 'moral', 'borax', 'foray']",6,foray,unknown,unknown,False
+24282,u/rayzin89,"['other', 'sword', 'moral', 'foray']",4,foray,unknown,unknown,False
+24283,u/punieluna,"['strap', 'coral', 'borax', 'foray']",4,foray,unknown,unknown,False
+24284,u/BZNagain,"['parts', 'acrid', 'foray']",3,foray,unknown,unknown,False
+24285,u/Elt_experiments,"['nasty', 'foody', 'foggy', 'forty', 'foray']",5,foray,unknown,unknown,False
+24286,u/Neisseriaceae,"['tired', 'clown', 'horse', 'quays', 'moray', 'foray']",6,foray,unknown,unknown,False
+24287,u/GDJosef,"['grape', 'rural', 'chock', 'bored', 'trims', 'foray']",6,foray,unknown,unknown,False
+24288,u/SieniDeluxe3,['foray'],1,foray,unknown,unknown,False
+24289,u/bubblebro2015,"['ready', 'harpy', 'foray']",3,foray,unknown,unknown,False
+24290,u/mlc885,"['crane', 'sharp', 'moral', 'foray']",4,foray,unknown,unknown,False
+24291,u/full-metal-ashtray,"['trace', 'rabid', 'scram', 'foray']",4,foray,unknown,unknown,False
+24292,u/PimpeeMcgee,"['crime', 'strap', 'aural', 'borax', 'foray']",5,foray,unknown,unknown,False
+24293,u/zerosdimension,"['mayor', 'foray']",2,foray,unknown,unknown,False
+24294,u/CorporalWotjek,"['loins', 'party', 'foray']",3,foray,unknown,unknown,False
+24295,u/Torontoeikokujin,"['those', 'found', 'focal', 'foray']",4,foray,unknown,unknown,False
+24296,u/JaLu0820,"['lymph', 'yeast', 'kayak', 'array', 'moray', 'foray']",6,foray,unknown,unknown,False
+24297,u/Mecha_Tortoise,"['shock', 'baron', 'moral', 'foray']",4,foray,unknown,unknown,False
+24298,u/BingoBongoBang,"['blase', 'match', 'flour', 'prink', 'forge', 'foray']",6,foray,unknown,unknown,False
+24299,u/likwidfuzion,"['roate', 'coral', 'foray']",3,foray,unknown,unknown,False
+24300,u/hoIygrail,"['steam', 'vocal', 'foray']",3,foray,unknown,unknown,False
+24301,u/HomieDontDeanThis_,"['young', 'rocky', 'sorry', 'forty', 'foray']",5,foray,unknown,unknown,False
+24302,u/Emergent444,"['tread', 'roman', 'coral', 'foray']",4,foray,unknown,unknown,False
+24303,u/Zango123,"['harem', 'toran', 'foray']",3,foray,unknown,unknown,False
+24304,u/vermontgirl,"['steam', 'groan', 'polar', 'borax', 'foray']",5,foray,unknown,unknown,False
+24305,u/Maskatron,"['soare', 'royal', 'foray']",3,foray,unknown,unknown,False
+24306,u/tooooooodayrightnow,"['raise', 'prawn', 'about', 'foray']",4,foray,unknown,unknown,False
+24307,u/sleigh_queen,"['close', 'point', 'forum', 'foray']",4,foray,unknown,unknown,False
+24308,u/wildrice777,"['stare', 'roman', 'polar', 'foray']",4,foray,unknown,unknown,False
+24309,u/UsernameisTaken80,"['brush', 'relay', 'foray']",3,foray,unknown,unknown,False
+24310,u/GeoMap73,"['parts', 'coral', 'borax', 'windy', 'moray', 'foray']",6,foray,unknown,unknown,False
+24311,u/dagnamit2,"['shame', 'cabin', 'apply', 'foray']",4,foray,unknown,unknown,False
+24312,u/MusicaDeViolin,"['guess', 'catch', 'fault', 'foray']",4,foray,unknown,unknown,False
+24313,u/LawfulnessUpbeat5646,"['plant', 'basic', 'dream', 'foray']",4,foray,unknown,unknown,False
+24314,u/irisblues,"['sated', 'rhino', 'arbor', 'clump', 'foray']",5,foray,unknown,unknown,False
+24315,u/ZappySnap,"['tares', 'coral', 'moray', 'foray']",4,foray,unknown,unknown,False
+24316,u/dvstland,"['chase', 'rapid', 'molar', 'borax', 'foray']",5,foray,unknown,unknown,False
+24317,u/opobdtfs,"['comma', 'roast', 'polar', 'foray']",4,foray,unknown,unknown,False
+24318,u/MamboTB88,"['climb', 'rough', 'worse', 'aorta', 'foray']",5,foray,unknown,unknown,False
+24319,u/Juglans_nigra,"['slate', 'choir', 'organ', 'foray']",4,foray,unknown,unknown,False
+24320,u/AlarKemmotar,"['break', 'coral', 'foray']",3,foray,unknown,unknown,False
+24321,u/Zdoon_dnes,"['about', 'royal', 'foray']",3,foray,unknown,unknown,False
+24322,u/Moonlight_Sonata545,"['scout', 'poker', 'wordy', 'horny', 'foray']",5,foray,unknown,unknown,False
+24323,u/Speaker-Unlucky,"['soare', 'roman', 'poral', 'foray']",4,foray,unknown,unknown,False
+24324,u/AlarKemmotar,"['break', 'coral', 'foray']",3,foray,unknown,unknown,False
+24325,u/pooniepuff,"['feist', 'hoard', 'foray']",3,foray,unknown,unknown,False
+24326,u/Werner__Herzog,"['brunt', 'radio', 'opera', 'armor', 'coral', 'foray']",6,foray,unknown,unknown,False
+24327,u/HiFiGuy197,"['steal', 'angry', 'moray', 'foray']",4,foray,unknown,unknown,False
+24328,u/wilma_phingerdew,"['house', 'point', 'moral', 'borax', 'foray']",5,foray,unknown,unknown,False
+24329,u/randompas,"['audio', 'savor', 'gloat', 'borax', 'moray', 'foray']",6,foray,unknown,unknown,False
+24330,u/123_underscore_321,"['raise', 'karat', 'wordy', 'foray']",4,foray,unknown,unknown,False
+24331,u/Whatdoievendoanymore,"['focus', 'folly', 'foamy', 'foray']",4,foray,unknown,unknown,False
+24332,u/TCates90,"['house', 'trail', 'roads', 'money', 'foray']",5,foray,unknown,unknown,False
+24333,u/Hydreigon_Lord,"['crypt', 'surly', 'foray']",3,foray,unknown,unknown,False
+24334,u/sunset8949,"['awoke', 'moans', 'coral', 'foray']",4,foray,unknown,unknown,False
+24335,u/witfenek,"['earth', 'apron', 'moral', 'borax', 'foray']",5,foray,unknown,unknown,False
+24336,u/andronicus_14,"['scare', 'tardy', 'foray']",3,foray,unknown,unknown,False
+24337,u/terlinguatx,"['flora', 'foray']",2,foray,unknown,unknown,False
+24338,u/izzyvet,"['shade', 'point', 'curly', 'foray']",4,foray,unknown,unknown,False
+24339,u/pk_12345,"['baton', 'modal', 'foray']",3,foray,unknown,unknown,False
+24340,u/KDCaniell,"['smoke', 'shape', 'snare', 'stare', 'scare']",5,scare,unknown,unknown,False
+24341,u/pk_12345,"['baton', 'modal', 'foray']",3,foray,unknown,unknown,False
+24342,u/Johnyy603,"['chair', 'spray', 'moray', 'foray']",4,foray,unknown,unknown,False
+24343,u/jalissapi,"['raise', 'mount', 'coral', 'borax', 'foray']",5,foray,unknown,unknown,False
+24344,u/mavonnaise,"['beach', 'crane', 'scare']",3,scare,unknown,unknown,False
+24345,u/evidens,"['trace', 'spray', 'foray']",3,foray,unknown,unknown,False
+24346,u/cyrano4833,"['store', 'donor', 'porky', 'foray']",4,foray,unknown,unknown,False
+24347,u/GravityTortoise,"['arose', 'major', 'roach', 'borax', 'foray']",5,foray,unknown,unknown,False
+24348,u/unilateralhope,"['rhyme', 'crazy', 'fairy', 'foray']",4,foray,unknown,unknown,False
+24349,u/Bbtone,['scare'],1,scare,unknown,unknown,False
+24350,u/ADownsHippie,"['phone', 'boast', 'foray']",3,foray,unknown,unknown,False
+24351,u/Starberriez,"['slate', 'parch', 'foray']",3,foray,unknown,unknown,False
+24352,u/iewicz,"['stale', 'gourd', 'finch', 'foray']",4,foray,unknown,unknown,False
+24353,u/Acceptable_Drop_4198,"['crate', 'roads', 'polar', 'foray']",4,foray,unknown,unknown,False
+24354,u/drkwtrs,"['stern', 'growl', 'foray']",3,foray,unknown,unknown,False
+24355,u/peace_97,"['reast', 'fairy', 'foray']",3,foray,unknown,unknown,False
+24356,u/partyondude69,"['night', 'flare', 'foray']",3,foray,unknown,unknown,False
+24357,u/doseofvitamink,"['irate', 'spare', 'snare', 'scare']",4,scare,unknown,unknown,False
+24358,u/Even_Dog_6713,"['alure', 'roast', 'chimp', 'foray']",4,foray,unknown,unknown,False
+24359,u/EcoAffinity,"['shark', 'treat', 'moral', 'foray']",4,foray,unknown,unknown,False
+24360,u/macabredustbunny,['foray'],1,foray,unknown,unknown,False
+24361,u/ConfusedByPans,"['atone', 'poach', 'royal', 'foray']",4,foray,unknown,unknown,False
+24362,u/soap_lady,"['blast', 'rapid', 'cream', 'foray']",4,foray,unknown,unknown,False
+24363,u/Urithiru,"['hames', 'union', 'barro', 'pocky', 'foray']",5,foray,unknown,unknown,False
+24364,u/WinterShine,"['scorn', 'throw', 'forge', 'forum', 'foray']",5,foray,unknown,unknown,False
+24365,u/eagleslanding,"['ready', 'scray', 'foray']",3,foray,unknown,unknown,False
+24366,u/jruhlman09,"['trace', 'parry', 'moray', 'foray']",4,foray,unknown,unknown,False
+24367,u/uncommon-sense4,"['guess', 'tramp', 'foray']",3,foray,unknown,unknown,False
+24368,u/Bogus4Real,"['hotel', 'bogus', 'nomad', 'foray']",4,foray,unknown,unknown,False
+24369,u/gruffabro,"['trial', 'repay', 'foray']",3,foray,unknown,unknown,False
+24370,u/AllOfTheDerp,"['rated', 'arise', 'chord', 'board', 'sonar', 'foray']",6,foray,unknown,unknown,False
+24371,u/ObsidianDreamsRedux,"['whose', 'bland', 'pricy', 'scare']",4,scare,unknown,unknown,False
+24372,u/vspazv,"['tears', 'armor', 'radio', 'coral', 'foray']",5,foray,unknown,unknown,False
+24373,u/soundboythriller,"['stare', 'radio', 'abhor', 'moral', 'foray']",5,foray,unknown,unknown,False
+24374,u/i-tell-ya-hwat,"['derby', 'party', 'foray']",3,foray,unknown,unknown,False
+24375,u/jrdndllla,"['tares', 'arrow', 'coral', 'foray']",4,foray,unknown,unknown,False
+24376,u/dahliadrinkskevita,"['cairn', 'tramp', 'relay', 'foray']",4,foray,unknown,unknown,False
+24377,u/moomooland,"['soare', 'share', 'spare', 'stare', 'scare']",5,scare,unknown,unknown,False
+24378,u/NakedSnakeEyes,"['stear', 'roman', 'coral', 'foray']",4,foray,unknown,unknown,False
+24379,u/yorky1800,"['blast', 'spark', 'swarm', 'snare', 'scare']",5,scare,unknown,unknown,False
+24380,u/yorky1800,"['blast', 'spark', 'swarm', 'snare', 'scare']",5,scare,unknown,unknown,False
+24381,u/llynn1981,"['drive', 'roman', 'solar', 'foray']",4,foray,unknown,unknown,False
+24382,u/sugarbreath91,"['spent', 'avoid', 'local', 'foray']",4,foray,unknown,unknown,False
+24383,u/islandlily,"['frost', 'forum', 'forge', 'foray']",4,foray,unknown,unknown,False
+24384,u/Jennarager,"['steal', 'radar', 'human', 'foray']",4,foray,unknown,unknown,False
+24385,u/TheIllusiveGuy,"['crane', 'scare']",2,scare,unknown,unknown,False
+24386,u/hersheybar22,"['later', 'grand', 'scram', 'foray']",4,foray,unknown,unknown,False
+24387,u/adamshere,"['crane', 'scare']",2,scare,unknown,unknown,False
+24388,u/khcollett,"['raise', 'draft', 'flora', 'foray']",4,foray,unknown,unknown,False
+24389,u/Binro_was_right,"['scalp', 'scare']",2,scare,unknown,unknown,False
+24390,u/HudsonCommodore,"['spike', 'rough', 'foray']",3,foray,unknown,unknown,False
+24391,u/Kluuz,"['tears', 'ralph', 'arrow', 'borax', 'foray']",5,foray,unknown,unknown,False
+24392,u/rajmahal420,"['stern', 'prowl', 'chair', 'foray']",4,foray,unknown,unknown,False
+24393,u/Kenny372087,"['arose', 'roman', 'coral', 'borax', 'fight', 'foray']",6,foray,unknown,unknown,False
+24394,u/xxladylola69,"['shear', 'croak', 'toran', 'borax', 'moray', 'foray']",6,foray,unknown,unknown,False
+24395,u/GoPackGo-NC-GB,"['pause', 'track', 'adorn', 'foram', 'foray']",5,foray,unknown,unknown,False
+24396,u/KJones77,"['house', 'corny', 'dorky', 'forty', 'foray']",5,foray,unknown,unknown,False
+24397,u/JL1823,"['slave', 'right', 'maker', 'brand', 'coral', 'foray']",6,foray,unknown,unknown,False
+24398,u/socarrat,"['poach', 'crawl', 'scare']",3,scare,unknown,unknown,False
+24399,u/tyriac,"['crate', 'scare']",2,scare,unknown,unknown,False
+24400,u/seafoodrice,"['salet', 'soare', 'share', 'snare', 'sware', 'spare']",-1,DNF,unknown,unknown,False
+24401,u/colepanda,"['today', 'foray']",2,foray,unknown,unknown,False
+24402,u/redmagic-v4,"['tough', 'aisle', 'scare']",3,scare,unknown,unknown,False
+24403,u/Myriachan,"['steal', 'rough', 'borax', 'foray']",4,foray,unknown,unknown,False
+24404,u/mug3n,"['haste', 'salve', 'spade', 'scare']",4,scare,unknown,unknown,False
+24405,u/rajmahal420,"['stern', 'prowl', 'chair', 'foray']",4,foray,unknown,unknown,False
+24406,u/WildcardAir,"['farse', 'foray']",2,foray,unknown,unknown,False
+24407,u/Yoyoung_whgdkgody,"['learn', 'stare', 'share', 'spare', 'scare']",5,scare,unknown,unknown,False
+24408,u/missthrowaway87,"['their', 'react', 'craze', 'scare']",4,scare,unknown,unknown,False
+24409,u/IllogicalIllusionist,"['avoid', 'lathe', 'crane', 'scare']",4,scare,unknown,unknown,False
+24410,u/caycethecat,"['hosen', 'steal', 'scare']",3,scare,unknown,unknown,False
+24411,u/nostaw,"['stear', 'share', 'spare', 'snare', 'soare', 'scare']",6,scare,unknown,unknown,False
+24412,u/shespams,"['magic', 'crate', 'scare']",3,scare,unknown,unknown,False
+24413,u/CH4EHYUN,"['stern', 'spore', 'scare']",3,scare,unknown,unknown,False
+24414,u/mongooseonaleash,"['soare', 'moral', 'foray']",3,foray,unknown,unknown,False
+24415,u/4iamnotaredditor,"['whorl', 'stark', 'scarp', 'scarf', 'scary', 'scare']",6,scare,unknown,unknown,False
+24416,u/HayesChin,"['canoe', 'birth', 'cadre', 'scare']",4,scare,unknown,unknown,False
+24417,u/shinraizen,"['bread', 'stare', 'snare', 'share', 'spare', 'scare']",6,scare,unknown,unknown,False
+24418,u/aqua_zuma21,"['front', 'spare', 'share', 'scare']",4,scare,unknown,unknown,False
+24419,u/aqua_zuma21,"['front', 'spare', 'share', 'scare']",4,scare,unknown,unknown,False
+24420,u/derkinator30,"['scale', 'baton', 'foray']",3,foray,unknown,unknown,False
+24421,u/Ok_Breakfast_5459,"['tramp', 'lousy', 'foray']",3,foray,unknown,unknown,False
+24422,u/Frestho,"['salet', 'brond', 'roach', 'foray']",4,foray,unknown,unknown,False
+24423,u/Armangu24,"['wrang', 'parts', 'moral', 'borax', 'horah', 'foray']",6,foray,unknown,unknown,False
+24424,u/young_box,"['adieu', 'groan', 'coral', 'foray']",4,foray,unknown,unknown,False
+24425,u/YourElderlyNeighbor,"['mouse', 'party', 'foray']",3,foray,unknown,unknown,False
+24426,u/BUFBills_AfricasTeam,"['stare', 'board', 'nomad', 'foray']",4,foray,unknown,unknown,False
+24427,u/j_tragic,"['grace', 'rated', 'solar', 'moray', 'foray']",5,foray,unknown,unknown,False
+24428,u/ndr0216,"['reast', 'share', 'spare', 'scare']",4,scare,Wordle,293,True
+24429,u/KingD123,"['short', 'grope', 'manor', 'royal', 'foray']",5,foray,unknown,unknown,False
+24430,u/UltravioletClearance,"['penis', 'vulva', 'abate', 'madam', 'croak', 'foray']",6,foray,unknown,unknown,False
+24431,u/_but_nobody_came,"['flier', 'frank', 'favor', 'foray']",4,foray,unknown,unknown,False
+24432,u/sniffie45,"['soare', 'clint', 'abhor', 'roomy', 'foray']",5,foray,unknown,unknown,False
+24433,u/marzipan5,"['fails', 'frank', 'fubar', 'foray']",4,foray,unknown,unknown,False
+24434,u/TonightRemote,"['right', 'laser', 'flora', 'foray']",4,foray,unknown,unknown,False
+24435,u/alo808,"['salet', 'moray', 'foray']",3,foray,unknown,unknown,False
+24436,u/PersonalityNearby222,"['shoal', 'board', 'aorta', 'foray']",4,foray,unknown,unknown,False
+24437,u/HS007,"['gripe', 'aware', 'stare', 'share', 'snare', 'scare']",6,scare,unknown,unknown,False
+24438,u/openwindowsonny,"['comma', 'acnes', 'scare']",3,scare,unknown,unknown,False
+24439,u/BigBoi920,"['pound', 'aegis', 'stale', 'shake', 'scare']",5,scare,unknown,unknown,False
+24440,u/dane1706,"['cater', 'reach', 'scare']",3,scare,unknown,unknown,False
+24441,u/sud_a,"['train', 'shark', 'swarm', 'scare']",4,scare,unknown,unknown,False
+24442,u/lensman60,"['stain', 'whelp', 'scare']",3,scare,unknown,unknown,False
+24443,u/pewdiegirl1,"['stern', 'stare', 'scare']",3,scare,unknown,unknown,False
+24444,u/Hollywoostarsand,"['strip', 'share', 'scare']",3,scare,unknown,unknown,False
+24445,u/MyDearDapple,"['clean', 'straw', 'moray', 'foray']",4,foray,Wordle,292,True
+24446,u/CorporalWotjek,"['sport', 'sabre', 'share', 'scare']",4,scare,unknown,unknown,False
+24447,u/vbhiro,"['tares', 'apron', 'carbo', 'moral', 'foray']",5,foray,unknown,unknown,False
+24448,u/Representative-Fly50,"['crate', 'scare']",2,scare,unknown,unknown,False
+24449,u/Tumojitekato,"['drain', 'party', 'array', 'foray']",4,foray,unknown,unknown,False
+24450,u/rlemaitre,"['raise', 'young', 'moray', 'foray']",4,foray,unknown,unknown,False
+24451,u/andreasbjorne,"['audio', 'stern', 'coral', 'moray', 'foray']",5,foray,unknown,unknown,False
+24452,u/NotLinkMain,"['adieu', 'loans', 'cobra', 'farts', 'foray']",5,foray,unknown,unknown,False
+24453,u/Mmmbreemy,"['stare', 'audio', 'baron', 'moral', 'foray']",5,foray,unknown,unknown,False
+24454,u/tomphz,"['crane', 'round', 'might', 'boars', 'loral', 'foray']",6,foray,unknown,unknown,False
+24455,u/XeoPlay123,"['crwth', 'rocks', 'scare']",3,scare,unknown,unknown,False
+24456,u/raejudge,"['teach', 'crane', 'scare']",3,scare,unknown,unknown,False
+24457,u/plscallmeRain,"['frost', 'force', 'foray']",3,foray,unknown,unknown,False
+24458,u/libflop,"['piano', 'croak', 'royal', 'foray']",4,foray,unknown,unknown,False
+24459,u/optional_wax,"['stare', 'notch', 'scare']",3,scare,unknown,unknown,False
+24460,u/Ladnarr2,"['house', 'scale', 'scare']",3,scare,unknown,unknown,False
+24461,u/brotherofthoughts,['scare'],1,scare,Wordle,293,False
+24462,u/HX315,"['curse', 'scare']",2,scare,Wordle,293,False
+24463,u/BinaryPill,"['trade', 'rings', 'chomp', 'scare']",4,scare,unknown,unknown,False
+24464,u/soulfulpurple,"['frame', 'glare', 'stare', 'scare']",4,scare,unknown,unknown,False
+24465,u/robophile-ta,"['smear', 'stare', 'spare', 'share', 'snare', 'scare']",6,scare,unknown,unknown,False
+24466,u/AnvilOfMisanthropy,"['crate', 'radio', 'polar', 'moray', 'foray']",5,foray,unknown,unknown,False
+24467,u/farout_close-up,"['tubes', 'wordy', 'champ', 'foray']",4,foray,unknown,unknown,False
+24468,u/spronston,"['crate', 'scare']",2,scare,unknown,unknown,False
+24469,u/Shorogwi,"['could', 'march', 'crate', 'brace', 'scare']",5,scare,unknown,unknown,False
+24470,u/hc_84,"['adieu', 'heats', 'scare']",3,scare,unknown,unknown,False
+24471,u/saharsh93,"['crane', 'scare']",2,scare,unknown,unknown,False
+24472,u/yuhuhuhuhuhu,"['crwth', 'rocky', 'acres', 'scare']",4,scare,unknown,unknown,False
+24473,u/Clever_Owl,"['today', 'pears', 'share', 'snare', 'scare']",5,scare,unknown,unknown,False
+24474,u/Happifier,"['react', 'crane', 'scare']",3,scare,unknown,unknown,False
+24475,u/Strawburgerz,"['slate', 'shade', 'scare']",3,scare,unknown,unknown,False
+24476,u/xdslushyyy,"['store', 'scare']",2,scare,unknown,unknown,False
+24477,u/MegachiropsOnReddit,"['heist', 'prank', 'carol', 'foray']",4,foray,unknown,unknown,False
+24478,u/DrejkCZ,"['foray', 'arena', 'lager', 'beard', 'share', 'scare']",6,scare,unknown,unknown,False
+24479,u/aBritishChap,"['soare', 'pitch', 'scare']",3,scare,unknown,unknown,False
+24480,u/Negrodamus1991,"['adieu', 'stark', 'brach', 'vapor', 'roman', 'foray']",6,foray,unknown,unknown,False
+24481,u/blackst0nes,"['sauce', 'scare']",2,scare,unknown,unknown,False
+24482,u/avocadodreamink,"['tears', 'stare', 'spare', 'share', 'scare']",5,scare,unknown,unknown,False
+24483,u/SuzumiyaCham,"['first', 'shard', 'spare', 'snare', 'scare']",5,scare,unknown,unknown,False
+24484,u/Devall_,"['space', 'scare']",2,scare,unknown,unknown,False
+24485,u/krayzeeaaron,"['chase', 'scare']",2,scare,unknown,unknown,False
+24486,u/OneSwizzleNizzle,"['space', 'scare']",2,scare,unknown,unknown,False
+24487,u/KkinderKeebs,['scare'],1,scare,unknown,unknown,False
+24488,u/resatr,"['might', 'spale', 'snare', 'sware', 'scare']",5,scare,unknown,unknown,False
+24489,u/kadfr,"['stare', 'share', 'scare']",3,scare,unknown,unknown,False
+24490,u/DaddyShortPinata,['scare'],1,scare,Wordle,293,False
+24491,u/LoverofJLaw,"['trace', 'scare']",2,scare,unknown,unknown,False
+24492,u/8Yoongles,"['crane', 'scare']",2,scare,unknown,unknown,False
+24493,u/intellectualbook,"['adieu', 'cheat', 'scare']",3,scare,unknown,unknown,False
+24494,u/Initial_E,"['forge', 'raise', 'share', 'panic', 'scare']",5,scare,unknown,unknown,False
+24495,u/ulandyw,"['crane', 'rails', 'aggro', 'dorad', 'borax', 'torah']",-1,DNF,unknown,unknown,False
+24496,u/thesmkchick,"['pause', 'india', 'float', 'focal', 'foray']",5,foray,unknown,unknown,False
+24497,u/infosackva,"['brink', 'rouse', 'scare']",3,scare,unknown,unknown,False
+24498,u/PikachuIsBestPikachu,"['brine', 'russe', 'sarge', 'share', 'spare', 'scare']",6,scare,unknown,unknown,False
+24499,u/mets2016,"['roast', 'polar', 'moray', 'foray']",4,foray,unknown,unknown,False
+24500,u/n9obs_win,"['crate', 'chare', 'scare']",3,scare,unknown,unknown,False
+24501,u/n9obs_win,"['crate', 'chare', 'scare']",3,scare,unknown,unknown,False
+24502,u/uncommon-sense4,"['later', 'heard', 'snare', 'scare']",4,scare,unknown,unknown,False
+24503,u/CrazyPridecat,"['salet', 'groan', 'borax', 'foray']",4,foray,unknown,unknown,False
+24504,u/ElongateToThe_Moon,"['irate', 'glare', 'snare', 'share', 'spare', 'soare']",-1,DNF,unknown,unknown,False
+24505,u/Mot0rheadbanger,"['tares', 'stare', 'spare', 'scare']",4,scare,unknown,unknown,False
+24506,u/pabpab999,"['slice', 'group', 'scare']",3,scare,unknown,unknown,False
+24507,u/HtheExtraterrestrial,"['peace', 'crane', 'scare']",3,scare,unknown,unknown,False
+24508,u/trickman01,"['alone', 'roads', 'porta', 'coram', 'borax', 'korai']",-1,DNF,unknown,unknown,False
+24509,u/Justin113113,"['chain', 'space', 'scale', 'scare']",4,scare,unknown,unknown,False
+24510,u/lost_james,"['pleas', 'troad', 'foram', 'foray']",4,foray,unknown,unknown,False
+24511,u/sleigh_queen,"['stare', 'share', 'punch', 'scare']",4,scare,unknown,unknown,False
+24512,u/cfsdrawing,"['fairy', 'foray']",2,foray,unknown,unknown,False
+24513,u/inktags,"['house', 'paint', 'mocha', 'awoke', 'board', 'foray']",6,foray,unknown,unknown,False
+24514,u/gamefish32,"['dream', 'spare', 'scare']",3,scare,Wordle,293,False
+24515,u/gobluthmagician,"['raise', 'scare']",2,scare,unknown,unknown,False
+24516,u/zlightyear,"['heart', 'glare', 'aware', 'soare', 'spare', 'scare']",6,scare,unknown,unknown,False
+24517,u/makarand14,"['mover', 'sauce', 'scape', 'scale', 'scare']",5,scare,unknown,unknown,False
+24518,u/run_walk,"['plant', 'regal', 'crate', 'scare']",4,scare,unknown,unknown,False
+24519,u/BigBagOfMuffins,"['ghost', 'scare']",2,scare,unknown,unknown,False
+24520,u/ReviewerNoTwo,"['roate', 'sonar', 'borax', 'coral', 'moray', 'foray']",6,foray,unknown,unknown,False
+24521,u/_The_One_And_Only__,"['adieu', 'stare', 'chaps', 'scare']",4,scare,unknown,unknown,False
+24522,u/uarnam,"['prone', 'thick', 'scare']",3,scare,unknown,unknown,False
+24523,u/KingDarkBlaze,"['cater', 'diary', 'foray']",3,foray,unknown,unknown,False
+24524,u/Ash12783,"['think', 'flows', 'foray']",3,foray,unknown,unknown,False
+24525,u/shivkk96,"['crane', 'scare']",2,scare,unknown,unknown,False
+24526,u/SamVulcan,"['crane', 'scare']",2,scare,unknown,unknown,False
+24527,u/AshamedMusician5482,"['store', 'spare', 'scare']",3,scare,unknown,unknown,False
+24528,u/bhalimeh93,"['euros', 'share', 'stare', 'panic', 'scare']",5,scare,unknown,unknown,False
+24529,u/MegachiropsOnReddit,"['heist', 'space', 'scale', 'scare']",4,scare,unknown,unknown,False
+24530,u/Ecstatic_Tip3314,"['dance', 'chape', 'scare']",3,scare,unknown,unknown,False
+24531,u/Yepyep911,"['stear', 'share', 'spare', 'snare', 'scare']",5,scare,unknown,unknown,False
+24532,u/KimchiBearChile,"['arise', 'topek', 'share', 'scare']",4,scare,unknown,unknown,False
+24533,u/MortarChelle,"['stare', 'scare']",2,scare,unknown,unknown,False
+24534,u/Neisseriaceae,"['tired', 'clown', 'reach', 'scare']",4,scare,unknown,unknown,False
+24535,u/ryeshoes,"['tubes', 'fling', 'champ']",4,scare,Wordle,293,False
+24536,u/Tina-Slay,"['coupe', 'brace', 'scare']",3,scare,unknown,unknown,False
+24537,u/mehrabrym,"['teary', 'scare']",2,scare,unknown,unknown,False
+24538,u/mehrabrym,"['teary', 'scare']",2,scare,unknown,unknown,False
+24539,u/SentimentalDebris,"['tired', 'ochre', 'scare']",3,scare,unknown,unknown,False
+24540,u/sg9018,"['water', 'erase', 'scare']",3,scare,unknown,unknown,False
+24541,u/r_osit,"['foray', 'rains', 'spare', 'starr', 'scare']",5,scare,unknown,unknown,False
+24542,u/poftim,"['roman', 'stare', 'spare', 'share', 'scare']",5,scare,unknown,unknown,False
+24543,u/CrowOk2913,"['adios', 'scalp', 'scare']",3,scare,unknown,unknown,False
+24544,u/cryingL,"['soare', 'punch', 'scare']",3,scare,unknown,unknown,False
+24545,u/gstwtqfhs,"['pearl', 'stare', 'snare', 'scare']",4,scare,unknown,unknown,False
+24546,u/rollinwitrick,"['cries', 'races', 'acres', 'scare']",4,scare,Wordle,293,False
+24547,u/cryingL,"['soare', 'punch', 'scare']",3,scare,unknown,unknown,False
+24548,u/Specific_Addendum253,"['adieu', 'snort', 'sears', 'spare', 'sware', 'scare']",6,scare,unknown,unknown,False
+24549,u/JayneVeidt,"['treat', 'realm', 'spare', 'share', 'scare']",5,scare,unknown,unknown,False
+24550,u/rayrayravona,"['soare', 'stare', 'share', 'spare', 'snare', 'scare']",6,scare,unknown,unknown,False
+24551,u/please-disregard,"['crane', 'scare']",2,scare,unknown,unknown,False
+24552,u/madisonpalooza,"['steam', 'shear', 'sarge', 'scare']",4,scare,unknown,unknown,False
+24553,u/JulesGuo,"['stern', 'chafe', 'scare']",3,scare,unknown,unknown,False
+24554,u/CodeBlack777,"['tares', 'spear', 'snare', 'scare']",4,scare,unknown,unknown,False
+24555,u/lavinient,"['brain', 'shard', 'stare', 'spare', 'scare']",5,scare,unknown,unknown,False
+24556,u/u-sly-minx,"['stale', 'crimp', 'scare']",3,scare,unknown,unknown,False
+24557,u/PreventFalls,"['paint', 'grams', 'shark', 'scare']",4,scare,unknown,unknown,False
+24558,u/throwaway_account159,"['crane', 'scare']",2,scare,unknown,unknown,False
+24559,u/taxi00,"['atone', 'parse', 'scare']",3,scare,unknown,unknown,False
+24560,u/CaptainFunn,"['groin', 'sewer', 'sperm', 'stare', 'scare']",5,scare,unknown,unknown,False
+24561,u/caffeinated_teddy,"['broad', 'arise', 'erase', 'share', 'stare', 'scare']",6,scare,unknown,unknown,False
+24562,u/TheSultan1,"['wares', 'stare', 'spare', 'scare']",4,scare,unknown,unknown,False
+24563,u/Uncleniles,"['cakes', 'scare']",2,scare,unknown,unknown,False
+24564,u/Eazyyy,"['shade', 'spare', 'scare']",3,scare,unknown,unknown,False
+24565,u/VardaElentari86,"['cream', 'react', 'scare']",3,scare,unknown,unknown,False
+24566,u/mlc885,"['crane', 'scare']",2,scare,unknown,unknown,False
+24567,u/prograft,"['crwth', 'scare']",2,scare,unknown,unknown,False
+24568,u/alandizzle,"['churn', 'straw', 'feral', 'foray']",4,foray,unknown,unknown,False
+24569,u/PM_ME_SILLY_DOG_PICS,"['store', 'shire', 'spare', 'snare', 'scare']",5,scare,unknown,unknown,False
+24570,u/Xephyrius,"['aspie', 'slate', 'snare', 'share', 'scare']",5,scare,unknown,unknown,False
+24571,u/ElWanderer_KSP,"['crypt', 'march', 'scarf', 'scare']",4,scare,unknown,unknown,False
+24572,u/DeVilleBT,"['chair', 'trace', 'scare']",3,scare,unknown,unknown,False
+24573,u/benxschurer,"['stare', 'spare', 'snare', 'share', 'scare']",5,scare,unknown,unknown,False
+24574,u/Suicidal-Lysosome,"['chart', 'scarf', 'scare']",3,scare,unknown,unknown,False
+24575,u/Marlon_M,"['tough', 'brine', 'spare', 'scare']",4,scare,unknown,unknown,False
+24576,u/uhnoloki,"['happy', 'worse', 'scare']",3,scare,unknown,unknown,False
+24577,u/andreasbjorne,"['lapis', 'noted', 'shame', 'suave', 'sware', 'scare']",6,scare,unknown,unknown,False
+24578,u/mystiqueallie,"['react', 'crane', 'scare']",3,scare,unknown,unknown,False
+24579,u/abaca002,"['natal', 'cream', 'borax', 'whisk', 'foray']",5,foray,unknown,unknown,False
+24580,u/QuillnSofa,"['reads', 'share', 'stare', 'snare', 'spare', 'scare']",6,scare,unknown,unknown,False
+24581,u/WildcardAir,"['shape', 'scare']",2,scare,unknown,unknown,False
+24582,u/LaceyDeumos,"['tares', 'scare']",2,scare,unknown,unknown,False
+24583,u/That_Teaming_Primo,"['slate', 'spare', 'snare', 'scare']",4,scare,unknown,unknown,False
+24584,u/highparallel,"['tread', 'realm', 'share', 'scare']",4,scare,unknown,unknown,False
+24585,u/Sir0bin,"['stare', 'snare', 'scare']",3,scare,unknown,unknown,False
+24586,u/Brock_Hard_Canuck,"['stare', 'punch', 'scare']",3,scare,unknown,unknown,False
+24587,u/Frestho,"['salet', 'chirp', 'scare']",3,scare,unknown,unknown,False
+24588,u/insanewords,"['crest', 'scare']",2,scare,unknown,unknown,False
+24589,u/fartypicklenuts,"['shale', 'scare']",2,scare,Wordle,293,False
+24590,u/rlemaitre,"['raise', 'stare', 'snare', 'share', 'soare', 'scare']",6,scare,unknown,unknown,False
+24591,u/cougar572,"['aegis', 'youth', 'brand', 'scare']",4,scare,unknown,unknown,False
+24592,u/peacharnoldpalmer,"['saint', 'share', 'spare', 'scare']",4,scare,unknown,unknown,False
+24593,u/SaltedAndSugared,"['stage', 'share', 'snare', 'spare', 'scare']",5,scare,unknown,unknown,False
+24594,u/IllustriousAge9689,"['wreck', 'cared', 'scare']",3,scare,unknown,unknown,False
+24595,u/AnotherAccount4This,"['force', 'cripe', 'ruche', 'scare']",4,scare,unknown,unknown,False
+24596,u/full-metal-ashtray,"['peril', 'grade', 'scare']",3,scare,unknown,unknown,False
+24597,u/PimpeeMcgee,"['mural', 'stare', 'phone', 'scare']",4,scare,unknown,unknown,False
+24598,u/Torontoeikokujin,"['those', 'spine', 'crawl', 'scare']",4,scare,unknown,unknown,False
+24599,u/blue-nugget,"['plant', 'shame', 'scare']",3,scare,unknown,unknown,False
+24600,u/958Silver,"['plain', 'coast', 'scare']",3,scare,unknown,unknown,False
+24601,u/TCates90,"['plain', 'house', 'frack', 'scare']",4,scare,unknown,unknown,False
+24602,u/falafeluppagus,"['arise', 'snare', 'spare', 'share', 'stare', 'scare']",6,scare,unknown,unknown,False
+24603,u/123choji,"['moral', 'acred', 'scare']",3,scare,unknown,unknown,False
+24604,u/BingoBongoBang,"['gnats', 'spare', 'scare']",3,scare,unknown,unknown,False
+24605,u/littlemissandlola,"['grace', 'cares', 'scare']",3,scare,unknown,unknown,False
+24606,u/ExistingAnalyst3576,"['curse', 'scare']",2,scare,unknown,unknown,False
+24607,u/Moonlight_Sonata545,"['stray', 'scare']",2,scare,unknown,unknown,False
+24608,u/PersonalityNearby222,"['quest', 'fares', 'spare', 'snare', 'share', 'scare']",6,scare,unknown,unknown,False
+24609,u/Immortalrh88,"['clear', 'scare']",2,scare,unknown,unknown,False
+24610,u/Exousiazo,"['stern', 'spare', 'share', 'scare']",4,scare,unknown,unknown,False
+24611,u/madeleineruth19,"['house', 'irate', 'snare', 'spare', 'scare']",5,scare,unknown,unknown,False
+24612,u/EqualSein,"['clans', 'scare']",2,scare,unknown,unknown,False
+24613,u/UsernameisTaken80,"['marsh', 'traps', 'scare']",3,scare,unknown,unknown,False
+24614,u/AliasR_r,"['meows', 'asper', 'raise', 'snare', 'chest', 'scare']",6,scare,unknown,unknown,False
+24615,u/khorijinn,"['stone', 'shame', 'scale', 'scare']",4,scare,unknown,unknown,False
+24616,u/vermontgirl,"['steam', 'shape', 'snare', 'scare']",4,scare,unknown,unknown,False
+24617,u/BoardwalkKnitter,"['slide', 'score', 'scare']",3,scare,Wordle,293,True
+24618,u/Kluuz,"['today', 'brash', 'reals', 'snare', 'scare']",5,scare,unknown,unknown,False
+24619,u/MeriBaatSun,"['adieu', 'maple', 'stare', 'snare', 'scare']",5,scare,unknown,unknown,False
+24620,u/eliw23,"['chart', 'scare']",2,scare,unknown,unknown,False
+24621,u/addictus_black,"['stare', 'spare', 'snare', 'scare']",4,scare,unknown,unknown,False
+24622,u/punieluna,"['strap', 'share', 'spare', 'snare', 'scare']",5,scare,unknown,unknown,False
+24623,u/JaLu0820,"['glyph', 'scrub', 'scare']",3,scare,unknown,unknown,False
+24624,u/chilifinger,"['tares', 'scare']",2,scare,unknown,unknown,False
+24625,u/yodindintoatto,"['adieu', 'crwth', 'races', 'scare']",4,scare,unknown,unknown,False
+24626,u/sexypooptime,"['yacht', 'clasp', 'scarf', 'scare']",4,scare,unknown,unknown,False
+24627,u/Ash12783,"['think', 'clear', 'raced', 'brace', 'scare']",5,scare,unknown,unknown,False
+24628,u/Thrownaxis,"['crane', 'scare']",2,scare,unknown,unknown,False
+24629,u/lonelygagger,"['penis', 'slope', 'stage', 'share', 'scare']",5,scare,unknown,unknown,False
+24630,u/likwidfuzion,"['roate', 'snare', 'scare']",3,scare,unknown,unknown,False
+24631,u/irisblues,"['sated', 'prams', 'winch', 'scare']",4,scare,unknown,unknown,False
+24632,u/wildrice777,"['stare', 'photo', 'cumin', 'scare']",4,scare,unknown,unknown,False
+24633,u/HoennTrio,"['foray', 'ramen', 'chips', 'scare']",4,scare,unknown,unknown,False
+24634,u/ChaosFollowing,"['hurls', 'scram', 'scare']",3,scare,unknown,unknown,False
+24635,u/MamboTB88,"['pitch', 'class', 'scare']",3,scare,unknown,unknown,False
+24636,u/BrandoGil,"['stare', 'share', 'scare']",3,scare,unknown,unknown,False
+24637,u/jenesuisunefemme,"['duple', 'range', 'frame', 'chare', 'scare']",5,scare,unknown,unknown,False
+24638,u/wilma_phingerdew,"['crate', 'scare']",2,scare,unknown,unknown,False
+24639,u/drkwtrs,"['havoc', 'crane', 'scare']",3,scare,unknown,unknown,False
+24640,u/jalissapi,"['raise', 'crwth', 'scare']",3,scare,unknown,unknown,False
+24641,u/ahassell1998,"['crane', 'scare']",2,scare,unknown,unknown,False
+24642,u/crazythinker101,"['aisle', 'stare', 'scare']",3,scare,unknown,unknown,False
+24643,u/123_underscore_321,"['trash', 'snark', 'scars', 'scarf', 'scare']",5,scare,unknown,unknown,False
+24644,u/Hydreigon_Lord,"['drunk', 'straw', 'savor', 'sharp', 'scary', 'scare']",6,scare,unknown,unknown,False
+24645,u/Sugarcaney4,"['check', 'sworn', 'scare']",3,scare,unknown,unknown,False
+24646,u/cyrano4833,"['stern', 'share', 'spare', 'scare']",4,scare,unknown,unknown,False
+24647,u/Even_Dog_6713,"['alure', 'stare', 'share', 'spare', 'snare', 'scare']",6,scare,unknown,unknown,False
+24648,u/KDCaniell,"['lapse', 'grass', 'smart', 'stair']",4,stair,unknown,unknown,False
+24649,u/izzyvet,"['shade', 'point', 'curly', 'scare']",4,scare,unknown,unknown,False
+24650,u/opobdtfs,"['foray', 'stare', 'spare', 'share', 'scare']",5,scare,unknown,unknown,False
+24651,u/Next-Ad-1712,"['stear', 'spare', 'snare', 'soare', 'share', 'scare']",6,scare,unknown,unknown,False
+24652,u/unilateralhope,"['growl', 'diner', 'rebut', 'harem', 'scare']",5,scare,unknown,unknown,False
+24653,u/terlinguatx,"['maple', 'trace', 'scare']",3,scare,unknown,unknown,False
+24654,u/soap_lady,"['strep', 'chews', 'score', 'scare']",4,scare,unknown,unknown,False
+24655,u/GalvanizedParabola,"['soare', 'spare', 'share', 'stare', 'scare']",5,scare,unknown,unknown,False
+24656,u/Johnyy603,"['chair', 'brace', 'scare']",3,scare,unknown,unknown,False
+24657,u/hoppinfreshredux,"['arise', 'stare', 'snare', 'spare', 'share', 'scare']",6,scare,unknown,unknown,False
+24658,u/Acceptable_Drop_4198,"['crate', 'scare']",2,scare,unknown,unknown,False
+24659,u/jrdndllla,"['spade', 'stare', 'scare']",3,scare,unknown,unknown,False
+24660,u/iiCrimsonVI,"['slate', 'share', 'scare']",3,scare,unknown,unknown,False
+24661,u/Ok_Breakfast_5459,"['tramp', 'noisy', 'clues', 'scare']",4,scare,unknown,unknown,False
+24662,u/BlitzAceSamy,"['loser', 'sitar', 'stair']",3,stair,unknown,unknown,False
+24663,u/MattyChappyMVP,"['claim', 'scare']",2,scare,unknown,unknown,False
+24664,u/AaronFM3,"['irony', 'right', 'swirl', 'strip', 'stair']",5,stair,unknown,unknown,False
+24665,u/JL1823,"['vocab', 'crane', 'craze', 'scare']",4,scare,unknown,unknown,False
+24666,u/Mmmbreemy,"['stare', 'pinch', 'scare']",3,scare,unknown,unknown,False
+24667,u/evidens,"['trace', 'scare']",2,scare,unknown,unknown,False
+24668,u/Mmmbreemy,"['stare', 'pinch', 'scare']",3,scare,unknown,unknown,False
+24669,u/yourcountrycousin,"['stare', 'pecan', 'scare']",3,scare,unknown,unknown,False
+24670,u/tooooooodayrightnow,"['raise', 'arose', 'snare', 'spare', 'stare', 'share']",-1,DNF,unknown,unknown,False
+24671,u/wolveskin,"['foray', 'crane', 'scare']",3,scare,unknown,unknown,False
+24672,u/soundboythriller,"['stare', 'champ', 'scare']",3,scare,unknown,unknown,False
+24673,u/GravityTortoise,"['arose', 'share', 'twice', 'scare']",4,scare,unknown,unknown,False
+24674,u/fixedtafernback,"['watch', 'clasp', 'scare']",3,scare,unknown,unknown,False
+24675,u/Conspiracy_risk,"['stare', 'spare', 'snare', 'share', 'scare']",5,scare,unknown,unknown,False
+24676,u/moselth,"['tales', 'snake', 'spade', 'scare']",4,scare,unknown,unknown,False
+24677,u/Smill411,"['raise', 'stare', 'scare']",3,scare,unknown,unknown,False
+24678,u/inktags,"['today', 'liars', 'swear', 'spare', 'scare']",5,scare,unknown,unknown,False
+24679,u/EcoAffinity,"['slant', 'shack', 'scare']",3,scare,unknown,unknown,False
+24680,u/KingD123,"['wrath', 'spark', 'snarl', 'scare']",4,scare,unknown,unknown,False
+24681,u/derkinator30,"['stare', 'conch', 'scare']",3,scare,unknown,unknown,False
+24682,u/khcollett,"['raise', 'stare', 'share', 'snare', 'scare']",5,scare,unknown,unknown,False
+24683,u/Upstairs_Trifle6821,"['alien', 'tread', 'reach', 'crape', 'scare']",5,scare,unknown,unknown,False
+24684,u/DonRDU,"['stare', 'spare', 'snare', 'share', 'scare']",5,scare,unknown,unknown,False
+24685,u/raarevalo96,"['raise', 'scare']",2,scare,unknown,unknown,False
+24686,u/Drunk_Sorting_Hat,"['arose', 'stare', 'chimp', 'scare']",4,scare,unknown,unknown,False
+24687,u/Drunk_Sorting_Hat,"['arose', 'stare', 'chimp', 'scare']",4,scare,unknown,unknown,False
+24688,u/kaksjsnns,"['bread', 'ratch', 'stark', 'stair']",4,stair,unknown,unknown,False
+24689,u/sunflowerx,"['realm', 'share', 'stare', 'spare', 'scare']",5,scare,unknown,unknown,False
+24690,u/thesmkchick,"['candy', 'aches', 'scare']",3,scare,unknown,unknown,False
+24691,u/doseofvitamink,"['irate', 'stair']",2,stair,unknown,unknown,False
+24692,u/ugochick3,"['weave', 'crwth', 'scare']",3,scare,unknown,unknown,False
+24693,u/esizzle2806,"['arise', 'scare']",2,scare,unknown,unknown,False
+24694,u/zhc207,"['trout', 'river', 'early', 'gears', 'spare', 'scare']",6,scare,unknown,unknown,False
+24695,u/tjc815,"['stare', 'snare', 'spare', 'scare']",4,scare,unknown,unknown,False
+24696,u/Starberriez,"['slice', 'scare']",2,scare,unknown,unknown,False
+24697,u/Sextus_Rex,"['stare', 'punch', 'scare']",3,scare,unknown,unknown,False
+24698,u/Deltr0nZer0,"['bitch', 'clone', 'scare']",3,scare,unknown,unknown,False
+24699,u/ObsidianDreamsRedux,"['pious', 'tread', 'stair']",3,stair,unknown,unknown,False
+24700,u/Standard_Surprise_68,"['arise', 'stare', 'spare', 'share', 'scare']",5,scare,unknown,unknown,False
+24701,u/inktags,"['mouse', 'sauce', 'scale', 'scare']",4,scare,unknown,unknown,False
+24702,u/MyDearDapple,"['tepid', 'house', 'scene', 'scale', 'scare']",5,scare,Wordle,293,True
+24703,u/JackSinclairsCalves,"['crate', 'apart', 'stair']",3,stair,unknown,unknown,False
+24704,u/Jennarager,"['steal', 'share', 'spare', 'scare']",4,scare,unknown,unknown,False
+24705,u/droford,"['sleep', 'stone', 'share', 'scare']",4,scare,unknown,unknown,False
+24706,u/spronston,"['crate', 'start', 'stair']",3,stair,unknown,unknown,False
+24707,u/dvstland,"['coast', 'space', 'scare']",3,scare,unknown,unknown,False
+24708,u/yorky1800,"['snake', 'swamp', 'start', 'stair']",4,stair,unknown,unknown,False
+24709,u/sphynx76,"['peach', 'crane', 'scare']",3,scare,unknown,unknown,False
+24710,u/Binro_was_right,"['scalp', 'smash', 'stain', 'stair']",4,stair,unknown,unknown,False
+24711,u/hersheybar22,"['paste', 'shame', 'snare', 'scare']",4,scare,unknown,unknown,False
+24712,u/Natural-Bet-414,"['slate', 'stand', 'stamp', 'stack', 'staff', 'stair']",6,stair,unknown,unknown,False
+24713,u/xXTERMIN8RXXx,"['chase', 'scare']",2,scare,unknown,unknown,False
+24714,u/badmother,"['chair', 'brace', 'scare']",3,scare,unknown,unknown,False
+24715,u/ADownsHippie,"['zebra', 'stare', 'scare']",3,scare,unknown,unknown,False
+24716,u/socarrat,"['choir', 'nadir', 'stair']",3,stair,unknown,unknown,False
+24717,u/charmont97,"['super', 'savor', 'stair']",3,stair,unknown,unknown,False
+24718,u/Clever_Owl,"['today', 'parts', 'start', 'stair']",4,stair,unknown,unknown,False
+24719,u/Sangria_frog,"['slice', 'nomad', 'scare']",3,scare,unknown,unknown,False
+24720,u/eagleslanding,"['tread', 'reaps', 'share', 'snare', 'scare']",5,scare,unknown,unknown,False
+24721,u/trickyburrito,"['craft', 'reach', 'scare']",3,scare,unknown,unknown,False
+24722,u/Learningtobecontent,"['salet', 'stain', 'stair']",3,stair,unknown,unknown,False
+24723,u/scott610,"['trace', 'scare']",2,scare,unknown,unknown,False
+24724,u/CareTakerAldstone,"['dears', 'spare', 'stare', 'snare', 'share', 'sware']",-1,DNF,unknown,unknown,False
+24725,u/TonightRemote,"['lower', 'erect', 'risen', 'scare']",4,scare,unknown,unknown,False
+24726,u/KJones77,"['house', 'spare', 'snare', 'stare', 'scare']",5,scare,unknown,unknown,False
+24727,u/Negrodamus1991,"['ureas', 'share', 'scare']",3,scare,unknown,unknown,False
+24728,u/BUFBills_AfricasTeam,"['stare', 'spare', 'share', 'snare', 'scare']",5,scare,unknown,unknown,False
+24729,u/mug3n,"['blast', 'teams', 'start', 'stair']",4,stair,unknown,unknown,False
+24730,u/Valuable-Educator-53,"['tares', 'start', 'stair']",3,stair,unknown,unknown,False
+24731,u/Bogus4Real,"['stare', 'crwth', 'scare']",3,scare,unknown,unknown,False
+24732,u/redmagic-v4,"['tough', 'stare', 'stair']",3,stair,unknown,unknown,False
+24733,u/llynn1981,"['night', 'space', 'scare']",3,scare,unknown,unknown,False
+24734,u/Hybelkanina,"['tears', 'scare']",2,scare,unknown,unknown,False
+24735,u/Ketchupfriedrice,"['louie', 'strip', 'stair']",3,stair,unknown,unknown,False
+24736,u/Opticity,"['train', 'stair']",2,stair,unknown,unknown,False
+24737,u/HayesChin,"['canoe', 'birth', 'plait', 'stair']",4,stair,unknown,unknown,False
+24738,u/SuzieXu,"['adieu', 'brain', 'stair']",3,stair,unknown,unknown,False
+24739,u/andronicus_14,['scare'],1,scare,unknown,unknown,False
+24740,u/HnNaldoR,"['crane', 'stark', 'stair']",3,stair,unknown,unknown,False
+24741,u/aqua_zuma21,"['daunt', 'stark', 'stair']",3,stair,unknown,unknown,False
+24742,u/shespams,"['thing', 'stoic', 'stair']",3,stair,unknown,unknown,False
+24743,u/seafoodrice,"['salet', 'stack', 'stand', 'stamp', 'start', 'stair']",6,stair,unknown,unknown,False
+24744,u/lost_james,"['adieu', 'great', 'reach', 'coarb', 'scare']",5,scare,unknown,unknown,False
+24745,u/alxy_,"['stain', 'stair']",2,stair,unknown,unknown,False
+24746,u/nerdy_raconteur,"['smart', 'spark', 'scarf', 'scare']",4,scare,unknown,unknown,False
+24747,u/CorporalWotjek,"['baron', 'plied', 'myths', 'stair']",4,stair,unknown,unknown,False
+24748,u/chevayita,"['tears', 'spare', 'scare']",3,scare,unknown,unknown,False
+24749,u/IllogicalIllusionist,"['avoid', 'brain', 'chair', 'stair']",4,stair,unknown,unknown,False
+24750,u/CH4EHYUN,"['stern', 'stair']",2,stair,unknown,unknown,False
+24751,u/danib501,"['stare', 'scare']",2,scare,unknown,unknown,False
+24752,u/shinraizen,"['frail', 'stair']",2,stair,unknown,unknown,False
+24753,u/moomooland,"['cough', 'stain', 'stair']",3,stair,unknown,unknown,False
+24754,u/solming13,"['knife', 'misty', 'strip', 'stair']",4,stair,unknown,unknown,False
+24755,u/IndigoMoonAdventure,"['brush', 'reals', 'scare']",3,scare,unknown,unknown,False
+24756,u/mets2016,"['roast', 'spare', 'scare']",3,scare,unknown,unknown,False
+24757,u/Henderson72,"['clean', 'trace', 'scare']",3,scare,Wordle,293,False
+24758,u/_but_nobody_came,"['space', 'scale', 'scare']",3,scare,unknown,unknown,False
+24759,u/Jadziyah,"['lunch', 'cares', 'scare']",3,scare,unknown,unknown,False
+24760,u/ClumsyRainbow,"['cheat', 'scare']",2,scare,unknown,unknown,False
+24761,u/sugarbreath91,"['sting', 'swear', 'scare']",3,scare,unknown,unknown,False
+24762,u/dougissi,"['arose', 'scare']",2,scare,unknown,unknown,False
+24763,u/sachaha,"['soare', 'stair']",2,stair,unknown,unknown,False
+24764,u/Tumojitekato,"['bokeh', 'query', 'extra', 'aware', 'flags', 'scare']",6,scare,unknown,unknown,False
+24765,u/muensteranerin,"['arise', 'scare']",2,scare,unknown,unknown,False
+24766,u/missthrowaway87,"['irate', 'stair']",2,stair,unknown,unknown,False
+24767,u/HS007,"['sweat', 'stain', 'stair']",3,stair,unknown,unknown,False
+24768,u/fundaman,"['audio', 'paris', 'stair']",3,stair,unknown,unknown,False
+24769,u/mapepo,"['audio', 'learn', 'share', 'stare', 'scare']",5,scare,unknown,unknown,False
+24770,u/NotLinkMain,"['adieu', 'learn', 'stare', 'share', 'scare']",5,scare,unknown,unknown,False
+24771,u/Hollywoostarsand,"['dream', 'sharp', 'stair']",3,stair,unknown,unknown,False
+24772,u/ndr0216,"['reast', 'stair']",2,stair,Wordle,294,True
+24773,u/vspazv,"['tears', 'spare', 'scare']",3,scare,unknown,unknown,False
+24774,u/sarvesh_s,"['stare', 'stair']",2,stair,unknown,unknown,False
+24775,u/sud_a,"['stare', 'stair']",2,stair,unknown,unknown,False
+24776,u/formerlyDylan,"['stare', 'stair']",2,stair,unknown,unknown,False
+24777,u/BigBoi920,"['swamp', 'stale', 'stair']",3,stair,unknown,unknown,False
+24778,u/Representative-Fly50,"['brain', 'slope', 'stair']",3,stair,unknown,unknown,False
+24779,u/guitarthrowaway10,"['stare', 'pinch', 'scare']",3,scare,unknown,unknown,False
+24780,u/SuchCoolBrandon,"['stern', 'strap', 'stair']",3,stair,unknown,unknown,False
+24781,u/lensman60,"['route', 'train', 'stair']",3,stair,unknown,unknown,False
+24782,u/NakedSnakeEyes,"['stear', 'share', 'spare', 'scare']",4,scare,unknown,unknown,False
+24783,u/myfriendvv,"['trace', 'scare']",2,scare,unknown,unknown,False
+24784,u/Quasimdo,"['glare', 'share', 'spare', 'stare', 'snare', 'scare']",6,scare,unknown,unknown,False
+24785,u/Colo_MD,"['stare', 'share', 'spare', 'snare', 'soare', 'sware']",-1,DNF,unknown,unknown,False
+24786,u/OneOfManyChildren,"['stare', 'stair']",2,stair,unknown,unknown,False
+24787,u/alandizzle,"['churn', 'scary', 'scare']",3,scare,unknown,unknown,False
+24788,u/SweetConsequence1,"['churn', 'micro', 'scare']",3,scare,unknown,unknown,False
+24789,u/ChaosFollowing,"['hurls', 'spare', 'stair']",3,stair,unknown,unknown,False
+24790,u/Mittervi,"['drift', 'right', 'trips', 'stirs', 'strip', 'stair']",6,stair,unknown,unknown,False
+24791,u/XeoPlay123,"['crwth', 'trove', 'sutra', 'strap', 'stair']",5,stair,unknown,unknown,False
+24792,u/shporto,"['scare', 'stair']",2,stair,unknown,unknown,False
+24793,u/SpacePickle95,['stare'],1,stare,unknown,unknown,False
+24794,u/optional_wax,"['stare', 'stair']",2,stair,unknown,unknown,False
+24795,u/xdslushyyy,"['train', 'stair']",2,stair,unknown,unknown,False
+24796,u/loucanfly,"['share', 'stair']",2,stair,unknown,unknown,False
+24797,u/soulfulpurple,"['light', 'train', 'stair']",3,stair,unknown,unknown,False
+24798,u/Horatio_Crunch,"['pound', 'flick', 'stair']",3,stair,Wordle,294,False
+24799,u/Katrina_0606,"['heart', 'scare']",2,scare,unknown,unknown,False
+24800,u/vbhiro,"['tares', 'scare']",2,scare,unknown,unknown,False
+24801,u/AdrianMa,"['flair', 'chair', 'stair']",3,stair,unknown,unknown,False
+24802,u/cedriceent,"['basil', 'stair']",2,stair,unknown,unknown,False
+24803,u/SpoikleReborn,"['group', 'raids', 'chewy', 'scare']",4,scare,unknown,unknown,False
+24804,u/FCkeyboards,"['times', 'shore', 'spare', 'scare']",4,scare,Wordle,293,False
+24805,u/OhSoManyMarbles,"['stare', 'spare', 'share', 'snare', 'scare']",5,scare,unknown,unknown,False
+24806,u/Maskatron,"['soare', 'stair']",2,stair,unknown,unknown,False
+24807,u/siriuslysad,"['guide', 'audio', 'patio', 'stain', 'stair']",5,stair,unknown,unknown,False
+24808,u/8Yoongles,"['crane', 'roast', 'start', 'stair']",4,stair,unknown,unknown,False
+24809,u/resatr,"['overt', 'track', 'stair']",3,stair,unknown,unknown,False
+24810,u/SaltedAndSugared,"['wordy', 'right', 'tires', 'stirs', 'stair']",5,stair,unknown,unknown,False
+24811,u/Blitzkrieg0524,"['peace', 'blank', 'trait', 'stair']",4,stair,unknown,unknown,False
+24812,u/rayzin89,"['syrup', 'smart', 'stair']",3,stair,unknown,unknown,False
+24813,u/ElWanderer_KSP,"['crypt', 'rated', 'stark', 'stair']",4,stair,unknown,unknown,False
+24814,u/RishiSunak,"['soare', 'stair']",2,stair,unknown,unknown,False
+24815,u/LoverofJLaw,"['trace', 'roast', 'stars', 'stair']",4,stair,unknown,unknown,False
+24816,u/avocadodreamink,"['stake', 'start', 'stair']",3,stair,unknown,unknown,False
+24817,u/incacola77,"['slime', 'spore', 'stare', 'scare']",4,scare,unknown,unknown,False
+24818,u/BinaryPill,"['trade', 'spoil', 'stair']",3,stair,unknown,unknown,False
+24819,u/ElongateToThe_Moon,"['train', 'stair']",2,stair,unknown,unknown,False
+24820,u/HtheExtraterrestrial,"['peace', 'shard', 'stair']",3,stair,unknown,unknown,False
+24821,u/Emergent444,"['shirt', 'strip', 'stair']",3,stair,unknown,unknown,False
+24822,u/AnvilOfMisanthropy,"['crate', 'scare']",2,scare,unknown,unknown,False
+24823,u/tottenhammad1234,"['adieu', 'story', 'stair']",3,stair,unknown,unknown,False
+24824,u/islandlily,"['frost', 'slurp', 'scary', 'scare']",4,scare,unknown,unknown,False
+24825,u/StageAboveWater,['stair'],1,stair,unknown,unknown,False
+24826,u/Ladnarr2,"['house', 'snail', 'stair']",3,stair,unknown,unknown,False
+24827,u/ulandyw,"['crane', 'scare']",2,scare,unknown,unknown,False
+24828,u/prizzaboy,"['party', 'scars', 'scare']",3,scare,unknown,unknown,False
+24829,u/j_tragic,"['react', 'crave', 'scare']",3,scare,unknown,unknown,False
+24830,u/Coco5s,"['trace', 'brats', 'starn', 'stair']",4,stair,unknown,unknown,False
+24831,u/trickman01,"['alone', 'carte', 'rache', 'grace', 'scare']",5,scare,unknown,unknown,False
+24832,u/robophile-ta,"['smear', 'sapor', 'stair']",3,stair,unknown,unknown,False
+24833,u/Marlon_M,"['strip', 'stair']",2,stair,unknown,unknown,False
+24834,u/spaceman_______spiff,"['aside', 'saint', 'stair']",3,stair,unknown,unknown,False
+24835,u/gobluthmagician,"['raise', 'stair']",2,stair,unknown,unknown,False
+24836,u/DelurkingtoComment,"['loner', 'chair', 'stair']",3,stair,unknown,unknown,False
+24837,u/alexbarrett,"['stark', 'stair']",2,stair,unknown,unknown,False
+24838,u/eaglebtc,"['stark', 'spare', 'share', 'snare', 'scare']",5,scare,unknown,unknown,False
+24839,u/woodcircleontable,"['beach', 'scape', 'scale', 'scare']",4,scare,unknown,unknown,False
+24840,u/vantdrak,"['saint', 'stair']",2,stair,unknown,unknown,False
+24841,u/uncommon-sense4,"['later', 'tubar', 'tapir', 'stair']",4,stair,unknown,unknown,False
+24842,u/pabpab999,"['slice', 'group', 'thank', 'stair']",4,stair,unknown,unknown,False
+24843,u/iamlepoulpe,"['stain', 'stair']",2,stair,unknown,unknown,False
+24844,u/CL1234_,"['opera', 'mural', 'grand', 'chair', 'stair']",5,stair,unknown,unknown,False
+24845,u/Sugarcaney4,"['stars', 'stair']",2,stair,unknown,unknown,False
+24846,u/2Legit2Quiz,"['trade', 'chart', 'stair']",3,stair,unknown,unknown,False
+24847,u/stenseven,"['house', 'slate', 'scare']",3,scare,unknown,unknown,False
+24848,u/SamVulcan,"['crane', 'pious', 'stair']",3,stair,unknown,unknown,False
+24849,u/sleigh_queen,"['trace', 'stark', 'stair']",3,stair,unknown,unknown,False
+24850,u/FulaCityCreator,"['roate', 'craft', 'start', 'stair']",4,stair,unknown,unknown,False
+24851,u/stormz_tim,['stair'],1,stair,unknown,unknown,False
+24852,u/GDJosef,"['raise', 'grass', 'shard', 'stair']",4,stair,unknown,unknown,False
+24853,u/NaaleBaaGuru,"['lairs', 'stair']",2,stair,unknown,unknown,False
+24854,u/CrunchedLeaf,"['boing', 'ditch', 'plait', 'stair']",4,stair,unknown,unknown,False
+24855,u/Iliveformyotp,"['phone', 'stair']",2,stair,unknown,unknown,False
+24856,u/Yepyep911,"['stear', 'stair']",2,stair,unknown,unknown,False
+24857,u/SecuriousGeorge,"['adieu', 'stair']",2,stair,unknown,unknown,False
+24858,u/Yepyep911,"['stear', 'stair']",2,stair,unknown,unknown,False
+24859,u/respectthechemistry1,"['snore', 'strip', 'stair']",3,stair,unknown,unknown,False
+24860,u/Starberriez,"['slate', 'stand', 'stack', 'stamp', 'heart', 'stair']",6,stair,unknown,unknown,False
+24861,u/moselth,"['trail', 'stair']",2,stair,unknown,unknown,False
+24862,u/PsychoticApe,"['stare', 'stair']",2,stair,unknown,unknown,False
+24863,u/Neisseriaceae,"['tired', 'strip', 'stair']",3,stair,unknown,unknown,False
+24864,u/baoldi,"['slant', 'kefir', 'stair']",3,stair,unknown,unknown,False
+24865,u/ryeshoes,"['tubes', 'fling', 'champ']",4,stair,Wordle,294,False
+24866,u/Dear-Stop-2999,"['place', 'train', 'stair']",3,stair,unknown,unknown,False
+24867,u/droford,"['swine', 'spill', 'sixty', 'shirt', 'stair']",5,stair,unknown,unknown,False
+24868,u/mehrabrym,"['teary', 'wrath', 'stair']",3,stair,unknown,unknown,False
+24869,u/KimchiBearChile,"['arise', 'stair']",2,stair,unknown,unknown,False
+24870,u/rollinwitrick,"['crows', 'stair']",2,stair,Wordle,294,False

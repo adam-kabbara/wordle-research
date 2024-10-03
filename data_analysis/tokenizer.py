@@ -19,7 +19,7 @@ def common_syllables(word1, word2):
     return len(syllables1.intersection(syllables2))
 
 # Load the data
-df = pd.read_csv(r'data_analysis\data_1.csv')
+df = pd.read_csv(r'data_analysis\data\data_1.csv')
 
 # Convert string representation of list to actual list
 df['wordle_guesses'] = df['wordle_guesses'].apply(ast.literal_eval)
@@ -27,8 +27,8 @@ df['wordle_guesses'] = df['wordle_guesses'].apply(ast.literal_eval)
 # Function to calculate common syllables for a game's guesses
 def analyze_game_guesses(guesses):
     common_syllables_list = []
-    for i in range(len(guesses) - 1):
-        common = common_syllables(guesses[i], guesses[i+1])
+    for i in range(1, len(guesses)):
+        common = common_syllables(guesses[i-1], guesses[i])
         common_syllables_list.append(common)
     return common_syllables_list
 

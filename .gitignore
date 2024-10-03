@@ -1,7 +1,6 @@
 # Added by adam
 data_0.csv
 processed_wordle_data.csv
-ideas.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
