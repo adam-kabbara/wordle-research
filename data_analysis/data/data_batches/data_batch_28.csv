@@ -1,72 +1,982 @@
 entry_id,author,wordle_guesses,num_guesses,wordle_answer,wordle_title,wordle_id,hard_mode
-2269,u/Off_Topic_Oswald,"['arise', 'mount']",2,mount,Wordle,222,False
-2270,u/likwidfuzion,"['adieu', 'rough', 'pouts', 'count', 'mount']",5,mount,Wordle,222,False
-2271,u/FullOfEels,"['weird', 'clout', 'ought', 'joust', 'fount', 'mount']",6,mount,Wordle,222,True
-2272,u/trench0989,"['bayou', 'found', 'mount']",3,mount,Wordle,222,False
-2273,u/mr-contrarian,"['wears', 'chomp', 'mould', 'mount']",4,mount,Wordle,222,False
-2274,u/KJones77,"['adieu', 'turns', 'mount']",3,mount,Wordle,222,False
-2275,u/NSNick,"['yield', 'about', 'court', 'mount']",4,mount,Wordle,222,False
-2276,u/knockturne,"['tough', 'pouty', 'doubt', 'court', 'joust']",6,mount,Wordle,222,True
-2277,u/yooston,"['horse', 'tangy', 'count', 'mount']",4,mount,Wordle,222,False
-2278,u/interp21,"['ocean', 'found', 'nouns', 'mount']",4,mount,Wordle,222,False
-2279,u/McIgglyTuffMuffin,"['curse', 'pound', 'mount']",3,mount,Wordle,222,False
-2280,u/ZebZ,"['steam', 'mount']",2,mount,Wordle,222,True
-2281,u/ADownsHippie,"['arose', 'point', 'count', 'mount']",4,mount,Wordle,222,False
-2282,u/Airamand,"['aesir', 'thump', 'mount']",3,mount,Wordle,222,False
-2283,u/Ricky_davis13,"['soare', 'unite', 'mount']",3,mount,Wordle,222,False
-2285,u/PHLdawg,"['raise', 'mouth', 'mount']",3,mount,Wordle,222,False
-2286,u/HomebodySandman,"['stale', 'thing', 'front', 'mount']",4,mount,Wordle,222,False
-2287,u/heelxtiger,"['glade', 'boink', 'horny', 'mount']",4,mount,Wordle,222,False
-2288,u/TheGreatWaffle123,"['meals', 'mouth', 'mount']",3,mount,Wordle,222,False
-2289,u/SubiWhale,"['peach', 'penis', 'peter', 'pedro', 'perky']",5,perky,Wordle,223,False
-2290,u/edmchato,"['raise', 'pluto', 'touch', 'mount']",4,mount,Wordle,222,False
-2291,u/apolegend,"['faker', 'perky']",2,perky,Wordle,223,False
-2292,u/themindmd,"['lover', 'hoist', 'mount']",3,mount,Wordle,222,False
-2294,u/esthebinkles,"['stock', 'irate', 'tofus', 'donut', 'vaunt', 'mount']",6,mount,Wordle,222,False
-2295,u/MortgageOnMyNuts,"['fiery', 'polka', 'sodom', 'mount']",4,mount,Wordle,222,True
-2296,u/Sebbe,"['slick', 'taper', 'doubt', 'mount']",4,mount,Wordle,222,True
-2299,u/gnarwol,"['crate', 'mount']",2,mount,Wordle,222,False
-2300,u/Redolent_Repository,"['raise', 'mouth', 'mount']",3,mount,Wordle,222,False
-2301,u/Gorm13,"['sport', 'count', 'mount']",3,mount,Wordle,222,True
-2305,u/cricantrail,"['crypt', 'parry', 'perky']",3,perky,Wordle,223,True
-2306,u/johnpgh,"['ramps', 'money', 'mount']",3,mount,Wordle,222,False
-2307,u/gmbaker44,"['grant', 'spice', 'mount']",3,mount,Wordle,226,False
-2310,u/snomanDS,"['those', 'plead', 'pinks', 'perky']",4,perky,Wordle,223,False
-2311,u/TimTri,"['adieu', 'story', 'pluto', 'tough', 'mount']",5,mount,Wordle,222,False
-2312,u/zaplinaki,"['roate', 'perch', 'peril', 'perky']",4,perky,Wordle,223,False
-2313,u/Hollywoostarsand,"['tares', 'perch', 'perky']",3,perky,Wordle,223,False
-2314,u/___neXus__,"['raise', 'coned', 'bufty', 'jerky', 'perky']",5,perky,Wordle,223,False
-2316,u/AliasR_r,"['adieu', 'elope', 'preys', 'perry', 'pervy', 'perky']",6,perky,Wordle,223,False
-2317,u/cupred,['moist'],1,moist,Wordle,222,False
-2318,u/Benkos_Game,"['ebony', 'goons', 'mount']",3,mount,Wordle,222,False
-2319,u/xxCidxx,"['audio', 'cyber', 'merry', 'perky']",4,perky,Wordle,223,False
-2320,u/pantomime15,"['arose', 'tuner', 'derby', 'perky']",4,perky,Wordle,223,False
-2321,u/optional_wax,"['trace', 'riles', 'femur', 'perky']",4,perky,Wordle,223,False
-2323,u/ishdx,"['jerky', 'perky']",2,perky,Wordle,223,False
-2324,u/HumanIssue,"['freak', 'works', 'jerky', 'perky']",4,perky,Wordle,223,False
-2325,u/adeadhead,"['aeros', 'mercy', 'derny', 'perky']",4,perky,Wordle,223,True
-2326,u/Sebbe,"['claws', 'trove', 'rimed', 'perky']",4,perky,Wordle,223,True
-2327,u/Belethe,"['water', 'serve', 'merry', 'derby', 'perky']",5,perky,Wordle,223,True
-2328,u/TimTri,"['adieu', 'story', 'reply', 'perky']",4,perky,Wordle,223,False
-2329,u/xlonefoxx,"['alone', 'syrup', 'perry', 'perky']",4,perky,Wordle,223,False
-2330,u/Kicking-it-per-se,"['bound', 'pleas', 'petty', 'perky']",4,perky,Wordle,223,False
-2331,u/ImhereforAB,"['about', 'grind', 'press', 'perky']",4,perky,Wordle,223,True
-2332,u/OneSwizzleNizzle,"['adieu', 'holes', 'perky']",3,perky,Wordle,223,False
-2333,u/moonharbour,"['pearl', 'perky']",2,perky,Wordle,223,True
-2334,u/itz_shibi_raj_10,"['stake', 'yucky', 'pinky', 'porky', 'perky']",5,perky,Wordle,223,False
-2335,u/Nob0dy94,"['roate', 'equip', 'perch', 'perky']",4,perky,Wordle,223,False
-2336,u/appledelray,"['paint', 'phony', 'perky']",3,perky,Wordle,223,False
-2337,u/The_Bravinator,"['heart', 'reign', 'mould', 'perky']",4,perky,Wordle,223,False
-2338,u/missum28,"['night', 'dream', 'score', 'ruler', 'perky']",5,perky,Wordle,223,False
-2339,u/MrJeoffreyMann,"['chase', 'gored', 'ferry', 'perky']",4,perky,Wordle,223,False
-2340,u/AmazingSloth26,"['ouija', 'perky']",2,perky,Wordle,223,False
-2341,u/willidragonSu,"['cutie', 'lover', 'ready', 'berry', 'jerky', 'perky']",6,perky,Wordle,223,False
-2342,u/HtheExtraterrestrial,"['prick', 'perky']",2,perky,Wordle,223,False
-2343,u/elbirdo_insoko,"['arise', 'tuner', 'emery', 'rebuy', 'jerky', 'perky']",6,perky,Wordle,223,False
-2344,u/2Legit2Quiz,"['clean', 'erupt', 'spree', 'perky']",4,perky,Wordle,223,False
-2345,u/2Legit2Quiz,"['clean', 'erupt', 'spree', 'perky']",4,perky,Wordle,223,False
-2346,u/Yoyoung_whgdkgody,"['tares', 'herby', 'perdy', 'perky']",4,perky,Wordle,223,False
-2347,u/heartofgraphite,"['lanky', 'cocky', 'risky', 'murky', 'jerky', 'perky']",6,perky,Wordle,223,True
-2348,u/AwesomeYears,"['stone', 'pearl', 'perky']",3,perky,Wordle,223,False
-2349,u/gamefish32,"['cloth', 'piker', 'perky']",3,perky,Wordle,222,False
-2350,u/SaveTheCatFirst,"['chalk', 'query', 'perky']",3,perky,Wordle,223,False
+29039,u/Cobruh,"['share', 'plank', 'plant']",3,plant,Wordle,307,True
+29040,u/Ladnarr2,"['house', 'olive']",2,olive,Wordle,308,True
+29041,u/PM-ME-UR-PETS,"['death', 'bream', 'elope', 'olive']",4,olive,Wordle,308,True
+29042,u/kromudh,"['tenia', 'shire', 'glide', 'olive']",4,olive,Wordle,308,True
+29043,u/MrAdelphi03,"['raise', 'clown', 'plant']",3,plant,Wordle,307,False
+29044,u/FuriousDemon,"['crane', 'stole', 'lodge', 'pilot', 'ollie', 'olive']",6,olive,Wordle,308,False
+29045,u/SamVulcan,"['crane', 'pious', 'voile', 'olive']",4,olive,Wordle,308,False
+29046,u/VardaElentari86,"['dream', 'whine', 'spice', 'guile', 'elite', 'olive']",6,olive,Wordle,308,True
+29047,u/sphynx76,"['cater', 'spine', 'glide', 'olive']",4,olive,Wordle,308,True
+29048,u/ericmez6,"['groin', 'loins', 'olive']",3,olive,Wordle,308,True
+29049,u/Ecstatic_Tip3314,"['sport', 'poind', 'olive']",3,olive,Wordle,308,True
+29050,u/Spanky_McJiggles,"['dunes', 'break', 'theme', 'clove', 'olive']",5,olive,Wordle,308,True
+29051,u/hamptonlove,"['maple', 'lions', 'ollie', 'olive']",4,olive,Wordle,308,False
+29052,u/wildrice777,"['stare', 'chode', 'olive']",3,olive,Wordle,308,True
+29053,u/eliw23,"['chair', 'swipe', 'quite', 'knife', 'glide', 'olive']",6,olive,Wordle,308,True
+29054,u/ZappySnap,"['crate', 'shone', 'dobie', 'ojime', 'olive']",5,olive,Wordle,308,True
+29055,u/r_osit,"['plant', 'slime', 'glide', 'olive']",4,olive,Wordle,308,True
+29056,u/isthatabee,"['drink', 'smile', 'alive', 'olive']",4,olive,Wordle,308,True
+29057,u/[deleted],"['alone', 'olive']",2,olive,Wordle,308,True
+29058,u/droford,"['night', 'blimp', 'click', 'slide', 'alive', 'olive']",6,olive,Wordle,308,True
+29059,u/klondsbie,"['trace', 'spine', 'voile']",4,olive,Wordle,308,True
+29060,u/Moonlight_Sonata545,"['sport', 'novel', 'olive']",3,olive,Wordle,308,True
+29061,u/jenesuisunefemme,"['sonic', 'avoid', 'livor', 'olive']",4,olive,Wordle,308,True
+29062,u/khorijinn,"['slash', 'older', 'olive']",3,olive,Wordle,308,True
+29063,u/Neisseriaceae,"['tired', 'gypsy', 'movie', 'voice', 'olive']",5,olive,Wordle,308,False
+29064,u/XmertonX,"['syrup', 'chain', 'elite', 'glide', 'olive']",5,olive,Wordle,308,True
+29066,u/Yepyep911,"['stear', 'choke', 'noble', 'olive']",4,olive,Wordle,308,True
+29067,u/mdma11,"['plank', 'blood', 'white', 'olive']",4,olive,Wordle,308,False
+29068,u/CharleneFoxtrot,"['raise', 'glide', 'olive']",3,olive,Wordle,308,True
+29069,u/punieluna,"['peril', 'plunk', 'plant']",3,plant,Wordle,307,True
+29070,u/NetflixAndNikah,"['aeros', 'video', 'olive']",3,olive,Wordle,308,True
+29071,u/KimchiBearChile,"['arise', 'could', 'olive']",3,olive,Wordle,308,True
+29072,u/tooooooodayrightnow,"['raise', 'mound', 'olive']",3,olive,Wordle,308,False
+29073,u/madisonpalooza,"['tired', 'veins', 'chive', 'blive', 'alive', 'olive']",6,olive,Wordle,308,True
+29074,u/CharleneFoxtrot,"['irate', 'chant', 'plant']",3,plant,Wordle,307,True
+29075,u/poftim,"['manly', 'slide', 'olive']",3,olive,Wordle,308,True
+29076,u/PreventFalls,"['rogue', 'phone', 'adore', 'bikes', 'olive']",5,olive,Wordle,308,False
+29077,u/Xephyrius,"['aspie', 'tilde', 'olive']",3,olive,Wordle,308,True
+29078,u/goingdownthehill,"['towel', 'lemon', 'sugar', 'choke', 'olive']",5,olive,Wordle,308,False
+29079,u/Hotdoganddonut,"['blame', 'elite', 'slide', 'olive']",4,olive,Wordle,308,True
+29080,u/Bogus4Real,"['stare', 'coupe', 'whole', 'olive']",4,olive,Wordle,308,True
+29081,u/taxi00,"['atone', 'olive']",2,olive,Wordle,308,True
+29082,u/pengo,"['smite', 'prize', 'beige', 'quine', 'oxide', 'olive']",6,olive,Wordle,308,True
+29083,u/CaptainFunn,"['trend', 'excel', 'lesbo', 'whole', 'olive']",5,olive,Wordle,308,True
+29084,u/clumsykitten,"['tares', 'medic', 'plink', 'olive']",4,olive,Wordle,308,False
+29085,u/karl_creates,"['broth', 'losed', 'olive']",3,olive,Wordle,308,True
+29086,u/Scar_Knight12,"['chaos', 'trout', 'women', 'olive']",4,olive,Wordle,308,True
+29087,u/BoardwalkKnitter,"['focus', 'bento', 'whole', 'olive']",4,olive,Wordle,308,True
+29088,u/rocketmczoom,"['shirt', 'fling', 'blimp', 'click', 'adieu', 'olive']",6,olive,Wordle,308,False
+29089,u/Marlon_M,"['voter', 'glove', 'olive']",3,olive,Wordle,308,True
+29090,u/reeposterr,"['crwth', 'lanes', 'bulge', 'elope', 'olive']",5,olive,Wordle,308,True
+29091,u/Not-a-Coke-User,"['ghoul', 'polar', 'olive']",3,olive,Wordle,308,True
+29092,u/samirat,"['plant', 'close', 'olive']",3,olive,Wordle,308,True
+29093,u/lavinient,"['bland', 'cloth', 'olive']",3,olive,Wordle,308,True
+29094,u/caffeinated_teddy,"['blast', 'clove', 'olive']",3,olive,Wordle,308,True
+29095,u/seanbnimble,"['stair', 'child', 'olive']",3,olive,Wordle,308,True
+29096,u/Werner__Herzog,"['sober', 'melon', 'whole', 'olive']",4,olive,Wordle,308,True
+29097,u/goonwolf,"['moist', 'anion', 'olive']",3,olive,Wordle,308,True
+29098,u/wallace_and_grommit,"['ratio', 'coils', 'olive']",3,olive,Wordle,308,True
+29099,u/Nerd4L,"['night', 'slick', 'blimp', 'flier', 'alive', 'olive']",6,olive,Wordle,308,True
+29100,u/PM_ME_SILLY_DOG_PICS,"['shear', 'flute', 'clone', 'olive']",4,olive,Wordle,308,True
+29101,u/CallMeDraken,"['plant', 'clove', 'olive']",3,olive,Wordle,308,True
+29102,u/cougar572,"['aegis', 'youth', 'piled', 'olive']",4,olive,Wordle,308,False
+29103,u/958Silver,"['boast', 'clown', 'older', 'olive']",4,olive,Wordle,308,True
+29104,u/humblargh,"['spore', 'olive']",2,olive,Wordle,308,True
+29106,u/likwidfuzion,"['roate', 'slope', 'olive']",3,olive,Wordle,308,True
+29107,u/evidens,"['trace', 'spike', 'whine', 'glide', 'olive']",5,olive,Wordle,308,True
+29108,u/Miles-JB,"['lapis', 'build', 'cling', 'flirt', 'olive']",5,olive,Wordle,308,True
+29109,u/Sir0bin,"['stare', 'chide', 'guile', 'olive']",4,olive,Wordle,308,True
+29110,u/Gushami,"['spark', 'mouth', 'below', 'glove', 'olive']",5,olive,Wordle,308,True
+29111,u/Cadillacquer,"['their', 'civet', 'alive', 'olive']",4,olive,Wordle,308,True
+29112,u/SmootHawley,"['amuse', 'olive']",2,olive,Wordle,308,True
+29113,u/AnotherAccount4This,"['swipe', 'drive', 'alive', 'olive']",4,olive,Wordle,308,True
+29114,u/unreadable_captcha,"['polar', 'olive']",2,olive,Wordle,308,True
+29115,u/kevintheflip,"['salet', 'noble', 'clove', 'olive']",4,olive,Wordle,308,True
+29116,u/nerdy_raconteur,"['latch', 'spoil', 'oiled', 'olive']",4,olive,Wordle,308,True
+29117,u/mlc885,"['crane', 'whose', 'oxide', 'olive']",4,olive,Wordle,308,True
+29119,u/WildcardAir,"['chaps', 'trend', 'jello', 'elbow', 'glove', 'olive']",6,olive,Wordle,308,True
+29120,u/Ch1ckens0upp,"['aisle', 'olive']",2,olive,Wordle,308,True
+29121,u/abaca002,"['oxide', 'olive']",2,olive,Wordle,308,True
+29122,u/SUPERsquirrelPower,"['heart', 'bluey', 'sleep', 'olive']",4,olive,Wordle,308,True
+29123,u/Frechyfrites,"['board', 'ghost', 'lemon', 'ovule', 'olive']",5,olive,Wordle,308,True
+29124,u/Ash12783,"['think', 'drive', 'alive', 'olive']",4,olive,Wordle,308,True
+29125,u/doggetay,"['plant', 'olive']",2,olive,Wordle,308,True
+29126,u/SweetSlowKiss,"['agile', 'slime', 'elite', 'olive']",4,olive,Wordle,308,True
+29127,u/HuaHongbing,"['spite', 'write', 'slide', 'elite', 'alive', 'olive']",6,olive,Wordle,308,False
+29128,u/jalissapi,"['raise', 'mount', 'olive']",3,olive,Wordle,308,False
+29129,u/davxdc,"['stamp', 'flier', 'glide', 'olive']",4,olive,Wordle,308,True
+29130,u/solming13,"['watch', 'bingo', 'solid', 'olive']",4,olive,Wordle,308,True
+29131,u/madeleineruth19,"['opine', 'olive']",2,olive,Wordle,309,True
+29132,u/HelloThere8730,"['antre', 'louis', 'olive']",3,olive,Wordle,308,False
+29133,u/dandanua,"['fruit', 'lemon', 'olive']",3,olive,Wordle,308,False
+29134,u/kadfr,"['stare', 'chime', 'oxide', 'opine', 'olive']",5,olive,Wordle,308,True
+29135,u/Drunk_Sorting_Hat,"['arose', 'opine', 'oxide', 'thick', 'olive']",5,olive,Wordle,308,False
+29136,u/drkwtrs,"['cheat', 'globe', 'olive']",3,olive,Wordle,308,True
+29137,u/please-disregard,"['crane', 'tulsi', 'glide', 'olive']",4,olive,Wordle,308,False
+29138,u/GreatBallsOfH20,"['chasm', 'pound', 'below', 'olive']",4,olive,Wordle,308,True
+29139,u/opobdtfs,"['plant', 'slick', 'glide', 'olive']",4,olive,Wordle,308,True
+29140,u/NectarinesPeachy,"['route', 'oxide', 'opine', 'olive']",4,olive,Wordle,308,True
+29141,u/oldpekapeka33,"['stare', 'pound', 'climb', 'olive']",4,olive,Wordle,308,False
+29142,u/AshamedMusician5482,"['soare', 'clone', 'oldie', 'olive']",4,olive,Wordle,308,True
+29143,u/EqualSein,"['learn', 'slope', 'olive']",3,olive,Wordle,308,True
+29144,u/sase_o,"['canoe', 'prove', 'solve', 'olive']",4,olive,Wordle,308,True
+29145,u/Suitable_Lifeguard30,"['plaid', 'climb', 'olive']",3,olive,Wordle,308,True
+29146,u/sunset8949,"['agent', 'whose', 'voice', 'olive']",4,olive,Wordle,308,True
+29147,u/terlinguatx,"['aster', 'field', 'olive']",3,olive,Wordle,308,True
+29148,u/witfenek,"['earth', 'opium', 'opine', 'olive']",4,olive,Wordle,308,False
+29149,u/bungle_bogs,"['stare', 'plume', 'clone', 'olive']",4,olive,Wordle,308,True
+29150,u/holden147,"['match', 'piney', 'slide', 'olive']",4,olive,Wordle,308,True
+29151,u/hoIygrail,"['slope', 'olive']",2,olive,Wordle,308,True
+29152,u/SocialistMoms,"['dance', 'grope', 'house', 'ollie', 'olive']",5,olive,Wordle,308,True
+29153,u/MamboTB88,"['build', 'slime', 'alike', 'olive']",4,olive,Wordle,308,True
+29154,u/_coragray,"['party', 'trout', 'remit', 'inert']",4,inert,Wordle,309,True
+29155,u/And-WhyWouldUSayThat,"['plank', 'night', 'innit', 'inset', 'inert']",5,inert,Wordle,309,True
+29156,u/PimpeeMcgee,"['wrath', 'polis', 'olive']",3,olive,Wordle,308,True
+29157,u/khcollett,"['raise', 'thine', 'glide', 'olive']",4,olive,Wordle,308,True
+29158,u/_duncan_idaho_,"['sport', 'exert', 'alert', 'inert']",4,inert,Wordle,309,True
+29159,u/Ok_Web_4428,"['stern', 'inert']",2,inert,Wordle,309,False
+29160,u/tu-BROOKE-ulosis,"['float', 'olive']",2,olive,Wordle,308,True
+29161,u/Hydreigon_Lord,"['sling', 'alike', 'elide', 'olive']",4,olive,Wordle,308,True
+29162,u/kaksjsnns,"['stork', 'chart', 'blert', 'piert', 'inert']",5,inert,Wordle,309,True
+29163,u/shazzanator11,"['match', 'tripe', 'resit', 'inert']",4,inert,Wordle,309,True
+29164,u/DonRDU,"['muted', 'clone', 'olive']",3,olive,Wordle,308,True
+29165,u/abstractpluto,['olive'],1,olive,Wordle,308,True
+29166,u/KJones77,"['house', 'prone', 'oxide', 'olive']",4,olive,Wordle,308,True
+29167,u/Foreverinneverland24,"['audio', 'poise', 'olive']",3,olive,Wordle,308,True
+29168,u/sniffie45,"['soare', 'clump', 'think', 'olive']",4,olive,Wordle,308,False
+29169,u/Callumfry11,"['crane', 'stole', 'lodge', 'olive']",4,olive,Wordle,308,True
+29170,u/rlemaitre,"['raise', 'cloud', 'olive']",3,olive,Wordle,308,False
+29171,u/TheOneInchPunisher,"['ouija', 'onion', 'oxide', 'olive']",4,olive,Wordle,308,True
+29172,u/anthonyqld,"['notes', 'trend', 'inert']",3,inert,Wordle,309,True
+29173,u/hermitxd,"['shear', 'trend', 'brent', 'inert']",4,inert,Wordle,309,True
+29174,u/hattman57,"['frame', 'coins', 'diner', 'rewin', 'inert']",5,inert,Wordle,309,False
+29175,u/doseofvitamink,"['dealt', 'crest', 'inert']",3,inert,Wordle,309,True
+29176,u/Natural-Bet-414,"['slate', 'erect', 'overt', 'inert']",4,inert,Wordle,309,True
+29177,u/islandlily,"['frost', 'could', 'olive']",3,olive,Wordle,308,True
+29178,u/raarevalo96,"['raise', 'cline', 'olive']",3,olive,Wordle,308,True
+29179,u/TreeBeeTurkey014,"['adieu', 'exile', 'olive']",3,olive,Wordle,308,True
+29180,u/yourcountrycousin,"['rough', 'scone', 'olive']",3,olive,Wordle,308,True
+29181,u/ObsidianDreamsRedux,"['fiery', 'inert']",2,inert,Wordle,309,True
+29182,u/blvdlasalle,"['scare', 'glide', 'flite', 'olive']",4,olive,Wordle,308,True
+29183,u/Lavender-Lou,"['vomit', 'ivory', 'olive']",3,olive,Wordle,308,True
+29184,u/train314,"['stare', 'clone', 'olive']",3,olive,Wordle,308,True
+29185,u/L2051,"['elope', 'oldie', 'olive']",3,olive,Wordle,308,True
+29186,u/mraza9,"['mares', 'cleft', 'elbow', 'glove', 'olive']",5,olive,Wordle,308,True
+29187,u/fixedtafernback,"['swipe', 'chide', 'grime', 'olive']",4,olive,Wordle,308,True
+29188,u/unilateralhope,"['trunk', 'spoil', 'doily', 'gamey', 'olive']",5,olive,Wordle,308,False
+29189,u/Hereforthewarmth,"['wrest', 'melon', 'elope', 'olive']",4,olive,Wordle,308,True
+29190,u/jh51681,"['crane', 'style', 'louie', 'olive']",4,olive,Wordle,308,True
+29191,u/mug3n,"['drawn', 'tenor', 'brent', 'inert']",4,inert,Wordle,309,True
+29192,u/Elegant_Permission_6,"['alien', 'slime', 'glide', 'olive']",4,olive,Wordle,308,True
+29193,u/seafoodrice,"['salet', 'merit', 'piert', 'inert']",4,inert,Wordle,309,True
+29194,u/derkinator30,"['spice', 'whine', 'bride', 'glime', 'olive']",5,olive,Wordle,308,True
+29195,u/Golftango6,"['audio', 'spoil', 'olive']",3,olive,Wordle,308,True
+29196,u/Grand_Ad_5314,"['swear', 'brent', 'inert']",3,inert,Wordle,309,True
+29197,u/HiFiGuy197,"['steal', 'piled', 'chile', 'frown', 'buxom', 'olive']",6,olive,Wordle,308,False
+29198,u/spronston,"['crate', 'liter', 'remit', 'inert']",4,inert,Wordle,309,True
+29199,u/sugarbreath91,"['child', 'slink', 'flirt', 'blimp', 'alive', 'olive']",6,olive,Wordle,308,True
+29200,u/ufoicu2,"['wheat', 'vibes', 'knive', 'drive', 'olive']",5,olive,Wordle,308,True
+29201,u/wave_327,"['tread', 'inert']",2,inert,Wordle,309,True
+29202,u/shinraizen,"['false', 'power', 'retch', 'trend', 'inert']",5,inert,Wordle,309,True
+29203,u/PM-ME-UR-PETS,"['petal', 'write', 'tired', 'uteri', 'inert']",5,inert,Wordle,309,True
+29204,u/IllogicalIllusionist,"['avoid', 'islet', 'inept', 'inert']",4,inert,Wordle,309,True
+29205,u/ZombieJockeyGames,"['nitro', 'inert']",2,inert,Wordle,309,False
+29206,u/ClashForeverrr,"['ionic', 'inert']",2,inert,Wordle,309,True
+29207,u/HnNaldoR,"['crane', 'reign', 'diner', 'inert']",4,inert,Wordle,309,True
+29208,u/CorporalWotjek,"['doily', 'shunt', 'crape', 'inert']",4,inert,Wordle,309,False
+29209,u/crazymouse2525,"['heats', 'globe', 'oldie', 'olive']",4,olive,Wordle,308,True
+29210,u/fieldsilver,"['suite', 'inlet', 'inept', 'inert']",4,inert,Wordle,309,True
+29211,u/Rough_Shallot_5189,"['adieu', 'slime', 'cline', 'elite', 'olive']",5,olive,Wordle,308,True
+29212,u/ConfusedByPans,"['storm', 'wound', 'viola', 'olive']",4,olive,Wordle,308,False
+29213,u/solming13,"['alive', 'eight', 'freit', 'inert']",4,inert,Wordle,309,True
+29214,u/NakedSnakeEyes,"['stear', 'mince', 'glide', 'olive']",4,olive,Wordle,308,True
+29215,u/soundboythriller,"['stare', 'phone', 'voice', 'olive']",4,olive,Wordle,308,True
+29216,u/FunnyFiska,"['spine', 'liner', 'inert']",3,inert,Wordle,309,True
+29217,u/DelurkingtoComment,"['laser', 'ditch', 'write', 'inert']",4,inert,Wordle,309,False
+29218,u/Legendary_8,"['orate', 'olive']",2,olive,Wordle,308,True
+29219,u/zhc207,"['imply', 'inert']",2,inert,Wordle,309,True
+29220,u/OliveInvestor,"['route', 'whole', 'olive']",3,olive,Wordle,308,True
+29221,u/pplovesk,"['steal', 'theme', 'inept', 'inert']",4,inert,Wordle,309,True
+29222,u/_but_nobody_came,"['earth', 'blend', 'slope', 'ollie', 'olive']",5,olive,Wordle,308,True
+29223,u/Low_Persimmon_2145,"['guide', 'price', 'voile', 'olive']",4,olive,Wordle,308,True
+29224,u/stsalex341,"['ocean', 'fruit', 'inert']",3,inert,Wordle,309,False
+29225,u/andreasbjorne,"['tares', 'chode', 'vogue', 'olive']",4,olive,Wordle,308,True
+29227,u/IndigoMoonAdventure,"['harsh', 'below', 'loved', 'glove', 'olive']",5,olive,Wordle,308,True
+29228,u/clumsykitten,"['tares', 'point', 'inert']",3,inert,Wordle,309,False
+29229,u/KingD123,"['group', 'botch', 'owned', 'olive']",4,olive,Wordle,308,True
+29230,u/soulfulpurple,"['peach', 'loner', 'stern', 'inert']",4,inert,Wordle,309,True
+29231,u/Neondanublu03,"['trace', 'slime', 'elide', 'olive']",4,olive,Wordle,308,True
+29232,u/aqua_zuma21,"['slice', 'inter', 'inert']",3,inert,Wordle,309,True
+29233,u/daphne451,"['stane', 'globe', 'olive']",3,olive,Wordle,308,True
+29234,u/leo_FLASH18,"['patio', 'video', 'olive']",3,olive,Wordle,308,True
+29235,u/resatr,"['found', 'store', 'malty', 'olive']",4,olive,Wordle,308,False
+29236,u/Hollywoostarsand,"['rusty', 'trope', 'after', 'inert']",4,inert,Wordle,309,True
+29237,u/fundaman,"['audio', 'sling', 'nicer', 'brine', 'inert']",5,inert,Wordle,309,True
+29238,u/HS007,"['taper', 'rivet', 'merit', 'inert']",4,inert,Wordle,309,True
+29239,u/oldpekapeka33,"['stare', 'overt', 'inert']",3,inert,Wordle,309,True
+29240,u/Frestho,"['salet', 'clone', 'olive']",3,olive,Wordle,308,True
+29241,u/123_underscore_321,"['aeros', 'toned', 'choke', 'ollie', 'olive']",5,olive,Wordle,308,True
+29242,u/dvstland,"['crisp', 'built', 'aline', 'olive']",4,olive,Wordle,308,True
+29243,u/GirlWith_Glasses,"['metro', 'enter', 'inert']",3,inert,Wordle,309,False
+29244,u/sud_a,"['scare', 'twerk', 'overt', 'inert']",4,inert,Wordle,309,True
+29245,u/HayesChin,"['canoe', 'plumb', 'shirt', 'inert']",4,inert,Wordle,309,False
+29246,u/zillenial96chick,"['grace', 'blume', 'flote', 'oldie', 'olive']",5,olive,Wordle,308,True
+29247,u/j_tragic,"['crane', 'flute', 'glide', 'slime', 'olive']",5,olive,Wordle,308,True
+29248,u/MyDearDapple,"['pause', 'twice', 'brine', 'olive']",4,olive,Wordle,308,True
+29249,u/bhalimeh93,"['euros', 'plant', 'cloud', 'micky', 'fight', 'olive']",6,olive,Wordle,308,False
+29250,u/Minimum_Economist260,"['tight', 'inert']",2,inert,Wordle,309,True
+29251,u/AnvilOfMisanthropy,"['crate', 'shine', 'olive']",3,olive,Wordle,308,True
+29252,u/4iamnotaredditor,"['crawl', 'stork', 'third', 'nitre', 'inert']",5,inert,Wordle,309,True
+29253,u/Tumojitekato,"['earth', 'juice', 'knife', 'swipe', 'olive']",5,olive,Wordle,308,True
+29254,u/NSNick,"['aioli', 'super', 'olive']",3,olive,Wordle,308,False
+29255,u/MasqueradeOfSilence,"['atone', 'rogue', 'ozzie', 'olive']",4,olive,Wordle,308,True
+29256,u/Suicidal-Lysosome,"['tenor', 'close', 'oldie', 'olive']",4,olive,Wordle,308,True
+29257,u/KDCaniell,"['spike', 'liver', 'remit', 'inert']",4,inert,Wordle,309,True
+29258,u/XeoPlay123,"['crwth', 'trove', 'resin', 'nitre', 'inert']",5,inert,Wordle,309,False
+29259,u/OneOfManyChildren,"['stare', 'inert']",2,inert,Wordle,309,True
+29260,u/Jennarager,"['steal', 'clone', 'olive']",3,olive,Wordle,308,True
+29261,u/brotherofthoughts,['inert'],1,inert,Wordle,309,True
+29262,u/resatr,"['joint', 'night', 'inlet', 'inept', 'inert']",5,inert,Wordle,309,True
+29263,u/sphynx76,"['urine', 'reign', 'miner', 'inert']",4,inert,Wordle,309,True
+29264,u/moselth,"['flyer', 'clean', 'bloke', 'pluot', 'olive']",5,olive,Wordle,308,False
+29265,u/punieluna,"['pleat', 'flier', 'slime', 'glide', 'olive']",5,olive,Wordle,308,True
+29266,u/CrazyPridecat,"['salet', 'movie', 'voile', 'olive']",4,olive,Wordle,308,False
+29267,u/Happifier,"['grief', 'spire', 'inert']",3,inert,Wordle,309,True
+29268,u/optional_wax,"['stare', 'metro', 'inert']",3,inert,Wordle,309,True
+29269,u/hsx_,"['wreck', 'spear', 'query', 'there', 'overt', 'inert']",6,inert,Wordle,309,True
+29270,u/Svantoro,"['drive', 'reign', 'miner', 'shalt', 'inert']",5,inert,Wordle,309,False
+29271,u/Speye,"['peace', 'fight', 'mound', 'inert']",4,inert,Wordle,309,False
+29272,u/i_eatbabies_64,"['cloud', 'olive']",2,olive,Wordle,308,True
+29273,u/peace_97,"['reast', 'inert']",2,inert,Wordle,309,True
+29274,u/pengo,"['smite', 'tepid', 'liter', 'inert']",4,inert,Wordle,309,True
+29275,u/ilikenougat,"['pesto', 'great', 'inert']",3,inert,Wordle,309,True
+29276,u/Gransmithy,"['glyph', 'irate', 'inter', 'inert']",4,inert,Wordle,309,True
+29277,u/Gergex,"['table', 'olive']",2,olive,Wordle,308,True
+29278,u/SuzumiyaCham,"['purge', 'resin', 'inter', 'inert']",4,inert,Wordle,309,True
+29279,u/8Yoongles,"['lover', 'crane', 'reins', 'inert']",4,inert,Wordle,309,False
+29280,u/Clever_Owl,"['today', 'cults', 'print', 'inert']",4,inert,Wordle,309,True
+29281,u/KangaStretchMyHands,"['never', 'siren', 'ripen', 'trine', 'inert']",5,inert,Wordle,309,True
+29282,u/variedenthuiast,"['crate', 'their', 'inert']",3,inert,Wordle,309,True
+29283,u/Sireddamonsalvatore,"['louie', 'shark', 'diner', 'needs', 'inert']",5,inert,Wordle,309,False
+29284,u/Torontoeikokujin,"['those', 'great', 'inert']",3,inert,Wordle,309,True
+29285,u/Hayley___98,"['aeros', 'timer', 'write', 'petri', 'inert']",5,inert,Wordle,309,True
+29287,u/atoponce,"['dealt', 'close', 'olive']",3,olive,Wordle,308,True
+29288,u/madeleineruth19,"['opine', 'intel', 'inert']",3,inert,Wordle,310,True
+29289,u/NineElements,"['tryst', 'abort', 'inert']",3,inert,Wordle,309,True
+29290,u/SaltedAndSugared,"['lunch', 'moans', 'nerdy', 'enter', 'inert']",5,inert,Wordle,309,True
+29291,u/sleigh_queen,"['stare', 'inert']",2,inert,Wordle,309,True
+29292,u/LoverofJLaw,"['trace', 'rents', 'inert']",3,inert,Wordle,309,True
+29293,u/asinyan,"['speck', 'train', 'inert']",3,inert,Wordle,309,False
+29294,u/mvandongen17,"['share', 'twice', 'glide', 'olive']",4,olive,Wordle,308,True
+29295,u/zzknights,"['cloud', 'olive']",2,olive,Wordle,308,True
+29296,u/BinaryPill,"['trade', 'noter', 'inert']",3,inert,Wordle,309,True
+29297,u/Suitable_Lifeguard30,"['salet', 'greet', 'inert']",3,inert,Wordle,309,True
+29298,u/Initial_E,"['stare', 'exert', 'inert']",3,inert,Wordle,309,True
+29299,u/ryeshoes,"['tubes', 'fling', 'alive']",4,olive,Wordle,308,False
+29300,u/Shorogwi,"['loser', 'bream', 'sheer', 'queer', 'fiery', 'inert']",6,inert,Wordle,309,True
+29301,u/gobluthmagician,"['raise', 'cried', 'peril', 'their', 'uteri', 'inert']",6,inert,Wordle,309,True
+29302,u/caycethecat,"['slant', 'night', 'incut', 'innit', 'inert']",5,inert,Wordle,309,True
+29303,u/vbhiro,"['stare', 'cloud', 'olive']",3,olive,Wordle,308,False
+29304,u/Mike20878,"['alive', 'olive']",2,olive,Wordle,308,True
+29305,u/andronicus_14,"['stare', 'chime', 'olive']",3,olive,Wordle,308,True
+29306,u/dai_panfeng,"['stern', 'inert']",2,inert,Wordle,309,True
+29307,u/goonwolf,"['moist', 'plait', 'inert']",3,inert,Wordle,309,True
+29308,u/BlitzAceSamy,"['loser', 'reign', 'inert']",3,inert,Wordle,309,True
+29309,u/PersonalityNearby222,"['least', 'poled', 'whole', 'olive']",4,olive,Wordle,308,True
+29310,u/robophile-ta,"['smear', 'greed', 'chert', 'overt', 'inert']",5,inert,Wordle,309,True
+29311,u/Justin113113,"['chain', 'inert']",2,inert,Wordle,309,True
+29312,u/DayneTreader,"['stare', 'cloud', 'olive']",3,olive,Wordle,308,False
+29313,u/jenesuisunefemme,"['north', 'tense', 'inter', 'inert']",4,inert,Wordle,309,False
+29314,u/Ladnarr2,"['house', 'merit', 'rivet', 'inert']",4,inert,Wordle,309,True
+29315,u/stenseven,"['house', 'alone', 'olive']",3,olive,Wordle,308,True
+29316,u/prograft,"['crwth', 'teary', 'stern', 'inert']",4,inert,Wordle,309,False
+29317,u/bow_to_tachanka,"['sound', 'heart', 'inert']",3,inert,Wordle,309,False
+29318,u/SamVulcan,"['crane', 'pious', 'miner', 'weird', 'inert']",5,inert,Wordle,309,False
+29319,u/alecscradle,"['stern', 'inert']",2,inert,Wordle,309,True
+29320,u/ZappySnap,"['trace', 'stern', 'inert']",3,inert,Wordle,309,True
+29321,u/Ecstatic_Tip3314,"['sport', 'chart', 'blurt', 'inert']",4,inert,Wordle,309,True
+29322,u/MortarChelle,"['stare', 'overt', 'pinky', 'inert']",4,inert,Wordle,309,False
+29323,u/Spanky_McJiggles,"['group', 'realm', 'cheer', 'stern', 'inert']",5,inert,Wordle,309,True
+29324,u/Neisseriaceae,"['tired', 'write', 'resit', 'inert']",4,inert,Wordle,309,True
+29325,u/bfaithr,"['brown', 'raine', 'miner', 'inert']",4,inert,Wordle,309,True
+29326,u/CharleneFoxtrot,"['irate', 'inert']",2,inert,Wordle,309,True
+29327,u/Olbaidon,"['tough', 'demon', 'score', 'bloke', 'ollie', 'olive']",6,olive,Wordle,308,True
+29328,u/Yepyep911,"['stear', 'trend', 'inert']",3,inert,Wordle,309,True
+29329,u/KimchiBearChile,"['arise', 'could', 'fiber', 'merit', 'inert']",5,inert,Wordle,309,True
+29330,u/Lottabirdies,"['aurei', 'reign', 'nitre', 'inert']",4,inert,Wordle,309,True
+29331,u/CaptainFunn,"['cream', 'twerk', 'exert', 'inert']",4,inert,Wordle,309,True
+29332,u/qingskies,"['soare', 'weird', 'tiers', 'inert']",4,inert,Wordle,309,True
+29333,u/kromudh,"['tenia', 'unite', 'inlet', 'inept', 'inert']",5,inert,Wordle,309,True
+29334,u/Lottabirdies,"['aurei', 'reign', 'nitre', 'inert']",4,inert,Wordle,309,True
+29335,u/droford,"['sweat', 'theft', 'eject', 'greet', 'inert']",5,inert,Wordle,309,True
+29336,u/XmertonX,"['tramp', 'store', 'exert', 'inert']",4,inert,Wordle,309,True
+29337,u/mlc885,"['crane', 'never', 'stern', 'inert']",4,inert,Wordle,309,True
+29338,u/klondsbie,"['trace', 'exert', 'inert']",3,inert,Wordle,309,True
+29339,u/tooooooodayrightnow,"['raise', 'mound', 'inert']",3,inert,Wordle,309,False
+29340,u/PreventFalls,"['rains', 'chore', 'forty', 'inert']",4,inert,Wordle,309,False
+29341,u/xahmah,"['stern', 'inert']",2,inert,Wordle,309,True
+29342,u/Elona___,"['train', 'nitro', 'inert']",3,inert,Wordle,309,True
+29343,u/Golftango6,"['canoe', 'heist', 'inlet', 'inert']",4,inert,Wordle,309,False
+29344,u/VWCatLady,"['shard', 'mourn', 'inert']",3,inert,Wordle,309,True
+29346,u/lavinient,"['train', 'inter', 'inert']",3,inert,Wordle,309,True
+29347,u/poftim,"['bacon', 'prune', 'inner', 'inert']",4,inert,Wordle,309,True
+29348,u/taxi00,"['atone', 'entry', 'inert']",3,inert,Wordle,309,True
+29349,u/randpaulsdragrace,"['store', 'china', 'inert']",3,inert,Wordle,309,False
+29350,u/NetflixAndNikah,"['aeros', 'unity', 'inert']",3,inert,Wordle,309,False
+29351,u/BARice3,"['prank', 'mourn', 'inert']",3,inert,Wordle,309,True
+29352,u/UnicornTwinkle,"['sneer', 'inert']",2,inert,Wordle,309,True
+29353,u/mayyya_c,"['stare', 'terms', 'adieu', 'night', 'inert']",5,inert,Wordle,309,False
+29354,u/Gushami,"['coupe', 'stear', 'brent', 'inert']",4,inert,Wordle,309,True
+29355,u/mystiqueallie,"['weigh', 'linen', 'inept', 'inert']",4,inert,Wordle,309,True
+29356,u/ElWanderer_KSP,"['crypt', 'flirt', 'inert']",3,inert,Wordle,309,True
+29357,u/Xephyrius,"['aspie', 'diner', 'inert']",3,inert,Wordle,309,True
+29358,u/jeranon,"['salet', 'erect', 'inert']",3,inert,Wordle,309,True
+29359,u/reeposterr,"['crwth', 'rated', 'stern', 'inert']",4,inert,Wordle,309,True
+29360,u/jray4559,"['lairs', 'inert']",2,inert,Wordle,309,True
+29361,u/ryeshoes,"['tubes', 'fling', 'inept']",4,inert,Wordle,309,False
+29362,u/khorijinn,"['slash', 'round', 'nervy', 'finer', 'grein', 'inert']",6,inert,Wordle,309,True
+29363,u/ImhereforAB,"['kitty', 'thrip', 'drift', 'inert']",4,inert,Wordle,309,True
+29364,u/LittleLordFuckleroy1,"['mares', 'reign', 'irone', 'inert']",4,inert,Wordle,309,True
+29365,u/SUPERsquirrelPower,"['heart', 'blert', 'overt', 'inert']",4,inert,Wordle,309,True
+29366,u/VardaElentari86,"['stare', 'inert']",2,inert,Wordle,309,True
+29367,u/BoardwalkKnitter,"['manor', 'grunt', 'inert']",3,inert,Wordle,309,True
+29368,u/SweetSlowKiss,"['mains', 'night', 'inlet', 'inert']",4,inert,Wordle,309,True
+29369,u/Exousiazo,"['stern', 'inert']",2,inert,Wordle,309,True
+29370,u/Sir0bin,"['stare', 'overt', 'inert']",3,inert,Wordle,309,True
+29371,u/evidens,"['trace', 'ether', 'roted', 'flirt', 'inert']",5,inert,Wordle,309,False
+29372,u/u-sly-minx,"['slate', 'grind', 'trine', 'niter', 'inert']",5,inert,Wordle,309,False
+29373,u/Olbaidon,"['saint', 'nicht', 'inert']",3,inert,Wordle,309,True
+29375,u/AnotherAccount4This,"['found', 'sneak', 'inert']",3,inert,Wordle,309,True
+29376,u/Cadillacquer,"['trial', 'right', 'merit', 'inert']",4,inert,Wordle,309,True
+29377,u/redchindi,"['their', 'piert', 'inert']",3,inert,Wordle,309,True
+29378,u/Familiar-Asparagus-1,"['train', 'niter', 'inert']",3,inert,Wordle,309,True
+29379,u/moselth,"['point', 'inert']",2,inert,Wordle,309,True
+29380,u/highparallel,"['craze', 'resin', 'diner', 'inert']",4,inert,Wordle,309,True
+29381,u/permaki,"['olive', 'rines', 'freit', 'inert']",4,inert,Wordle,309,False
+29382,u/peacharnoldpalmer,"['saint', 'night', 'inlet', 'inept', 'inert']",5,inert,Wordle,309,True
+29383,u/highparallel,"['craze', 'resin', 'diner', 'inert']",4,inert,Wordle,309,True
+29384,u/tfhaenodreirst,"['stern', 'inert']",2,inert,Wordle,309,True
+29385,u/formerlyDylan,"['stare', 'flirt', 'inert']",3,inert,Wordle,309,False
+29386,u/dotchianni,"['rents', 'entry', 'inert']",3,inert,Wordle,309,True
+29387,u/cougar572,"['aegis', 'youth', 'timed', 'blite', 'inert']",5,inert,Wordle,309,False
+29388,u/IndigoMoonAdventure,"['shift', 'bidet', 'digit', 'inept', 'inert']",5,inert,Wordle,309,False
+29389,u/Empress_Pilaf,"['brief', 'resit', 'inert']",3,inert,Wordle,309,True
+29390,u/Off_The_Hook,"['audio', 'inert']",2,inert,Wordle,309,False
+29391,u/CuriousHedgehog636,"['raise', 'tired', 'write', 'remit', 'inert']",5,inert,Wordle,309,True
+29392,u/HelloThere8730,"['antre', 'inert']",2,inert,Wordle,309,True
+29393,u/Ash12783,"['think', 'nitro', 'inert']",3,inert,Wordle,309,True
+29394,u/Callumfry11,"['trace', 'meter', 'stern', 'inert']",4,inert,Wordle,309,True
+29395,u/unreadable_captcha,"['scone', 'nerdy', 'ramen', 'inert']",4,inert,Wordle,309,True
+29396,u/DeVilleBT,"['slate', 'tenor', 'brent', 'inert']",4,inert,Wordle,309,True
+29397,u/WildcardAir,"['glide', 'tires', 'rebit', 'inert']",4,inert,Wordle,309,True
+29398,u/jorgenriq,"['heart', 'exert', 'overt', 'inert']",4,inert,Wordle,309,True
+29399,u/gumdrop505,"['renig', 'siren', 'inert']",3,inert,Wordle,309,True
+29400,u/eliw23,"['chair', 'print', 'inert']",3,inert,Wordle,309,True
+29401,u/emoskeleton_,"['audio', 'pelts', 'timer', 'write', 'fight', 'inert']",6,inert,Wordle,309,False
+29402,u/lyovi,"['cheat', 'spent', 'knelt', 'inert']",4,inert,Wordle,315,False
+29403,u/badmother,"['exact', 'overt', 'inert']",3,inert,Wordle,309,True
+29404,u/jalissapi,"['raise', 'mount', 'inert']",3,inert,Wordle,309,False
+29405,u/Drunk_Sorting_Hat,"['arose', 'chert', 'overt', 'inert']",4,inert,Wordle,309,True
+29406,u/Dfecko89,"['crash', 'round', 'miner', 'reign', 'inert']",5,inert,Wordle,309,True
+29408,u/caffeinated_teddy,"['brome', 'slyer', 'renew', 'prent', 'inert']",5,inert,Wordle,309,True
+29409,u/opobdtfs,"['olive', 'tepid', 'biter', 'inert']",4,inert,Wordle,309,True
+29410,u/RishiSunak,"['slain', 'night', 'inert']",3,inert,Wordle,309,True
+29411,u/andronicus_14,"['stare', 'entry', 'inert']",3,inert,Wordle,309,True
+29412,u/kaksjsnns,"['hedge', 'money', 'pater', 'askew']",4,askew,Wordle,310,True
+29413,u/J-BGrenouille,"['agent', 'inert']",2,inert,Wordle,309,True
+29414,u/Immortalrh88,"['clear', 'greed', 'inert']",3,inert,Wordle,310,True
+29415,u/KingD123,"['coils', 'fired', 'irate', 'inert']",4,inert,Wordle,309,True
+29416,u/LawfulnessUpbeat5646,"['strap', 'thorn', 'entry', 'inert']",4,inert,Wordle,309,True
+29417,u/Moonlight_Sonata545,"['rusty', 'throw', 'flirt', 'inert']",4,inert,Wordle,309,True
+29418,u/TonightRemote,"['later', 'trend', 'inert']",3,inert,Wordle,309,True
+29419,u/izzyvet,"['shade', 'point', 'curly', 'inert']",4,inert,Wordle,309,False
+29420,u/sachaha,"['soare', 'lanes', 'asked', 'askew']",4,askew,Wordle,310,True
+29421,u/_coragray,"['party', 'molas', 'snack', 'askew']",4,askew,Wordle,310,True
+29422,u/Hydreigon_Lord,"['smith', 'tinge', 'inert']",3,inert,Wordle,309,True
+29423,u/khcollett,"['raise', 'their', 'inert']",3,inert,Wordle,309,True
+29424,u/Miles-JB,"['drawl', 'rusty', 'their', 'inert']",4,inert,Wordle,309,True
+29425,u/cyrano4833,"['stern', 'inert']",2,inert,Wordle,309,True
+29426,u/atoponce,"['dealt', 'chest', 'inert']",3,inert,Wordle,309,True
+29427,u/wildrice777,"['stare', 'there', 'overt', 'blimp', 'inert']",5,inert,Wordle,309,False
+29428,u/Mjb06,"['party', 'truce', 'rents', 'noter', 'miner', 'inert']",6,inert,Wordle,309,False
+29429,u/terlinguatx,"['field', 'inert']",2,inert,Wordle,309,True
+29430,u/BlitzAceSamy,"['loser', 'sited', 'capes', 'askew']",4,askew,Wordle,310,True
+29431,u/realxnotnoah,"['train', 'inter', 'inert']",3,inert,Wordle,309,True
+29432,u/realxnotnoah,"['train', 'inter', 'inert']",3,inert,Wordle,309,True
+29433,u/bungle_bogs,"['stare', 'blert', 'inert']",3,inert,Wordle,309,True
+29434,u/Rough_Shallot_5189,"['adieu', 'eight', 'remit', 'inert']",4,inert,Wordle,309,True
+29435,u/emma_the_dilemmma,"['their', 'inert']",2,inert,Wordle,309,True
+29436,u/sase_o,"['canoe', 'feign', 'inert']",3,inert,Wordle,309,True
+29437,u/Low_Persimmon_2145,"['fishy', 'plain', 'inner', 'inert']",4,inert,Wordle,309,True
+29438,u/soap_lady,"['crane', 'divot', 'inert']",3,inert,Wordle,309,False
+29439,u/MamboTB88,"['flash', 'mount', 'tenet', 'event', 'inept', 'inert']",6,inert,Wordle,309,True
+29440,u/fing3roperation,"['crane', 'entry', 'inert']",3,inert,Wordle,309,True
+29441,u/ObsidianDreamsRedux,"['epoxy', 'tried', 'shawl', 'askew']",4,askew,Wordle,310,False
+29442,u/likwidfuzion,"['roate', 'stern', 'inert']",3,inert,Wordle,309,True
+29443,u/sniffie45,"['soare', 'clint', 'inert']",3,inert,Wordle,309,False
+29444,u/full-metal-ashtray,"['their', 'inert']",2,inert,Wordle,309,True
+29445,u/EcoAffinity,"['plank', 'drown', 'miner', 'inert']",4,inert,Wordle,309,True
+29446,u/chiZZLebliSS,"['strap', 'right', 'merit', 'inert']",4,inert,Wordle,309,True
+29447,u/AshamedMusician5482,"['soare', 'chump', 'linky', 'night', 'inert']",5,inert,Wordle,309,False
+29448,u/mraza9,"['mares', 'bored', 'price', 'tiger', 'relit', 'inert']",6,inert,Wordle,309,True
+29449,u/NectarinesPeachy,"['route', 'tears', 'exert', 'inert']",4,inert,Wordle,309,True
+29450,u/mdma11,"['based', 'chime', 'pilot', 'greet', 'inert']",5,inert,Wordle,309,False
+29451,u/mvandongen17,"['share', 'truce', 'overt', 'inert']",4,inert,Wordle,309,False
+29452,u/thegreatbamberino,"['crest', 'exert', 'overt', 'alert', 'inert']",5,inert,Wordle,309,True
+29453,u/Valuable-Educator-53,"['tares', 'askew']",2,askew,Wordle,310,True
+29454,u/oblongemperor,"['stare', 'blert', 'chert', 'inert']",4,inert,Wordle,309,True
+29455,u/anthonyqld,"['spine', 'loser', 'tames', 'ashed', 'askew']",5,askew,Wordle,310,True
+29456,u/Appropriate-Coast255,"['spore', 'heart', 'inert']",3,inert,Wordle,309,True
+29457,u/Adventurous_Run3617,"['tears', 'inert']",2,inert,Wordle,309,True
+29458,u/Paracetamaul-AUS,"['crane', 'steam', 'easel', 'askew']",4,askew,Wordle,310,True
+29459,u/kmccormi,"['tired', 'irate', 'inert']",3,inert,Wordle,309,True
+29460,u/n-moon,"['stone', 'laser', 'askew']",3,askew,Wordle,310,True
+29461,u/copain32,"['crime', 'liner', 'resin', 'inert']",4,inert,Wordle,309,True
+29462,u/Kluuz,"['roast', 'flirt', 'inert']",3,inert,Wordle,309,True
+29463,u/paganknight_,"['risen', 'nerdy', 'inter', 'inert']",4,inert,Wordle,309,False
+29464,u/CrazyPridecat,"['salet', 'crept', 'exert', 'inert']",4,inert,Wordle,309,True
+29465,u/yourcountrycousin,"['bride', 'fiery', 'inert']",3,inert,Wordle,309,True
+29466,u/A_90s_Reference,"['stern', 'inert']",2,inert,Wordle,309,True
+29467,u/Neondanublu03,"['trace', 'enter', 'inert']",3,inert,Wordle,309,True
+29468,u/GreatBallsOfH20,"['death', 'twice', 'biter', 'inert']",4,inert,Wordle,309,True
+29469,u/redmagic-v4,"['tough', 'aisle', 'abase', 'askew']",4,askew,Wordle,310,True
+29470,u/solming13,"['skate', 'asker', 'askew']",3,askew,Wordle,310,True
+29471,u/chilifinger,"['stare', 'inert']",2,inert,Wordle,309,True
+29472,u/derkinator30,"['cloud', 'irate', 'inter', 'inert']",4,inert,Wordle,309,True
+29473,u/sugarbreath91,"['brave', 'stern', 'inert']",3,inert,Wordle,309,True
+29474,u/spronston,"['crate', 'ahead', 'angel', 'askew']",4,askew,Wordle,310,True
+29475,u/KJones77,"['house', 'clean', 'trend', 'inert']",4,inert,Wordle,309,True
+29476,u/cranial13,"['stare', 'chert', 'inert']",3,inert,Wordle,309,True
+29477,u/mug3n,"['churn', 'tapis', 'small', 'askew']",4,askew,Wordle,310,True
+29478,u/holden147,"['match', 'front', 'grunt', 'inert']",4,inert,Wordle,309,True
+29479,u/ZombieJockeyGames,"['wagon', 'awful', 'askew']",3,askew,Wordle,310,False
+29480,u/GDJosef,"['raise', 'seans', 'theta', 'speak', 'askew']",5,askew,Wordle,310,False
+29481,u/jh51681,"['crane', 'ferns', 'niner', 'inert']",4,inert,Wordle,309,True
+29482,u/IllogicalIllusionist,"['avoid', 'anger', 'abbey', 'asset', 'askew']",5,askew,Wordle,310,True
+29483,u/islandlily,"['frost', 'blurt', 'chart', 'inert']",4,inert,Wordle,309,True
+29484,u/shinraizen,"['inert', 'louse', 'pesky', 'makes', 'askew']",5,askew,Wordle,310,True
+29485,u/myfriendvv,"['stare', 'inert']",2,inert,Wordle,309,True
+29486,u/Bogus4Real,"['stare', 'entry', 'inert']",3,inert,Wordle,309,True
+29487,u/caycethecat,"['stuck', 'pesky', 'askew']",3,askew,Wordle,310,True
+29488,u/irisblues,"['sated', 'rhino', 'inert']",3,inert,Wordle,309,False
+29489,u/HayesChin,"['canoe', 'plumb', 'shirt', 'wavey', 'askew']",5,askew,Wordle,310,False
+29490,u/crazymouse2525,"['heats', 'token', 'entry', 'inert']",4,inert,Wordle,309,True
+29491,u/seafoodrice,"['salet', 'aides', 'aspen', 'asker', 'askew']",5,askew,Wordle,310,True
+29492,u/OneOfManyChildren,"['stare', 'based', 'askew']",3,askew,Wordle,310,True
+29493,u/ConfusedByPans,"['mirth', 'trial', 'inert']",3,inert,Wordle,309,False
+29494,u/Suitable_Lifeguard30,"['least', 'spear', 'wanes', 'askew']",4,askew,Wordle,310,True
+29495,u/chumzy0208,"['adieu', 'alter', 'numbs', 'chomp', 'asses', 'askew']",6,askew,Wordle,310,False
+29496,u/_duncan_idaho_,"['sword', 'whisk', 'askew']",3,askew,Wordle,310,True
+29497,u/aqua_zuma21,"['speak', 'askew']",2,askew,Wordle,310,True
+29498,u/fieldsilver,"['heart', 'plead', 'gaffe', 'annex', 'abbey', 'askew']",6,askew,Wordle,310,True
+29499,u/HiFiGuy197,"['steal', 'trend', 'pouty', 'inert']",4,inert,Wordle,309,False
+29500,u/doseofvitamink,"['dealt', 'creak', 'snake', 'askew']",4,askew,Wordle,310,True
+29501,u/leo_FLASH18,"['loser', 'reach', 'prent', 'inert']",4,inert,Wordle,309,True
+29502,u/dvstland,"['align', 'niche', 'inept', 'inert']",4,inert,Wordle,309,True
+29503,u/MasqueradeOfSilence,"['atone', 'tenet', 'elect', 'inept', 'inert']",5,inert,Wordle,309,False
+29504,u/ButtonEducational69,['crate'],1,crate,Wordle,45,True
+29505,u/j_tragic,"['crane', 'goner', 'stern', 'inert']",4,inert,Wordle,309,True
+29506,u/Awojinrin,"['audio', 'crest', 'inert']",3,inert,Wordle,309,False
+29507,u/Puzzleheaded-Bug7189,"['mount', 'inept', 'inert']",3,inert,Wordle,309,True
+29508,u/HS007,"['score', 'aside', 'ashen', 'askew']",4,askew,Wordle,310,True
+29509,u/up2_no_good,"['crwth', 'wings', 'swamp', 'weals', 'besaw', 'askew']",6,askew,Wordle,310,True
+29510,u/Hollywoostarsand,"['stink', 'pesky', 'askew']",3,askew,Wordle,310,True
+29511,u/pplovesk,"['steal', 'arise', 'asses', 'ashen', 'asked', 'askew']",6,askew,Wordle,310,True
+29513,u/Marlon_M,"['heist', 'edict', 'inert', 'inept']",4,inept,Wordle,505,True
+29514,u/clumsykitten,"['tares', 'ashed', 'askew']",3,askew,Wordle,310,True
+29515,u/Coco5s,"['trace', 'write', 'inert']",3,inert,Wordle,309,True
+29517,u/fundaman,"['audio', 'agent', 'frock', 'plumb', 'askew']",5,askew,Wordle,310,False
+29518,u/ndr0216,"['salet', 'asked', 'askew']",3,askew,Wordle,310,True
+29519,u/Jennarager,"['steal', 'there', 'overt', 'inert']",4,inert,Wordle,309,True
+29520,u/andreasbjorne,"['tares', 'repot', 'erect', 'blert', 'inert']",5,inert,Wordle,309,True
+29521,u/bumblenut99,"['tripe', 'melon', 'cheek', 'asked', 'askew']",5,askew,Wordle,310,True
+29522,u/Tumojitekato,"['tares', 'route', 'entry', 'inert']",4,inert,Wordle,309,True
+29523,u/958Silver,"['media', 'slice', 'finer', 'inert']",4,inert,Wordle,309,True
+29524,u/KDCaniell,"['roast', 'aside', 'asses', 'aspen', 'askew']",5,askew,Wordle,310,True
+29525,u/train314,"['stare', 'entry', 'inert']",3,inert,Wordle,309,True
+29526,u/XeoPlay123,"['crwth', 'allow', 'askew']",3,askew,Wordle,310,True
+29527,u/MyDearDapple,"['aster', 'remit', 'inert']",3,inert,Wordle,309,True
+29528,u/Size--,"['crane', 'hales', 'askew']",3,askew,Wordle,310,True
+29529,u/optional_wax,"['stare', 'essay', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29531,u/moahtdcmg,"['irate', 'inert']",2,inert,Wordle,309,True
+29532,u/TreeBeeTurkey014,"['adieu', 'inert']",2,inert,Wordle,309,True
+29533,u/lyovi,"['stare', 'aside', 'askew']",3,askew,Wordle,316,False
+29534,u/oldpekapeka33,"['stare', 'nymph', 'child', 'askew']",4,askew,Wordle,310,False
+29535,u/Soft-Concentrate-654,"['trace', 'bleak', 'naked', 'askew']",4,askew,Wordle,310,True
+29536,u/punieluna,"['smelt', 'cheat', 'event', 'inept', 'inert']",5,inert,Wordle,309,False
+29537,u/Happifier,"['acrid', 'aspen', 'asset', 'askew']",4,askew,Wordle,310,True
+29538,u/hermitxd,"['shear', 'festa', 'asses', 'caned', 'bingo', 'askew']",6,askew,Wordle,310,False
+29539,u/DelurkingtoComment,"['laser', 'askew']",2,askew,Wordle,310,True
+29540,u/Shorogwi,"['starn', 'washy', 'askew']",3,askew,Wordle,310,True
+29541,u/SentimentalDebris,"['drift', 'right', 'merit', 'inert']",4,inert,Wordle,309,True
+29542,u/sphynx76,"['amuse', 'asset', 'asked', 'asker', 'askew']",5,askew,Wordle,310,True
+29543,u/BinaryPill,"['trade', 'clean', 'wavey', 'askew']",4,askew,Wordle,310,True
+29544,u/Dull_Happiness,"['space', 'tired', 'right', 'orbit', 'inert']",5,inert,Wordle,309,False
+29545,u/AnvilOfMisanthropy,"['crate', 'voter', 'relit', 'inert']",4,inert,Wordle,309,True
+29546,u/Hayley___98,"['aeros', 'asked', 'askew']",3,askew,Wordle,310,True
+29547,u/8Yoongles,"['crone', 'stied', 'pales', 'askew']",4,askew,Wordle,310,False
+29548,u/realxnotnoah,"['octal', 'maise', 'asked', 'askew']",4,askew,Wordle,310,True
+29549,u/kadfr,"['stare', 'pleas', 'askew']",3,askew,Wordle,310,True
+29550,u/Elegant_Permission_6,"['alien', 'spine', 'denim', 'inert']",4,inert,Wordle,309,True
+29551,u/NineElements,"['tryst', 'slain', 'cased', 'askew']",4,askew,Wordle,310,True
+29552,u/SuzumiyaCham,"['spurt', 'chasm', 'asked', 'askew']",4,askew,Wordle,310,True
+29553,u/asinyan,"['child', 'water', 'askew']",3,askew,Wordle,310,True
+29554,u/sud_a,"['score', 'tales', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29555,u/Marlon_M,"['shape', 'donut', 'gazes', 'arses', 'milky', 'askew']",6,askew,Wordle,310,False
+29556,u/l_Know_Where_U_Live,"['twice', 'askew']",2,askew,Wordle,310,True
+29557,u/Justin113113,"['chain', 'salad', 'asker', 'askew']",4,askew,Wordle,310,True
+29558,u/courtney_enid,"['irate', 'caged', 'apnea', 'aloes', 'askew']",5,askew,Wordle,310,True
+29559,u/soulfulpurple,"['enjoy', 'steal', 'masse', 'usage', 'whips', 'askew']",6,askew,Wordle,310,False
+29560,u/throwaway_account159,"['crane', 'salet', 'askew']",3,askew,Wordle,310,True
+29561,u/LoverofJLaw,"['trace', 'bonus', 'laser', 'split', 'askew']",5,askew,Wordle,310,False
+29562,u/_but_nobody_came,"['break', 'their', 'inert']",3,inert,Wordle,309,True
+29563,u/SP_Cryptic,"['salet', 'askew']",2,askew,Wordle,310,True
+29564,u/Clever_Owl,"['today', 'pears', 'shame', 'easle', 'askew']",5,askew,Wordle,310,True
+29565,u/rxlcrab,"['peaty', 'clear', 'waken', 'askew']",4,askew,Wordle,310,True
+29566,u/Cobruh,"['drain', 'rinse', 'inner', 'inert']",4,inert,Wordle,309,True
+29567,u/PikachuIsBestPikachu,"['birds', 'steam', 'cease', 'askew']",4,askew,Wordle,310,True
+29568,u/zhc207,"['prism', 'shelf', 'cages', 'asset', 'asked', 'askew']",6,askew,Wordle,310,True
+29569,u/ThatWackyAlchemy,"['trick', 'right', 'merit', 'inert']",4,inert,Wordle,309,True
+29570,u/NakedSnakeEyes,"['stear', 'trend', 'inert']",3,inert,Wordle,309,True
+29571,u/gobluthmagician,"['raise', 'steak', 'leaks', 'askew']",4,askew,Wordle,310,True
+29572,u/Frestho,"['salet', 'runic', 'inert']",3,inert,Wordle,309,False
+29573,u/please-disregard,"['crane', 'sited', 'inert']",3,inert,Wordle,309,False
+29574,u/SleepThinker,"['steal', 'cease', 'based', 'ashen', 'askew']",5,askew,Wordle,310,True
+29575,u/CorporalWotjek,"['yolks', 'burnt', 'chide', 'speak', 'askew']",5,askew,Wordle,310,False
+29576,u/robophile-ta,"['smear', 'waste', 'maser', 'askew']",4,askew,Wordle,310,False
+29577,u/Ladnarr2,"['house', 'seven', 'asset', 'asked', 'asker', 'askew']",6,askew,Wordle,310,True
+29578,u/sleigh_queen,"['slate', 'ashen', 'asked', 'asker', 'askew']",5,askew,Wordle,310,True
+29579,u/PimpeeMcgee,"['woman', 'knife', 'inert']",3,inert,Wordle,309,True
+29580,u/NSNick,"['route', 'snail', 'inter', 'inert']",4,inert,Wordle,309,False
+29581,u/wave_327,"['trace', 'plead', 'manes', 'askew']",4,askew,Wordle,310,True
+29582,u/madisonpalooza,"['bread', 'there', 'stern', 'inert']",4,inert,Wordle,309,True
+29583,u/SamVulcan,"['crane', 'pious', 'asset', 'askew']",4,askew,Wordle,310,False
+29584,u/AshamedMusician5482,"['soare', 'mates', 'asked', 'askew']",4,askew,Wordle,310,True
+29585,u/AshamedMusician5482,"['soare', 'mates', 'asked', 'askew']",4,askew,Wordle,310,True
+29586,u/jenesuisunefemme,"['tight', 'arose', 'aspen', 'limbs', 'faced', 'askew']",6,askew,Wordle,310,False
+29587,u/Spanky_McJiggles,"['blade', 'shear', 'panes', 'askew']",4,askew,Wordle,310,True
+29588,u/IsuckAtkrunker,"['tares', 'asked', 'askew']",3,askew,Wordle,310,True
+29589,u/qingskies,"['soare', 'easel', 'ashes', 'aspen', 'asked', 'askew']",6,askew,Wordle,310,True
+29590,u/mlc885,"['crane', 'bleat', 'wages', 'askew']",4,askew,Wordle,310,True
+29591,u/woodcircleontable,"['dream', 'heaps', 'slick', 'bunks', 'askew']",5,askew,Wordle,310,False
+29592,u/rveniss,"['salet', 'aspen', 'askew']",3,askew,Wordle,310,True
+29593,u/ryeshoes,"['tubes', 'champ', 'wordy']",4,askew,Wordle,310,False
+29594,u/phantomenacer,"['snail', 'route', 'cased', 'askew']",4,askew,Wordle,310,False
+29595,u/Neisseriaceae,"['tired', 'munch', 'loafs', 'sages', 'askew']",5,askew,Wordle,310,False
+29596,u/swaqmaster4lyfe,"['inert', 'clash', 'eased', 'foggy', 'amass', 'askew']",6,askew,Wordle,310,False
+29597,u/Share4aCare,"['dread', 'slate', 'seats', 'easel', 'askew']",5,askew,Wordle,310,True
+29598,u/resatr,"['stare', 'paces', 'ashed', 'askew']",4,askew,Wordle,310,True
+29600,u/_The_One_And_Only__,"['tares', 'asked', 'askew']",3,askew,Wordle,310,True
+29601,u/Wommby,"['sewer', 'askew']",2,askew,Wordle,310,True
+29602,u/Werner__Herzog,"['steam', 'erase', 'blink', 'cakes', 'asked', 'askew']",6,askew,Wordle,310,False
+29603,u/KimchiBearChile,"['arise', 'asset', 'ashes', 'askew']",4,askew,Wordle,310,True
+29604,u/leah2106,"['steal', 'phase', 'drony', 'flick', 'askew']",5,askew,Wordle,310,False
+29605,u/ZappySnap,"['trace', 'plead', 'ashen', 'askew']",4,askew,Wordle,310,True
+29606,u/dontTHROWnarwhals,"['later', 'inert']",2,inert,Wordle,309,True
+29607,u/raarevalo96,"['raise', 'diner', 'inert']",3,inert,Wordle,309,True
+29608,u/blvdlasalle,"['cares', 'askew']",2,askew,Wordle,310,True
+29609,u/Yepyep911,"['aster', 'ashen', 'askew']",3,askew,Wordle,310,True
+29610,u/madisonpalooza,"['blade', 'mater', 'ashed', 'askew']",4,askew,Wordle,310,True
+29611,u/CaptainFunn,"['money', 'filet', 'waver', 'dukes', 'askew']",5,askew,Wordle,310,False
+29612,u/BoardwalkKnitter,"['mount', 'helix', 'apery', 'awake', 'askew']",5,askew,Wordle,310,True
+29613,u/highway240,"['adieu', 'aster', 'aspen', 'ashes', 'askew']",5,askew,Wordle,310,True
+29614,u/PreventFalls,"['rains', 'shack', 'blues', 'asked', 'askew']",5,askew,Wordle,310,False
+29615,u/UnicornTwinkle,"['skate', 'askew']",2,askew,Wordle,310,True
+29616,u/randomprecision07,"['bread', 'stale', 'askew']",3,askew,Wordle,310,True
+29617,u/LittleLordFuckleroy1,"['grown', 'await', 'alway', 'askew']",4,askew,Wordle,310,True
+29618,u/ClashForeverrr,"['stern', 'welsh', 'sawed', 'askew']",4,askew,Wordle,310,True
+29619,u/tooooooodayrightnow,"['raise', 'teams', 'pound', 'shear', 'askew']",5,askew,Wordle,310,False
+29620,u/r_osit,"['inert', 'shake', 'asked', 'askew']",4,askew,Wordle,310,True
+29621,u/ElWanderer_KSP,"['crypt', 'mange', 'bleak', 'askew']",4,askew,Wordle,310,True
+29622,u/bhalimeh93,"['louie', 'karst', 'shake', 'asked', 'askew']",5,askew,Wordle,310,False
+29623,u/Suicidal-Lysosome,"['relax', 'skate', 'cakes', 'askew']",4,askew,Wordle,310,True
+29624,u/pabpab999,"['slice', 'laser', 'askew']",3,askew,Wordle,310,True
+29625,u/Suicidal-Lysosome,"['ghoul', 'stark', 'flirt', 'inert']",4,inert,Wordle,309,True
+29626,u/mystiqueallie,"['first', 'shade', 'leaps', 'cough', 'eaves', 'askew']",6,askew,Wordle,310,False
+29627,u/reeposterr,"['crwth', 'swail', 'wasps', 'askew']",4,askew,Wordle,310,True
+29628,u/badmother,"['fight', 'brawl', 'pawed', 'askew']",4,askew,Wordle,310,True
+29629,u/taxi00,"['atone', 'amber', 'ached', 'askew']",4,askew,Wordle,310,True
+29630,u/Da_Rish,"['wifes', 'askew']",2,askew,Wordle,310,True
+29631,u/poftim,"['manic', 'stare', 'essay', 'askew']",4,askew,Wordle,310,True
+29632,u/droford,"['teach', 'lapel', 'raged', 'askew']",4,askew,Wordle,310,True
+29633,u/Mecha_Tortoise,"['shard', 'manes', 'asset', 'askew']",4,askew,Wordle,310,True
+29634,u/andreasbjorne,"['tares', 'aspen', 'asked', 'askew']",4,askew,Wordle,310,True
+29635,u/MRoar,"['throw', 'askew']",2,askew,Wordle,310,True
+29636,u/CompletelyBee,"['peach', 'gamer', 'tinea', 'ables', 'assez', 'askew']",6,askew,Wordle,310,True
+29637,u/Puzzleheaded-Bug7189,"['tough', 'pairs', 'sewar', 'wades', 'wawes', 'askew']",6,askew,Wordle,310,True
+29638,u/958Silver,"['broad', 'stain', 'waste', 'askew']",4,askew,Wordle,310,True
+29639,u/caffeinated_teddy,"['spare', 'aisle', 'askew']",3,askew,Wordle,310,True
+29640,u/cougar572,"['aegis', 'youth', 'ample', 'askew']",4,askew,Wordle,310,False
+29641,u/madeleineruth19,"['opine', 'caulk', 'takes', 'asked', 'askew']",5,askew,Wordle,311,False
+29642,u/SaintAndrew92,"['stear', 'easle', 'chase', 'sepia', 'askew']",5,askew,Wordle,310,True
+29643,u/JazzmanJB,"['irate', 'pales', 'ashen', 'askew']",4,askew,Wordle,310,True
+29644,u/Sir0bin,"['stare', 'aspen', 'askew']",3,askew,Wordle,310,True
+29645,u/JimboMastah,"['adieu', 'proms', 'ashen', 'askew']",4,askew,Wordle,310,False
+29646,u/AnotherAccount4This,"['scare', 'speal', 'eased', 'askew']",4,askew,Wordle,310,True
+29648,u/raarevalo96,"['raise', 'steak', 'leaks', 'asked', 'askew']",5,askew,Wordle,310,True
+29649,u/436687,"['slays', 'asker', 'askew']",3,askew,Wordle,310,True
+29650,u/Hydragorn,"['slant', 'chase', 'ideas', 'easer', 'asper', 'askew']",6,askew,Wordle,310,True
+29651,u/Drunk_Sorting_Hat,"['arose', 'asked', 'askew']",3,askew,Wordle,310,True
+29655,u/Empress_Pilaf,"['blame', 'steak', 'askew']",3,askew,Wordle,310,True
+29657,u/zeuz36,"['tires', 'saved', 'ashes', 'asker', 'askew']",5,askew,Wordle,310,True
+29658,u/SUPERsquirrelPower,"['heart', 'baned', 'alley', 'ouija', 'asses', 'askew']",6,askew,Wordle,310,False
+29659,u/bambusbjoern,"['stalk', 'askew']",2,askew,Wordle,310,True
+29660,u/mauser98k1998,"['about', 'meiny', 'plack', 'shard', 'asked', 'askew']",6,askew,Wordle,310,False
+29661,u/wildrice777,"['stare', 'pleas', 'ashen', 'askew']",4,askew,Wordle,310,True
+29662,u/Initial_E,"['tripe', 'heals', 'saved', 'askew']",4,askew,Wordle,310,True
+29663,u/jalissapi,"['raise', 'mount', 'speak', 'leash', 'asked', 'askew']",6,askew,Wordle,310,False
+29664,u/BingoBongoBang,"['joker', 'liked', 'fakes', 'askew']",4,askew,Wordle,310,True
+29665,u/MrAdelphi03,"['raise', 'sweat', 'weans', 'asset', 'askew']",5,askew,Wordle,310,False
+29666,u/full-metal-ashtray,"['trail', 'canoe', 'speak', 'askew']",4,askew,Wordle,310,True
+29667,u/Milk_was_a_bad_idea,"['water', 'askew']",2,askew,Wordle,310,True
+29668,u/opobdtfs,"['inert', 'slope', 'cased', 'askew']",4,askew,Wordle,310,True
+29669,u/NannerlGrey,"['radio', 'beast', 'aspen', 'askew']",4,askew,Wordle,310,True
+29670,u/likwidfuzion,"['roate', 'sneak', 'asked', 'askew']",4,askew,Wordle,310,True
+29671,u/hersheybar22,"['beast', 'swear', 'askew']",3,askew,Wordle,310,True
+29672,u/thedanishchaos,"['crane', 'plumb', 'wager', 'askew']",4,askew,Wordle,310,False
+29673,u/chobani-,"['sport', 'canes', 'askew']",3,askew,Wordle,310,True
+29674,u/n9obs_win,"['crate', 'based', 'aspen', 'ashes', 'askew']",5,askew,Wordle,310,True
+29675,u/Xephyrius,"['aspie', 'ashen', 'askew']",3,askew,Wordle,310,True
+29676,u/MamboTB88,"['bathe', 'plead', 'weary', 'awake', 'askew']",5,askew,Wordle,310,True
+29677,u/Rh1972,"['crate', 'maser', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29678,u/123_underscore_321,"['aeros', 'ashes', 'asked', 'askew']",4,askew,Wordle,310,True
+29679,u/catmeress,"['adieu', 'alter', 'ashes', 'aspen', 'askew']",5,askew,Wordle,310,True
+29680,u/terlinguatx,"['xylem', 'water', 'askew']",3,askew,Wordle,310,True
+29681,u/Speye,"['askew', 'fight', 'heist']",3,heist,Wordle,311,False
+29682,u/AR_7,"['straw', 'askew']",2,askew,Wordle,310,True
+29683,u/Shorogwi,"['drink', 'shift', 'hoist', 'heist']",4,heist,Wordle,311,True
+29684,u/laps1215,"['water', 'askew']",2,askew,Wordle,310,False
+29685,u/HiFiGuy197,"['steal', 'pious', 'beach', 'fader', 'askew']",5,askew,Wordle,310,False
+29686,u/rlemaitre,"['raise', 'ample', 'young', 'ashes', 'askew']",5,askew,Wordle,310,False
+29687,u/nowthatsmagic,"['water', 'askew']",2,askew,Wordle,310,True
+29689,u/Aristophanes771,"['beast', 'heist']",2,heist,Wordle,311,True
+29690,u/OhHelloPlease,"['arise', 'askew']",2,askew,Wordle,310,True
+29691,u/sachaha,"['soare', 'blest', 'exist', 'heist']",4,heist,Wordle,311,True
+29692,u/zillenial96chick,"['audio', 'alert', 'agape', 'ashes', 'askew']",5,askew,Wordle,310,True
+29693,u/PimpeeMcgee,"['trade', 'hazel', 'askew']",3,askew,Wordle,310,True
+29694,u/evidens,"['trace', 'plead', 'fakes', 'askew']",4,askew,Wordle,310,True
+29695,u/TigzyThe7Master,"['tares', 'aster', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29696,u/Chewy96,"['later', 'askew']",2,askew,Wordle,310,True
+29697,u/Tne328,"['steak', 'askew']",2,askew,Wordle,310,True
+29698,u/peace_97,"['reast', 'bleak', 'spake', 'askew']",4,askew,Wordle,310,False
+29699,u/BrunoStalky,"['snarl', 'asked', 'askew']",3,askew,Wordle,310,True
+29700,u/Hydreigon_Lord,"['chord', 'misty', 'pulse', 'sneak', 'askew']",5,askew,Wordle,310,True
+29701,u/sase_o,"['canoe', 'delay', 'strip', 'askew']",4,askew,Wordle,310,False
+29702,u/bungle_bogs,"['stare', 'lease', 'cased', 'askew']",4,askew,Wordle,310,True
+29703,u/bungle_bogs,"['stare', 'lease', 'cased', 'askew']",4,askew,Wordle,310,True
+29704,u/kaksjsnns,"['chafe', 'hikes', 'heist']",3,heist,Wordle,311,True
+29705,u/Insatiableheart,"['alter', 'ashen', 'askew']",3,askew,Wordle,310,True
+29706,u/vbhiro,"['stare', 'beaks', 'asked', 'askew']",4,askew,Wordle,310,True
+29707,u/drkwtrs,"['haunt', 'plead', 'grace', 'askew']",4,askew,Wordle,310,True
+29708,u/jruhlman09,"['trace', 'ashen', 'asked', 'askew']",4,askew,Wordle,310,True
+29709,u/khcollett,"['raise', 'sedan', 'askew']",3,askew,Wordle,310,True
+29710,u/izzyvet,"['shade', 'point', 'curly', 'masse', 'askew']",5,askew,Wordle,310,False
+29711,u/KJones77,"['house', 'spear', 'based', 'askew']",4,askew,Wordle,310,True
+29712,u/Expired_insecticide,"['snail', 'taste', 'askew']",3,askew,Wordle,310,True
+29713,u/_duncan_idaho_,"['sport', 'blast', 'chest', 'heist']",4,heist,Wordle,311,True
+29714,u/NakedSnakeEyes,"['stear', 'chase', 'easel', 'asked', 'askew']",5,askew,Wordle,310,True
+29715,u/doseofvitamink,"['dealt', 'remit', 'feint', 'heist']",4,heist,Wordle,311,True
+29716,u/sniffie45,"['soare', 'clint', 'nymph', 'waqfs', 'askew']",5,askew,Wordle,310,False
+29717,u/anthonyqld,"['spine', 'cries', 'exist', 'heist']",4,heist,Wordle,311,True
+29718,u/sugarbreath91,"['tread', 'space', 'easel', 'ashen', 'askew']",5,askew,Wordle,310,True
+29719,u/Seagull_Lad05,"['crane', 'shtik', 'askew']",3,askew,Wordle,310,False
+29720,u/yorky1800,"['money', 'erupt', 'blest', 'heist']",4,heist,Wordle,311,True
+29721,u/ImhereforAB,"['spicy', 'blast', 'mason', 'gears', 'ashed', 'askew']",6,askew,Wordle,310,True
+29722,u/Bogus4Real,"['pious', 'stern', 'false', 'askew']",4,askew,Wordle,310,True
+29723,u/Golftango6,"['canoe', 'pleat', 'askew']",3,askew,Wordle,310,True
+29724,u/Emergent444,"['sprat', 'askew']",2,askew,Wordle,310,True
+29725,u/Cadillacquer,"['trial', 'spain', 'based', 'asked', 'askew']",5,askew,Wordle,310,True
+29726,u/spronston,"['crate', 'tepid', 'heist']",3,heist,Wordle,311,True
+29727,u/ConfusedByPans,"['doubt', 'sling', 'crams', 'waspy', 'askew']",5,askew,Wordle,310,False
+29728,u/andronicus_14,"['stare', 'askew']",2,askew,Wordle,310,True
+29729,u/hattman57,"['brake', 'sound', 'heist']",3,heist,Wordle,311,False
+29730,u/fixedtafernback,"['chest', 'risen', 'mules', 'saved', 'askew']",5,askew,Wordle,310,True
+29731,u/lavinient,"['blame', 'feast', 'shear', 'eased', 'askew']",5,askew,Wordle,310,True
+29732,u/nuremberp,"['wreck', 'askew']",2,askew,Wordle,310,True
+29733,u/johnnykik5,"['tares', 'asked', 'askew']",3,askew,Wordle,310,True
+29734,u/_but_nobody_came,"['foley', 'saver', 'askew']",3,askew,Wordle,310,True
+29735,u/holden147,"['stern', 'lades', 'askew']",3,askew,Wordle,310,True
+29737,u/mraza9,"['mares', 'ashed', 'aspen', 'askew']",4,askew,Wordle,310,True
+29738,u/Juglans_nigra,"['share', 'askew']",2,askew,Wordle,310,True
+29739,u/seafoodrice,"['salet', 'guest', 'feist', 'heist']",4,heist,Wordle,311,True
+29740,u/Myriachan,"['stale', 'maser', 'askew']",3,askew,Wordle,310,True
+29741,u/crazythinker101,"['aisle', 'ashes', 'asked', 'asker', 'askew']",5,askew,Wordle,310,True
+29742,u/mug3n,"['punch', 'homer', 'hefty', 'heist']",4,heist,Wordle,311,True
+29744,u/prlj,"['trade', 'manes', 'askew']",3,askew,Wordle,310,True
+29745,u/Altruistic-You5355,"['awoke', 'askew']",2,askew,Wordle,310,True
+29746,u/samirat,"['slant', 'arise', 'asked', 'askew']",4,askew,Wordle,310,True
+29747,u/samirat,"['slant', 'arise', 'asked', 'askew']",4,askew,Wordle,310,True
+29748,u/OnlyTookTenMinutes,"['crwth', 'waide', 'soupy', 'sweal', 'means', 'askew']",6,askew,Wordle,310,False
+29749,u/socarrat,"['whisk', 'heist']",2,heist,Wordle,311,True
+29750,u/MasqueradeOfSilence,"['atone', 'adieu', 'alley', 'amber', 'askew']",5,askew,Wordle,310,True
+29751,u/CorporalWotjek,"['syrup', 'align', 'botch', 'heist']",4,heist,Wordle,311,False
+29752,u/aqua_zuma21,"['react', 'debit', 'heist']",3,heist,Wordle,311,True
+29753,u/shinraizen,"['salet', 'chest', 'heist']",3,heist,Wordle,311,True
+29754,u/aqua_zuma21,"['react', 'debit', 'heist']",3,heist,Wordle,311,True
+29755,u/Ecstatic_Tip3314,"['table', 'pears', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29756,u/fieldsilver,"['aloes', 'spice', 'heist']",3,heist,Wordle,311,True
+29757,u/IllogicalIllusionist,"['avoid', 'islet', 'heist']",3,heist,Wordle,311,True
+29758,u/ObsidianDreamsRedux,"['datum', 'spore', 'chink', 'heist']",4,heist,Wordle,311,False
+29759,u/spaceman_______spiff,"['spent', 'asset', 'exist', 'geist', 'feist', 'heist']",6,heist,Wordle,311,True
+29760,u/Elegant_Permission_6,"['alien', 'arsey', 'asked', 'askew']",4,askew,Wordle,310,True
+29761,u/mdma11,"['chunk', 'waste', 'askew']",3,askew,Wordle,310,False
+29762,u/pplovesk,"['steal', 'those', 'heist']",3,heist,Wordle,311,True
+29763,u/GDJosef,"['raise', 'heist']",2,heist,Wordle,311,True
+29764,u/oldpekapeka33,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+29765,u/alandizzle,"['crane', 'plead', 'shout', 'bases', 'askew']",5,askew,Wordle,310,False
+29766,u/Initial_E,"['quest', 'yeast', 'heist']",3,heist,Wordle,311,True
+29767,u/solming13,"['scale', 'pesto', 'feist', 'heist']",4,heist,Wordle,311,True
+29768,u/JPix98,"['askew', 'serum', 'heist']",3,heist,Wordle,311,True
+29769,u/Frestho,"['salet', 'askew']",2,askew,Wordle,310,True
+29770,u/zzknights,"['heart', 'value', 'speak', 'askew']",4,askew,Wordle,310,True
+29771,u/yogijear,"['ditch', 'forms', 'winge', 'buyer', 'swaps', 'askew']",6,askew,Wordle,310,False
+29772,u/mvharry9,"['irate', 'paned', 'askew']",3,askew,Wordle,310,True
+29773,u/please-disregard,"['crane', 'tepal', 'askew']",3,askew,Wordle,310,False
+29774,u/thegreenguitar,"['cloud', 'skate', 'askew']",3,askew,Wordle,310,True
+29775,u/mindcorners,"['steak', 'askew']",2,askew,Wordle,310,True
+29776,u/QuirkyPee,"['heigh', 'heist']",2,heist,Wordle,311,True
+29777,u/KingD123,"['polar', 'chant', 'badge', 'adieu', 'askew']",5,askew,Wordle,310,True
+29778,u/leo_FLASH18,"['roast', 'phase', 'basen', 'wilds', 'askew']",5,askew,Wordle,310,False
+29779,u/Jeff10w25,"['beast', 'heist']",2,heist,Wordle,311,True
+29780,u/Effective_Hawk2756,"['straw', 'askew']",2,askew,Wordle,310,True
+29781,u/nerdy_raconteur,"['spoke', 'kesar', 'wafts', 'askew']",4,askew,Wordle,310,False
+29782,u/formerlyDylan,"['stare', 'anise', 'absey', 'ashed', 'assez', 'askew']",6,askew,Wordle,310,True
+29783,u/Haste91,"['shape', 'easel', 'mover', 'nixed', 'asked', 'askew']",6,askew,Wordle,310,False
+29784,u/Prouze,"['frame', 'ghost', 'heist']",3,heist,Wordle,311,False
+29785,u/HS007,"['scare', 'pesky', 'heist']",3,heist,Wordle,311,True
+29786,u/Hollywoostarsand,"['yeast', 'heist']",2,heist,Wordle,311,True
+29787,u/up2_no_good,"['crwth', 'hated', 'hefty', 'helot', 'heist']",5,heist,Wordle,311,True
+29788,u/Yepyep911,"['stear', 'inset', 'heist']",3,heist,Wordle,311,True
+29789,u/fundaman,"['audio', 'chimp', 'heist']",3,heist,Wordle,311,True
+29790,u/TheOneInchPunisher,"['ouija', 'panda', 'grape', 'bleat', 'asked', 'askew']",6,askew,Wordle,310,True
+29791,u/OneOfManyChildren,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+29792,u/Neondanublu03,"['trace', 'essay', 'ashed', 'askew']",4,askew,Wordle,310,True
+29793,u/Tumojitekato,"['tares', 'askew']",2,askew,Wordle,310,True
+29794,u/Deven_Ram,"['salet', 'asked', 'askew']",3,askew,Wordle,310,True
+29795,u/yourcountrycousin,"['brown', 'waste', 'askew']",3,askew,Wordle,310,True
+29796,u/VardaElentari86,"['tread', 'blame', 'haven', 'askew']",4,askew,Wordle,310,True
+29797,u/NarrowLoveX,"['stare', 'lapse', 'based', 'aches', 'askew']",5,askew,Wordle,310,True
+29798,u/soap_lady,"['crane', 'kilts', 'speak', 'askew']",4,askew,Wordle,310,False
+29799,u/ndr0216,"['salet', 'chest', 'heist']",3,heist,Wordle,311,True
+29800,u/XeoPlay123,"['crwth', 'those', 'heist']",3,heist,Wordle,311,True
+29801,u/optional_wax,"['stare', 'onset', 'heist']",3,heist,Wordle,311,True
+29802,u/Clever_Owl,"['today', 'hurts', 'heist']",3,heist,Wordle,311,True
+29803,u/moselth,"['price', 'tales', 'swans', 'askew']",4,askew,Wordle,310,False
+29804,u/BinaryPill,"['trade', 'onset', 'chest', 'heist']",4,heist,Wordle,311,True
+29805,u/TonightRemote,"['ghost', 'slate', 'essay', 'asses', 'askew']",5,askew,Wordle,310,True
+29806,u/darknekolux,"['arise', 'heist']",2,heist,Wordle,311,True
+29807,u/j_tragic,"['grace', 'salet', 'ashes', 'aspen', 'asked', 'askew']",6,askew,Wordle,310,True
+29808,u/hsx_,['heist'],1,heist,Wordle,311,True
+29809,u/Hybelkanina,"['tears', 'heist']",2,heist,Wordle,311,True
+29810,u/TreeBeeTurkey014,"['adieu', 'asset', 'asper', 'askew']",4,askew,Wordle,310,True
+29811,u/Happifier,"['ovary', 'spiel', 'exist', 'heist']",4,heist,Wordle,311,True
+29812,u/Standard_Surprise_68,"['arise', 'heist']",2,heist,Wordle,311,True
+29813,u/lyovi,"['steal', 'piste', 'heist']",3,heist,Wordle,317,False
+29814,u/soulfulpurple,"['meant', 'depot', 'rebut', 'while', 'heist']",5,heist,Wordle,311,False
+29815,u/NetflixAndNikah,"['aeros', 'asset', 'askew']",3,askew,Wordle,310,True
+29816,u/punieluna,"['glare', 'wheat', 'pawed', 'askew']",4,askew,Wordle,310,True
+29817,u/8Yoongles,"['oiler', 'chime', 'heist']",3,heist,Wordle,311,True
+29818,u/SaltedAndSugared,"['three', 'heats', 'heist']",3,heist,Wordle,311,True
+29819,u/variedenthuiast,['heist'],1,heist,Wordle,311,True
+29820,u/DennyOfPilows,"['askew', 'scene', 'resty', 'temps', 'heist']",5,heist,Wordle,311,True
+29821,u/realmcmonkey,['askew'],1,askew,Wordle,310,True
+29822,u/peace_97,"['reast', 'heist']",2,heist,Wordle,311,True
+29823,u/ElWanderer_KSP,"['crypt', 'slant', 'quest', 'exist', 'heist']",5,heist,Wordle,311,True
+29824,u/Hayley___98,"['aeros', 'setup', 'feist', 'heist']",4,heist,Wordle,311,True
+29825,u/Giggsy99,"['pairs', 'shine', 'heist']",3,heist,Wordle,311,True
+29829,u/caycethecat,"['daily', 'brine', 'exist', 'heist']",4,heist,Wordle,311,True
+29830,u/somebodypleasefindja,"['crank', 'moist', 'heist']",3,heist,Wordle,311,True
+29831,u/spaiydz,"['slate', 'their', 'heist']",3,heist,Wordle,311,False
+29832,u/courtney_enid,"['irate', 'timed', 'exist', 'heist']",4,heist,Wordle,311,True
+29833,u/Justin113113,"['chain', 'frith', 'heist']",3,heist,Wordle,311,True
+29834,u/Flamywolfie,"['unite', 'heist']",2,heist,Wordle,311,True
+29835,u/annoyedpetparent,"['hoist', 'heist']",2,heist,Wordle,311,False
+29836,u/SentimentalDebris,"['scowl', 'whisk', 'askew']",3,askew,Wordle,310,True
+29838,u/Marlon_M,"['grime', 'exist', 'heist']",3,heist,Wordle,311,True
+29839,u/LoverofJLaw,"['trace', 'blunt', 'empty', 'field', 'quiet', 'heist']",6,heist,Wordle,311,False
+29840,u/asinyan,"['clear', 'think', 'heist']",3,heist,Wordle,311,False
+29841,u/wave_327,"['plate', 'outer', 'ethic', 'heist']",4,heist,Wordle,311,True
+29842,u/Moonlight_Sonata545,"['drape', 'eagle', 'sweat', 'askew']",4,askew,Wordle,310,True
+29843,u/sleigh_queen,"['slice', 'heist']",2,heist,Wordle,311,True
+29844,u/2Legit2Quiz,"['boner', 'fetal', 'techy', 'depth', 'heist']",5,heist,Wordle,311,True
+29845,u/robophile-ta,"['smear', 'plast', 'exist', 'heist']",4,heist,Wordle,311,False
+29846,u/Natural-Bet-414,"['slate', 'reset', 'heist']",3,heist,Wordle,311,True
+29847,u/zlightyear,"['heart', 'heist']",2,heist,Wordle,311,True
+29848,u/Ladnarr2,"['house', 'heist']",2,heist,Wordle,311,True
+29849,u/gobluthmagician,"['raise', 'feist', 'heist']",3,heist,Wordle,311,True
+29850,u/unaunan,"['raise', 'heist']",2,heist,Wordle,311,True
+29851,u/Share4aCare,"['price', 'shied', 'heist']",3,heist,Wordle,311,True
+29852,u/MrAdelphi03,"['raise', 'heist']",2,heist,Wordle,311,True
+29853,u/sud_a,"['croak', 'glide', 'exist', 'heist']",4,heist,Wordle,311,True
+29854,u/CharleneFoxtrot,"['irate', 'gavel', 'ashen', 'askew']",4,askew,Wordle,310,True
+29855,u/EmuPotential8478,"['pause', 'chest', 'heist']",3,heist,Wordle,311,True
+29856,u/jenesuisunefemme,"['guilt', 'print', 'shist', 'heist']",4,heist,Wordle,311,True
+29857,u/zhc207,"['spare', 'chest', 'heist']",3,heist,Wordle,311,True
+29858,u/sphynx76,"['tread', 'white', 'heist']",3,heist,Wordle,311,True
+29859,u/SamVulcan,"['crane', 'pious', 'heist']",3,heist,Wordle,311,False
+29860,u/ejb3204,"['salet', 'heist']",2,heist,Wordle,311,True
+29861,u/NineElements,"['tryst', 'blast', 'ghost', 'heist']",4,heist,Wordle,311,True
+29862,u/kromudh,"['tenia', 'deity', 'heist']",3,heist,Wordle,311,True
+29863,u/MegachiropsOnReddit,['heist'],1,heist,Wordle,311,True
+29864,u/-tardigr8-,"['enact', 'dream', 'fable', 'vespa', 'askew']",5,askew,Wordle,310,True
+29865,u/hc_84,"['waste', 'steel', 'heist']",3,heist,Wordle,311,True
+29866,u/Balakidy,"['piano', 'heist']",2,heist,Wordle,311,True
+29867,u/yogijear,"['dutch', 'boils', 'shift', 'heist']",4,heist,Wordle,311,False
+29868,u/mlc885,"['crane', 'piety', 'thief', 'heist']",4,heist,Wordle,311,True
+29869,u/Xephyrius,"['aspie', 'risen', 'heist']",3,heist,Wordle,311,True
+29870,u/eaglebtc,"['vixen', 'creek', 'askew']",3,askew,Wordle,310,True
+29871,u/Dwychwder,"['adieu', 'short', 'heist']",3,heist,Wordle,311,False
+29872,u/voxxa,"['raise', 'heist']",2,heist,Wordle,311,True
+29873,u/CaptainFunn,"['happy', 'horde', 'heist']",3,heist,Wordle,311,True
+29874,u/respectthechemistry1,"['scone', 'plesh', 'heist']",3,heist,Wordle,311,True
+29875,u/VWCatLady,"['perky', 'leash', 'heist']",3,heist,Wordle,311,True
+29876,u/KimchiBearChile,"['arise', 'heist']",2,heist,Wordle,311,True
+29877,u/ZappySnap,"['tares', 'stole', 'chest', 'heist']",4,heist,Wordle,311,True
+29878,u/XmertonX,"['trash', 'chest', 'heist']",3,heist,Wordle,311,True
+29879,u/Miles-JB,"['those', 'heist']",2,heist,Wordle,311,True
+29880,u/mdma11,"['feast', 'heist']",2,heist,Wordle,311,True
+29881,u/BoardwalkKnitter,"['spike', 'edits', 'heist']",3,heist,Wordle,311,True
+29882,u/aeouo,"['crate', 'meths', 'heist']",3,heist,Wordle,311,True
+29883,u/isthatabee,"['brain', 'shift', 'heist']",3,heist,Wordle,311,True
+29884,u/Neisseriaceae,"['tired', 'style', 'feast', 'heist']",4,heist,Wordle,311,False
+29885,u/resatr,"['super', 'tease', 'heist']",3,heist,Wordle,311,True
+29886,u/qingskies,"['soare', 'flesh', 'heist']",3,heist,Wordle,311,True
+29887,u/Ecstatic_Tip3314,"['sport', 'chest', 'heist']",3,heist,Wordle,311,True
+29888,u/fourenclosedwalls,"['snail', 'other', 'heist']",3,heist,Wordle,311,False
+29889,u/RoyalCrown13,"['adieu', 'slide', 'heist']",3,heist,Wordle,311,True
+29890,u/CharleneFoxtrot,"['irate', 'tepid', 'feist', 'heist']",4,heist,Wordle,311,True
+29891,u/ryeshoes,"['tubes', 'fling', 'shite']",4,heist,Wordle,311,False
+29893,u/JazzmanJB,"['irate', 'lined', 'evict', 'heist']",4,heist,Wordle,311,False
+29894,u/ambushbugger,"['askew', 'close', 'fresh', 'heist']",4,heist,Wordle,311,True
+29895,u/emoskeleton_,"['ghost', 'adieu', 'heist']",3,heist,Wordle,311,False
+29896,u/melonlollicholypop,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+29897,u/KangaStretchMyHands,"['about', 'right', 'heist']",3,heist,Wordle,311,True
+29898,u/NetflixAndNikah,"['aeros', 'seize', 'heist']",3,heist,Wordle,311,True
+29899,u/rocketmczoom,"['grind', 'split', 'heist']",3,heist,Wordle,311,False
+29900,u/madisonpalooza,"['grace', 'moved', 'shent', 'heist']",4,heist,Wordle,311,True
+29901,u/PreventFalls,"['rains', 'thick', 'smith', 'loins', 'hoist', 'heist']",6,heist,Wordle,311,False
+29902,u/taxi00,"['atone', 'terse', 'heist']",3,heist,Wordle,311,True
+29903,u/madeleineruth19,"['opine', 'tried', 'heist']",3,heist,Wordle,312,True
+29904,u/rubber_hedgehog,"['crate', 'tenet', 'heist']",3,heist,Wordle,311,True
+29905,u/poftim,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+29906,u/r_osit,"['askew', 'shone', 'fresh', 'heist']",4,heist,Wordle,311,True
+29907,u/DeVilleBT,"['clear', 'money', 'spite', 'heist']",4,heist,Wordle,311,True
+29908,u/xxladylola69,"['steak', 'heist']",2,heist,Wordle,311,True
+29909,u/IndigoMoonAdventure,"['click', 'shake', 'wakes', 'askew']",4,askew,Wordle,310,True
+29910,u/eutectic_h8r,"['shunt', 'heist']",2,heist,Wordle,311,True
+29911,u/nerdy_raconteur,"['askew', 'slept', 'heist']",3,heist,Wordle,311,True
+29912,u/tropikaldawl,"['proud', 'bagel', 'chest', 'heist']",4,heist,Wordle,311,True
+29913,u/Svantoro,"['pitch', 'shirt', 'whist', 'hoist', 'heist']",5,heist,Wordle,311,True
+29914,u/tropikaldawl,"['proud', 'bagel', 'chest', 'heist']",4,heist,Wordle,311,True
+29915,u/evrami,"['molar', 'thief', 'heist']",3,heist,Wordle,311,True
+29916,u/SeaworthinessSalty35,"['salet', 'crest', 'heist']",3,heist,Wordle,311,True
+29917,u/wallace_and_grommit,"['ratio', 'light', 'shift', 'heist']",4,heist,Wordle,311,True
+29918,u/tooooooodayrightnow,"['raise', 'mound', 'heist']",3,heist,Wordle,311,False
+29919,u/walaska,"['sperm', 'heist']",2,heist,Wordle,311,True
+29920,u/legoparisdisney,"['orate', 'slept', 'inset', 'exist', 'heist']",5,heist,Wordle,311,True
+29921,u/IndigoMoonAdventure,"['askew', 'slept', 'exist', 'heist']",4,heist,Wordle,311,True
+29922,u/mirrokrowr,"['spate', 'techy', 'heist']",3,heist,Wordle,311,False
+29923,u/reeposterr,"['crwth', 'thank', 'ethos', 'sithe', 'heist']",5,heist,Wordle,311,True
+29924,u/Dull_Happiness,"['feast', 'heist']",2,heist,Wordle,311,True
+29925,u/leo_FLASH18,"['place', 'moist', 'geist', 'heist']",4,heist,Wordle,311,False
+29926,u/GirlWith_Glasses,"['stear', 'exist', 'heist']",3,heist,Wordle,311,True
+29927,u/mapepo,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+29928,u/Puzzleheaded-Bug7189,"['guest', 'feast', 'heist']",3,heist,Wordle,311,True
+29929,u/ConfusionInformal630,"['penis', 'heist']",2,heist,Wordle,311,True
+29930,u/unreadable_captcha,"['moist', 'heist']",2,heist,Wordle,311,True
+29931,u/Olbaidon,"['annoy', 'after', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29932,u/Olbaidon,"['annoy', 'after', 'ashen', 'asked', 'askew']",5,askew,Wordle,310,True
+29933,u/permaki,"['askew', 'shine', 'heirs', 'heist']",4,heist,Wordle,311,True
+29934,u/andreasbjorne,"['tares', 'chest', 'heist']",3,heist,Wordle,311,True
+29935,u/SuzumiyaCham,"['mould', 'brain', 'sight', 'heist']",4,heist,Wordle,311,True
+29936,u/u-sly-minx,"['stale', 'munch', 'those', 'heist']",4,heist,Wordle,311,False
+29937,u/Astephen542,"['irate', 'heist']",2,heist,Wordle,311,True
+29938,u/Torontoeikokujin,"['those', 'heist']",2,heist,Wordle,311,False
+29939,u/rlemaitre,"['raise', 'heist']",2,heist,Wordle,311,True
+29940,u/cougar572,"['aegis', 'youth', 'heist']",3,heist,Wordle,311,False
+29941,u/Sir0bin,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+29942,u/turtle921,"['raise', 'heist']",2,heist,Wordle,311,True
+29943,u/Olbaidon,"['heart', 'heist']",2,heist,Wordle,311,True
+29944,u/Olbaidon,"['heart', 'heist']",2,heist,Wordle,311,True
+29945,u/Olbaidon,"['heart', 'heist']",2,heist,Wordle,311,True
+29946,u/peacharnoldpalmer,"['saint', 'wrist', 'moist', 'exist', 'heist']",5,heist,Wordle,311,True
+29948,u/Annamatopia,"['heart', 'heist']",2,heist,Wordle,311,True
+29949,u/mvandongen17,"['share', 'plush', 'heist']",3,heist,Wordle,311,False
+29950,u/958Silver,"['weird', 'feign', 'heist']",3,heist,Wordle,311,True
+29951,u/Cadillacquer,"['their', 'lithe', 'eight', 'heist']",4,heist,Wordle,311,True
+29952,u/sg9018,"['shame', 'heres', 'heist']",3,heist,Wordle,311,True
+29953,u/RedHotFromAkiak,"['dealt', 'heist']",2,heist,Wordle,311,True
+29954,u/AnotherAccount4This,"['steal', 'those', 'heist']",3,heist,Wordle,311,True
+29955,u/pabpab999,"['slice', 'fries', 'exist', 'heist']",4,heist,Wordle,311,True
+29956,u/hem_27,['heist'],1,heist,Wordle,311,True
+29958,u/prlj,"['trade', 'metal', 'septa', 'heist']",4,heist,Wordle,311,True
+29959,u/izzyvet,"['shade', 'point', 'heist']",3,heist,Wordle,311,False
+29960,u/yuhuhuhuhuhu,"['eerie', 'veins', 'seity', 'heist']",4,heist,Wordle,311,True
+29961,u/TCates90,"['yeast', 'curio', 'feist', 'heist']",4,heist,Wordle,311,False
+29962,u/full-metal-ashtray,"['lauds', 'story', 'inset', 'heist']",4,heist,Wordle,311,True
+29963,u/JesslnCase,"['shite', 'heist']",2,heist,Wordle,311,True
+29964,u/Drunk_Sorting_Hat,"['arose', 'flesh', 'heist']",3,heist,Wordle,311,True
+29965,u/Garth_Holiday,"['store', 'chest', 'heist']",3,heist,Wordle,311,True
+29966,u/woodcircleontable,"['liner', 'smite', 'heist']",3,heist,Wordle,311,True
+29967,u/jlalaxen,"['stare', 'techs', 'heist']",3,heist,Wordle,311,True
+29968,u/Dfecko89,"['crate', 'duvet', 'exist', 'heist']",4,heist,Wordle,311,True
+29969,u/CartographerLumpy790,"['feast', 'heist']",2,heist,Wordle,311,True
+29970,u/gumdrop505,"['crane', 'pious', 'times', 'heist']",4,heist,Wordle,311,False
+29971,u/abaca002,"['olive', 'thief', 'heist']",3,heist,Wordle,311,True
+29972,u/opobdtfs,"['askew', 'store', 'guest', 'heist']",4,heist,Wordle,311,True
+29973,u/wildrice777,"['stare', 'heist']",2,heist,Wordle,311,True
+29974,u/J-BGrenouille,"['knife', 'heist']",2,heist,Wordle,311,True
+29975,u/jalissapi,"['raise', 'heist']",2,heist,Wordle,311,True
+29976,u/wazzie19,['heist'],1,heist,Wordle,311,True
+29977,u/Low_Persimmon_2145,"['audit', 'spilt', 'heist']",3,heist,Wordle,311,True
+29978,u/eclardyne,"['feast', 'heist']",2,heist,Wordle,311,True
+29979,u/eclardyne,"['feast', 'heist']",2,heist,Wordle,311,True
+29980,u/Foreverinneverland24,"['cheat', 'heist']",2,heist,Wordle,311,True
+29981,u/MamboTB88,"['storm', 'feast', 'heist']",3,heist,Wordle,311,True
+29982,u/not_last_place,"['raise', 'heist']",2,heist,Wordle,311,True
+29983,u/jh51681,"['crane', 'toils', 'spite', 'exist', 'heist']",5,heist,Wordle,311,False
+29984,u/ilikenougat,"['pious', 'slime', 'heist']",3,heist,Wordle,311,True
+29985,u/LawfulnessUpbeat5646,"['smart', 'guest', 'feist', 'heist']",4,heist,Wordle,311,True
+29986,u/terlinguatx,"['shine', 'heist']",2,heist,Wordle,311,True
+29987,u/MeijiDoom,"['prank', 'dough', 'heist']",3,heist,Wordle,311,True
+29988,u/good-luck,"['stale', 'crest', 'heist']",3,heist,Wordle,311,True
+29989,u/HiFiGuy197,"['pious', 'steal', 'heist']",3,heist,Wordle,311,False
+29990,u/jruhlman09,"['trace', 'sleet', 'exist', 'heist']",4,heist,Wordle,311,True
+29991,u/soap_lady,"['crane', 'whelk', 'hedge', 'hefty', 'heist']",5,heist,Wordle,311,True
+29992,u/Moonlight_Sonata545,"['straw', 'dusty', 'tunes', 'beast', 'heist']",5,heist,Wordle,311,True
+29993,u/kaksjsnns,"['dumbo', 'gonch', 'phony', 'thorn', 'shown']",5,shown,Wordle,312,True
+29994,u/mraza9,"['mares', 'shine', 'heist']",3,heist,Wordle,311,True
+29995,u/atoponce,"['dealt', 'merit', 'heist']",3,heist,Wordle,311,True
+29996,u/sugarbreath91,"['sitar', 'posit', 'exist', 'heist']",4,heist,Wordle,311,True
+29997,u/thatvhstapeguy,"['piano', 'write', 'quiet', 'exist', 'heist']",5,heist,Wordle,311,True
+29998,u/evidens,"['trace', 'hotel', 'hefty', 'heist']",4,heist,Wordle,311,True
+29999,u/MyDearDapple,"['leach', 'heron', 'heist']",3,heist,Wordle,311,True
+30000,u/Shorogwi,"['yearn', 'shown']",2,shown,Wordle,312,True
+30001,u/fixedtafernback,"['petal', 'remit', 'heist']",3,heist,Wordle,311,True
+30002,u/6dollarpancakes,"['ghost', 'fluid', 'heard', 'heist']",4,heist,Wordle,311,False
+30003,u/propernice,"['irate', 'thief', 'heist']",3,heist,Wordle,311,True
+30004,u/PilsburyKush,"['crash', 'house', 'heist']",3,heist,Wordle,311,True
+30005,u/PimpeeMcgee,"['shape', 'heist']",2,heist,Wordle,311,True
+30006,u/Chelle422,"['arose', 'heist']",2,heist,Wordle,311,True
+30007,u/GravityTortoise,"['arose', 'chest', 'heist']",3,heist,Wordle,311,True
+30008,u/SocialistMoms,"['angry', 'plumb', 'chest', 'heist']",4,heist,Wordle,311,True
+30009,u/likwidfuzion,"['roate', 'smelt', 'heist']",3,heist,Wordle,311,True
+30010,u/nowthatsmagic,"['sight', 'heist']",2,heist,Wordle,311,True
+30011,u/Hydreigon_Lord,"['snort', 'blast', 'chest', 'heist']",4,heist,Wordle,311,True
+30012,u/bungle_bogs,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+30013,u/bungle_bogs,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+30014,u/khcollett,"['raise', 'deism', 'heist']",3,heist,Wordle,311,True
+30015,u/omgwhuuuut,"['hitch', 'hoist', 'heist']",3,heist,Wordle,311,True
+30016,u/badmother,"['great', 'beset', 'heist']",3,heist,Wordle,311,True
+30017,u/BlitzAceSamy,"['loser', 'stomp', 'shock', 'showy', 'shows', 'shown']",6,shown,Wordle,312,True
+30018,u/Bogus4Real,"['stare', 'fetus', 'heist']",3,heist,Wordle,311,True
+30019,u/vbhiro,"['stare', 'votes', 'exist', 'heist']",4,heist,Wordle,311,True
+30020,u/NectarinesPeachy,"['slate', 'trees', 'exist', 'deist', 'heist']",5,heist,Wordle,311,True
+30021,u/sase_o,"['canoe', 'erupt', 'fishy', 'heist']",4,heist,Wordle,311,False
+30022,u/sniffie45,"['slant', 'coped', 'mourn', 'filth', 'heist']",5,heist,Wordle,311,False
+30023,u/Suicidal-Lysosome,"['judge', 'fleet', 'erect', 'merit', 'heist']",5,heist,Wordle,311,True
+30024,u/hersheybar22,"['sauce', 'loser', 'exist', 'heist']",4,heist,Wordle,311,True
+30025,u/bhalimeh93,"['louie', 'karst', 'heist']",3,heist,Wordle,311,False
+30026,u/moselth,"['traps', 'stone', 'guest', 'chest', 'heist']",5,heist,Wordle,311,True
+30027,u/paganknight_,"['arise', 'heist']",2,heist,Wordle,311,True
+30028,u/_duncan_idaho_,"['sport', 'smoke', 'swoon', 'shown']",4,shown,Wordle,312,True
+30029,u/AlarKemmotar,"['weary', 'fetid', 'tempi', 'geist', 'heist']",5,heist,Wordle,311,True
+30030,u/anthonyqld,"['least', 'shorn', 'shown']",3,shown,Wordle,312,True
+30031,u/Revolutionary-Ad9476,"['pleat', 'heist']",2,heist,Wordle,311,False
+30032,u/dvstland,"['fruit', 'night', 'hoist', 'heist']",4,heist,Wordle,311,True
+30033,u/raarevalo96,"['raise', 'exist', 'heist']",3,heist,Wordle,311,True
+30034,u/n-moon,"['cheat', 'shown']",2,shown,Wordle,312,True
+30035,u/Boomyjo,"['adore', 'heist']",2,heist,Wordle,311,True
+30036,u/Strawburgerz,"['slate', 'scour', 'spoon', 'shown']",4,shown,Wordle,312,True
+30037,u/spaiydz,"['slate', 'sound', 'spoon', 'scorn', 'shown']",5,shown,Wordle,312,True
+30038,u/ConfusedByPans,"['slang', 'crest', 'heist']",3,heist,Wordle,311,False
+30039,u/irisblues,"['sated', 'rhino', 'heist']",3,heist,Wordle,311,False
+30040,u/soundboythriller,"['stare', 'guest', 'heist']",3,heist,Wordle,311,True
+30041,u/spronston,"['crate', 'solid', 'showy', 'shown']",4,shown,Wordle,312,True
+30042,u/doseofvitamink,"['dealt', 'cushy', 'shirk', 'shown']",4,shown,Wordle,312,True
+30043,u/Elegant_Permission_6,"['alien', 'shire', 'heist']",3,heist,Wordle,311,True
+30044,u/Share4aCare,"['tries', 'lassy', 'swoon', 'shown']",4,shown,Wordle,312,True
+30045,u/chiZZLebliSS,"['stare', 'chest', 'heist']",3,heist,Wordle,311,True
+30046,u/soulfulpurple,"['angst', 'spend', 'sworn', 'shown']",4,shown,Wordle,312,True

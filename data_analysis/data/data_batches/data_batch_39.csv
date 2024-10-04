@@ -1,72 +1,982 @@
 entry_id,author,wordle_guesses,num_guesses,wordle_answer,wordle_title,wordle_id,hard_mode
-3334,u/Cael87,"['arise', 'youth', 'moist']",3,moist,Wordle,228,False
-3336,u/yoricake,['moist'],1,moist,Wordle,228,False
-3337,u/BoardwalkKnitter,"['train', 'might', 'moist']",3,moist,Wordle,228,True
-3339,u/JayouelletHD,"['weary', 'moist']",2,moist,Wordle,228,False
-3340,u/JayouelletHD,"['weary', 'pesto', 'stove', 'those']",4,those,Wordle,227,False
-3341,u/BoredBlaby,"['plead', 'mount', 'moist']",3,moist,Wordle,228,False
-3342,u/[deleted],"['store', 'boast', 'moist']",3,moist,Wordle,228,False
-3343,u/nerdy_raconteur,"['chair', 'point', 'moist']",3,moist,Wordle,228,False
-3344,u/postness,"['meals', 'music', 'moist']",3,moist,Wordle,228,False
-3345,u/aetelepathy,"['noise', 'moist']",2,moist,Wordle,228,False
-3348,u/satpuli,"['which', 'poise', 'moist']",3,moist,Wordle,228,False
-3349,u/carousel23,"['grout', 'point', 'hoist', 'joist', 'foist', 'moist']",6,moist,Wordle,228,False
-3350,u/Zhu_Zhu_Pet,"['shrug', 'blast', 'moist']",3,moist,Wordle,228,False
-3351,u/BreezyBroth,"['chart', 'spout', 'moist']",3,moist,Wordle,228,False
-3352,u/RagingWolf1877,"['ratio', 'moist']",2,moist,Wordle,228,False
-3353,u/checcot,"['neats', 'micro', 'moist']",3,moist,Wordle,228,False
-3360,u/RickD716,"['splat', 'moist']",2,moist,Wordle,228,False
-3364,u/Dawesfan,"['money', 'mouth', 'fiber', 'motif', 'moist']",5,moist,Wordle,228,False
-3365,u/PeriodicGolden,"['heats', 'moist']",2,moist,Wordle,228,False
-3366,u/Gorm13,"['store', 'coast', 'moist']",3,moist,Wordle,228,True
-3367,u/cougar572,"['aegis', 'youth', 'brand', 'moist']",4,moist,Wordle,228,False
-3368,u/cheezus171,"['mount', 'arise', 'moist']",3,moist,Wordle,228,False
-3369,u/Brock_Hard_Canuck,"['raise', 'whisk', 'noisy', 'moist']",4,moist,Wordle,228,False
-3370,u/_duncan_idaho_,"['scare', 'pints', 'moist']",3,moist,Wordle,228,False
-3371,u/[deleted],"['prowl', 'found', 'boats', 'moist']",4,moist,Wordle,228,False
-3372,u/Dogarsx,"['house', 'roast', 'moist']",3,moist,Wordle,228,True
-3373,u/NamiNamster,"['audio', 'boing', 'poise', 'moist']",4,moist,Wordle,228,False
-3374,u/Mussu007,"['tight', 'point', 'moist']",3,moist,Wordle,228,False
-3376,u/coolmitch159,"['react', 'moult', 'moist']",3,moist,Wordle,228,False
-3377,u/vostokeris,"['arise', 'bliss', 'noisy', 'moist']",4,moist,Wordle,228,False
-3379,u/trmbnplyr1993,"['place', 'rough', 'moody', 'moist']",4,moist,Wordle,228,False
-3380,u/vostokeris,"['arise', 'bliss', 'noisy', 'moist']",4,moist,Wordle,228,False
-3381,u/Bonoahx,"['adieu', 'prick', 'hoist', 'moist']",4,moist,Wordle,228,False
-3385,u/ZombieCuber,"['tough', 'monte', 'moats', 'motis', 'moist']",5,moist,Wordle,228,False
-3386,u/HomebodySandman,"['avoid', 'point', 'hoist', 'moist']",4,moist,Wordle,228,True
-3389,u/Dajohnson9254,"['times', 'smith', 'moist']",3,moist,Wordle,228,True
-3390,u/ddidima,"['miaou', 'cures', 'moist']",3,moist,Wordle,228,False
-3392,u/monsieurcanard,"['gears', 'flick', 'stint', 'twist', 'hoist', 'moist']",6,moist,Wordle,228,False
-3393,u/Hyperf0cused,"['posit', 'hoist', 'joist', 'moist']",4,moist,Wordle,228,False
-3395,u/emma_the_dilemmma,"['trash', 'moist']",2,moist,Wordle,228,False
-3396,u/poftim,"['stare', 'moist']",2,moist,Wordle,228,False
-3397,u/Drunken_Economist,"['ratio', 'point', 'moist']",3,moist,Wordle,228,True
-3398,u/Dred_ZEPPELIN_x,"['hoist', 'moist']",2,moist,Wordle,228,False
-3399,u/eliw23,"['chart', 'flint', 'exist', 'twist', 'moist']",5,moist,Wordle,228,False
-3400,u/TWGKofi,"['track', 'light', 'quiet', 'joint', 'moist']",5,moist,Wordle,228,False
-3401,u/McIgglyTuffMuffin,"['hater', 'stoic', 'riots', 'hoist', 'moist']",5,moist,Wordle,228,False
-3402,u/ninjaneeress,"['mucky', 'anger', 'boils', 'moist']",4,moist,Wordle,228,False
-3404,u/ellesappelle_,"['audio', 'stern', 'moist']",3,moist,Wordle,228,False
-3405,u/likwidfuzion,"['roate', 'toils', 'moist']",3,moist,Wordle,228,False
-3406,u/Raferum,"['spork', 'bolts', 'toast', 'moist']",4,moist,Wordle,228,False
-3409,u/nightowl1135,"['crate', 'pilot', 'joint', 'hoist', 'foist', 'moist']",6,moist,Wordle,228,False
-3410,u/gstaman911,"['louie', 'strap', 'shark', 'shard']",4,shard,Wordle,229,True
-3411,u/andronicus_14,"['scare', 'noisy', 'moist']",3,moist,Wordle,228,False
-3412,u/Unknow3n,"['soare', 'moist']",2,moist,Wordle,228,True
-3413,u/beepbeepchoochoo,"['shank', 'purse', 'moist']",3,moist,Wordle,228,False
-3414,u/Deksametazon,"['morse', 'moist']",2,moist,Wordle,228,False
-3415,u/Hypersapien,"['arise', 'twist', 'moist']",3,moist,Wordle,228,True
-3416,u/stovingtonvt,['moist'],1,moist,Wordle,228,False
-3417,u/mcallisterco,"['stern', 'audio', 'moist']",3,moist,Wordle,228,False
-3418,u/KJones77,"['close', 'joust', 'worst', 'hoist', 'moist']",5,moist,Wordle,228,False
-3421,u/TolerantDoor,"['tears', 'stoic', 'moist']",3,moist,Wordle,228,False
-3422,u/knockturne,"['their', 'point', 'foist']",4,moist,Wordle,228,True
-3424,u/HighSeverityImpact,"['cloud', 'moist']",2,moist,Wordle,228,True
-3425,u/Vortexfugue0,"['irate', 'flint', 'moist']",3,moist,Wordle,228,False
-3426,u/ADownsHippie,"['arise', 'bliss', 'hoist', 'moist']",4,moist,Wordle,228,False
-3427,u/Catsandjigsaws,"['raise', 'moist']",2,moist,Wordle,228,False
-3430,u/MrXx_xXXx_xX,"['point', 'moist']",2,moist,Wordle,228,False
-3431,u/Ketchupfriedrice,"['louie', 'joint', 'hoist', 'moist']",4,moist,Wordle,228,True
-3433,u/lilly071,"['arise', 'pound', 'moist']",3,moist,Wordle,228,False
-3434,u/FullOfEels,"['liter', 'posit', 'hoist', 'moist']",4,moist,Wordle,228,True
-3436,u/lavinient,"['dream', 'moist']",2,moist,Wordle,228,False
+40210,u/Neondanublu03,"['trace', 'swing', 'mould', 'flood']",4,flood,Wordle,353,True
+40211,u/MegachiropsOnReddit,"['haste', 'pound', 'blood', 'flood']",4,flood,Wordle,353,True
+40212,u/Clever_Owl,"['today', 'treat', 'trait']",3,trait,Wordle,354,True
+40213,u/spronston,"['crate', 'trash', 'trawl', 'train', 'trait']",5,trait,Wordle,354,True
+40214,u/[deleted],"['chaos', 'flake', 'brain', 'graip', 'trait']",5,trait,Wordle,354,True
+40215,u/swaqmaster4lyfe,"['gloom', 'flood']",2,flood,Wordle,353,True
+40216,u/sugarbreath91,"['plant', 'bloke', 'cloud', 'flood']",4,flood,Wordle,353,True
+40217,u/infatuatedknight,"['clean', 'slump', 'blood', 'flood']",4,flood,Wordle,353,True
+40218,u/TigzyThe7Master,"['tares', 'plink', 'globe', 'cloud', 'flood']",5,flood,Wordle,353,True
+40220,u/_but_nobody_came,"['hairy', 'snout', 'bloke', 'gloom', 'paced', 'flood']",6,flood,Wordle,353,False
+40221,u/KJones77,"['house', 'float', 'flown', 'flock', 'floor', 'flood']",6,flood,Wordle,353,True
+40223,u/seafoodrice,"['salet', 'await', 'krait', 'trait']",4,trait,Wordle,354,True
+40224,u/solming13,"['upset', 'front', 'bract', 'trait']",4,trait,Wordle,354,True
+40225,u/troylaw,"['sauce', 'wrath', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40226,u/Bogus4Real,"['braid', 'cloud', 'flood']",3,flood,Wordle,353,True
+40227,u/PM-ME-UR-PETS,"['sloth', 'train', 'trait']",3,trait,Wordle,354,True
+40228,u/IllogicalIllusionist,"['avoid', 'frail', 'grain', 'trait']",4,trait,Wordle,354,True
+40229,u/khorijinn,"['daily', 'blood', 'flood']",3,flood,Wordle,353,True
+40230,u/Southwick-Jog,"['giant', 'audio', 'flood']",3,flood,Wordle,353,True
+40231,u/aqua_zuma21,"['prime', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40232,u/Driver_Senpai,"['blade', 'flood']",2,flood,Wordle,353,True
+40233,u/HayesChin,"['canoe', 'shirt', 'trait']",3,trait,Wordle,354,False
+40234,u/5tr4nGe,"['audio', 'entry', 'scold', 'blood', 'flood']",5,flood,Wordle,353,False
+40235,u/Hugobaby69,"['haste', 'trail', 'trait']",3,trait,Wordle,354,True
+40236,u/yourcountrycousin,"['crest', 'lanky', 'would', 'blood', 'flood']",5,flood,Wordle,353,True
+40237,u/podteod,"['raise', 'chump', 'colon', 'lying', 'flock', 'flood']",6,flood,Wordle,353,False
+40238,u/robbie2000williams,"['pulse', 'brawl', 'lions', 'clock', 'gloom', 'flood']",6,flood,Wordle,353,True
+40239,u/Shorogwi,"['brick', 'irate', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40240,u/willyanto,"['roate', 'track', 'trail', 'train', 'trait']",5,trait,Wordle,354,True
+40241,u/sniffie45,"['soare', 'guilt', 'bloom', 'flood']",4,flood,Wordle,353,False
+40242,u/R3alZ1nt,"['salet', 'courd', 'blond', 'flood']",4,flood,Wordle,353,False
+40243,u/kcspot,"['crate', 'sling', 'bloke', 'plows', 'floor', 'flood']",6,flood,Wordle,353,True
+40244,u/HS007,"['scale', 'train', 'trait']",3,trait,Wordle,354,True
+40245,u/MyDearDapple,"['daily', 'lodge', 'blood', 'flood']",4,flood,Wordle,353,False
+40246,u/I_Stare_At_Walls,"['snare', 'hotly', 'blood', 'flood']",4,flood,Wordle,353,True
+40247,u/KingD123,"['hater', 'bound', 'scold', 'flood']",4,flood,Wordle,353,True
+40248,u/alandizzle,"['crate', 'plush', 'blind', 'flood']",4,flood,Wordle,353,True
+40249,u/OneOfManyChildren,"['stare', 'track', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40250,u/leaky_wand,"['stare', 'lingo', 'cloud', 'flood']",4,flood,Wordle,353,True
+40251,u/pplovesk,"['steal', 'taint', 'trait']",3,trait,Wordle,354,True
+40252,u/carbonbear,"['could', 'blond', 'flood']",3,flood,Wordle,353,True
+40253,u/optional_wax,"['stare', 'grant', 'craft', 'kraut', 'trait']",5,trait,Wordle,354,True
+40254,u/loucanfly,"['brief', 'shout', 'trait']",3,trait,Wordle,354,False
+40255,u/AnvilOfMisanthropy,"['crate', 'sound', 'flood']",3,flood,Wordle,353,True
+40256,u/lyovi,"['scare', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40257,u/RabJos,"['tales', 'orcin', 'trait']",3,trait,Wordle,354,False
+40258,u/Hesh707,"['alone', 'shaky', 'craig', 'trait']",4,trait,Wordle,354,True
+40259,u/Ralamadul,"['heist', 'input', 'trait']",3,trait,Wordle,354,True
+40260,u/Standard_Surprise_68,"['guess', 'point', 'flirt', 'krait', 'trait']",5,trait,Wordle,354,True
+40261,u/Hybelkanina,"['stare', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40262,u/Teunnis,"['flood', 'stare', 'train', 'trait']",4,trait,Wordle,354,True
+40263,u/Happifier,"['psych', 'adieu', 'tragi', 'trail', 'trait']",5,trait,Wordle,354,True
+40264,u/peace_97,"['error', 'drawn', 'frail', 'trait']",4,trait,Wordle,354,True
+40265,u/humanmodeoff,"['mushy', 'alter', 'cling', 'blood', 'flood']",5,flood,Wordle,353,True
+40266,u/MosesIAmnt,"['traps', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40267,u/PikachuIsBestPikachu,"['tempt', 'trout', 'tract', 'trait']",4,trait,Wordle,354,True
+40268,u/humanmodeoff,"['mushy', 'alter', 'train', 'trait']",4,trait,Wordle,354,True
+40269,u/Boxofrage,"['stare', 'track', 'trail', 'train', 'trait']",5,trait,Wordle,354,True
+40271,u/ElWanderer_KSP,"['crypt', 'fruit', 'orbit', 'trait']",4,trait,Wordle,354,True
+40272,u/NineElements,"['tryst', 'trait']",2,trait,Wordle,354,True
+40273,u/8Yoongles,"['crate', 'train', 'trait']",3,trait,Wordle,354,True
+40274,u/abaca002,"['gloom', 'blood', 'flood']",3,flood,Wordle,353,True
+40275,u/mug3n,"['slump', 'ready', 'graft', 'brant', 'tract', 'trait']",6,trait,Wordle,354,True
+40276,u/ThreeGoldenRules,"['crane', 'trash', 'tramp', 'trawl', 'trait']",5,trait,Wordle,354,True
+40277,u/Justin113113,"['chain', 'flair', 'trait']",3,trait,Wordle,354,True
+40278,u/Initial_E,"['birth', 'tripe', 'train', 'trait']",4,trait,Wordle,354,True
+40279,u/5tr4nGe,"['audio', 'tacit', 'trait']",3,trait,Wordle,354,True
+40280,u/vspazv,"['tears', 'blimp', 'flown', 'flock', 'flood']",5,flood,Wordle,353,True
+40281,u/YaBoiOheb,"['ploys', 'alone', 'block', 'flour', 'flood']",5,flood,Wordle,353,True
+40282,u/j_tragic,"['stain', 'fudge', 'flood']",3,flood,Wordle,353,True
+40283,u/AaaaaronPanda,"['fried', 'craig', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40284,u/HX315,"['train', 'trail', 'trait']",3,trait,Wordle,354,False
+40285,u/Alwaysthecase_92,"['sight', 'print', 'orbit', 'fruit', 'leady', 'trait']",6,trait,Wordle,354,False
+40286,u/Sephorakitty,"['train', 'trail', 'trait']",3,trait,Wordle,354,True
+40287,u/Hollywoostarsand,"['party', 'trial', 'train', 'trait']",4,trait,Wordle,354,True
+40288,u/FunnyJ3lly,"['tears', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40289,u/Godly15,"['slate', 'courd', 'tramp', 'trait']",4,trait,Wordle,354,False
+40290,u/jaypee42,"['sport', 'cloud', 'flood']",3,flood,Wordle,353,True
+40291,u/stenseven,"['house', 'crown', 'afoot', 'flood']",4,flood,Wordle,353,True
+40292,u/VardaElentari86,"['stare', 'grant', 'tract', 'trait']",4,trait,Wordle,354,True
+40293,u/r_osit,"['chaos', 'trail', 'trait']",3,trait,Wordle,354,True
+40294,u/NakedSnakeEyes,"['stear', 'ratch', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40295,u/sarysa,"['smith', 'nifty', 'inter', 'trail', 'trait']",5,trait,Wordle,354,True
+40296,u/Spanky_McJiggles,"['drown', 'break', 'artsy', 'trail', 'trait']",5,trait,Wordle,354,True
+40297,u/Neisseriaceae,"['tired', 'trial', 'train', 'trait']",4,trait,Wordle,354,True
+40298,u/KimchiBearChile,"['arise', 'chair', 'befog', 'trail', 'train', 'trait']",6,trait,Wordle,354,False
+40299,u/OneBigPieceofHotShit,"['court', 'trait']",2,trait,Wordle,354,True
+40300,u/johnnykik5,"['stain', 'trait']",2,trait,Wordle,354,True
+40301,u/Hotdoganddonut,"['track', 'trade', 'trash', 'trail', 'train', 'trait']",6,trait,Wordle,354,True
+40302,u/moselth,"['flout', 'bidet', 'await', 'spait', 'trait']",5,trait,Wordle,354,True
+40303,u/Whatdoievendoanymore,"['night', 'trait']",2,trait,Wordle,354,True
+40304,u/nerdy_raconteur,"['slave', 'train', 'trait']",3,trait,Wordle,354,True
+40305,u/ZappySnap,"['crate', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40306,u/caffeinated_teddy,"['score', 'trait']",2,trait,Wordle,354,True
+40307,u/unreadable_captcha,"['scone', 'album', 'party', 'thraw', 'triad', 'trait']",6,trait,Wordle,354,True
+40308,u/BoardwalkKnitter,"['harem', 'stair', 'train', 'trait']",4,trait,Wordle,354,True
+40309,u/ryeshoes,"['tubes', 'fling', 'champ', 'tiara']",5,trait,Wordle,354,False
+40310,u/kaksjsnns,"['price', 'frail', 'train', 'trait']",4,trait,Wordle,354,True
+40311,u/CGoblinman,"['treat', 'trait']",2,trait,Wordle,354,True
+40312,u/JazzmanJB,"['irate', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40313,u/bhalimeh93,"['louie', 'karst', 'trait']",3,trait,Wordle,354,False
+40314,u/CaptainFunn,"['softy', 'trade', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40315,u/rocketmczoom,"['leach', 'drain', 'frail', 'trait']",4,trait,Wordle,354,True
+40316,u/am_ERICANDRE_am,"['shout', 'bidet', 'trait']",3,trait,Wordle,354,True
+40317,u/eutectic_h8r,"['slate', 'train', 'trait']",3,trait,Wordle,354,True
+40318,u/PreventFalls,"['paint', 'graft', 'trait']",3,trait,Wordle,354,False
+40319,u/gazil9,"['tumor', 'trick', 'trail', 'trait']",4,trait,Wordle,354,True
+40320,u/taxi00,"['atone', 'stair', 'trait']",3,trait,Wordle,354,True
+40321,u/LetUsAway,"['trans', 'trail', 'trait']",3,trait,Wordle,354,True
+40322,u/Junior-Forever8128,"['twice', 'tight', 'trait']",3,trait,Wordle,354,True
+40323,u/professormoocow,"['chair', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40324,u/wallace_and_grommit,"['leash', 'drain', 'trait']",3,trait,Wordle,354,True
+40325,u/NetflixAndNikah,"['peace', 'drain', 'grail', 'trait']",4,trait,Wordle,354,True
+40326,u/Call-Me-Mr-Nugget,"['spire', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40327,u/madisonpalooza,"['trade', 'track', 'train', 'trait']",4,trait,Wordle,354,True
+40328,u/SamVulcan,"['crane', 'bravo', 'wrath', 'traps', 'trail', 'trait']",6,trait,Wordle,354,True
+40329,u/resatr,"['stink', 'filth', 'remit', 'orbit', 'trait']",5,trait,Wordle,354,True
+40330,u/Kami_no_itte,"['triad', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40331,u/mlc885,"['crane', 'grasp', 'wrath', 'trail', 'trait']",5,trait,Wordle,354,True
+40332,u/zeuz36,"['tires', 'tried', 'trait']",3,trait,Wordle,354,True
+40333,u/trinibug,"['teary', 'clamp', 'trait']",3,trait,Wordle,354,False
+40334,u/958Silver,"['space', 'bland', 'wrath', 'trait']",4,trait,Wordle,354,True
+40335,u/crackingshell,"['teams', 'trait']",2,trait,Wordle,354,True
+40336,u/andreasbjorne,"['tears', 'track', 'trail', 'train', 'trait']",5,trait,Wordle,354,True
+40337,u/gobluthmagician,"['raise', 'fairy', 'clout', 'trait']",4,trait,Wordle,354,False
+40338,u/denik_,"['train', 'trail', 'trait']",3,trait,Wordle,354,True
+40339,u/peacharnoldpalmer,"['saint', 'trait']",2,trait,Wordle,354,True
+40340,u/cougar572,"['aegis', 'youth', 'train', 'trait']",4,trait,Wordle,354,False
+40341,u/MrAnonymousTheThird,"['audio', 'plain', 'trait']",3,trait,Wordle,354,False
+40342,u/tremors51000,"['shine', 'trout', 'trait']",3,trait,Wordle,354,False
+40343,u/Suit_Dummy,"['slate', 'thank', 'tiara', 'trait']",4,trait,Wordle,354,True
+40344,u/Sir0bin,"['stare', 'wrath', 'track', 'trail', 'train', 'trait']",6,trait,Wordle,354,True
+40345,u/Sir0bin,"['stare', 'wrath', 'track', 'trail', 'train', 'trait']",6,trait,Wordle,354,True
+40346,u/AnotherAccount4This,"['alive', 'patio', 'train', 'trait']",4,trait,Wordle,354,True
+40348,u/Rex_002,"['dealt', 'smart', 'grant', 'craft', 'trapt', 'trait']",6,trait,Wordle,354,True
+40349,u/eastbayted,"['spite', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40350,u/Drunk_Sorting_Hat,"['arose', 'track', 'tramp', 'train', 'trail', 'trait']",6,trait,Wordle,354,True
+40351,u/Cadillacquer,"['their', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40352,u/GlassesFreek,"['flood', 'stare', 'train', 'trait']",4,trait,Wordle,354,True
+40353,u/SuzumiyaCham,"['input', 'heart', 'draft', 'trait']",4,trait,Wordle,354,False
+40354,u/AdrianaStarfish,"['arise', 'trait']",2,trait,Wordle,354,False
+40355,u/daphne451,"['shape', 'brail', 'trait']",3,trait,Wordle,354,True
+40356,u/full-metal-ashtray,"['lauds', 'grave', 'brain', 'trait']",4,trait,Wordle,354,True
+40357,u/east_cam,"['crane', 'trail', 'trait']",3,trait,Wordle,354,True
+40358,u/DrShankapotamus,"['watch', 'plate', 'train', 'trait']",4,trait,Wordle,354,True
+40359,u/Mecha_Tortoise,"['trash', 'cline', 'trait']",3,trait,Wordle,354,False
+40360,u/danubius48,"['crane', 'brawl', 'grads', 'tramp', 'trait']",5,trait,Wordle,354,True
+40361,u/likwidfuzion,"['roate', 'trail', 'trait']",3,trait,Wordle,354,True
+40362,u/GurneyHa11eck,"['stear', 'wrath', 'craft', 'trait']",4,trait,Wordle,354,True
+40363,u/prlj,"['stare', 'wrath', 'tract', 'trait']",4,trait,Wordle,354,True
+40364,u/-Em-,"['steam', 'train', 'trait']",3,trait,Wordle,354,True
+40365,u/Hayley___98,"['aeros', 'drain', 'trail', 'trait']",4,trait,Wordle,354,True
+40366,u/opobdtfs,"['flood', 'stare', 'track', 'tramp', 'trait']",5,trait,Wordle,354,True
+40367,u/jalissapi,"['raise', 'mount', 'trait']",3,trait,Wordle,354,False
+40368,u/pocari9999,"['smear', 'crawl', 'drain', 'trait']",4,trait,Wordle,354,True
+40369,u/robbie2000williams,"['route', 'traps', 'trail', 'train', 'trait']",5,trait,Wordle,354,True
+40371,u/AlarKemmotar,"['larch', 'stark', 'tramp', 'train', 'trait']",5,trait,Wordle,354,True
+40372,u/TigzyThe7Master,"['tares', 'traps', 'trail', 'train', 'traik', 'trait']",6,trait,Wordle,354,True
+40373,u/poeticzonex,"['truck', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40374,u/MamboTB88,"['tread', 'trash', 'trail', 'trait']",4,trait,Wordle,354,True
+40375,u/Buckwheat_princess,"['stale', 'trait']",2,trait,Wordle,354,True
+40376,u/HiFiGuy197,"['steal', 'train', 'trait']",3,trait,Wordle,354,True
+40377,u/witfenek,"['earth', 'trail', 'trait']",3,trait,Wordle,354,True
+40378,u/AutomaticPie9734,"['stare', 'track', 'train', 'trail', 'trait']",5,trait,Wordle,354,False
+40379,u/hoIygrail,"['giant', 'plait', 'await', 'trait']",4,trait,Wordle,354,True
+40380,u/BlitzAceSamy,"['loser', 'rainy', 'bruit', 'mirth', 'girth']",5,girth,Wordle,355,True
+40381,u/soap_lady,"['twang', 'evict', 'trait']",3,trait,Wordle,354,False
+40382,u/soislifee,"['light', 'faint', 'trait']",3,trait,Wordle,354,True
+40383,u/teabitxh,"['think', 'title', 'trait']",3,trait,Wordle,354,True
+40384,u/jh51681,"['crane', 'traps', 'trail', 'trait']",4,trait,Wordle,354,True
+40385,u/jenesuisunefemme,"['first', 'print', 'trait']",3,trait,Wordle,354,True
+40386,u/shimmerangels,"['aster', 'track', 'train', 'trail', 'trait']",5,trait,Wordle,354,True
+40387,u/GeoMap73,"['pains', 'trail', 'trait']",3,trait,Wordle,354,True
+40388,u/NimueNox,"['trail', 'trait']",2,trait,Wordle,354,True
+40389,u/lattenurse,"['crate', 'train', 'trait']",3,trait,Wordle,354,True
+40390,u/khorijinn,"['daily', 'amigo', 'krait', 'trait']",4,trait,Wordle,354,True
+40391,u/MasqueradeOfSilence,"['atone', 'tatar', 'tract', 'trait']",4,trait,Wordle,354,True
+40392,u/swaqmaster4lyfe,"['flood', 'shape', 'wring', 'brain', 'trait']",5,trait,Wordle,354,False
+40393,u/RoastBeefIsGood,"['stare', 'trump', 'flirt', 'dirty', 'birth', 'girth']",6,girth,Wordle,355,False
+40394,u/Emergent444,"['haute', 'tramp', 'train', 'trait']",4,trait,Wordle,354,True
+40395,u/mavonnaise,"['plaid', 'thing', 'right', 'girth']",4,girth,Wordle,355,True
+40396,u/udyj21,"['reals', 'funky', 'drain', 'trait']",4,trait,Wordle,354,False
+40397,u/Size--,"['slice', 'train', 'right', 'girth']",4,girth,Wordle,355,True
+40398,u/bungle_bogs,"['stare', 'track', 'train', 'trait']",4,trait,Wordle,354,True
+40399,u/EwingTheoryPotential,"['fruit', 'orbit', 'trait']",3,trait,Wordle,354,True
+40400,u/Gold_Candle,"['hymns', 'tared', 'track', 'trail', 'trait']",5,trait,Wordle,354,True
+40401,u/khcollett,"['raise', 'train', 'trait']",3,trait,Wordle,354,True
+40402,u/peachsnatch,"['bland', 'thump', 'girth']",3,girth,Wordle,355,True
+40403,u/pretender80,"['learn', 'track', 'tramp', 'trash', 'trait']",5,trait,Wordle,354,True
+40404,u/Double_Ad_6362,"['stare', 'broth', 'firth', 'yirth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40405,u/izzyvet,"['shade', 'point', 'trait']",3,trait,Wordle,354,False
+40406,u/Yatta99,"['audio', 'stern', 'trail', 'trait']",4,trait,Wordle,354,False
+40407,u/madeleineruth19,"['arise', 'braid', 'grain', 'frail', 'trait']",5,trait,Wordle,357,True
+40408,u/evidens,"['trace', 'trash', 'fling', 'trait']",4,trait,Wordle,354,False
+40409,u/Hydreigon_Lord,"['shaft', 'dealt', 'apart', 'tract', 'trait']",5,trait,Wordle,354,True
+40410,u/cyrano4833,"['adieu', 'saint', 'trait']",3,trait,Wordle,354,True
+40411,u/LovMatip,"['roate', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40412,u/chrisvitts11,"['train', 'trail', 'trait']",3,trait,Wordle,354,True
+40413,u/unilateralhope,"['frown', 'pride', 'trail', 'trait']",4,trait,Wordle,354,True
+40414,u/terlinguatx,"['plain', 'braid', 'trait']",3,trait,Wordle,354,True
+40415,u/Shorogwi,"['ghost', 'girth']",2,girth,Wordle,355,True
+40416,u/fivezero_ca,"['plant', 'chart', 'graft', 'kraut', 'wrast', 'trait']",6,trait,Wordle,354,True
+40417,u/sniffie45,"['trace', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40418,u/KJones77,"['house', 'plant', 'craft', 'trait']",4,trait,Wordle,354,True
+40419,u/LawfulnessUpbeat5646,"['smart', 'craft', 'grant', 'wrapt', 'trait']",5,trait,Wordle,354,True
+40420,u/wisusececss,"['braid', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40421,u/UltravioletClearance,"['penis', 'trail', 'trait']",3,trait,Wordle,354,True
+40422,u/Golftango6,"['chest', 'draft', 'trait']",3,trait,Wordle,354,True
+40423,u/ObsidianDreamsRedux,"['frock', 'stale', 'whiny', 'third', 'right', 'girth']",6,girth,Wordle,355,False
+40424,u/anthonyqld,"['slate', 'broth', 'girth']",3,girth,Wordle,355,True
+40425,u/Academic-Acadia8796,"['irate', 'train', 'trail', 'traik', 'trait']",5,trait,Wordle,354,True
+40426,u/Grand_Ad_5314,"['stare', 'grout', 'girth']",3,girth,Wordle,355,True
+40427,u/_duncan_idaho_,"['vital', 'riots', 'dirty', 'girth']",4,girth,Wordle,355,True
+40428,u/doseofvitamink,"['dealt', 'storm', 'truck', 'ritzy', 'girth']",5,girth,Wordle,355,True
+40429,u/Sapphire580,"['guest', 'cream', 'party', 'dance', 'limbo', 'trait']",6,trait,Wordle,354,False
+40430,u/Solalabell,"['tares', 'train', 'trail', 'traik', 'trait']",5,trait,Wordle,354,True
+40431,u/Solalabell,"['tares', 'train', 'trail', 'traik', 'trait']",5,trait,Wordle,354,True
+40432,u/OnlyTookTenMinutes,"['crwth', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40433,u/Streebers0392,"['audio', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40434,u/infatuatedknight,"['virus', 'grind', 'trail', 'trait']",4,trait,Wordle,354,True
+40435,u/badmother,"['clear', 'train', 'trait']",3,trait,Wordle,354,True
+40436,u/pplovesk,"['steal', 'touch', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40437,u/solming13,"['float', 'trine', 'strip', 'dirty', 'birth', 'girth']",6,girth,Wordle,355,True
+40438,u/JerseyDvl,"['taser', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40439,u/seafoodrice,"['salet', 'trick', 'birth', 'mirth', 'yirth', 'girth']",6,girth,Wordle,355,True
+40440,u/EcoAffinity,"['smelt', 'donut', 'craft', 'trapt', 'trait']",5,trait,Wordle,354,True
+40441,u/IndigoMoonAdventure,"['ocean', 'award', 'spail', 'fraim', 'trait']",5,trait,Wordle,354,False
+40442,u/IllogicalIllusionist,"['avoid', 'islet', 'thing', 'girth']",4,girth,Wordle,355,True
+40443,u/caycethecat,"['suite', 'dirty', 'birth', 'girth']",4,girth,Wordle,355,True
+40444,u/sugarbreath91,"['stare', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40445,u/MegachiropsOnReddit,"['haste', 'plant', 'craft', 'kraut', 'trait']",5,trait,Wordle,354,True
+40446,u/DarkFlounder,"['story', 'adieu', 'train', 'trail', 'trait']",5,trait,Wordle,354,False
+40447,u/tjc815,"['snare', 'tramp', 'trail', 'trait']",4,trait,Wordle,354,True
+40448,u/Auraveils,"['adieu', 'trail', 'trait']",3,trait,Wordle,354,True
+40449,u/aqua_zuma21,"['front', 'teary', 'cuter', 'strip', 'birth', 'girth']",6,girth,Wordle,355,True
+40450,u/andronicus_14,"['stare', 'grant', 'craft', 'trait']",4,trait,Wordle,354,True
+40451,u/eagleslanding,"['suite', 'pilot', 'davit', 'afrit', 'trait']",5,trait,Wordle,354,True
+40452,u/oldpekapeka33,"['stare', 'grout', 'girth']",3,girth,Wordle,355,True
+40453,u/HayesChin,"['canoe', 'shirt', 'thrip', 'girth']",4,girth,Wordle,355,True
+40454,u/Neondanublu03,"['trace', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40455,u/pandaatadesk,"['guest', 'paint', 'admit', 'trait']",4,trait,Wordle,354,True
+40456,u/Bogus4Real,"['great', 'brick', 'trait']",3,trait,Wordle,354,False
+40457,u/j_tragic,"['stain', 'trait']",2,trait,Wordle,354,True
+40458,u/DayneTreader,"['stare', 'track', 'tramp', 'trail', 'train', 'trait']",6,trait,Wordle,354,True
+40459,u/Hunterkiller00,"['place', 'braid', 'trait']",3,trait,Wordle,354,True
+40460,u/KingD123,"['blade', 'chair', 'grain', 'trait']",4,trait,Wordle,354,True
+40461,u/tfhaenodreirst,"['audio', 'strep', 'trail', 'trait']",4,trait,Wordle,354,False
+40462,u/dotchianni,"['rents', 'plaid', 'trait']",3,trait,Wordle,354,False
+40463,u/HS007,"['share', 'porch', 'birth', 'girth']",4,girth,Wordle,355,True
+40464,u/willyanto,"['roate', 'truth', 'girth']",3,girth,Wordle,355,True
+40465,u/Alwaysthecase_92,"['adieu', 'short', 'mirth', 'birth', 'girth']",5,girth,Wordle,355,False
+40466,u/GirlWith_Glasses,"['alive', 'minus', 'bitch', 'fifth', 'girth']",5,girth,Wordle,355,True
+40467,u/Hollywoostarsand,"['movie', 'paint', 'sixty', 'filth', 'girth']",5,girth,Wordle,355,True
+40468,u/I_Stare_At_Walls,"['snare', 'flair', 'braid', 'trait']",4,trait,Wordle,354,True
+40469,u/123_underscore_321,"['salet', 'morph', 'dwarf', 'tract', 'trait']",5,trait,Wordle,354,False
+40470,u/leaky_wand,"['stare', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40471,u/spronston,"['crate', 'mirth', 'birth', 'girth']",4,girth,Wordle,355,True
+40472,u/_but_nobody_came,"['alone', 'chart', 'trait']",3,trait,Wordle,354,True
+40473,u/lavinient,"['bland', 'cramp', 'trash', 'trait']",4,trait,Wordle,354,True
+40474,u/hermitxd,"['shear', 'right', 'girth']",3,girth,Wordle,355,True
+40475,u/top_coder,"['crwth', 'birth', 'girth']",3,girth,Wordle,355,True
+40476,u/OneOfManyChildren,"['stare', 'broth', 'girth']",3,girth,Wordle,355,True
+40477,u/Initial_E,"['waste', 'girth']",2,girth,Wordle,355,True
+40479,u/optional_wax,"['stare', 'orbit', 'dirty', 'girth']",4,girth,Wordle,355,True
+40480,u/lyovi,"['spare', 'broil', 'right', 'girth']",4,girth,Wordle,355,True
+40481,u/real415,"['salet', 'argot', 'draft', 'tract', 'trait']",5,trait,Wordle,354,True
+40482,u/Ralamadul,"['heist', 'thigh', 'girth']",3,girth,Wordle,355,True
+40483,u/RabJos,"['tales', 'orcin', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,False
+40484,u/Hybelkanina,"['stare', 'truck', 'right', 'girth']",4,girth,Wordle,355,True
+40485,u/peace_97,"['prowl', 'razed', 'turfs', 'birth', 'girth']",5,girth,Wordle,355,True
+40486,u/baconsoap_1,"['gibus', 'girth']",2,girth,Wordle,355,True
+40487,u/Standard_Surprise_68,"['arise', 'ghoul', 'girth']",3,girth,Wordle,355,False
+40488,u/Teunnis,"['trait', 'stire', 'right', 'girth']",4,girth,Wordle,355,True
+40489,u/Happifier,"['sexto', 'mirth', 'girth']",3,girth,Wordle,355,True
+40490,u/Eazyyy,"['crate', 'worts', 'firth', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40491,u/Hayley___98,"['aeros', 'lurid', 'girth']",3,girth,Wordle,355,True
+40492,u/Clever_Owl,"['today', 'strip', 'girth']",3,girth,Wordle,355,True
+40493,u/humanmodeoff,"['mushy', 'alter', 'throw', 'birth', 'girth']",5,girth,Wordle,355,False
+40494,u/SaltedAndSugared,"['flora', 'right', 'girth']",3,girth,Wordle,355,True
+40496,u/SentimentalDebris,"['drive', 'frail', 'train', 'trait']",4,trait,Wordle,354,True
+40497,u/Gushami,"['grain', 'girth']",2,girth,Wordle,355,True
+40498,u/wildrice777,"['stare', 'train', 'trail', 'trait']",4,trait,Wordle,354,True
+40499,u/Few_Faithlessness796,"['coast', 'twerk', 'dirty', 'girth']",4,girth,Wordle,355,True
+40500,u/soleilady,"['stern', 'trial', 'trait']",3,trait,Wordle,354,True
+40501,u/2Legit2Quiz,"['guilt', 'girth']",2,girth,Wordle,355,True
+40502,u/carbonbear,"['arise', 'frail', 'brain', 'trait']",4,trait,Wordle,354,True
+40503,u/Minimum-Story,"['crane', 'frail', 'trait']",3,trait,Wordle,354,True
+40504,u/Boxofrage,"['stare', 'truly', 'right', 'girth']",4,girth,Wordle,355,True
+40505,u/nishthrowaway,['girth'],1,girth,Wordle,355,True
+40506,u/MyDearDapple,"['feast', 'adapt', 'chart', 'trait']",4,trait,Wordle,354,False
+40507,u/shell2020,"['whore', 'brush', 'firth', 'girth']",4,girth,Wordle,355,True
+40508,u/Hesh707,"['alone', 'chick', 'fishy', 'width', 'birth', 'girth']",6,girth,Wordle,355,True
+40509,u/timthemartian,"['hedge', 'laugh', 'girth']",3,girth,Wordle,355,True
+40510,u/troylaw,"['crate', 'birth', 'girth']",3,girth,Wordle,355,True
+40511,u/yourcountrycousin,"['crest', 'draft', 'trait']",3,trait,Wordle,354,True
+40512,u/gobluthmagician,"['raise', 'clout', 'girth']",3,girth,Wordle,355,False
+40513,u/stenseven,"['house', 'paint', 'trait']",3,trait,Wordle,354,True
+40514,u/unreadable_captcha,"['hotel', 'wrath', 'birth', 'girth']",4,girth,Wordle,355,True
+40515,u/Hyperf0cused,"['drawl', 'crash', 'brain', 'trait']",4,trait,Wordle,354,True
+40516,u/alandizzle,"['crate', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40517,u/spaceman_______spiff,"['thing', 'fight', 'girth']",3,girth,Wordle,355,True
+40518,u/Yepyep911,"['dealt', 'start', 'trait']",3,trait,Wordle,354,True
+40519,u/SamVulcan,"['crane', 'pious', 'kilty', 'girth']",4,girth,Wordle,355,False
+40520,u/sarysa,"['smith', 'filth', 'girth']",3,girth,Wordle,355,True
+40521,u/Spanky_McJiggles,"['prick', 'fired', 'girth']",3,girth,Wordle,355,True
+40522,u/eliw23,"['plain', 'shirt', 'girth']",3,girth,Wordle,355,True
+40523,u/KimchiBearChile,"['arise', 'intro', 'quirt', 'birth', 'girth']",5,girth,Wordle,355,False
+40524,u/Yepyep911,"['dealt', 'pitch', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40526,u/ryeshoes,"['tubes', 'fling']",3,girth,Wordle,355,False
+40527,u/shelbimaree,"['earth', 'worth', 'firth', 'girth']",4,girth,Wordle,355,True
+40528,u/sleigh_queen,"['steal', 'fruit', 'dirty', 'birth', 'girth']",5,girth,Wordle,355,True
+40529,u/vspazv,"['tears', 'trail', 'train', 'trait']",4,trait,Wordle,354,True
+40530,u/NetflixAndNikah,"['forge', 'shrug', 'girth']",3,girth,Wordle,355,True
+40531,u/SnabbleChap_33,"['later', 'trick', 'dirty', 'girth']",4,girth,Wordle,355,True
+40532,u/shimmerangels,"['aster', 'court', 'trill', 'rifty', 'girth']",5,girth,Wordle,355,True
+40533,u/andronicus_14,"['stare', 'burnt', 'worth', 'girth']",4,girth,Wordle,355,True
+40534,u/sdhuk,"['tried', 'goals', 'grift', 'girth']",4,girth,Wordle,355,False
+40535,u/southernbellissima,"['chest', 'wrath', 'girth']",3,girth,Wordle,355,True
+40536,u/PreventFalls,"['paint', 'timer', 'right', 'girth']",4,girth,Wordle,355,True
+40537,u/tooooooodayrightnow,"['raise', 'birth', 'girth']",3,girth,Wordle,355,True
+40538,u/tjc815,"['slate', 'worth', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40539,u/painting_of_blue,"['parts', 'girth']",2,girth,Wordle,355,True
+40540,u/poeticzonex,"['sport', 'retro', 'crate', 'dirty', 'birth', 'girth']",6,girth,Wordle,355,True
+40541,u/hauloff,"['salet', 'truth', 'wings', 'girth']",4,girth,Wordle,355,False
+40542,u/am_ERICANDRE_am,"['raise', 'girth']",2,girth,Wordle,355,True
+40543,u/resatr,"['orbit', 'tired', 'firth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40544,u/TheSultan1,"['spice', 'frail', 'mirth', 'girth']",4,girth,Wordle,355,True
+40545,u/FunnyJ3lly,"['tears', 'right', 'girth']",3,girth,Wordle,355,True
+40546,u/taxi00,"['atone', 'grist', 'girth']",3,girth,Wordle,355,True
+40547,u/CaptainFunn,"['boost', 'trend', 'ultra', 'piggy', 'girth']",5,girth,Wordle,355,False
+40548,u/madisonpalooza,"['place', 'short', 'birth', 'girth']",4,girth,Wordle,355,True
+40549,u/lavinient,"['spent', 'thumb', 'cloth', 'wrath', 'girth']",5,girth,Wordle,355,True
+40550,u/Illustrious_Glove_18,"['stark', 'truth', 'birth', 'girth']",4,girth,Wordle,355,True
+40551,u/NakedSnakeEyes,"['stear', 'right', 'girth']",3,girth,Wordle,355,True
+40552,u/abaca002,"['flood', 'train', 'trait']",3,trait,Wordle,354,True
+40553,u/ElWanderer_KSP,"['crypt', 'later', 'strim', 'girth']",4,girth,Wordle,355,True
+40554,u/Blindstealer,"['crypt', 'alter', 'storm', 'firth', 'birth', 'girth']",6,girth,Wordle,355,True
+40555,u/Xephyrius,"['aspie', 'flint', 'dirty', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40556,u/trinibug,"['teary', 'lions', 'befog', 'girth']",4,girth,Wordle,355,False
+40557,u/BoardwalkKnitter,"['swole', 'paint', 'tumid', 'birth', 'girth']",5,girth,Wordle,355,True
+40558,u/ConfusionInformal630,"['penis', 'right', 'girth']",3,girth,Wordle,355,True
+40559,u/wildrice777,"['stare', 'trump', 'rigor', 'girth']",4,girth,Wordle,355,False
+40560,u/Elt_experiments,"['caste', 'forth', 'mirth', 'girth']",4,girth,Wordle,355,True
+40561,u/VardaElentari86,"['stare', 'troll', 'mirth', 'girth']",4,girth,Wordle,355,True
+40562,u/andreasbjorne,"['tears', 'porty', 'girth']",3,girth,Wordle,355,True
+40563,u/Rion96,"['stare', 'trick', 'girth']",3,girth,Wordle,355,True
+40564,u/mlc885,"['crane', 'worth', 'birth', 'girth']",4,girth,Wordle,355,True
+40565,u/madeleineruth19,"['crane', 'flour', 'dirty', 'mirth', 'girth']",5,girth,Wordle,358,True
+40566,u/pocari9999,"['smear', 'right', 'girth']",3,girth,Wordle,355,True
+40567,u/Sir0bin,"['stare', 'grift', 'girth']",3,girth,Wordle,355,True
+40568,u/AnotherAccount4This,"['mouth', 'faith', 'birth', 'girth']",4,girth,Wordle,355,True
+40569,u/cougar572,"['aegis', 'youth', 'girth']",3,girth,Wordle,355,False
+40571,u/eagleslanding,"['suite', 'witty', 'filth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40572,u/Cadillacquer,"['trail', 'right', 'girth']",3,girth,Wordle,355,True
+40573,u/958Silver,"['grief', 'girly', 'girth']",3,girth,Wordle,355,True
+40574,u/Junior-Forever8128,"['stang', 'tiger', 'right', 'girth']",4,girth,Wordle,355,True
+40575,u/LittleLordFuckleroy1,"['chain', 'swish', 'filth', 'mirth', 'birth', 'girth']",6,girth,Wordle,355,True
+40576,u/Crxptt,"['great', 'girth']",2,girth,Wordle,355,True
+40577,u/eastbayted,"['stare', 'truth', 'mirth', 'birth', 'girth']",5,girth,Wordle,355,True
+40578,u/east_cam,"['crane', 'risky', 'girth']",3,girth,Wordle,355,True
+40579,u/pandaatadesk,"['sound', 'their', 'right', 'girth']",4,girth,Wordle,355,True
+40580,u/-Em-,"['wreck', 'right', 'girth']",3,girth,Wordle,355,True
+40581,u/Suit_Dummy,"['slate', 'pouty', 'girth']",3,girth,Wordle,355,True
+40582,u/Drunk_Sorting_Hat,"['arose', 'right', 'girth']",3,girth,Wordle,355,True
+40583,u/TRNRLogan,"['trait', 'right', 'girth']",3,girth,Wordle,355,True
+40584,u/prlj,"['stare', 'riots', 'birth', 'girth']",4,girth,Wordle,355,True
+40585,u/SuzumiyaCham,"['prone', 'start', 'dirty', 'birth', 'girth']",5,girth,Wordle,355,True
+40586,u/jalissapi,"['raise', 'mount', 'birth', 'girth']",4,girth,Wordle,355,False
+40587,u/opobdtfs,"['trait', 'strip', 'gamba', 'girth']",4,girth,Wordle,355,False
+40589,u/DrShankapotamus,"['crazy', 'mourn', 'fiber', 'rigid', 'girls', 'girth']",6,girth,Wordle,355,True
+40590,u/AlarKemmotar,"['chart', 'truth', 'north', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40591,u/badmother,"['prime', 'chair', 'right', 'girth']",4,girth,Wordle,355,True
+40592,u/Ardielley,"['blush', 'thigh', 'girth']",3,girth,Wordle,355,True
+40593,u/full-metal-ashtray,"['cigar', 'dirge', 'girts', 'girth']",4,girth,Wordle,355,True
+40594,u/MrsGildebeast,"['crane', 'strip', 'dirty', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40595,u/silly-__-goose,"['slate', 'girth']",2,girth,Wordle,355,True
+40596,u/professormoocow,"['peach', 'brush', 'worth', 'girth']",4,girth,Wordle,355,True
+40597,u/LawfulnessUpbeat5646,"['smart', 'birth', 'girth']",3,girth,Wordle,355,True
+40598,u/r_osit,"['crate', 'north', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40599,u/soap_lady,"['whorl', 'reach', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40601,u/HmmWhatsHisFace,"['break', 'mourn', 'right', 'girth']",4,girth,Wordle,355,False
+40602,u/Auraveils,"['adieu', 'vigor', 'girly', 'girsh', 'girth']",5,girth,Wordle,355,True
+40603,u/NimueNox,"['party', 'sorts', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40604,u/Nervous_Spoon,"['grout', 'girth']",2,girth,Wordle,355,True
+40605,u/Karatekidkeem20,"['grove', 'gland', 'girly', 'girth']",4,girth,Wordle,355,False
+40606,u/reeposterr,"['crwth', 'earth', 'north', 'mirth', 'birth', 'girth']",6,girth,Wordle,355,True
+40607,u/terlinguatx,"['rocky', 'stare', 'birth', 'girth']",4,girth,Wordle,355,True
+40608,u/likwidfuzion,"['roate', 'birth', 'girth']",3,girth,Wordle,355,True
+40609,u/cyrano4833,"['store', 'chart', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40610,u/Hydreigon_Lord,"['mound', 'chase', 'pithy', 'filth', 'girth']",5,girth,Wordle,355,True
+40611,u/cyrano4833,"['store', 'chart', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40612,u/Fugitivebush,"['crane', 'fungi', 'tiger', 'girth']",4,girth,Wordle,355,False
+40613,u/Charming_Tax_4317,"['stylo', 'minty', 'dirty', 'witty', 'piety']",5,piety,Wordle,356,True
+40614,u/doseofvitamink,"['dealt', 'smite', 'piety']",3,piety,Wordle,356,True
+40615,u/bungle_bogs,"['stare', 'trout', 'birth', 'girth']",4,girth,Wordle,355,True
+40616,u/infatuatedknight,"['cobra', 'right', 'girth']",3,girth,Wordle,355,True
+40617,u/Size--,"['slice', 'their', 'inept', 'piety']",4,piety,Wordle,356,True
+40618,u/DarkFlounder,"['adieu', 'story', 'birth', 'girth']",4,girth,Wordle,355,False
+40619,u/unilateralhope,"['shown', 'lathe', 'mirth', 'girth']",4,girth,Wordle,355,True
+40620,u/Shorogwi,"['trust', 'hated', 'forte', 'meaty', 'piety']",5,piety,Wordle,356,True
+40621,u/evidens,"['trace', 'sport', 'dirty', 'birth', 'magic', 'girth']",6,girth,Wordle,355,False
+40622,u/GurneyHa11eck,"['stear', 'orbit', 'girth']",3,girth,Wordle,355,True
+40623,u/khcollett,"['raise', 'choir', 'birth', 'girth']",4,girth,Wordle,355,True
+40624,u/KJones77,"['house', 'thank', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,True
+40625,u/5tr4nGe,"['audio', 'entry', 'strip', 'birth', 'girth']",5,girth,Wordle,355,False
+40626,u/fivezero_ca,"['bread', 'curly', 'first', 'mirth', 'girth']",5,girth,Wordle,355,True
+40627,u/ObsidianDreamsRedux,"['group', 'baste', 'petty', 'piety']",4,piety,Wordle,356,False
+40628,u/LovMatip,"['roate', 'dirty', 'girth']",3,girth,Wordle,355,True
+40629,u/jh51681,"['crane', 'rough', 'girth']",3,girth,Wordle,355,True
+40630,u/The-Tonborghini,"['canoe', 'might', 'tight', 'girth']",4,girth,Wordle,355,True
+40631,u/HudsonCommodore,"['great', 'girth']",2,girth,Wordle,355,True
+40632,u/crackingshell,"['jocky', 'rafts', 'grith', 'girth']",4,girth,Wordle,355,True
+40633,u/Phoenix4264,"['fight', 'girth']",2,girth,Wordle,355,True
+40634,u/sugarbreath91,"['trail', 'shirt', 'mirth', 'birth', 'girth']",5,girth,Wordle,355,True
+40635,u/IndigoMoonAdventure,"['bunch', 'trash', 'mirth', 'girth']",4,girth,Wordle,355,True
+40636,u/sase_o,"['canoe', 'first', 'girth']",3,girth,Wordle,355,True
+40637,u/MalConstant,"['vigor', 'girth']",2,girth,Wordle,355,False
+40639,u/sniffie45,"['crate', 'soily', 'mound', 'birth', 'girth']",5,girth,Wordle,355,False
+40640,u/anthonyqld,"['loser', 'cheap', 'piend', 'piety']",4,piety,Wordle,356,True
+40641,u/MasqueradeOfSilence,"['atone', 'titup', 'sigil', 'girth']",4,girth,Wordle,355,False
+40642,u/_duncan_idaho_,"['weary', 'elegy', 'chevy', 'piety']",4,piety,Wordle,356,True
+40643,u/Binro_was_right,"['scalp', 'prime', 'piety']",3,piety,Wordle,356,True
+40644,u/troylaw,"['brave', 'guest', 'tween', 'doeth', 'piety']",5,piety,Wordle,356,True
+40645,u/AlarKemmotar,"['chart', 'truth', 'north', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40646,u/pplovesk,"['steal', 'teeth', 'piety']",3,piety,Wordle,356,True
+40647,u/GlassesFreek,"['trait', 'girth']",2,girth,Wordle,355,True
+40648,u/peacharnoldpalmer,"['saint', 'timer', 'girth']",3,girth,Wordle,355,True
+40649,u/abaca002,"['trait', 'stire', 'found', 'right', 'girth']",5,girth,Wordle,355,False
+40650,u/soislifee,"['crash', 'birth', 'girth']",3,girth,Wordle,355,True
+40651,u/chilifinger,"['stale', 'north', 'birth', 'firth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40652,u/rainlynn08,"['tamer', 'wrist', 'girth']",3,girth,Wordle,355,True
+40653,u/Bogus4Real,"['learn', 'pious', 'dirty', 'gumbo', 'girth']",5,girth,Wordle,355,False
+40654,u/caycethecat,"['worse', 'meant', 'typed', 'piety']",4,piety,Wordle,356,True
+40655,u/IllogicalIllusionist,"['avoid', 'islet', 'write', 'piety']",4,piety,Wordle,356,True
+40656,u/HayesChin,"['canoe', 'shirt', 'petit', 'piety']",4,piety,Wordle,356,False
+40657,u/swaqmaster4lyfe,"['trait', 'chomp', 'birth', 'girth']",4,girth,Wordle,355,False
+40658,u/spaceman_______spiff,"['wrong', 'petal', 'piety']",3,piety,Wordle,356,True
+40659,u/Streebers0392,"['tread', 'riots', 'girth']",3,girth,Wordle,355,True
+40660,u/seafoodrice,"['salet', 'tempo', 'piety']",3,piety,Wordle,356,True
+40661,u/Triquelli,"['until', 'fresh', 'birth', 'mirth', 'girth']",5,girth,Wordle,355,False
+40662,u/PM-ME-UR-PETS,"['fault', 'throw', 'cited', 'piety']",4,piety,Wordle,356,True
+40663,u/Puzzleheaded-Bug7189,"['plant', 'third', 'birth', 'girth']",4,girth,Wordle,355,True
+40664,u/vspazv,"['tears', 'motor', 'dirty', 'birth', 'girth']",5,girth,Wordle,355,True
+40665,u/VeezyDo3,"['bitch', 'girth']",2,girth,Wordle,355,True
+40666,u/Jennarager,"['steal', 'thumb', 'froth', 'girth']",4,girth,Wordle,355,True
+40667,u/choux_pastry_heart,"['stare', 'grout', 'girth']",3,girth,Wordle,355,True
+40668,u/gogs_bread,"['posed', 'trick', 'right', 'girth']",4,girth,Wordle,355,True
+40669,u/Hugobaby69,"['haste', 'deity', 'piety']",3,piety,Wordle,356,True
+40670,u/Rex_002,"['dealt', 'store', 'thief', 'piety']",4,piety,Wordle,356,True
+40671,u/MrAdelphi03,"['raise', 'clown', 'thumb', 'girth']",4,girth,Wordle,355,False
+40672,u/Niharu_82,"['raise', 'mirth', 'birth', 'girth']",4,girth,Wordle,355,True
+40673,u/123_underscore_321,"['salet', 'morph', 'birth', 'girth']",4,girth,Wordle,355,False
+40674,u/darkest4,"['major', 'right', 'girth']",3,girth,Wordle,355,True
+40675,u/_coragray,"['party', 'piety']",2,piety,Wordle,356,True
+40676,u/kimo_sabe8,"['ghost', 'girth']",2,girth,Wordle,355,True
+40677,u/KingD123,"['worth', 'birth', 'girth']",3,girth,Wordle,355,True
+40678,u/abvaaron216,"['storm', 'trail', 'right', 'girth']",4,girth,Wordle,355,True
+40679,u/Neondanublu03,"['trace', 'strip', 'dirty', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40680,u/Alwaysthecase_92,"['crisp', 'piked', 'piety']",3,piety,Wordle,356,True
+40681,u/redbent_20,"['light', 'girth']",2,girth,Wordle,355,True
+40682,u/PimpeeMcgee,"['prude', 'roast', 'twirl', 'mirth', 'birth', 'girth']",6,girth,Wordle,355,True
+40683,u/I_Stare_At_Walls,"['snare', 'rifty', 'virtu', 'birth', 'girth']",5,girth,Wordle,355,True
+40684,u/MegachiropsOnReddit,"['haste', 'mouth', 'girth']",3,girth,Wordle,355,True
+40685,u/real415,"['salet', 'crony', 'build', 'mirth', 'girth']",5,girth,Wordle,355,False
+40686,u/Dollfacedkills,"['ghoul', 'girth']",2,girth,Wordle,355,True
+40687,u/alexlp,"['grind', 'willy', 'zippy', 'pissy', 'pithy', 'piety']",6,piety,Wordle,356,True
+40688,u/j_tragic,"['stain', 'thick', 'filth', 'birth', 'mirth', 'girth']",6,girth,Wordle,355,True
+40689,u/elephantastica,"['scare', 'group', 'girth']",3,girth,Wordle,355,True
+40690,u/GirlWith_Glasses,"['adult', 'tenth', 'empty', 'piety']",4,piety,Wordle,356,True
+40691,u/seacuntea,"['cream', 'grunt', 'girth']",3,girth,Wordle,355,True
+40692,u/_but_nobody_came,"['teach', 'mouth', 'filth', 'snark', 'birth', 'girth']",6,girth,Wordle,355,False
+40693,u/oldpekapeka33,"['stare', 'pound', 'petit', 'piety']",4,piety,Wordle,356,False
+40694,u/Clever_Owl,"['today', 'witty', 'sixty', 'fifty', 'minty', 'piety']",6,piety,Wordle,356,True
+40695,u/carbonbear,"['tears', 'fruit', 'birth', 'girth']",4,girth,Wordle,355,True
+40696,u/spronston,"['crate', 'petty', 'piety']",3,piety,Wordle,356,True
+40697,u/johnnykik5,"['stern', 'grout', 'girth']",3,girth,Wordle,355,True
+40698,u/mug3n,"['bread', 'slept', 'piety']",3,piety,Wordle,356,True
+40699,u/johnnykik5,"['stern', 'grout', 'girth']",3,girth,Wordle,355,True
+40700,u/karaokekwien,"['fiend', 'girls', 'girth']",3,girth,Wordle,355,True
+40701,u/RabJos,"['tales', 'orcin', 'elite', 'piety']",4,piety,Wordle,356,False
+40702,u/optional_wax,"['stare', 'feint', 'tiled', 'piety']",4,piety,Wordle,356,True
+40703,u/Happifier,"['adios', 'untie', 'eight', 'piety']",4,piety,Wordle,356,True
+40704,u/Strawburgerz,"['slate', 'deity', 'piety']",3,piety,Wordle,356,True
+40705,u/yourcountrycousin,"['crest', 'tumor', 'party', 'girth']",4,girth,Wordle,355,True
+40706,u/danubius48,"['crane', 'smelt', 'fiery', 'piety']",4,piety,Wordle,356,False
+40707,u/trinibug,"['teary', 'empty', 'piety']",3,piety,Wordle,356,True
+40708,u/Initial_E,"['grail', 'chink', 'widow', 'tipsy', 'piety']",5,piety,Wordle,356,True
+40709,u/NineElements,"['tryst', 'panty', 'pouty', 'piety']",4,piety,Wordle,356,True
+40710,u/Hayley___98,"['aeros', 'tubed', 'cline', 'petit', 'piety']",5,piety,Wordle,356,False
+40711,u/asinyan,"['crawl', 'spent', 'piety']",3,piety,Wordle,356,True
+40712,u/SaltedAndSugared,"['whale', 'trend', 'steep', 'crept', 'quest', 'piety']",6,piety,Wordle,356,False
+40713,u/[deleted],"['earth', 'girth']",2,girth,Wordle,355,False
+40715,u/Justin113113,"['chain', 'pious', 'pixel', 'piety']",4,piety,Wordle,356,True
+40716,u/Hesh707,"['snake', 'peter', 'piety']",3,piety,Wordle,356,True
+40717,u/8Yoongles,"['crate', 'sieth', 'piety']",3,piety,Wordle,356,True
+40718,u/Standard_Surprise_68,"['close', 'great', 'teeny', 'piety']",4,piety,Wordle,356,True
+40719,u/alandizzle,"['crate', 'dirty', 'birth', 'girth']",4,girth,Wordle,355,True
+40720,u/Boxofrage,"['stare', 'tepid', 'piety']",3,piety,Wordle,356,True
+40721,u/Gushami,"['shawl', 'cried', 'minge', 'piety']",4,piety,Wordle,356,True
+40722,u/Samio25,"['raise', 'feint', 'piety']",3,piety,Wordle,356,False
+40723,u/Teunnis,"['girth', 'nifty', 'misty', 'ditty', 'piety']",5,piety,Wordle,356,True
+40724,u/tfhaenodreirst,"['audio', 'strep', 'mirth', 'birth', 'girth']",5,girth,Wordle,355,False
+40725,u/JVIR,"['adieu', 'piety']",2,piety,Wordle,356,True
+40726,u/lyovi,"['spate', 'depth', 'piety']",3,piety,Wordle,356,True
+40727,u/plushly,"['group', 'spilt', 'tepid', 'piety']",4,piety,Wordle,356,True
+40728,u/Hollywoostarsand,"['rainy', 'dimly', 'picky', 'piggy', 'piety']",5,piety,Wordle,356,True
+40729,u/SweetSlowKiss,"['adieu', 'right', 'girth']",3,girth,Wordle,355,True
+40730,u/ZappySnap,"['tares', 'forty', 'birth', 'girth']",4,girth,Wordle,355,True
+40731,u/2Legit2Quiz,"['pride', 'piles', 'piety']",3,piety,Wordle,356,True
+40732,u/sleigh_queen,"['trace', 'spelt', 'piety']",3,piety,Wordle,356,True
+40733,u/SentimentalDebris,"['frost', 'ramen', 'twirl', 'birth', 'girth']",5,girth,Wordle,355,False
+40734,u/gobluthmagician,"['raise', 'clout', 'timed', 'piety']",4,piety,Wordle,356,False
+40735,u/shelbimaree,"['earth', 'coins', 'flite', 'piety']",4,piety,Wordle,356,False
+40736,u/3am_blackcoffee,"['viola', 'night', 'girth']",3,girth,Wordle,355,True
+40737,u/sud_a,"['stare', 'toned', 'fetch', 'piety']",4,piety,Wordle,356,True
+40738,u/kaksjsnns,"['pride', 'chair', 'right', 'girth']",4,girth,Wordle,355,True
+40739,u/rexis,"['crypt', 'piety']",2,piety,Wordle,356,True
+40740,u/MegachiropsOnReddit,"['haste', 'empty', 'petty', 'piety']",4,piety,Wordle,356,True
+40741,u/ryeshoes,"['tubes', 'fling', 'champ', 'petit']",5,piety,Wordle,356,False
+40742,u/KimchiBearChile,"['arise', 'could', 'vixen', 'piety']",4,piety,Wordle,356,False
+40743,u/Spanky_McJiggles,"['watch', 'flute', 'deity', 'piety']",4,piety,Wordle,356,True
+40744,u/CathedralEngine,"['radio', 'guest', 'piety']",3,piety,Wordle,356,False
+40745,u/sarysa,"['smith', 'dirty', 'nifty', 'piety']",4,piety,Wordle,356,True
+40746,u/XmertonX,"['stear', 'teeth', 'piety']",3,piety,Wordle,356,True
+40747,u/shimmerangels,"['aster', 'trine', 'field', 'piety']",4,piety,Wordle,356,False
+40748,u/r_osit,"['human', 'stole', 'tweed', 'crept', 'piety']",5,piety,Wordle,356,True
+40749,u/leopardnation10,"['least', 'trice', 'untie', 'piety']",4,piety,Wordle,356,True
+40750,u/Tina-Slay,"['olive', 'mires', 'fiend', 'taupe', 'piety']",5,piety,Wordle,356,False
+40751,u/spitel,"['plate', 'piety']",2,piety,Wordle,356,True
+40752,u/BGroovy_1,"['anger', 'field', 'piece', 'piety']",4,piety,Wordle,356,True
+40753,u/Yepyep911,"['dealt', 'store', 'piety']",3,piety,Wordle,356,True
+40754,u/SnabbleChap_33,"['flank', 'right', 'timed', 'piety']",4,piety,Wordle,356,True
+40755,u/bhalimeh93,"['louie', 'smart', 'piety']",3,piety,Wordle,356,False
+40756,u/Auraveils,"['adieu', 'fiery', 'piety']",3,piety,Wordle,356,True
+40757,u/unreadable_captcha,"['price', 'penis', 'pieta', 'piety']",4,piety,Wordle,356,True
+40758,u/Junior-Forever8128,"['while', 'tiger', 'piste', 'piety']",4,piety,Wordle,356,True
+40759,u/poeticzonex,"['trope', 'pleat', 'piety']",3,piety,Wordle,356,True
+40760,u/NakedSnakeEyes,"['stear', 'fleet', 'teeth', 'piety']",4,piety,Wordle,356,True
+40761,u/Sapphire580,"['penis', 'piled', 'piece', 'tough', 'braze', 'piety']",6,piety,Wordle,356,False
+40762,u/CaptainFunn,"['bread', 'elect', 'teeth', 'poets', 'piety']",5,piety,Wordle,356,True
+40763,u/rocketmczoom,"['wheat', 'trend', 'steep', 'piety']",4,piety,Wordle,356,True
+40764,u/Godly15,"['slate', 'courd', 'gimpy', 'piety']",4,piety,Wordle,356,False
+40765,u/Comfortable-Life-61,"['tweak', 'death', 'piety']",3,piety,Wordle,356,False
+40766,u/ElWanderer_KSP,"['crypt', 'petty', 'piety']",3,piety,Wordle,356,True
+40767,u/top_coder,"['crwth', 'spite', 'piety']",3,piety,Wordle,356,True
+40768,u/5tr4nGe,"['audio', 'entry', 'piety']",3,piety,Wordle,356,False
+40769,u/am_ERICANDRE_am,"['frost', 'table', 'ethic', 'deity', 'piety']",5,piety,Wordle,356,True
+40770,u/DarkFlounder,"['story', 'adieu', 'piety']",3,piety,Wordle,356,False
+40771,u/Kami_no_itte,"['plaid', 'prime', 'pixel', 'piety']",4,piety,Wordle,356,True
+40772,u/eutectic_h8r,"['slate', 'berth', 'piety']",3,piety,Wordle,356,True
+40773,u/taxi00,"['atone', 'deity', 'piety']",3,piety,Wordle,356,True
+40774,u/mlc885,"['crane', 'piety']",2,piety,Wordle,356,True
+40776,u/SuzumiyaCham,"['broke', 'ashen', 'deity', 'piety']",4,piety,Wordle,356,True
+40777,u/VardaElentari86,"['stare', 'bidet', 'piety']",3,piety,Wordle,356,True
+40778,u/eagleslanding,"['suite', 'piety']",2,piety,Wordle,356,True
+40779,u/silly-__-goose,"['slate', 'girth', 'piety']",3,piety,Wordle,356,False
+40780,u/Rion96,"['stare', 'teeth', 'piety']",3,piety,Wordle,356,True
+40781,u/HS007,"['witch', 'pivot', 'piety']",3,piety,Wordle,356,True
+40782,u/chilifinger,"['stare', 'tepid', 'piety']",3,piety,Wordle,356,True
+40783,u/madisonpalooza,"['fable', 'trend', 'sheep', 'slept', 'poets', 'piety']",6,piety,Wordle,356,False
+40784,u/tfhaenodreirst,"['audio', 'strep', 'pipet', 'pithy', 'piety']",5,piety,Wordle,356,False
+40785,u/peacharnoldpalmer,"['saint', 'birth', 'piety']",3,piety,Wordle,356,True
+40786,u/goonwolf,"['moist', 'tired', 'piety']",3,piety,Wordle,356,True
+40787,u/cougar572,"['aegis', 'youth', 'deity', 'piety']",4,piety,Wordle,356,False
+40788,u/roque72,"['arose', 'depth', 'piety']",3,piety,Wordle,356,True
+40789,u/-Em-,"['crime', 'pined', 'pieta', 'piety']",4,piety,Wordle,356,True
+40790,u/50cent69,"['girth', 'misty', 'fifty', 'nitty', 'paced', 'piety']",6,piety,Wordle,356,False
+40791,u/dotchianni,"['rents', 'plaid', 'piety']",3,piety,Wordle,356,False
+40792,u/Sir0bin,"['stare', 'fetch', 'token', 'dwelt', 'piety']",5,piety,Wordle,356,True
+40793,u/nexochi,"['style', 'teary', 'piety']",3,piety,Wordle,356,True
+40794,u/eastbayted,"['snide', 'timer', 'eight', 'piety']",4,piety,Wordle,356,True
+40795,u/punieluna,"['death', 'write', 'piets', 'piety']",4,piety,Wordle,356,True
+40796,u/east_cam,"['crane', 'sheet', 'piety']",3,piety,Wordle,356,True
+40797,u/AnotherAccount4This,"['stain', 'white', 'piety']",3,piety,Wordle,356,True
+40798,u/GlassesFreek,"['girth', 'minty', 'piety']",3,piety,Wordle,356,True
+40799,u/caveman512,"['spire', 'tepid', 'inept', 'piety']",4,piety,Wordle,356,True
+40800,u/Suit_Dummy,"['slate', 'teeth', 'piety']",3,piety,Wordle,356,True
+40801,u/andreasbjorne,"['tears', 'flite', 'chunk', 'moped', 'piety']",5,piety,Wordle,356,False
+40802,u/badmother,"['maybe', 'petty', 'piety']",3,piety,Wordle,356,True
+40803,u/full-metal-ashtray,"['trail', 'swift', 'cited', 'piety']",4,piety,Wordle,356,True
+40804,u/tetisiwa,"['crane', 'smelt', 'piety']",3,piety,Wordle,356,True
+40805,u/Hoobleton,"['space', 'erupt', 'tepid', 'piton', 'piety']",5,piety,Wordle,356,False
+40806,u/Yamdonor,"['crate', 'piety']",2,piety,Wordle,356,False
+40807,u/izzyvet,"['shade', 'point', 'petit', 'piety']",4,piety,Wordle,356,False
+40808,u/Katrina_0606,"['scare', 'tulip', 'petit', 'piety']",4,piety,Wordle,356,False
+40809,u/ZappySnap,"['crane', 'steep', 'inept', 'piety']",4,piety,Wordle,356,True
+40810,u/opobdtfs,"['girth', 'misty', 'fifty', 'nitty', 'piety']",5,piety,Wordle,356,True
+40811,u/likwidfuzion,"['roate', 'deity', 'piety']",3,piety,Wordle,356,True
+40812,u/HongKiePie,"['alone', 'chest', 'twerk', 'piety']",4,piety,Wordle,356,True
+40813,u/Yatta99,"['audio', 'stern', 'block', 'piety']",4,piety,Wordle,356,False
+40814,u/Moonlight_Sonata545,"['party', 'putty', 'piety']",3,piety,Wordle,356,True
+40815,u/tooooooodayrightnow,"['raise', 'mouth', 'piety']",3,piety,Wordle,356,False
+40816,u/Plumperknickle,"['thick', 'sites', 'fient', 'piety']",4,piety,Wordle,356,True
+40817,u/StKozlovsky,"['gleam', 'stern', 'theft', 'piety']",4,piety,Wordle,356,True
+40818,u/prlj,"['stare', 'tempo', 'piece', 'piety']",4,piety,Wordle,356,False
+40819,u/HmmWhatsHisFace,"['laugh', 'tired', 'fient', 'piety']",4,piety,Wordle,356,False
+40820,u/SamVulcan,"['crane', 'pious', 'piety']",3,piety,Wordle,356,False
+40821,u/hoIygrail,"['paint', 'pitch', 'piety']",3,piety,Wordle,356,True
+40822,u/LittleJudgment,"['least', 'trope', 'piety']",3,piety,Wordle,356,False
+40823,u/dusseprincesa,"['spout', 'taper', 'petty', 'piety']",4,piety,Wordle,356,True
+40824,u/HiFiGuy197,"['steal', 'trend', 'civet', 'piety']",4,piety,Wordle,356,False
+40825,u/jalissapi,"['raise', 'mount', 'tepid', 'piety']",4,piety,Wordle,356,False
+40826,u/soap_lady,"['scary', 'minty', 'piety']",3,piety,Wordle,356,True
+40827,u/IndigoMoonAdventure,"['draft', 'butte', 'melty', 'piety']",4,piety,Wordle,356,True
+40828,u/Size--,"['slice', 'haste', 'dense', 'purse', 'goose']",5,goose,Wordle,357,True
+40829,u/bungle_bogs,"['stare', 'noted', 'theft', 'piety']",4,piety,Wordle,356,True
+40830,u/combuchan,"['anode', 'crest', 'piety']",3,piety,Wordle,356,True
+40831,u/MasqueradeOfSilence,"['atone', 'teeth', 'piety']",3,piety,Wordle,356,True
+40832,u/PimpeeMcgee,"['plaid', 'price', 'pipet', 'piety']",4,piety,Wordle,356,True
+40833,u/cyrano4833,"['adieu', 'smile', 'inert', 'piety']",4,piety,Wordle,356,True
+40834,u/departure33,"['mouse', 'fight', 'tiled', 'water', 'piety']",5,piety,Wordle,356,False
+40835,u/yearn2churn,"['crane', 'midst', 'piety']",3,piety,Wordle,356,False
+40836,u/ClashForeverrr,"['sandy', 'jolly', 'wimpy', 'piggy', 'picky', 'piety']",6,piety,Wordle,356,True
+40837,u/Hydreigon_Lord,"['drink', 'witch', 'misty', 'piety']",4,piety,Wordle,356,True
+40838,u/infatuatedknight,"['built', 'timer', 'piety']",3,piety,Wordle,356,True
+40839,u/KDCaniell,"['ocean', 'smoke', 'prose', 'those', 'loose', 'goose']",6,goose,Wordle,357,True
+40840,u/madeleineruth19,"['alike', 'tired', 'eight', 'fiest', 'piety']",5,piety,Wordle,359,True
+40841,u/doseofvitamink,"['dealt', 'score', 'moose', 'goose']",4,goose,Wordle,357,True
+40842,u/soislifee,"['stare', 'cleft', 'thein', 'piety']",4,piety,Wordle,356,True
+40844,u/LovMatip,"['roate', 'petty', 'piety']",3,piety,Wordle,356,True
+40845,u/oglabradoodle,"['stare', 'mouth', 'piety']",3,piety,Wordle,356,False
+40846,u/evidens,"['trace', 'zesty', 'empty', 'piety']",4,piety,Wordle,356,True
+40847,u/wnr3,"['crank', 'flout', 'deter', 'thyme', 'piety']",5,piety,Wordle,356,True
+40848,u/GurneyHa11eck,"['tares', 'bidet', 'lithe', 'piety']",4,piety,Wordle,356,True
+40849,u/Mjcc64,"['raise', 'story', 'piety']",3,piety,Wordle,356,False
+40850,u/sase_o,"['canoe', 'erupt', 'tepid', 'piety']",4,piety,Wordle,356,True
+40851,u/terlinguatx,"['sauce', 'hover', 'tepid', 'inept', 'piety']",5,piety,Wordle,356,True
+40852,u/khcollett,"['raise', 'debit', 'intel', 'piety']",4,piety,Wordle,356,True
+40853,u/aTaleForgotten,"['purse', 'poofy', 'penny', 'plead', 'piety']",5,piety,Wordle,356,False
+40854,u/sniffie45,"['soare', 'guilt', 'nymph', 'piety']",4,piety,Wordle,356,False
+40855,u/ObsidianDreamsRedux,"['harem', 'lusty', 'winks', 'coped', 'goose']",5,goose,Wordle,357,False
+40856,u/solming13,"['patio', 'print', 'piste', 'piety']",4,piety,Wordle,356,True
+40857,u/Clever_Owl,"['today', 'power', 'noise', 'mouse', 'loose', 'goose']",6,goose,Wordle,357,True
+40858,u/Strawburgerz,"['slate', 'poise', 'horse', 'mouse', 'dowse', 'goose']",6,goose,Wordle,357,True
+40859,u/aqua_zuma21,"['hards', 'clote', 'piety']",3,piety,Wordle,356,True
+40860,u/NimueNox,"['water', 'thine', 'exits', 'piety']",4,piety,Wordle,356,True
+40861,u/anthonyqld,"['plane', 'score', 'those', 'goose']",4,goose,Wordle,357,True
+40862,u/moselth,"['slate', 'emote', 'derth', 'piety']",4,piety,Wordle,356,True
+40863,u/dicks_out_for,"['think', 'plait', 'piste', 'piety']",4,piety,Wordle,356,True
+40864,u/tjc815,"['snare', 'whelm', 'piety']",3,piety,Wordle,356,True
+40865,u/Mecha_Tortoise,"['reach', 'sited', 'tinge', 'piety']",4,piety,Wordle,356,True
+40866,u/professormoocow,"['crate', 'depth', 'spite', 'piety']",4,piety,Wordle,356,True
+40867,u/rechoired,"['paste', 'piety']",2,piety,Wordle,356,True
+40868,u/Appropriate_angst,"['slate', 'tenth', 'piety']",3,piety,Wordle,356,True
+40869,u/bi-ology,"['pause', 'penny', 'pokey', 'piety']",4,piety,Wordle,356,True
+40870,u/yorky1800,"['shone', 'close', 'prose', 'goose']",4,goose,Wordle,357,True
+40871,u/spronston,"['crate', 'shine', 'house', 'loose', 'goose']",5,goose,Wordle,357,True
+40872,u/swaqmaster4lyfe,"['girth', 'block', 'swamp', 'piety']",4,piety,Wordle,356,False
+40873,u/islandlily,"['frost', 'watch', 'tulip', 'piety']",4,piety,Wordle,356,True
+40874,u/Puzzleheaded-Bug7189,"['point', 'pitch', 'piets', 'piety']",4,piety,Wordle,356,True
+40875,u/Bogus4Real,"['lemon', 'juice', 'eight', 'tired', 'piety']",5,piety,Wordle,356,True
+40876,u/pplovesk,"['steal', 'risen', 'mouse', 'goose']",4,goose,Wordle,357,True
+40877,u/kinenbi,"['flair', 'chime', 'piety']",3,piety,Wordle,356,True
+40878,u/vspazv,"['tears', 'flute', 'empty', 'piety']",4,piety,Wordle,356,True
+40879,u/_duncan_idaho_,"['dream', 'epoch', 'stoke', 'loose', 'goose']",5,goose,Wordle,357,True
+40880,u/seafoodrice,"['salet', 'mouse', 'horse', 'noise', 'goose']",5,goose,Wordle,357,True
+40881,u/unilateralhope,"['angst', 'tribe', 'petit', 'piety']",4,piety,Wordle,356,True
+40882,u/gribau,"['adore', 'miles', 'eight', 'piety']",4,piety,Wordle,356,True
+40883,u/shmackinhammies,"['pious', 'pinch', 'piert', 'piety']",4,piety,Wordle,356,True
+40884,u/AlarKemmotar,"['lurch', 'saint', 'timed', 'piety']",4,piety,Wordle,356,True
+40885,u/Emergent444,"['scram', 'tepid', 'piety']",3,piety,Wordle,356,True
+40886,u/aqua_zuma21,"['bears', 'spine', 'house', 'glows', 'goose']",5,goose,Wordle,357,False
+40887,u/IllogicalIllusionist,"['avoid', 'ghost', 'goose']",3,goose,Wordle,357,True
+40888,u/jh51681,"['crane', 'miles', 'eight', 'piety']",4,piety,Wordle,356,True
+40889,u/peace_97,"['globe', 'erupt', 'tepid', 'piety']",4,piety,Wordle,356,True
+40890,u/PM-ME-UR-PETS,"['ghoul', 'grope', 'geode', 'gnome', 'goose']",5,goose,Wordle,357,True
+40891,u/TigzyThe7Master,['piety'],1,piety,Wordle,356,True
+40892,u/Neondanublu03,"['trace', 'pesty', 'piety']",3,piety,Wordle,356,True
+40893,u/khorijinn,"['daily', 'piney', 'piety']",3,piety,Wordle,356,True
+40894,u/lavinient,"['track', 'month', 'flute', 'piety']",4,piety,Wordle,356,True
+40895,u/Hugobaby69,"['haste', 'swore', 'close', 'goose']",4,goose,Wordle,357,True
+40896,u/AutomaticPie9734,"['stare', 'tense', 'ghoul', 'piney', 'piety']",5,piety,Wordle,356,False
+40897,u/mvandongen17,"['share', 'blend', 'piety']",3,piety,Wordle,356,True
+40898,u/fivezero_ca,"['scent', 'tread', 'piety']",3,piety,Wordle,356,True
+40899,u/Streebers0392,"['tread', 'cleft', 'stews', 'teeth', 'poets', 'piety']",6,piety,Wordle,356,True
+40900,u/fieldsilver,"['aiery', 'shout', 'close', 'goose']",4,goose,Wordle,357,False
+40901,u/irresponsible_sheep,"['close', 'prose', 'those', 'moose', 'noose', 'goose']",6,goose,Wordle,357,True
+40902,u/carbonbear,"['arise', 'tired', 'eight', 'piety']",4,piety,Wordle,356,True
+40903,u/caffeinated_teddy,"['smoke', 'tread', 'untie', 'piety']",4,piety,Wordle,356,False
+40904,u/GirlWith_Glasses,"['bulky', 'acorn', 'tooth', 'goose']",4,goose,Wordle,357,True
+40905,u/mug3n,"['munch', 'plier', 'seedy', 'waste', 'fosse', 'goose']",6,goose,Wordle,357,True
+40906,u/Hollywoostarsand,"['plate', 'shine', 'rouse', 'goose']",4,goose,Wordle,357,True
+40907,u/ChelshireGoose,"['place', 'snore', 'those', 'moose', 'goose']",5,goose,Wordle,357,True
+40908,u/958Silver,"['trial', 'ditch', 'visit', 'nifty', 'witty', 'piety']",6,piety,Wordle,356,True
+40909,u/I_Stare_At_Walls,"['snare', 'teeth', 'piety']",3,piety,Wordle,356,True
+40910,u/Alwaysthecase_92,"['chalk', 'pious', 'stone', 'moose', 'goose']",5,goose,Wordle,357,True
+40911,u/willyanto,"['roate', 'house', 'noise', 'goose']",4,goose,Wordle,357,True
+40912,u/Sinned74,"['table', 'dents', 'piety']",3,piety,Wordle,356,True
+40913,u/gogs_bread,"['blade', 'piers', 'piece', 'piety']",4,piety,Wordle,356,True
+40914,u/3n1gma302,"['least', 'fetch', 'timer', 'piety']",4,piety,Wordle,356,True
+40915,u/No_Anywhere_3638,"['avoid', 'pitch', 'piety']",3,piety,Wordle,356,True
+40916,u/OneOfManyChildren,"['stare', 'chose', 'moose', 'gland', 'goose']",5,goose,Wordle,357,False
+40917,u/yourcountrycousin,"['crest', 'tweak', 'piety']",3,piety,Wordle,356,True
+40918,u/Charming_Tax_4317,"['audio', 'terms', 'chose', 'flung', 'goose']",5,goose,Wordle,357,False
+40920,u/leaky_wand,"['stare', 'tenth', 'piety']",3,piety,Wordle,356,True
+40921,u/BoardwalkKnitter,"['harem', 'ponce', 'piled', 'piety']",4,piety,Wordle,356,True
+40922,u/j_tragic,"['stain', 'third', 'filet', 'bitte', 'piety']",5,piety,Wordle,356,True
+40923,u/lyovi,"['slate', 'prise', 'chose', 'moose', 'goose']",5,goose,Wordle,357,True
+40924,u/TWGKofi,"['throw', 'mutes', 'plate', 'piety']",4,piety,Wordle,356,True
+40925,u/abaca002,"['girth', 'vista', 'pinto', 'piety']",4,piety,Wordle,356,True
+40927,u/aMusketeer,"['stare', 'chose', 'goose']",3,goose,Wordle,357,True
+40928,u/resatr,"['flume', 'spent', 'torch', 'geeky', 'piety']",5,piety,Wordle,356,False
+40929,u/Gushami,"['bloat', 'groin', 'goody', 'goods', 'goose']",5,goose,Wordle,357,True
+40930,u/MosesIAmnt,"['storm', 'close', 'whose', 'moose', 'noose', 'goose']",6,goose,Wordle,357,True
+40931,u/lukesvader,"['ocean', 'globe', 'grove', 'geode', 'goose']",5,goose,Wordle,357,True
+40932,u/AnvilOfMisanthropy,"['crate', 'tenth', 'dusty', 'jetty', 'kitty', 'piety']",6,piety,Wordle,356,False
+40933,u/KJones77,"['house', 'plead', 'preen', 'piece', 'piety']",5,piety,Wordle,356,True
+40934,u/peace_97,"['crisp', 'glass', 'ghost', 'goose']",4,goose,Wordle,357,True
+40935,u/Hesh707,"['snake', 'close', 'goose']",3,goose,Wordle,357,True
+40936,u/NineElements,"['tryst', 'cause', 'posse', 'goose']",4,goose,Wordle,357,True
+40937,u/Justin113113,"['chain', 'route', 'solve', 'posse', 'goose']",5,goose,Wordle,357,True
+40939,u/Life-Praline5069,"['grape', 'glove', 'geode', 'gnome', 'goose']",5,goose,Wordle,357,True
+40940,u/VardaElentari86,"['crane', 'spite', 'whose', 'mould', 'goose']",5,goose,Wordle,357,False
+40941,u/Standard_Surprise_68,"['bears', 'tough', 'goose']",3,goose,Wordle,357,False
+40942,u/Boxofrage,"['stare', 'louse', 'copse', 'noise', 'goose']",5,goose,Wordle,357,True
+40944,u/sdhuk,"['tried', 'goals', 'goose']",3,goose,Wordle,357,False
+40945,u/KingD123,"['hater', 'stone', 'melty', 'piety']",4,piety,Wordle,356,True
+40946,u/alandizzle,"['crate', 'melts', 'tenth', 'diets', 'piety']",5,piety,Wordle,356,True
+40947,u/seacuntea,"['overt', 'steam', 'tween', 'piety']",4,piety,Wordle,356,True
+40948,u/8Yoongles,"['crate', 'ouija', 'slope', 'goose']",4,goose,Wordle,357,False
+40949,u/variedenthuiast,"['pride', 'lunge', 'goose']",3,goose,Wordle,357,True
+40950,u/caycethecat,"['shone', 'prose', 'close', 'goose']",4,goose,Wordle,357,True
+40951,u/Hayley___98,"['aeros', 'slope', 'those', 'moose', 'goose']",5,goose,Wordle,357,True
+40952,u/RabJos,"['tales', 'orcin', 'house', 'goose']",4,goose,Wordle,357,False
+40953,u/SentimentalDebris,"['might', 'tipsy', 'piety']",3,piety,Wordle,356,True
+40954,u/sugarbreath91,"['alive', 'resin', 'eight', 'cited', 'piety']",5,piety,Wordle,356,True
+40955,u/shelbimaree,"['earth', 'coins', 'posey', 'goose']",4,goose,Wordle,357,False
+40956,u/_but_nobody_came,"['heats', 'brute', 'emend', 'pocky', 'piety']",5,piety,Wordle,356,False
+40957,u/wildrice777,"['stare', 'civet', 'piety']",3,piety,Wordle,356,True
+40958,u/stenseven,"['house', 'alive', 'belie', 'diner', 'piece', 'piety']",6,piety,Wordle,356,True
+40959,u/its_prolly_fine,"['adieu', 'ethic', 'piety']",3,piety,Wordle,356,True
+40960,u/vantablacc,"['stare', 'mound', 'poise', 'loose', 'goose']",5,goose,Wordle,357,False
+40961,u/robophile-ta,"['smear', 'estoc', 'posed', 'house', 'noise', 'goose']",6,goose,Wordle,357,True
+40962,u/MrAdelphi03,"['raise', 'clown', 'thumb', 'petit', 'piety']",5,piety,Wordle,356,False
+40963,u/ZappySnap,"['slate', 'copse', 'goose']",3,goose,Wordle,357,True
+40964,u/Uyulala88,"['stare', 'noise', 'mouse', 'loose', 'goose']",5,goose,Wordle,357,False
+40965,u/YaBoiOheb,"['trump', 'denim', 'fleck', 'hosey', 'boose', 'goose']",6,goose,Wordle,357,True
+40966,u/Spanky_McJiggles,"['plank', 'grout', 'geode', 'goose']",4,goose,Wordle,357,True
+40967,u/KimchiBearChile,"['arise', 'obese', 'close', 'moose', 'thegn', 'goose']",6,goose,Wordle,357,False
+40968,u/r_osit,"['water', 'field', 'messy', 'nurse', 'chose', 'goose']",6,goose,Wordle,357,True
+40969,u/Yepyep911,"['dealt', 'score', 'goose']",3,goose,Wordle,357,True
+40970,u/khorijinn,"['daily', 'pouch', 'boxer', 'moose', 'goose']",5,goose,Wordle,357,True
+40971,u/2Legit2Quiz,"['braid', 'zesty', 'shell', 'fumes', 'copse', 'goose']",6,goose,Wordle,357,True
+40972,u/Junior-Forever8128,"['crust', 'leash', 'poise', 'moose', 'goose']",5,goose,Wordle,357,True
+40973,u/ryeshoes,"['tubes', 'fling', 'champ', 'geese']",5,goose,Wordle,357,False
+40974,u/EinsteinQRockefeller,"['radio', 'limes', 'piece', 'piety']",4,piety,Wordle,356,True
+40975,u/sarysa,"['smith', 'clasp', 'rouse', 'goose']",4,goose,Wordle,357,True
+40976,u/rexis,"['lover', 'goest', 'goose']",3,goose,Wordle,357,True
+40977,u/gobluthmagician,"['raise', 'clout', 'goose']",3,goose,Wordle,357,False
+40978,u/smittalicious,"['champ', 'stern', 'louse', 'goose']",4,goose,Wordle,357,True
+40979,u/peddastle,"['tears', 'hoing', 'goose']",3,goose,Wordle,357,False
+40980,u/SamVulcan,"['crane', 'pious', 'smote', 'whose', 'goose']",5,goose,Wordle,357,False
+40981,u/dzneill,"['ocean', 'worse', 'house', 'poise', 'loose', 'goose']",6,goose,Wordle,357,True
+40982,u/EinsteinQRockefeller,"['radio', 'stone', 'whose', 'loose', 'moose', 'goose']",6,goose,Wordle,357,True
+40983,u/myfriendvv,"['stare', 'chose', 'golem', 'goose']",4,goose,Wordle,357,False
+40984,u/tooooooodayrightnow,"['raise', 'pulse', 'these', 'moose', 'goose']",5,goose,Wordle,357,True
+40986,u/mlc885,"['crane', 'spike', 'douse', 'goose']",4,goose,Wordle,357,True
+40987,u/taxi00,"['atone', 'score', 'goose']",3,goose,Wordle,357,True
+40988,u/HayesChin,"['canoe', 'shirt', 'plumb', 'dowse', 'goose']",5,goose,Wordle,357,False
+40990,u/eutectic_h8r,"['slate', 'prose', 'chose', 'mongo', 'goose']",5,goose,Wordle,357,False
+40991,u/CaptainFunn,"['first', 'clash', 'geese', 'goose']",4,goose,Wordle,357,True
+40992,u/ElWanderer_KSP,"['crypt', 'lanes', 'sheik', 'mouse', 'goose']",5,goose,Wordle,357,True
+40993,u/Shorogwi,"['dinky', 'froth', 'bloom', 'goose']",4,goose,Wordle,357,True
+40994,u/trinibug,"['teary', 'lions', 'chump', 'goose']",4,goose,Wordle,357,False
+40995,u/LittleLordFuckleroy1,"['plank', 'smore', 'whose', 'goose']",4,goose,Wordle,357,True
+40996,u/karaokekwien,"['stare', 'chose', 'goose']",3,goose,Wordle,357,True
+40997,u/IndigoMoonAdventure,"['frank', 'dowel', 'seepy', 'toise', 'mouse', 'goose']",6,goose,Wordle,357,False
+40998,u/ducky925,"['ghost', 'gloss', 'goose']",3,goose,Wordle,357,True
+40999,u/reeposterr,"['crwth', 'slain', 'pesky', 'douse', 'moose', 'goose']",6,goose,Wordle,357,True
+41000,u/professormoocow,"['couth', 'power', 'noble', 'moose', 'goose']",5,goose,Wordle,357,True
+41001,u/-Em-,"['teach', 'every', 'woken', 'lodge', 'goose']",5,goose,Wordle,357,True
+41002,u/pamolitacs,"['house', 'goose']",2,goose,Wordle,357,True
+41003,u/958Silver,"['ounce', 'wrote', 'glove', 'goose']",4,goose,Wordle,357,True
+41004,u/east_cam,"['crane', 'style', 'whose', 'goose']",4,goose,Wordle,357,True
+41005,u/evidens,"['trace', 'slime', 'whose', 'bogue', 'goose']",5,goose,Wordle,357,False
+41007,u/tjc815,"['stare', 'chose', 'loose', 'noose', 'moose', 'goose']",6,goose,Wordle,357,True
+41008,u/eastbayted,"['strap', 'bison', 'slosh', 'moose', 'goose']",5,goose,Wordle,357,True
+41009,u/humblargh,"['coast', 'horse', 'dowse', 'mouse', 'noise', 'goose']",6,goose,Wordle,357,True
+41010,u/dusseprincesa,"['mount', 'vocal', 'gorge', 'goose']",4,goose,Wordle,357,True
+41011,u/peacharnoldpalmer,"['saint', 'pesky', 'chose', 'loose', 'moose', 'goose']",6,goose,Wordle,357,True
+41012,u/GurneyHa11eck,"['tares', 'spelt', 'noise', 'house', 'moose', 'goose']",6,goose,Wordle,357,True
+41014,u/Happifier,"['psych', 'arise', 'mouse', 'loose', 'noose', 'goose']",6,goose,Wordle,357,True
+41015,u/GlassesFreek,"['piety', 'learn', 'mouse', 'goose']",4,goose,Wordle,357,True
+41016,u/Yamdonor,"['crate', 'mouse', 'goose']",3,goose,Wordle,357,True
+41017,u/Auraveils,"['adieu', 'crest', 'poyse', 'loose', 'goose']",5,goose,Wordle,357,True
+41018,u/bungle_bogs,"['stare', 'chose', 'loose', 'goose']",4,goose,Wordle,357,True
+41019,u/AnotherAccount4This,"['dance', 'slope', 'those', 'goose']",4,goose,Wordle,357,True
+41020,u/eastbayted,"['bitch', 'labia', 'dildo', 'gypsy', 'lynch']",5,lynch,Wordle,5,False
+41021,u/pocari9999,"['smear', 'those', 'close', 'goose']",4,goose,Wordle,357,True
+41022,u/Myriachan,"['least', 'fresh', 'guise', 'goose']",4,goose,Wordle,357,True
+41023,u/full-metal-ashtray,"['cuter', 'delay', 'poems', 'hosen', 'goose']",5,goose,Wordle,357,True
+41024,u/cougar572,"['aegis', 'youth', 'gorse', 'goose']",4,goose,Wordle,357,False
+41025,u/Tamaki114,"['trash', 'young', 'goose']",3,goose,Wordle,357,False
+41026,u/eagleslanding,"['suite', 'worse', 'loose', 'goose']",4,goose,Wordle,357,True
+41027,u/NoobOnTheRoad,"['slate', 'moose', 'roose', 'boose', 'goose']",5,goose,Wordle,357,True
+41028,u/Sir0bin,"['stare', 'chose', 'loose', 'goose']",4,goose,Wordle,357,True
+41029,u/danubius48,"['crane', 'spoke', 'those', 'moose', 'loose', 'goose']",6,goose,Wordle,357,True
+41031,u/sleigh_queen,"['crate', 'smile', 'goose']",3,goose,Wordle,357,True
+41032,u/SnabbleChap_33,"['steak', 'leish', 'mouse', 'goose']",4,goose,Wordle,357,True
+41033,u/roque72,"['arose', 'chose', 'moose', 'goose']",4,goose,Wordle,357,True
+41034,u/NakedSnakeEyes,"['stear', 'mensh', 'guise', 'goose']",4,goose,Wordle,357,True
+41035,u/izzyvet,"['shade', 'point', 'curly', 'moose', 'goose']",5,goose,Wordle,357,False
+41036,u/unreadable_captcha,"['sauce', 'prise', 'dense', 'those', 'goose']",5,goose,Wordle,357,True
+41037,u/car_guy_doge,"['court', 'poise', 'goose']",3,goose,Wordle,357,True
+41038,u/car_guy_doge,"['court', 'poise', 'goose']",3,goose,Wordle,357,True
+41039,u/DumpsterFolk,"['arise', 'pulse', 'chose', 'moose', 'noose', 'goose']",6,goose,Wordle,357,True
+41040,u/opobdtfs,"['piety', 'share', 'close', 'noose', 'goose']",5,goose,Wordle,357,True
+41041,u/emoskeleton_,"['grump', 'gloat', 'geode', 'goose']",4,goose,Wordle,357,True
+41042,u/Ok_Panda9974,"['stern', 'lucid', 'eases', 'goose']",4,goose,Wordle,357,False
+41043,u/madeleineruth19,"['pious', 'shoot', 'cross', 'goose']",4,goose,Wordle,361,False
+41044,u/izzyinthemiddle,"['ghost', 'gloss', 'goose']",3,goose,Wordle,357,True
+41045,u/MrsGildebeast,"['power', 'goeth', 'goose']",3,goose,Wordle,357,True
+41046,u/pretender80,"['learn', 'spite', 'mouse', 'goose']",4,goose,Wordle,357,True
+41047,u/caffeinated_teddy,"['flour', 'scope', 'those', 'moose', 'goose']",5,goose,Wordle,357,True
+41048,u/No_Anywhere_3638,"['amuse', 'poise', 'horse', 'gloom', 'goose']",5,goose,Wordle,357,False
+41049,u/jalissapi,"['raise', 'mount', 'loose', 'goose']",4,goose,Wordle,357,False
+41051,u/Moonlight_Sonata545,"['chore', 'alone', 'stoke', 'moose', 'goose']",5,goose,Wordle,357,True
+41052,u/MamboTB88,"['crawl', 'mound', 'sooth', 'goose']",4,goose,Wordle,357,True
+41053,u/LawfulnessUpbeat5646,"['smart', 'chose', 'noose', 'loose', 'goose']",5,goose,Wordle,357,True
+41054,u/aTaleForgotten,"['purse', 'glims', 'goose']",3,goose,Wordle,357,False
+41055,u/wildrice777,"['stare', 'chose', 'loose', 'goose']",4,goose,Wordle,357,True
+41056,u/1i_lu,"['thorn', 'slope', 'goose']",3,goose,Wordle,357,True
+41058,u/DrShankapotamus,"['cloth', 'grown', 'geode', 'goose']",4,goose,Wordle,357,True
+41059,u/prlj,"['stare', 'chose', 'loose', 'moose', 'noose', 'goose']",6,goose,Wordle,357,True
+41060,u/terlinguatx,"['paint', 'joker', 'moose', 'goose']",4,goose,Wordle,357,True
+41061,u/Size--,"['slice', 'plant', 'float']",3,float,Wordle,358,True
+41062,u/oldpekapeka33,"['stare', 'child', 'float']",3,float,Wordle,358,False
+41063,u/AccomplishedRow6685,"['glare', 'goose']",2,goose,Wordle,357,True
+41064,u/Eliot0,"['spear', 'house', 'goose']",3,goose,Wordle,357,True
+41065,u/stewartthehuman,"['snipe', 'geese', 'grese', 'goose']",4,goose,Wordle,357,True
+41066,u/Hydreigon_Lord,"['break', 'shove', 'close', 'moose', 'goose']",5,goose,Wordle,357,True
+41067,u/khcollett,"['raise', 'those', 'close', 'moose', 'goose']",5,goose,Wordle,357,True
+41068,u/royalneonbird,"['stage', 'geese', 'goose']",3,goose,Wordle,357,True
+41069,u/NimueNox,"['treat', 'piled', 'shone', 'moose', 'goose']",5,goose,Wordle,357,True
+41070,u/soap_lady,"['brand', 'spite', 'gloom', 'goose']",4,goose,Wordle,357,False
+41071,u/cyrano4833,"['adieu', 'store', 'chose', 'loose', 'goose']",5,goose,Wordle,357,True
+41072,u/doseofvitamink,"['dealt', 'aloft', 'float']",3,float,Wordle,358,True
+41073,u/ObsidianDreamsRedux,"['ingot', 'leafs', 'aloft', 'float']",4,float,Wordle,358,False
+41074,u/KJones77,"['house', 'morse', 'ponce', 'loose', 'goose']",5,goose,Wordle,357,False
+41075,u/AlarKemmotar,"['larch', 'point', 'sowed', 'mouse', 'goose']",5,goose,Wordle,357,True
+41076,u/sniffie45,"['soare', 'guilt', 'goose']",3,goose,Wordle,357,False
+41077,u/I-Dont-Saraht-All,"['steal', 'poise', 'horse', 'mouse', 'goose']",5,goose,Wordle,357,True
+41078,u/fivezero_ca,"['close', 'prose', 'whose', 'moose', 'noose', 'goose']",6,goose,Wordle,357,True
+41079,u/likwidfuzion,"['roate', 'vogue', 'lodge', 'goose']",4,goose,Wordle,357,True
+41080,u/Clever_Owl,"['today', 'float']",2,float,Wordle,358,True
+41081,u/CptTobiasHume,"['weary', 'close', 'those', 'moose', 'noose', 'goose']",6,goose,Wordle,357,True
+41082,u/unilateralhope,"['lurch', 'taped', 'swine', 'goose']",4,goose,Wordle,357,True
+41083,u/jh51681,"['crane', 'mouse', 'dowse', 'poise', 'loose', 'goose']",6,goose,Wordle,357,True
+41084,u/Mjcc64,"['raise', 'champ', 'dense', 'pulse', 'goose']",5,goose,Wordle,357,False
+41085,u/anthonyqld,"['later', 'tonal', 'float']",3,float,Wordle,358,True
+41086,u/sugarbreath91,"['beast', 'mouse', 'horse', 'copse', 'loose', 'goose']",6,goose,Wordle,357,True
+41087,u/lqhkim,"['movie', 'noble', 'douce', 'soare', 'goose']",5,goose,Wordle,357,True
+41088,u/blackbeanqueen,"['stare', 'goose']",2,goose,Wordle,357,True
+41089,u/beaunerdy,"['taser', 'speck', 'mends', 'horse', 'loose', 'goose']",6,goose,Wordle,357,True
+41090,u/3n1gma302,"['heist', 'erase', 'close', 'goose']",4,goose,Wordle,357,True
+41091,u/pplovesk,"['stern', 'touch', 'abbot', 'float']",4,float,Wordle,358,True
+41092,u/fixedtafernback,"['crush', 'noisy', 'goose']",3,goose,Wordle,357,True
+41093,u/seafoodrice,"['salet', 'bloat', 'float']",3,float,Wordle,358,True
+41094,u/sleeless,"['shear', 'float']",2,float,Wordle,358,True
+41095,u/daphne451,"['grate', 'globe', 'gnome', 'geode', 'goose']",5,goose,Wordle,357,True
+41096,u/BreadfruitNo357,"['horse', 'dowse', 'mouse', 'posse', 'false', 'goose']",6,goose,Wordle,357,False
+41097,u/Bogus4Real,"['stare', 'poise', 'ghoul', 'goose']",4,goose,Wordle,357,False
+41098,u/_but_nobody_came,"['biker', 'shale', 'moose', 'goose']",4,goose,Wordle,357,True
+41099,u/Initial_E,"['spire', 'chase', 'louse', 'noose', 'moose', 'goose']",6,goose,Wordle,357,True
+41100,u/caycethecat,"['table', 'splat', 'float']",3,float,Wordle,358,True
+41101,u/[deleted],"['canoe', 'molar', 'gloat', 'ploat', 'bloat', 'float']",6,float,Wordle,358,True
+41102,u/solming13,"['guest', 'plant', 'bloat', 'float']",4,float,Wordle,358,True
+41103,u/AmRetiredxd,"['times', 'larch', 'pound', 'goose']",4,goose,Wordle,357,False
+41104,u/mug3n,"['crimp', 'wheal', 'solan', 'bloat', 'float']",5,float,Wordle,358,True
+41105,u/aqua_zuma21,"['deity', 'slant', 'float']",3,float,Wordle,358,True
+41106,u/spronston,"['crate', 'habit', 'float']",3,float,Wordle,358,True
+41107,u/redbent_20,"['coupe', 'noose', 'moose', 'loose', 'goose']",5,goose,Wordle,357,True
+41109,u/HayesChin,"['canoe', 'shirt', 'bloat', 'float']",4,float,Wordle,358,False
+41110,u/Neondanublu03,"['trace', 'slime', 'house', 'goose']",4,goose,Wordle,357,True
+41111,u/Hugobaby69,"['haste', 'tolar', 'float']",3,float,Wordle,358,True
+41112,u/chubby_tacos,"['teams', 'fault', 'float']",3,float,Wordle,358,True
+41113,u/HiFiGuy197,"['steal', 'prise', 'chose', 'moose', 'goose']",5,goose,Wordle,357,True
+41114,u/Yatta99,"['audio', 'stern', 'block', 'whose', 'goose']",5,goose,Wordle,357,False
+41115,u/HS007,"['paced', 'store', 'whose', 'loose', 'noose', 'goose']",6,goose,Wordle,357,True
+41116,u/Triquelli,"['storm', 'clash', 'kiosk', 'goose']",4,goose,Wordle,357,False
+41117,u/GirlWith_Glasses,"['begun', 'acrid', 'fatal', 'float']",4,float,Wordle,358,True
+41118,u/MyDearDapple,"['acorn', 'stole', 'goose']",3,goose,Wordle,357,True
+41119,u/willyanto,"['roate', 'talon', 'atoll', 'gloat', 'float']",5,float,Wordle,358,True
+41120,u/Capital-Ice-6150,"['slate', 'gloat', 'float']",3,float,Wordle,358,True
+41121,u/oglabradoodle,"['chart', 'spend', 'louse', 'moose', 'goose']",5,goose,Wordle,357,True
+41123,u/Alwaysthecase_92,"['heart', 'bloat', 'float']",3,float,Wordle,358,True
+41124,u/kcspot,"['slate', 'choke', 'worse', 'loose', 'noose', 'goose']",6,goose,Wordle,357,False
+41125,u/carbonbear,"['arise', 'cease', 'loose', 'moose', 'goose']",5,goose,Wordle,357,True
+41126,u/hanvan53,"['rates', 'douse', 'noise', 'goose']",4,goose,Wordle,357,True
+41127,u/abaca002,"['piety', 'bench', 'joker', 'solve', 'goose']",5,goose,Wordle,357,True
+41128,u/TWGKofi,"['phone', 'trove', 'globe', 'goose']",4,goose,Wordle,357,True
+41129,u/vspazv,"['tears', 'smile', 'goose']",3,goose,Wordle,357,True
+41130,u/tfhaenodreirst,"['audio', 'strep', 'close', 'whose', 'pygmy', 'goose']",6,goose,Wordle,357,False
+41131,u/DarkFlounder,"['adieu', 'story', 'close', 'whose', 'moose', 'goose']",6,goose,Wordle,357,False
+41132,u/Hollywoostarsand,"['short', 'bloat', 'float']",3,float,Wordle,358,True
+41133,u/Andrewman03,"['venus', 'shear', 'close', 'poise', 'goose']",5,goose,Wordle,357,False
+41134,u/douglerner,"['aloud', 'float']",2,float,Wordle,358,True
+41135,u/optional_wax,"['stare', 'float']",2,float,Wordle,358,True
+41136,u/2KForward,"['graze', 'glide', 'gnome', 'goose']",4,goose,Wordle,357,True
+41137,u/j_tragic,"['crane', 'bloke', 'shove', 'moose', 'goose']",5,goose,Wordle,357,True
+41138,u/KingD123,"['mount', 'porch', 'loose', 'goose']",4,goose,Wordle,357,True
+41139,u/lyovi,"['stare', 'gloat', 'bloat', 'float']",4,float,Wordle,358,True
+41140,u/AnvilOfMisanthropy,"['crate', 'shine', 'mouse', 'goose']",4,goose,Wordle,357,True
+41141,u/MegachiropsOnReddit,"['haste', 'spoke', 'close', 'moose', 'goose']",5,goose,Wordle,357,True
+41142,u/Standard_Surprise_68,"['arise', 'ghoul', 'focal', 'float']",4,float,Wordle,358,False
+41143,u/Happifier,"['sylph', 'glean', 'cloak', 'float']",4,float,Wordle,358,True
+41144,u/phoenixphaerie,"['tares', 'louse', 'poise', 'dowse', 'mango', 'goose']",6,goose,Wordle,357,False
+41145,u/8Yoongles,"['crate', 'satin', 'total', 'float']",4,float,Wordle,358,True
+41146,u/SaltedAndSugared,"['angel', 'splat', 'float']",3,float,Wordle,358,True
+41147,u/camminbear,"['aloft', 'float']",2,float,Wordle,358,True
+41148,u/variedenthuiast,"['pride', 'scout', 'float']",3,float,Wordle,358,True
+41149,u/Justin113113,"['chain', 'pasta', 'about', 'float']",4,float,Wordle,358,True
+41150,u/shelbimaree,"['earth', 'coins', 'bloat', 'float']",4,float,Wordle,358,False
+41151,u/NoRodent,"['strap', 'flesh', 'goose']",3,goose,Wordle,357,True
+41152,u/troylaw,"['trail', 'fault', 'float']",3,float,Wordle,358,True
+41153,u/asinyan,"['alert', 'boing', 'float']",3,float,Wordle,358,False
+41154,u/badmother,"['plain', 'alter', 'float']",3,float,Wordle,358,True
+41155,u/resatr,"['argue', 'smalt', 'float']",3,float,Wordle,358,True
+41156,u/silly-__-goose,"['slate', 'gloat', 'bloat', 'float']",4,float,Wordle,358,True
+41157,u/_duncan_idaho_,"['smear', 'tidal', 'altar', 'gloat', 'bloat', 'float']",6,float,Wordle,358,True
+41158,u/RabJos,"['tales', 'adult', 'bloat', 'float']",4,float,Wordle,358,True
+41159,u/leaky_wand,"['stare', 'house', 'noise', 'dowse', 'gloss', 'goose']",6,goose,Wordle,357,False
+41160,u/Boxofrage,"['stare', 'tangy', 'vital', 'bloat', 'float']",5,float,Wordle,358,True
+41161,u/Shorogwi,"['fraud', 'fatal', 'float']",3,float,Wordle,358,True
+41163,u/Cautiousin514,"['flack', 'flora', 'float']",3,float,Wordle,358,True
+41164,u/PimpeeMcgee,"['place', 'broke', 'shove', 'goose']",4,goose,Wordle,357,True
+41165,u/slybob,"['penis', 'bendy', 'boobs', 'labia', 'balls', 'float']",6,float,Wordle,358,False
+41166,u/-Em-,"['windy', 'pouch', 'error', 'float']",4,float,Wordle,358,True
+41167,u/Karatekidkeem20,"['ouija', 'soggy', 'goths', 'goose']",4,goose,Wordle,357,True
+41168,u/stenseven,"['house', 'noose', 'loose', 'moose', 'goose']",5,goose,Wordle,357,True
+41169,u/whatsgoingon456,"['score', 'float']",2,float,Wordle,358,True
+41170,u/KimchiBearChile,"['arise', 'could', 'bloat', 'float']",4,float,Wordle,358,False
+41171,u/MegachiropsOnReddit,"['haste', 'track', 'audit', 'float']",4,float,Wordle,358,True
+41172,u/Junior-Forever8128,"['grant', 'about', 'stoat', 'float']",4,float,Wordle,358,True
+41173,u/swaqmaster4lyfe,"['goose', 'block', 'aloud', 'float']",4,float,Wordle,358,True
+41174,u/WafflesArePeopleToo,"['front', 'flout', 'float']",3,float,Wordle,358,True
+41175,u/Spanky_McJiggles,"['plane', 'allot', 'gloat', 'float']",4,float,Wordle,358,True
+41176,u/Neisseriaceae,"['tired', 'loamy', 'bloat', 'gloat', 'float']",5,float,Wordle,358,False
+41177,u/sarysa,"['smith', 'track', 'aptly', 'bleat', 'float']",5,float,Wordle,358,True
+41178,u/moselth,"['false', 'flack', 'flora', 'float']",4,float,Wordle,358,True
+41179,u/Initial_E,"['prise', 'dough', 'float']",3,float,Wordle,358,True
+41180,u/HS007,"['phone', 'scold', 'bloat', 'float']",4,float,Wordle,358,True
+41181,u/momoyam97,"['cream', 'float']",2,float,Wordle,358,False
+41182,u/Golftango6,"['chord', 'spoil', 'float']",3,float,Wordle,358,True
+41183,u/Yepyep911,"['dealt', 'float']",2,float,Wordle,358,True
+41184,u/cowboy_mouth,"['ocean', 'float']",2,float,Wordle,358,True
+41185,u/gobluthmagician,"['raise', 'clout', 'bloat', 'float']",4,float,Wordle,358,False
+41186,u/CaptainFunn,"['radio', 'soapy', 'anole', 'cloak', 'float']",5,float,Wordle,358,True
+41187,u/Karatekidkeem20,"['qajaq', 'break', 'focal', 'float']",4,float,Wordle,358,True
+41188,u/khorijinn,"['daily', 'alone', 'bloat', 'float']",4,float,Wordle,358,True
+41189,u/tooooooodayrightnow,"['raise', 'mouth', 'bloat', 'float']",4,float,Wordle,358,False
+41190,u/GreatBallsOfH20,"['arose', 'viola', 'float']",3,float,Wordle,358,True
+41191,u/babiesonacid,"['noise', 'grout', 'float']",3,float,Wordle,358,True
+41192,u/PreventFalls,"['paint', 'rogue', 'about', 'float']",4,float,Wordle,358,False
+41193,u/LukesLovelyComments,['float'],1,float,Wordle,358,True
+41194,u/ZappySnap,"['crane', 'shoal', 'float']",3,float,Wordle,358,True
+41195,u/rocketmczoom,"['focal', 'float']",2,float,Wordle,358,True
+41196,u/LetUsAway,"['karst', 'bloat', 'float']",3,float,Wordle,358,True
+41197,u/SamVulcan,"['crane', 'pious', 'kilty', 'aloft', 'float']",5,float,Wordle,358,False
+41198,u/eutectic_h8r,"['slate', 'gloat', 'float']",3,float,Wordle,358,True
+41199,u/professormoocow,"['heart', 'paint', 'about', 'float']",4,float,Wordle,358,True
+41200,u/Tamaki114,"['felon', 'prick', 'flows', 'flood', 'float']",5,float,Wordle,358,False
+41201,u/BoardwalkKnitter,"['feint', 'float']",2,float,Wordle,358,True
+41202,u/trinibug,"['teary', 'lions', 'befog', 'float']",4,float,Wordle,358,False
+41203,u/ElWanderer_KSP,"['crypt', 'saint', 'aloft', 'float']",4,float,Wordle,358,True
+41204,u/TylerMoy7,"['stare', 'float']",2,float,Wordle,358,True
+41205,u/Auraveils,"['adieu', 'royal', 'float']",3,float,Wordle,358,True
+41206,u/am_ERICANDRE_am,"['naive', 'abort', 'float']",3,float,Wordle,358,True
+41207,u/r_osit,"['towel', 'loath', 'float']",3,float,Wordle,358,True
+41208,u/eagleslanding,"['suite', 'toady', 'gloat', 'float']",4,float,Wordle,358,True
+41209,u/AdrianaStarfish,"['arise', 'lunch', 'float']",3,float,Wordle,358,False
+41210,u/NakedSnakeEyes,"['stear', 'tonal', 'gloat', 'float']",4,float,Wordle,358,True
+41211,u/958Silver,"['media', 'float']",2,float,Wordle,358,True
+41212,u/east_cam,"['crane', 'audio', 'gloat', 'bloat', 'float']",5,float,Wordle,358,True
+41213,u/islandlily,"['frost', 'float']",2,float,Wordle,358,True
+41215,u/Sir0bin,"['stare', 'watch', 'float']",3,float,Wordle,358,True
+41216,u/cougar572,"['aegis', 'youth', 'brand', 'manto', 'float']",5,float,Wordle,358,False
+41218,u/958Silver,"['media', 'float']",2,float,Wordle,358,True
+41219,u/mystiqueallie,"['choir', 'plots', 'aloft', 'float']",4,float,Wordle,358,True
+41220,u/creative_avocado20,"['flood', 'float']",2,float,Wordle,358,True
+41221,u/roque72,"['arose', 'chola', 'float']",3,float,Wordle,358,True
