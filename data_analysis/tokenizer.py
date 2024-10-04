@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import nltk
 from nltk.tokenize import SyllableTokenizer
 import ast
 from statistics import mean
