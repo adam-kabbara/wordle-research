@@ -56,10 +56,10 @@ def import_from_csv():
     return array_like_data,non_hard_mode_guesses,hard_mode_guesses
 
 def test():
-    list2=[['raise', 'graft', 'mural', 'molar']]
+    list2=[['world', 'leafs', 'clang', 'bantu', 'banal']]
     return avg_game_levenshtein(list2)
 
-_,non_hard,hard=import_from_csv()
+#_,non_hard,hard=import_from_csv()
 
 print(test())
 # print(avg_game_levenshtein(non_hard)) # average Levenshtein distance 3.677
