@@ -21,6 +21,11 @@ class WordleAnalyzer:
         # Convert string representations of lists to actual lists
         self.df['wordle_guesses'] = self.df['wordle_guesses'].apply(literal_eval)
         self.df['optimal'] = self.df['optimal'].apply(literal_eval)
+
+        # convert all string instances to lowercase in all of the dataframes
+        self.df['wordle_guesses'] = self.df['wordle_guesses'].apply(lambda x: [i.lower() for i in x])
+        self.df['optimal'] = self.df['optimal'].apply(lambda x: [[(word.lower(), count) for word, count in sublist] for sublist in x])
+        self.df['wordle_answer'] = self.df['wordle_answer'].apply(lambda x: x.lower())
     
     def get_average_guesses(self) -> float:
         """Calculate the average number of guesses across all games."""
@@ -106,14 +111,15 @@ class WordleAnalyzer:
         row = self.df.iloc[game_index]
         actual_guesses = row['wordle_guesses']
         games = []
-        for i in range():
-            pass
+        for i in range(len(actual_guesses)-1):
+            games.append(actual_guesses[:i+1] + [row['optimal'][i][1][0]])
+        return games
 
     def get_comparison_metrics(self, game_index: int) -> Dict[str, List[float]]:
         """Get comparison metrics for actual vs optimal game at specified index."""
         row = self.df.iloc[game_index]
         actual_guesses = row['wordle_guesses']
-        optimal_sequence = [guess_tuple[1][0] for guess_tuple in row['optimal']]
+        optimal_sequence = self.get_optimal_guesses(game_index)
         metrics = {
             'actual_levenshtein': [],
             'optimal_levenshtein': [],
@@ -123,7 +129,7 @@ class WordleAnalyzer:
             'optimal_shared_chars': []
         }
         
-        # Calculate metrics for actual guesses
+        # Calculate metrics for actual guesses between i and i+1
         for i in range(len(actual_guesses) - 1):
             metrics['actual_levenshtein'].append(
                 self.levenshtein_between_guesses(actual_guesses[i], actual_guesses[i+1]))
@@ -132,14 +138,15 @@ class WordleAnalyzer:
             metrics['actual_shared_chars'].append(
                 self.shared_chars(actual_guesses[i], actual_guesses[i+1]))
         
-        # Calculate metrics for optimal guesses
-        for i in range(len(optimal_sequence) - 1):
+        # Calculate metrics for optimal guesses between i and i+1
+        for j in range(len(optimal_sequence)):
+            cur_game = optimal_sequence[j]
             metrics['optimal_levenshtein'].append(
-                self.levenshtein_between_guesses(optimal_sequence[i], optimal_sequence[i+1]))
+                self.levenshtein_between_guesses(cur_game[-1], cur_game[-2]))
             metrics['optimal_syllables'].append(
-                self.common_syllables(optimal_sequence[i], optimal_sequence[i+1]))
+                self.common_syllables(cur_game[-1], cur_game[-2]))
             metrics['optimal_shared_chars'].append(
-                self.shared_chars(optimal_sequence[i], optimal_sequence[i+1]))
+                self.shared_chars(cur_game[-1], cur_game[-2]))
         
         return metrics
     
@@ -200,8 +207,6 @@ class WordleAnalyzer:
             'hard_mode_games': hard_mode_stats.get(True, {'count': 0})['count'],
             'normal_mode_games': hard_mode_stats.get(False, {'count': 0})['count']
         }
-    def save_plot_to_pdf(self, fig, filename):
-        fig.savefig(filename, bbox_inches='tight')
 
 # Example usage
 def main():
@@ -233,13 +238,12 @@ def main():
     print(f"Hard Mode Average: {hard_mode_stats['hard_mode_avg']:.2f} ({hard_mode_stats['hard_mode_games']} games)")
     print(f"Normal Mode Average: {hard_mode_stats['normal_mode_avg']:.2f} ({hard_mode_stats['normal_mode_games']} games)")
     print(analyzer.get_comparison_metrics(0))
-    print(analyzer.avg_levenshtein_within_game(['world', 'leafs', 'clang', 'bantu', 'banal'], 2)) 
-
+    print(analyzer.get_optimal_guesses(0))
     # Create visualizations
     #analyzer.plot_guess_distribution()
     #analyzer.plot_comparison_scatter('levenshtein')
    # analyzer.plot_comparison_scatter('syllables')
-    analyzer.plot_comparison_scatter('shared_chars')
+    #analyzer.plot_comparison_scatter('shared_chars')
 # ['world', 'leafs', 'clang', 'bantu', 'banal']
 
 

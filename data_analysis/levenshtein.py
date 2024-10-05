@@ -56,7 +56,7 @@ def import_from_csv():
     return array_like_data,non_hard_mode_guesses,hard_mode_guesses
 
 def test():
-    list2=[['world', 'leafs', 'clang', 'bantu', 'banal']]
+    list2=[['bantu', 'banal']]
     return avg_game_levenshtein(list2)
 
 #_,non_hard,hard=import_from_csv()
