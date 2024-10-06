@@ -73,28 +73,28 @@ class WordleAnalyzer:
             self.metrics = {}
     
     @staticmethod
-    def levenshtein_between_guesses(source: str, target: str) -> int:
+    def levenshtein(source: str, target: str) -> int:
         """Calculate Levenshtein distance between two words."""
         if len(source) == 0:
             return len(target)
         if len(target) == 0:
             return len(source)
         if source[0] == target[0]:
-            return WordleAnalyzer.levenshtein_between_guesses(source[1:], target[1:])
-        direct_edit = WordleAnalyzer.levenshtein_between_guesses(source[1:], target[1:])
-        insert = WordleAnalyzer.levenshtein_between_guesses(source, target[1:])
-        delete = WordleAnalyzer.levenshtein_between_guesses(source[1:], target)
+            return WordleAnalyzer.levenshtein(source[1:], target[1:])
+        direct_edit = WordleAnalyzer.levenshtein(source[1:], target[1:])
+        insert = WordleAnalyzer.levenshtein(source, target[1:])
+        delete = WordleAnalyzer.levenshtein(source[1:], target)
         return 1 + min(delete, min(direct_edit, insert))
     
     @staticmethod
-    def avg_levenshtein_within_game(guess_list: List[str], start_idx: int) -> Union[float, str]:
+    def avg_levenshtein_within(guess_list: List[str], start_idx: int) -> Union[float, str]:
         """Calculate average Levenshtein distance within a game's guesses. from guess i to guess 0 inclusive"""
         if len(guess_list) == 1:
             return "no distance"
         total_distance = 0
         comp = 0
         for i in range(0, start_idx):
-            total_distance += WordleAnalyzer.levenshtein_between_guesses(guess_list[i], guess_list[i+1])
+            total_distance += WordleAnalyzer.levenshtein(guess_list[i], guess_list[i+1])
             comp += 1
         return total_distance / comp if comp > 0 else 0
     
@@ -134,6 +134,8 @@ class WordleAnalyzer:
             comp += 1
         return total_shared_chars / comp if comp > 0 else 0
     
+
+    
     def get_optimal_guesses(self, game_index: int) -> List[str]:
         """Get optimal guesses for game at specified index."""
         row = self.df.iloc[game_index]
@@ -162,8 +164,8 @@ class WordleAnalyzer:
         # Calculate metrics for actual and optimal guesses between i and i+1
         for i in range(len(actual_guesses) - 1): # = len(optimal_sequence)
             cur_game = optimal_sequence[i]
-            metrics['actual_levenshtein'].append(self.levenshtein_between_guesses(actual_guesses[i], actual_guesses[i+1]))
-            metrics['optimal_levenshtein'].append(self.levenshtein_between_guesses(cur_game[-1], cur_game[-2]))
+            metrics['actual_levenshtein'].append(self.levenshtein(actual_guesses[i], actual_guesses[i+1]))
+            metrics['optimal_levenshtein'].append(self.levenshtein(cur_game[-1], cur_game[-2]))
     
             metrics['actual_syllables'].append(self.common_syllables(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_syllables'].append(self.common_syllables(cur_game[-1], cur_game[-2]))
@@ -176,6 +178,8 @@ class WordleAnalyzer:
             if temp_actual is not None and temp_guess is not None:
                 metrics['actual_glove_distance'].append(temp_actual)
                 metrics['optimal_glove_distance'].append(temp_guess)
+
+            # todo add semantic similarity
             
         self.metrics[game_index] = metrics
         return metrics
@@ -187,9 +191,10 @@ class WordleAnalyzer:
 
         actual_data = []
         optimal_data = []
-        
+        sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
+        m = 0
         # Collect data
-        for i in tqdm.tqdm(range(min(n_games, len(self.df)))):
+        for i in tqdm.tqdm(sampled_indices):
             if i not in self.metrics:
                 self.get_comparison_metrics(i)
             metrics = self.metrics[i]
@@ -201,6 +206,10 @@ class WordleAnalyzer:
                 if actual is not None and optimal is not None:
                     actual_data.append(actual)
                     optimal_data.append(optimal)
+                    if actual > m or optimal > m:
+                        m = max(m, actual, optimal)
+                        # print row of df corresponding to this game
+                        print(self.df.iloc[i])
 
         def create_plot(fig):
             ax = fig.add_subplot(111)
@@ -210,7 +219,7 @@ class WordleAnalyzer:
                 f'Optimal Game {metric_type.replace("_", " ").title()}': optimal_data,
                 f'Actual Game {metric_type.replace("_", " ").title()}': actual_data
             })
-            
+
             # Count occurrences for size
             count_data = data.groupby([f'Optimal Game {metric_type.replace("_", " ").title()}', 
                                      f'Actual Game {metric_type.replace("_", " ").title()}']).size().reset_index(name='Count')
@@ -225,7 +234,7 @@ class WordleAnalyzer:
             slope, intercept, r_value, p_value, std_err = stats.linregress(optimal_data, actual_data)
             line = slope * np.array([min(optimal_data), max(optimal_data)]) + intercept
             ax.plot([min(optimal_data), max(optimal_data)], line, 'r-', 
-                   label=f'Regression line (R² = {r_value**2:.3f})', color='blue')
+                   label=f'Regression line (R² = {r_value**2:.3f})', color='green')
             
             # Add diagonal reference line
             max_val = max(max(actual_data), max(optimal_data))
@@ -247,8 +256,9 @@ class WordleAnalyzer:
             
         actual_data = []
         optimal_data = []
+        sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
         
-        for i in tqdm.tqdm(range(min(n_games, len(self.df)))):
+        for i in tqdm.tqdm(sampled_indices):
             if i not in self.metrics:
                 self.get_comparison_metrics(i)
             metrics = self.metrics[i]
@@ -307,8 +317,9 @@ class WordleAnalyzer:
             
         actual_data = []
         optimal_data = []
+        sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
         
-        for i in tqdm.tqdm(range(min(n_games, len(self.df)))):
+        for i in tqdm.tqdm(sampled_indices):
             if i not in self.metrics:
                 self.get_comparison_metrics(i)
             metrics = self.metrics[i]
@@ -359,14 +370,67 @@ class WordleAnalyzer:
 
     # Function to compute distance between two words using GloVe
     @staticmethod
-    def glove_distance(word1: str, word2: str, model) -> float:
+    def glove_distance(word1: str, word2: str, model, dec_place=1) -> float:
         """Compute distance between two words using GloVe embeddings."""
         if word1 in model and word2 in model:
             vec1 = model[word1]
             vec2 = model[word2]
             similarity = WordleAnalyzer.cosine_similarity(vec1, vec2)
-            return 1 - similarity
+            return round(1 - similarity, dec_place)
         return None
+    
+    @staticmethod
+    def avg_glove_distance_within(guess_list: List[str], start_idx: int, model, dec_place=1) -> Union[float, str]:
+        """Calculate average GloVe distance within a game's guesses. from guess i to guess 0 inclusive"""
+        if len(guess_list) == 1:
+            return "no distance"
+        total_distance = 0
+        comp = 0
+        for i in range(0, start_idx):
+            distance = WordleAnalyzer.glove_distance(guess_list[i], guess_list[i+1], model, dec_place=100) # round at the end
+            if distance is not None:
+                total_distance += distance
+                comp += 1
+        return round(total_distance / comp, dec_place) if comp > 0 else 0 # we round here cuz physics and shit
+
+    @staticmethod
+    def calculate_semantic_similarities(word1: str, word2: str, dec_place=1) -> float:
+        synsets1 = wn.synsets(word1)
+        synsets2 = wn.synsets(word2)
+        
+        # Ensure words have synsets (not all words exist in WordNet)
+        if not synsets1 or not synsets2:
+            return None
+        
+        # Initialize maximum similarity
+        max_path_sim = 0
+        max_wup_sim = 0
+        max_lch_sim = 0
+        
+        # Iterate through all synset pairs and calculate the similarity
+        for synset1 in synsets1:
+            for synset2 in synsets2:
+                path_sim = synset1.path_similarity(synset2)
+                wup_sim = synset1.wup_similarity(synset2)
+                try:
+                    lch_sim = synset1.lch_similarity(synset2)
+                except:
+                    lch_sim = None
+                
+                # Update maximum similarity found
+                if path_sim is not None and path_sim > max_path_sim:
+                    max_path_sim = round(path_sim, dec_place)
+                if wup_sim is not None and wup_sim > max_wup_sim:
+                    max_wup_sim = round(wup_sim, dec_place)
+                if lch_sim is not None and lch_sim > max_lch_sim:
+                    max_lch_sim = round(lch_sim, dec_place)
+        
+        return {
+            'Path Similarity': max_path_sim,
+            'Wu-Palmer Similarity': max_wup_sim,
+            'Leacock-Chodorow Similarity': max_lch_sim
+        }
+
     #####################################
         
     def get_popular_first_guesses(self, top_n: int = 10) -> List[Tuple[str, int]]:
@@ -391,12 +455,89 @@ class WordleAnalyzer:
     def get_guess_distribution(self) -> Dict[int, int]:
         """Get the distribution of number of guesses."""
         return self.df['num_guesses'].value_counts().sort_index().to_dict()
+    
+    def analyze_optimal_choices(self, n_games: int = None, save_pdf: bool = False) -> pd.DataFrame:
+        """
+        Analyze how often players chose the optimal word for each guess position.
+        
+        Parameters:
+        -----------
+        n_games: int, optional
+            Number of games to analyze. If None, analyzes all games.
+            
+        Returns:
+        --------
+        pandas.DataFrame
+            DataFrame containing statistics about optimal word choices
+        """
+        if n_games is None:
+            n_games = len(self.df)
+        
+        optimal_choices_data = []
+        sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
+        
+        # Collect data
+        for i in tqdm.tqdm(sampled_indices):
+            row = self.df.iloc[i]
+            player_guesses = row['wordle_guesses']
+            optimal_sequence = row['optimal']
+            
+            # For each guess position (except the first), check if player chose optimal word
+            for guess_idx in range(len(optimal_sequence)):
+                optimal_word = optimal_sequence[guess_idx][1][0].lower()  # Ensure lowercase
+                player_word = player_guesses[guess_idx + 1].lower() if guess_idx + 1 < len(player_guesses) else None
+                
+                optimal_choices_data.append({
+                    'game_id': i,
+                    'guess_position': guess_idx + 2,  # +2 because we're looking at next guess
+                    'player_word': player_word,
+                    'optimal_word': optimal_word,
+                    'chose_optimal': player_word == optimal_word if player_word is not None else False
+                })
+        
+        results_df = pd.DataFrame(optimal_choices_data)
+        
+        # Calculate summary statistics
+        summary_stats = (results_df
+                        .groupby('guess_position')
+                        .agg({
+                            'chose_optimal': ['count', 'sum', 'mean'],
+                            'game_id': 'nunique'
+                        })
+                        .round(3))
+        
+        summary_stats.columns = ['total_guesses', 'optimal_choices', 
+                            'optimal_percentage', 'unique_games']
+        
+        # Create visualization
+        def create_plot(fig):
+            ax = fig.add_subplot(111)
+            ax.figure(figsize=(10, 6))
+            
+            ax.bar(summary_stats.index, summary_stats['optimal_percentage'],
+                    alpha=0.7)
+            
+            ax.xlabel('Guess Position')
+            ax.ylabel('Percentage of Optimal Choices')
+            ax.title('Optimal Word Choice Percentage by Guess Position')
+        
+        # Add percentage labels on top of bars
+        for i, v in enumerate(summary_stats['optimal_percentage']):
+            plt.text(i + 1, v + 0.01, f'{v:.1%}', ha='center')
+        
+        if save_pdf:
+            self.save_plot(create_plot, f"optimal_choices_analysis")
+        else:
+            create_plot(plt.figure(figsize=(12, 10)))
+            plt.show()
+        
+        return results_df, summary_stats
+
 
 # Example usage
 def main():
     # Initialize the analyzer with your CSV file
-    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv', load_pickle=False)
-    #analyzer.dump_pickle_metrics()
+    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv', load_pickle=True)
     # Get basic statistics
     print(f"Average guesses: {analyzer.get_average_guesses():.2f}")
     
@@ -424,7 +565,7 @@ def main():
     # Create visualizations
     #analyzer.plot_guess_distribution()
     analyzer.plot_comparison_scatter('glove_distance', save_pdf=True)
-    analyzer.dump_pickle_metrics()
+    #analyzer.dump_pickle_metrics()
 
     analyzer.create_density_table('glove_distance')
     
@@ -437,7 +578,7 @@ def main():
     #analyzer.plot_comparison_scatter('shared_chars')
     #analyzer.plot_density_heatmap('shared_chars')
     #analyzer.create_density_table('shared_chars')
-    print(analyzer.get_optimal_guesses(0))
+    print(analyzer.analyze_optimal_choices()[1])
 # ['world', 'leafs', 'clang', 'bantu', 'banal']
 
 
