@@ -1,6 +1,8 @@
 # Added by adam
 data1/
 processed_wordle_data.csv
+data_analysis/jupyter_notebooks/temp.ipynb
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

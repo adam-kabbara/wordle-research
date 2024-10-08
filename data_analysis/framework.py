@@ -5,6 +5,7 @@ from typing import Callable, List, Tuple, Dict, Union
 from ast import literal_eval
 from nltk.tokenize import SyllableTokenizer
 import numpy as np
+from numpy.linalg import norm
 import tqdm
 import gensim.downloader as api
 from numpy.linalg import norm
@@ -12,17 +13,24 @@ import numpy as np
 import pickle
 import os
 from scipy import stats
+from scipy.stats import ttest_rel
 import nltk
 from nltk.corpus import wordnet as wn
+from transformers import GPT2Tokenizer
+import pronouncing
+
 
 class WordleAnalyzer:
     print("Loading models...")
     syllable_tokenizer = SyllableTokenizer()
     glove_distance_model = api.load('glove-wiki-gigaword-300')
+    word2vec_model = api.load('word2vec-google-news-300')
+    gpt_tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     nltk.download('wordnet')
     nltk.download('punkt')
+    sns.set_palette("bright")
 
-    def __init__(self, csv_path: str, load_pickle: bool = True, pickle_name: str = "pickled_data.pkl", main_dir: str = "data_analysis/generated_data"):
+    def __init__(self, csv_path: str, load_pickle: bool = True, pickle_name: str = "pickled_data.pkl", main_dir: str = "data_analysis/generated_data", avg_func: str = "mean", avg_dec_place: int = 1):
         """Initialize the WordleAnalyzer with a CSV file path."""
         print("Loading data...")
         self.df = pd.read_csv(csv_path)
@@ -32,6 +40,9 @@ class WordleAnalyzer:
         self.main_dir = main_dir
         os.makedirs(main_dir, exist_ok=True)
         self.pickle_path = os.path.join(main_dir, pickle_name)
+        self.avg_func = avg_func
+        self.avg_dec_place = avg_dec_place
+
         
         if load_pickle and os.path.exists(self.pickle_path):
             self.load_pickled_metrics()
@@ -87,16 +98,20 @@ class WordleAnalyzer:
         return 1 + min(delete, min(direct_edit, insert))
     
     @staticmethod
-    def avg_levenshtein_within(guess_list: List[str], start_idx: int) -> Union[float, str]:
+    def avg_levenshtein_within(guess_list: List[str], start_idx: int, func: str = "mean", dec_place: int=1) -> Union[float, str]:
         """Calculate average Levenshtein distance within a game's guesses. from guess i to guess 0 inclusive"""
         if len(guess_list) == 1:
-            return "no distance"
-        total_distance = 0
-        comp = 0
-        for i in range(0, start_idx):
-            total_distance += WordleAnalyzer.levenshtein(guess_list[i], guess_list[i+1])
-            comp += 1
-        return total_distance / comp if comp > 0 else 0
+            raise("no distance")
+        
+        values = np.array([WordleAnalyzer.levenshtein(guess_list[i], guess_list[i+1]) for i in range(start_idx)])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place)
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)
+        else:
+            raise("Invalid function")
     
     @staticmethod
     def common_syllables(word1: str, word2: str) -> int:
@@ -106,16 +121,43 @@ class WordleAnalyzer:
         return len(syllables1.intersection(syllables2))
     
     @staticmethod
-    def avg_common_syllables_within(guess_list: List[str], start_idx: int) -> Union[float, str]:
+    def avg_common_syllables_within(guess_list: List[str], start_idx: int, func: str = "mean", dec_place: int=1) -> Union[float, str]:
         """Calculate average number of common syllables within a game's guesses. from guess i to guess 0 inclusive"""
         if len(guess_list) == 1:
-            return "no common syllables"
-        total_common_syllables = 0
-        comp = 0
-        for i in range(0, start_idx):
-            total_common_syllables += WordleAnalyzer.common_syllables(guess_list[i], guess_list[i+1])
-            comp += 1
-        return total_common_syllables / comp if comp > 0 else 0
+            raise("no common syllables")
+        
+        values = np.array([WordleAnalyzer.common_syllables(guess_list[i], guess_list[i+1]) for i in range(start_idx)])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place)
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)
+        else:
+            raise("Invalid function")
+    
+    @staticmethod
+    def common_gpt_tokens(word1: str, word2: str) -> int:
+        """Calculate number of common GPT tokens between two words."""
+        tokens1 = set(word1.split())
+        tokens2 = set(word2.split())
+        return len(tokens1.intersection(tokens2))
+    
+    @staticmethod
+    def avg_common_gpt_tokens_within(guess_list: List[str], start_idx: int, func:str = "mean", dec_place: int=1) -> Union[float, str]:
+        """Calculate average number of common GPT tokens within a game's guesses. from guess i to guess 0 inclusive"""
+        if len(guess_list) == 1:
+            raise("no common GPT tokens")
+        
+        values = np.array([WordleAnalyzer.common_gpt_tokens(guess_list[i], guess_list[i+1]) for i in range(start_idx)])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place)
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)
+        else:
+            raise("Invalid function")
     
     @staticmethod
     def shared_chars(word1: str, word2: str) -> int:
@@ -123,18 +165,169 @@ class WordleAnalyzer:
         return len(set(word1).intersection(set(word2)))
     
     @staticmethod
-    def avg_shared_chars_within(guess_list: List[str], start_idx: int) -> Union[float, str]:
+    def avg_shared_chars_within(guess_list: List[str], start_idx: int, func:str = "mean", dec_place: int=1) -> Union[float, str]:
         """Calculate average number of shared characters within a game's guesses. from guess i to guess 0 inclusive"""
         if len(guess_list) == 1:
-            return "no shared characters"
-        total_shared_chars = 0
-        comp = 0
-        for i in range(0, start_idx):
-            total_shared_chars += WordleAnalyzer.shared_chars(guess_list[i], guess_list[i+1])
-            comp += 1
-        return total_shared_chars / comp if comp > 0 else 0
+            raise("no shared characters")
+        
+        values = np.array([WordleAnalyzer.shared_chars(guess_list[i], guess_list[i+1]) for i in range(start_idx)])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place)
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)
+        else:
+            raise("Invalid function")
     
+    @staticmethod
+    def is_rhyme_0(text1, text2):
+        return int(text2 in pronouncing.rhymes(text1) or text1 in pronouncing.rhymes(text2))
+    
+    @staticmethod
+    def get_phonetic_ending(word):
+        phones = pronouncing.phones_for_word(word)
+        
+        if not phones:
+            return None
+        
+        phonetic_transcription = phones[0].split()
+        
+        # Find the index of the last stressed vowel (vowels with 1 or 2 indicate stress)
+        stressed_vowel_index = None
+        for i, phoneme in enumerate(phonetic_transcription):
+            if phoneme[-1] in "012":  # Stressed vowels end in 1 or 2
+                stressed_vowel_index = i
+        
+        if stressed_vowel_index is not None:
+            return phonetic_transcription[stressed_vowel_index:]
+        else:
+            return None  # Return None if no stressed vowel is found
+    
+    @staticmethod
+    def is_rhyme_1(text1, text2):
+        ending1 = WordleAnalyzer.get_phonetic_ending(text1)
+        ending2 = WordleAnalyzer.get_phonetic_ending(text2)
+        
+        if ending1 and ending2:
+            return int(ending1 == ending2)  # Check if the phonetic endings match
+        else:
+            return 0
+        
+    
+    @staticmethod
+    def avg_rhyme_count(guess_list: List[str], start_idx: int, func: str = "mean", rhyme_func = 0, dec_place=1) -> Union[float, str]:
+        """Calculate average number of rhymes within a game's guesses. from guess i to guess 0 inclusive"""
+        if len(guess_list) == 1:
+            raise("no rhyme")
+        
+        if rhyme_func == 0:
+            values = np.array([WordleAnalyzer.is_rhyme_0(guess_list[i], guess_list[i+1]) for i in range(start_idx)])
+        elif rhyme_func == 1:
+            values = np.array([WordleAnalyzer.is_rhyme_1(guess_list[i], guess_list[i+1]) for i in range(start_idx)])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place)
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)
+        else:
+            raise("Invalid function")
+    
+        
+    @staticmethod
+    def cosine_similarity(vec1, vec2):
+        return np.dot(vec1, vec2) / (norm(vec1) * norm(vec2))
 
+    # Function to compute distance between two words using GloVe
+    @staticmethod
+    def glove_distance(word1: str, word2: str, model, dec_place=1) -> float:
+        """Compute distance between two words using GloVe embeddings."""
+        if word1 in model and word2 in model:
+            vec1 = model[word1]
+            vec2 = model[word2]
+            similarity = WordleAnalyzer.cosine_similarity(vec1, vec2)
+            return round(1 - similarity, dec_place)
+        return None
+    
+    @staticmethod
+    def avg_glove_distance_within(guess_list: List[str], start_idx: int, model, func: str = "mean", dec_place:int=1) -> Union[float, str]:
+        """Calculate average GloVe distance within a game's guesses. from guess i to guess 0 inclusive"""
+        if len(guess_list) == 1:
+            raise("no distance")
+        
+        values = np.array([WordleAnalyzer.glove_distance(guess_list[i], guess_list[i+1], model, dec_place=100) for i in range(start_idx) if WordleAnalyzer.glove_distance(guess_list[i], guess_list[i+1], model, dec_place=100) is not None])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place) 
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)   
+
+    @staticmethod
+    def calculate_semantic_similarities(word1: str, word2: str, dec_place=1) -> float:
+        synsets1 = wn.synsets(word1) # todo this and the avg for it 
+        synsets2 = wn.synsets(word2)
+        
+        # Ensure words have synsets (not all words exist in WordNet)
+        if not synsets1 or not synsets2:
+            return None
+        
+        # Initialize maximum similarity
+        max_path_sim = 0
+        max_wup_sim = 0
+        max_lch_sim = 0
+        
+        # Iterate through all synset pairs and calculate the similarity
+        for synset1 in synsets1:
+            for synset2 in synsets2:
+                path_sim = synset1.path_similarity(synset2)
+                wup_sim = synset1.wup_similarity(synset2)
+                try:
+                    lch_sim = synset1.lch_similarity(synset2)
+                except:
+                    lch_sim = None
+                
+                # Update maximum similarity found
+                if path_sim is not None and path_sim > max_path_sim:
+                    max_path_sim = round(path_sim, dec_place)
+                if wup_sim is not None and wup_sim > max_wup_sim:
+                    max_wup_sim = round(wup_sim, dec_place)
+                if lch_sim is not None and lch_sim > max_lch_sim:
+                    max_lch_sim = round(lch_sim, dec_place)
+        
+        return {
+            'Path Similarity': max_path_sim,
+            'Wu-Palmer Similarity': max_wup_sim,
+            'Leacock-Chodorow Similarity': max_lch_sim
+        }
+    
+    @staticmethod
+    def word2vec_distance(word1, word2, model, dec_place=1):
+        if word1 in model and word2 in model:
+            vec1 = model[word1]
+            vec2 = model[word2]
+            
+            # Calculate Cosine Similarity
+            similarity = WordleAnalyzer.cosine_similarity(vec1, vec2)
+            distance = 1 - similarity  # Cosine distance
+            
+            return round(distance, dec_place)
+        return None
+    
+    @staticmethod
+    def avg_word2vec_distance_within(guess_list: List[str], start_idx: int, model, func:str="mean", dec_place:int=1) -> Union[float, str]:
+        """Calculate average Word2Vec distance within a game's guesses. from guess i to guess 0 inclusive"""
+        if len(guess_list) == 1:
+            raise("no word2vec distance")
+        
+        values = np.array([WordleAnalyzer.word2vec_distance(guess_list[i], guess_list[i+1], model, dec_place=100) for i in range(start_idx) if WordleAnalyzer.word2vec_distance(guess_list[i], guess_list[i+1], model, dec_place=100) is not None])
+        if func == "mean":
+            return round(values.mean(), dec_place)
+        elif func == "median":
+            return round(np.median(values), dec_place) 
+        elif func == "mode":
+            return round(stats.mode(values).mode, dec_place)   
     
     def get_optimal_guesses(self, game_index: int) -> List[str]:
         """Get optimal guesses for game at specified index."""
@@ -151,40 +344,110 @@ class WordleAnalyzer:
         actual_guesses = row['wordle_guesses']
         optimal_sequence = self.get_optimal_guesses(game_index)
         metrics = {
-            'actual_levenshtein': [],
+            # levenshtein and acg_levenshtein_within
+            'actual_levenshtein': [], # todo: NAH DIS DONE
+            'actual_avg_levenshtein': [],
             'optimal_levenshtein': [],
-            'actual_syllables': [],
+            'optimal_avg_levenshtein': [],
+
+            # common_syllables and avg_common_syllables_within
+            'actual_syllables': [], # todo: NAH DIS DONE
+            'actual_avg_syllables': [],
             'optimal_syllables': [],
-            'actual_shared_chars': [],
+            'optimal_avg_syllables': [],
+
+            # shared_chars and avg_shared_chars_within
+            'actual_shared_chars': [], # todo: NAH DIS DONE
+            'actual_avg_shared_chars': [],
             'optimal_shared_chars': [],
-            'actual_glove_distance': [],
-            'optimal_glove_distance': []
+            'optimal_avg_shared_chars': [],
+
+            # glove_distance and avg_glove_distance_within
+            'actual_glove_distance': [], # todo: NAH DIS DONE
+            'actual_avg_glove_distance': [],
+            'optimal_glove_distance': [],
+            'optimal_avg_glove_distance': [],
+
+            # word2vec_distance and avg_word2vec_distance_within
+            'actual_word2vec_distance': [], # todo: NAH DIS DONE
+            'actual_avg_word2vec_distance': [],
+            'optimal_word2vec_distance': [],
+            'optimal_avg_word2vec_distance': [],
+
+            # is_rhyme_0 and avg_rhyme_count
+            'actual_rhyme0_count': [], # todo: NAH DIS DONE
+            'actual_avg_rhyme0_count': [],
+            'optimal_rhyme0_count': [],
+            'optimal_avg_rhyme0_count': [],
+
+            # is_rhyme_1 and avg_rhyme_count
+            'actual_rhyme1_count': [], # todo: NAH DIS DONE
+            'actual_avg_rhyme1_count': [],
+            'optimal_rhyme1_count': [],
+            'optimal_avg_rhyme1_count': [],
+
+            # common_gpt_tokens and avg_common_gpt_tokens_within
+            'actual_gpt_tokens': [], # todo: NAH DIS DONE
+            'actual_avg_gpt_tokens': [],
+            'optimal_gpt_tokens': [],
+            'optimal_avg_gpt_tokens': []
+
         }
         
         # Calculate metrics for actual and optimal guesses between i and i+1
         for i in range(len(actual_guesses) - 1): # = len(optimal_sequence)
             cur_game = optimal_sequence[i]
+            l = len(cur_game)-1
             metrics['actual_levenshtein'].append(self.levenshtein(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_levenshtein'].append(self.levenshtein(cur_game[-1], cur_game[-2]))
+            metrics['actual_avg_levenshtein'].append(self.avg_levenshtein_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
+            metrics['optimal_avg_levenshtein'].append(self.avg_levenshtein_within(cur_game, l, self.avg_func, self.avg_dec_place))
     
             metrics['actual_syllables'].append(self.common_syllables(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_syllables'].append(self.common_syllables(cur_game[-1], cur_game[-2]))
+            metrics['actual_avg_syllables'].append(self.avg_common_syllables_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
+            metrics['optimal_avg_syllables'].append(self.avg_common_syllables_within(cur_game, l, self.avg_func, self.avg_dec_place))
 
             metrics['actual_shared_chars'].append(self.shared_chars(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_shared_chars'].append(self.shared_chars(cur_game[-1], cur_game[-2]))
+            metrics['actual_avg_shared_chars'].append(self.avg_shared_chars_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
+            metrics['optimal_avg_shared_chars'].append(self.avg_shared_chars_within(cur_game, l, self.avg_func, self.avg_dec_place))
 
             temp_actual = self.glove_distance(actual_guesses[i], actual_guesses[i+1], WordleAnalyzer.glove_distance_model)
             temp_guess = self.glove_distance(cur_game[-1], cur_game[-2], WordleAnalyzer.glove_distance_model)
             if temp_actual is not None and temp_guess is not None:
                 metrics['actual_glove_distance'].append(temp_actual)
                 metrics['optimal_glove_distance'].append(temp_guess)
+            metrics['actual_avg_glove_distance'].append(self.avg_glove_distance_within(actual_guesses, i, WordleAnalyzer.glove_distance_model, self.avg_func, self.avg_dec_place))
+            metrics['optimal_avg_glove_distance'].append(self.avg_glove_distance_within(cur_game, l, WordleAnalyzer.glove_distance_model, self.avg_func, self.avg_dec_place))
 
-            # todo add semantic similarity
+            temp_actual = self.word2vec_distance(actual_guesses[i], actual_guesses[i+1], WordleAnalyzer.word2vec_model)
+            temp_guess = self.word2vec_distance(cur_game[-1], cur_game[-2], WordleAnalyzer.word2vec_model)
+            if temp_actual is not None and temp_guess is not None:
+                metrics['actual_word2vec_distance'].append(temp_actual)
+                metrics['optimal_word2vec_distance'].append(temp_guess)
+            metrics['actual_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(actual_guesses, i, WordleAnalyzer.word2vec_model, self.avg_func, self.avg_dec_place))
+            metrics['optimal_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(cur_game, l, WordleAnalyzer.word2vec_model, self.avg_func, self.avg_dec_place))
+
+            metrics['actual_rhyme0_count'].append(self.is_rhyme_0(actual_guesses[i], actual_guesses[i+1]))
+            metrics['optimal_rhyme0_count'].append(self.is_rhyme_0(cur_game[-1], cur_game[-2]))
+            metrics['actual_avg_rhyme0_count'].append(self.avg_rhyme_count(actual_guesses, i, self.avg_func, 0, self.avg_dec_place))
+            metrics['optimal_avg_rhyme0_count'].append(self.avg_rhyme_count(cur_game, l, self.avg_func, 0, self.avg_dec_place))
+
+            metrics['actual_rhyme1_count'].append(self.is_rhyme_1(actual_guesses[i], actual_guesses[i+1]))
+            metrics['optimal_rhyme1_count'].append(self.is_rhyme_1(cur_game[-1], cur_game[-2]))
+            metrics['actual_avg_rhyme1_count'].append(self.avg_rhyme_count(actual_guesses, i, self.avg_func, 1, self.avg_dec_place))
+            metrics['optimal_avg_rhyme1_count'].append(self.avg_rhyme_count(cur_game, l, self.avg_func, 1, self.avg_dec_place))
+
+            metrics['actual_gpt_tokens'].append(self.common_gpt_tokens(actual_guesses[i], actual_guesses[i+1]))
+            metrics['optimal_gpt_tokens'].append(self.common_gpt_tokens(cur_game[-1], cur_game[-2]))
+            metrics['actual_avg_gpt_tokens'].append(self.avg_common_gpt_tokens_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
+            metrics['optimal_avg_gpt_tokens'].append(self.avg_common_gpt_tokens_within(cur_game, l, self.avg_func, self.avg_dec_place))            
             
         self.metrics[game_index] = metrics
         return metrics
     
-    def plot_comparison_scatter(self, metric_type: str, n_games: int = None, sizes: Tuple[int, int] = (80, 800), save_pdf: bool = False):
+    def plot_comparison_scatter(self, metric_type: str, n_games: int = None, sizes: Tuple[int, int] = (80, 800), save_pdf: bool = False, save_data: bool = False):
         """Create scatter plot with regression line comparing optimal vs actual games."""
         if n_games is None:
             n_games = len(self.df)
@@ -192,7 +455,7 @@ class WordleAnalyzer:
         actual_data = []
         optimal_data = []
         sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
-        m = 0
+
         # Collect data
         for i in tqdm.tqdm(sampled_indices):
             if i not in self.metrics:
@@ -206,10 +469,6 @@ class WordleAnalyzer:
                 if actual is not None and optimal is not None:
                     actual_data.append(actual)
                     optimal_data.append(optimal)
-                    if actual > m or optimal > m:
-                        m = max(m, actual, optimal)
-                        # print row of df corresponding to this game
-                        print(self.df.iloc[i])
 
         def create_plot(fig):
             ax = fig.add_subplot(111)
@@ -219,6 +478,10 @@ class WordleAnalyzer:
                 f'Optimal Game {metric_type.replace("_", " ").title()}': optimal_data,
                 f'Actual Game {metric_type.replace("_", " ").title()}': actual_data
             })
+
+                # Save data to CSV if requested
+            if save_data:
+                data.to_csv(os.path.join(self.main_dir, f'{metric_type}.csv'), index=False)
 
             # Count occurrences for size
             count_data = data.groupby([f'Optimal Game {metric_type.replace("_", " ").title()}', 
@@ -231,20 +494,97 @@ class WordleAnalyzer:
                           size='Count', sizes=sizes, legend=False, alpha=0.5, ax=ax)
             
             # Add regression line
-            slope, intercept, r_value, p_value, std_err = stats.linregress(optimal_data, actual_data)
-            line = slope * np.array([min(optimal_data), max(optimal_data)]) + intercept
-            ax.plot([min(optimal_data), max(optimal_data)], line, 'r-', 
-                   label=f'Regression line (R² = {r_value**2:.3f})', color='green')
+            try:
+                slope, intercept, r_value, p_value, std_err = stats.linregress(optimal_data, actual_data)
+                line = slope * np.array([min(optimal_data), max(optimal_data)]) + intercept
+                ax.plot([min(optimal_data), max(optimal_data)], line, 'r-', 
+                    label=f'Regression line (R² = {r_value**2:.3f})', color='green')
+            except ValueError:
+                print("ValueError: Cannot fit regression line")
             
             # Add diagonal reference line
             max_val = max(max(actual_data), max(optimal_data))
             ax.plot([0, max_val], [0, max_val], 'r--', alpha=0.5, label='Perfect correlation')
             
-            ax.set_title(f'Optimal vs Actual Game {metric_type.replace("_", " ").title()} Comparison')
+            #ax.set_title(f'Optimal vs Actual Game {metric_type.replace("_", " ").title()} Comparison')
             ax.legend()
 
         if save_pdf:
-            self.save_plot(create_plot, f"scatter_{metric_type}")
+            self.save_plot(create_plot, f"{metric_type.replace("_", " ").title()} Comparison - scatter")
+        else:
+            create_plot(plt.figure(figsize=(10, 10)))
+            plt.show()
+
+    def plot_comparison_histogram(self, metric_type: str, n_games: int = None, bar_width: float = 0.35, save_pdf: bool = False, save_data: bool = False):
+        """Create grouped bar chart comparing optimal vs actual games distributions."""
+        if n_games is None:
+            n_games = len(self.df)
+
+        actual_data = []
+        optimal_data = []
+        sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
+
+        # Collect data
+        for i in tqdm.tqdm(sampled_indices):
+            if i not in self.metrics:
+                self.get_comparison_metrics(i)
+            metrics = self.metrics[i]
+            
+            actual_key = f'actual_{metric_type}'
+            optimal_key = f'optimal_{metric_type}'
+            
+            for actual, optimal in zip(metrics[actual_key], metrics[optimal_key]):
+                if actual is not None and optimal is not None:
+                    actual_data.append(actual)
+                    optimal_data.append(optimal)
+
+        def create_plot(fig):
+            ax = fig.add_subplot(111)
+            
+            # Create DataFrames for counting occurrences
+            optimal_counts = pd.Series(optimal_data).value_counts().sort_index()
+            actual_counts = pd.Series(actual_data).value_counts().sort_index()
+            
+            # Get all unique x values
+            all_values = sorted(set(optimal_counts.index) | set(actual_counts.index))
+            
+            # Create x positions for bars
+            x = np.arange(len(all_values))
+            
+            # Fill in missing values with zeros
+            optimal_heights = [optimal_counts.get(val, 0) for val in all_values]
+            actual_heights = [actual_counts.get(val, 0) for val in all_values]
+            
+            # Create bars
+            optimal_bars = ax.bar(x - bar_width/2, optimal_heights, bar_width, 
+                                label='Optimal', alpha=0.7, edgecolor='black', linewidth=1.5)
+            actual_bars = ax.bar(x + bar_width/2, actual_heights, bar_width,
+                                label='Actual', alpha=0.7, edgecolor='black', linewidth=1.5)
+
+            # Customize plot
+            # Calculate and display Cohen's d and p-value
+            cohen_distance = WordleAnalyzer.cohen_d(actual_heights, optimal_heights)
+            p_value = ttest_rel(actual_heights, optimal_heights).pvalue
+            
+            # Add Cohen's d and p-value to the plot as text
+            plt.text(0.5, 1, f"Cohen's distance: {cohen_distance:.{3}g}, p-value: {p_value:.{3}g}", 
+            horizontalalignment='center', verticalalignment='bottom', transform=plt.gca().transAxes, fontsize=10)
+            ax.set_xlabel(f'{metric_type.replace("_", " ").title()}')
+            ax.set_xticks(x)
+            ax.set_ylabel('Count')
+            ax.legend(title="Game Type")
+
+            # Save data if requested
+            if save_data:
+                data = pd.DataFrame({
+                    'Value': all_values,
+                    'Optimal_Count': optimal_heights,
+                    'Actual_Count': actual_heights
+                })
+                data.to_csv(os.path.join(self.main_dir, f'{metric_type}_histogram.csv'), index=False)
+
+        if save_pdf:
+            self.save_plot(create_plot, f"{metric_type.replace('_', ' ').title()} Comparison - histogram")
         else:
             create_plot(plt.figure(figsize=(10, 10)))
             plt.show()
@@ -286,10 +626,10 @@ class WordleAnalyzer:
             
             ax.set_ylabel(f'Actual Game {metric_type.replace("_", " ").title()}')
             ax.set_xlabel(f'Optimal Game {metric_type.replace("_", " ").title()}')
-            ax.set_title(f'Density Heatmap: Optimal vs Actual Game {metric_type.replace("_", " ").title()}')
+            #ax.set_title(f'Density Heatmap: Optimal vs Actual Game {metric_type.replace("_", " ").title()}')
 
         if save_pdf:
-            self.save_plot(create_plot, f"heatmap_{metric_type}")
+            self.save_plot(create_plot, f'Density Heatmap: {metric_type.replace("_", " ").title()}')
         else:
             create_plot(plt.figure(figsize=(12, 10)))
             plt.show()
@@ -360,78 +700,6 @@ class WordleAnalyzer:
         #save density_df to csv
         density_df.to_csv(f'{self.main_dir}\\density_table_{metric_type}.csv')
         return density_df
-
-   
-    #####################################
-    # Function to calculate cosine similarity between two vectors
-    @staticmethod
-    def cosine_similarity(vec1, vec2):
-        return np.dot(vec1, vec2) / (norm(vec1) * norm(vec2))
-
-    # Function to compute distance between two words using GloVe
-    @staticmethod
-    def glove_distance(word1: str, word2: str, model, dec_place=1) -> float:
-        """Compute distance between two words using GloVe embeddings."""
-        if word1 in model and word2 in model:
-            vec1 = model[word1]
-            vec2 = model[word2]
-            similarity = WordleAnalyzer.cosine_similarity(vec1, vec2)
-            return round(1 - similarity, dec_place)
-        return None
-    
-    @staticmethod
-    def avg_glove_distance_within(guess_list: List[str], start_idx: int, model, dec_place=1) -> Union[float, str]:
-        """Calculate average GloVe distance within a game's guesses. from guess i to guess 0 inclusive"""
-        if len(guess_list) == 1:
-            return "no distance"
-        total_distance = 0
-        comp = 0
-        for i in range(0, start_idx):
-            distance = WordleAnalyzer.glove_distance(guess_list[i], guess_list[i+1], model, dec_place=100) # round at the end
-            if distance is not None:
-                total_distance += distance
-                comp += 1
-        return round(total_distance / comp, dec_place) if comp > 0 else 0 # we round here cuz physics and shit
-
-    @staticmethod
-    def calculate_semantic_similarities(word1: str, word2: str, dec_place=1) -> float:
-        synsets1 = wn.synsets(word1)
-        synsets2 = wn.synsets(word2)
-        
-        # Ensure words have synsets (not all words exist in WordNet)
-        if not synsets1 or not synsets2:
-            return None
-        
-        # Initialize maximum similarity
-        max_path_sim = 0
-        max_wup_sim = 0
-        max_lch_sim = 0
-        
-        # Iterate through all synset pairs and calculate the similarity
-        for synset1 in synsets1:
-            for synset2 in synsets2:
-                path_sim = synset1.path_similarity(synset2)
-                wup_sim = synset1.wup_similarity(synset2)
-                try:
-                    lch_sim = synset1.lch_similarity(synset2)
-                except:
-                    lch_sim = None
-                
-                # Update maximum similarity found
-                if path_sim is not None and path_sim > max_path_sim:
-                    max_path_sim = round(path_sim, dec_place)
-                if wup_sim is not None and wup_sim > max_wup_sim:
-                    max_wup_sim = round(wup_sim, dec_place)
-                if lch_sim is not None and lch_sim > max_lch_sim:
-                    max_lch_sim = round(lch_sim, dec_place)
-        
-        return {
-            'Path Similarity': max_path_sim,
-            'Wu-Palmer Similarity': max_wup_sim,
-            'Leacock-Chodorow Similarity': max_lch_sim
-        }
-
-    #####################################
         
     def get_popular_first_guesses(self, top_n: int = 10) -> List[Tuple[str, int]]:
         """Get the most popular first guesses."""
@@ -455,6 +723,25 @@ class WordleAnalyzer:
     def get_guess_distribution(self) -> Dict[int, int]:
         """Get the distribution of number of guesses."""
         return self.df['num_guesses'].value_counts().sort_index().to_dict()
+    
+    def plot_guess_distribution(self, save_pdf: bool = False):
+        """Plot the distribution of number of guesses."""
+        def create_plot(fig):
+            ax = fig.add_subplot(111)
+            
+            ax.bar(self.get_guess_distribution().keys(), self.get_guess_distribution().values(), alpha=0.7)
+            
+            ax.set_xlabel('Number of Guesses')
+            ax.set_ylabel('Number of Games')
+        
+        if save_pdf:
+            self.save_plot(create_plot, "Guess Distribution")
+        else:
+            create_plot(plt.figure(figsize=(12, 10)))
+            plt.show()
+
+    def cohen_d(x, y):
+        return (np.mean(x) - np.mean(y)) / (np.sqrt((np.std(x) ** 2 + np.std(y) ** 2) / 2))
     
     def analyze_optimal_choices(self, n_games: int = None, save_pdf: bool = False) -> pd.DataFrame:
         """
@@ -485,7 +772,7 @@ class WordleAnalyzer:
             # For each guess position (except the first), check if player chose optimal word
             for guess_idx in range(len(optimal_sequence)):
                 optimal_word = optimal_sequence[guess_idx][1][0].lower()  # Ensure lowercase
-                player_word = player_guesses[guess_idx + 1].lower() if guess_idx + 1 < len(player_guesses) else None
+                player_word = player_guesses[guess_idx + 1].lower()
                 
                 optimal_choices_data.append({
                     'game_id': i,
@@ -512,21 +799,19 @@ class WordleAnalyzer:
         # Create visualization
         def create_plot(fig):
             ax = fig.add_subplot(111)
-            ax.figure(figsize=(10, 6))
             
             ax.bar(summary_stats.index, summary_stats['optimal_percentage'],
-                    alpha=0.7)
+                    alpha=0.7, edgecolor='black', linewidth=1.5)
             
-            ax.xlabel('Guess Position')
-            ax.ylabel('Percentage of Optimal Choices')
-            ax.title('Optimal Word Choice Percentage by Guess Position')
+            ax.set_xlabel('Guess Position')
+            ax.set_ylabel('Percentage of Optimal Choices')
         
         # Add percentage labels on top of bars
         for i, v in enumerate(summary_stats['optimal_percentage']):
             plt.text(i + 1, v + 0.01, f'{v:.1%}', ha='center')
         
         if save_pdf:
-            self.save_plot(create_plot, f"optimal_choices_analysis")
+            self.save_plot(create_plot, f"Optimal Word Choice Percentage by Guess Position")
         else:
             create_plot(plt.figure(figsize=(12, 10)))
             plt.show()
@@ -537,7 +822,9 @@ class WordleAnalyzer:
 # Example usage
 def main():
     # Initialize the analyzer with your CSV file
-    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv', load_pickle=True)
+    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv', load_pickle=False)
+    analyzer.avg_func = "mean"
+    analyzer.avg_dec_place = 2
     # Get basic statistics
     print(f"Average guesses: {analyzer.get_average_guesses():.2f}")
     
@@ -546,10 +833,6 @@ def main():
     print("\nGuess Distribution:")
     for guesses, count in distribution.items():
         print(f"{guesses} guesses: {count} games")
-    
-    # Analyze optimal vs actual performance
-    #optimal_analysis = analyzer.analyze_optimal_vs_actual()
-    #print(f"\nAverage excess guesses compared to optimal: {optimal_analysis['average_excess_guesses']:.2f}")
     
     # Get popular first guesses
     print("\nMost Popular First Guesses:")
@@ -562,25 +845,52 @@ def main():
     print(f"Hard Mode Average: {hard_mode_stats['hard_mode_avg']:.2f} ({hard_mode_stats['hard_mode_games']} games)")
     print(f"Normal Mode Average: {hard_mode_stats['normal_mode_avg']:.2f} ({hard_mode_stats['normal_mode_games']} games)")
     print("\n\n")
+
     # Create visualizations
-    #analyzer.plot_guess_distribution()
-    analyzer.plot_comparison_scatter('glove_distance', save_pdf=True)
-    #analyzer.dump_pickle_metrics()
+    '''analyzer.plot_guess_distribution(save_pdf=True)
+    analyzer.plot_comparison_scatter('levenshtein', save_pdf=True, save_data=True)
+    analyzer.dump_pickle_metrics() # TODO REMOVE THIS WHEN LOADING PICKLE
+    analyzer.plot_comparison_scatter('avg_levenshtein', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('syllables', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_syllables', save_pdf=True, save_data=True)
 
-    analyzer.create_density_table('glove_distance')
+    analyzer.plot_comparison_scatter('syllables', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('avg_syllables', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('shared_chars', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_shared_chars', save_pdf=True, save_data=True)
+
+    analyzer.plot_comparison_scatter('shared_chars', save_pdf=True, save_data=True)  
+    analyzer.plot_comparison_scatter('avg_shared_chars', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('glove_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_glove_distance', save_pdf=True, save_data=True)
     
-    analyzer.plot_comparison_scatter('levenshtein')
-    #analyzer.create_density_table('levenshtein')
-    analyzer.plot_density_heatmap('levenshtein')
-    #analyzer.plot_comparison_scatter('syllables')
-    #analyzer.plot_density_heatmap('syllables')
-    #analyzer.create_density_table('syllables')
-    #analyzer.plot_comparison_scatter('shared_chars')
-    #analyzer.plot_density_heatmap('shared_chars')
-    #analyzer.create_density_table('shared_chars')
-    print(analyzer.analyze_optimal_choices()[1])
-# ['world', 'leafs', 'clang', 'bantu', 'banal']
+    analyzer.plot_comparison_scatter('glove_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('avg_glove_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('word2vec_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_word2vec_distance', save_pdf=True, save_data=True)
 
+    analyzer.plot_comparison_scatter('word2vec_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('avg_word2vec_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('rhyme0_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_rhyme0_count', save_pdf=True, save_data=True)
+
+    analyzer.plot_comparison_histogram('rhyme0_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_rhyme0_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('rhyme1_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_rhyme1_count', save_pdf=True, save_data=True)
+
+    analyzer.plot_comparison_histogram('rhyme1_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_rhyme1_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('gpt_tokens', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_gpt_tokens', save_pdf=True, save_data=True)
+
+    analyzer.plot_comparison_scatter('gpt_tokens', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('avg_gpt_tokens', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('gpt_tokens', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_gpt_tokens', save_pdf=True, save_data=True)'''
+
+    print(analyzer.analyze_optimal_choices(save_pdf=True)[1])
+    #analyzer.plot_comparison_histogram('rhyme0_count')
 
 if __name__ == "__main__":
     main()
