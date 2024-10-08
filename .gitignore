@@ -4,6 +4,7 @@ processed_wordle_data.csv
 data_analysis/jupyter_notebooks/temp.ipynb
 .vscode
 data_analysis/generated_data
+data_analysis/ideas.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

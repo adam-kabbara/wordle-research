@@ -18,6 +18,7 @@ import nltk
 from nltk.corpus import wordnet as wn
 from transformers import GPT2Tokenizer
 import pronouncing
+from collections import defaultdict
 
 
 class WordleAnalyzer:
@@ -29,8 +30,9 @@ class WordleAnalyzer:
     nltk.download('wordnet')
     nltk.download('punkt')
     sns.set_palette("bright")
+    MAX_DIST = 2
 
-    def __init__(self, csv_path: str, load_pickle: bool = True, pickle_name: str = "pickled_data.pkl", main_dir: str = "data_analysis/generated_data", avg_func: str = "mean", avg_dec_place: int = 1):
+    def __init__(self, csv_path: str, load_pickle: bool = True, pickle_name: str = "pickled_data.pkl", main_dir: str = "data_analysis/generated_data", avg_func: str = "mean", avg_dec_place:int=1, specific_dec_places: Dict[str, int] = None):
         """Initialize the WordleAnalyzer with a CSV file path."""
         print("Loading data...")
         self.df = pd.read_csv(csv_path)
@@ -41,8 +43,11 @@ class WordleAnalyzer:
         os.makedirs(main_dir, exist_ok=True)
         self.pickle_path = os.path.join(main_dir, pickle_name)
         self.avg_func = avg_func
-        self.avg_dec_place = avg_dec_place
 
+        if specific_dec_places is not None: # Use specific decimal places for certain metrics
+            self.dec_places = defaultdict(lambda: avg_dec_place, specific_dec_places)
+        else: # Use the same decimal places for all metrics
+            self.dec_places = defaultdict(lambda: avg_dec_place)
         
         if load_pickle and os.path.exists(self.pickle_path):
             self.load_pickled_metrics()
@@ -248,8 +253,8 @@ class WordleAnalyzer:
             vec2 = model[word2]
             similarity = WordleAnalyzer.cosine_similarity(vec1, vec2)
             return round(1 - similarity, dec_place)
-        return None
-    
+        return WordleAnalyzer.MAX_DIST #None
+        # todo we assume that if the word is not in the model than the two words have max distance which is 2
     @staticmethod
     def avg_glove_distance_within(guess_list: List[str], start_idx: int, model, func: str = "mean", dec_place:int=1) -> Union[float, str]:
         """Calculate average GloVe distance within a game's guesses. from guess i to guess 0 inclusive"""
@@ -313,8 +318,8 @@ class WordleAnalyzer:
             distance = 1 - similarity  # Cosine distance
             
             return round(distance, dec_place)
-        return None
-    
+        return WordleAnalyzer.MAX_DIST #None
+    # todo we assume that if the word is not in the model than the two words have max distance which is 2 
     @staticmethod
     def avg_word2vec_distance_within(guess_list: List[str], start_idx: int, model, func:str="mean", dec_place:int=1) -> Union[float, str]:
         """Calculate average Word2Vec distance within a game's guesses. from guess i to guess 0 inclusive"""
@@ -396,53 +401,53 @@ class WordleAnalyzer:
         
         # Calculate metrics for actual and optimal guesses between i and i+1
         for i in range(len(actual_guesses) - 1): # = len(optimal_sequence)
-            cur_game = optimal_sequence[i]
+            cur_game = optimal_sequence[i] # cur optimal game
             l = len(cur_game)-1
             metrics['actual_levenshtein'].append(self.levenshtein(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_levenshtein'].append(self.levenshtein(cur_game[-1], cur_game[-2]))
-            metrics['actual_avg_levenshtein'].append(self.avg_levenshtein_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
-            metrics['optimal_avg_levenshtein'].append(self.avg_levenshtein_within(cur_game, l, self.avg_func, self.avg_dec_place))
+            metrics['actual_avg_levenshtein'].append(self.avg_levenshtein_within(actual_guesses, +1, self.avg_func, self.dec_places["actual_avg_levenshtein"]))
+            metrics['optimal_avg_levenshtein'].append(self.avg_levenshtein_within(cur_game, l, self.avg_func, self.dec_places["optimal_avg_levenshtein"]))
     
             metrics['actual_syllables'].append(self.common_syllables(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_syllables'].append(self.common_syllables(cur_game[-1], cur_game[-2]))
-            metrics['actual_avg_syllables'].append(self.avg_common_syllables_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
-            metrics['optimal_avg_syllables'].append(self.avg_common_syllables_within(cur_game, l, self.avg_func, self.avg_dec_place))
+            metrics['actual_avg_syllables'].append(self.avg_common_syllables_within(actual_guesses, i+1, self.avg_func, self.dec_places["actual_avg_syllables"]))
+            metrics['optimal_avg_syllables'].append(self.avg_common_syllables_within(cur_game, l, self.avg_func, self.dec_places["optimal_avg_syllables"]))
 
             metrics['actual_shared_chars'].append(self.shared_chars(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_shared_chars'].append(self.shared_chars(cur_game[-1], cur_game[-2]))
-            metrics['actual_avg_shared_chars'].append(self.avg_shared_chars_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
-            metrics['optimal_avg_shared_chars'].append(self.avg_shared_chars_within(cur_game, l, self.avg_func, self.avg_dec_place))
+            metrics['actual_avg_shared_chars'].append(self.avg_shared_chars_within(actual_guesses, i+1, self.avg_func, self.dec_places["actual_avg_shared_chars"]))
+            metrics['optimal_avg_shared_chars'].append(self.avg_shared_chars_within(cur_game, l, self.avg_func, self.dec_places["optimal_avg_shared_chars"]))
 
             temp_actual = self.glove_distance(actual_guesses[i], actual_guesses[i+1], WordleAnalyzer.glove_distance_model)
             temp_guess = self.glove_distance(cur_game[-1], cur_game[-2], WordleAnalyzer.glove_distance_model)
-            if temp_actual is not None and temp_guess is not None:
+            if temp_actual is not None and temp_guess is not None: #todo no need for this after max_dist assumption
                 metrics['actual_glove_distance'].append(temp_actual)
                 metrics['optimal_glove_distance'].append(temp_guess)
-            metrics['actual_avg_glove_distance'].append(self.avg_glove_distance_within(actual_guesses, i, WordleAnalyzer.glove_distance_model, self.avg_func, self.avg_dec_place))
-            metrics['optimal_avg_glove_distance'].append(self.avg_glove_distance_within(cur_game, l, WordleAnalyzer.glove_distance_model, self.avg_func, self.avg_dec_place))
+            metrics['actual_avg_glove_distance'].append(self.avg_glove_distance_within(actual_guesses, i+1, WordleAnalyzer.glove_distance_model, self.avg_func, self.dec_places["actual_avg_glove_distance"]))
+            metrics['optimal_avg_glove_distance'].append(self.avg_glove_distance_within(cur_game, l, WordleAnalyzer.glove_distance_model, self.avg_func, self.dec_places["optimal_avg_glove_distance"]))
 
             temp_actual = self.word2vec_distance(actual_guesses[i], actual_guesses[i+1], WordleAnalyzer.word2vec_model)
             temp_guess = self.word2vec_distance(cur_game[-1], cur_game[-2], WordleAnalyzer.word2vec_model)
-            if temp_actual is not None and temp_guess is not None:
+            if temp_actual is not None and temp_guess is not None: #todo no need for this after max_dist assumption
                 metrics['actual_word2vec_distance'].append(temp_actual)
                 metrics['optimal_word2vec_distance'].append(temp_guess)
-            metrics['actual_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(actual_guesses, i, WordleAnalyzer.word2vec_model, self.avg_func, self.avg_dec_place))
-            metrics['optimal_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(cur_game, l, WordleAnalyzer.word2vec_model, self.avg_func, self.avg_dec_place))
+            metrics['actual_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(actual_guesses, i+1, WordleAnalyzer.word2vec_model, self.avg_func, self.dec_places["actual_avg_word2vec_distance"]))
+            metrics['optimal_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(cur_game, l, WordleAnalyzer.word2vec_model, self.avg_func, self.dec_places["optimal_avg_word2vec_distance"]))
 
             metrics['actual_rhyme0_count'].append(self.is_rhyme_0(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_rhyme0_count'].append(self.is_rhyme_0(cur_game[-1], cur_game[-2]))
-            metrics['actual_avg_rhyme0_count'].append(self.avg_rhyme_count(actual_guesses, i, self.avg_func, 0, self.avg_dec_place))
-            metrics['optimal_avg_rhyme0_count'].append(self.avg_rhyme_count(cur_game, l, self.avg_func, 0, self.avg_dec_place))
+            metrics['actual_avg_rhyme0_count'].append(self.avg_rhyme_count(actual_guesses, i+1, self.avg_func, 0, self.dec_places["actual_avg_rhyme0_count"]))
+            metrics['optimal_avg_rhyme0_count'].append(self.avg_rhyme_count(cur_game, l, self.avg_func, 0, self.dec_places["optimal_avg_rhyme0_count"]))
 
             metrics['actual_rhyme1_count'].append(self.is_rhyme_1(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_rhyme1_count'].append(self.is_rhyme_1(cur_game[-1], cur_game[-2]))
-            metrics['actual_avg_rhyme1_count'].append(self.avg_rhyme_count(actual_guesses, i, self.avg_func, 1, self.avg_dec_place))
-            metrics['optimal_avg_rhyme1_count'].append(self.avg_rhyme_count(cur_game, l, self.avg_func, 1, self.avg_dec_place))
+            metrics['actual_avg_rhyme1_count'].append(self.avg_rhyme_count(actual_guesses, i+1, self.avg_func, 1, self.dec_places["actual_avg_rhyme1_count"]))
+            metrics['optimal_avg_rhyme1_count'].append(self.avg_rhyme_count(cur_game, l, self.avg_func, 1, self.dec_places["optimal_avg_rhyme1_count"]))
 
             metrics['actual_gpt_tokens'].append(self.common_gpt_tokens(actual_guesses[i], actual_guesses[i+1]))
             metrics['optimal_gpt_tokens'].append(self.common_gpt_tokens(cur_game[-1], cur_game[-2]))
-            metrics['actual_avg_gpt_tokens'].append(self.avg_common_gpt_tokens_within(actual_guesses, i, self.avg_func, self.avg_dec_place))
-            metrics['optimal_avg_gpt_tokens'].append(self.avg_common_gpt_tokens_within(cur_game, l, self.avg_func, self.avg_dec_place))            
+            metrics['actual_avg_gpt_tokens'].append(self.avg_common_gpt_tokens_within(actual_guesses, i+1, self.avg_func, self.dec_places["actual_avg_gpt_tokens"]))
+            metrics['optimal_avg_gpt_tokens'].append(self.avg_common_gpt_tokens_within(cur_game, l, self.avg_func, self.dec_places["optimal_avg_gpt_tokens"]))            
             
         self.metrics[game_index] = metrics
         return metrics
@@ -550,27 +555,29 @@ class WordleAnalyzer:
             
             # Create x positions for bars
             x = np.arange(len(all_values))
+            ax.set_xticks(x)  # Set x-ticks based on the actual values
+            ax.set_xticklabels([f'{val}' for val in all_values]) 
             
             # Fill in missing values with zeros
             optimal_heights = [optimal_counts.get(val, 0) for val in all_values]
             actual_heights = [actual_counts.get(val, 0) for val in all_values]
             
             # Create bars
-            optimal_bars = ax.bar(x - bar_width/2, optimal_heights, bar_width, 
+            optimal_bars = ax.bar(x - bar_width / 2, optimal_heights, bar_width,
                                 label='Optimal', alpha=0.7, edgecolor='black', linewidth=1.5)
-            actual_bars = ax.bar(x + bar_width/2, actual_heights, bar_width,
+            actual_bars = ax.bar(x + bar_width / 2, actual_heights, bar_width,
                                 label='Actual', alpha=0.7, edgecolor='black', linewidth=1.5)
 
             # Customize plot
             # Calculate and display Cohen's d and p-value
-            cohen_distance = WordleAnalyzer.cohen_d(actual_heights, optimal_heights)
-            p_value = ttest_rel(actual_heights, optimal_heights).pvalue
+            cohen_distance = WordleAnalyzer.cohen_d(actual_data, optimal_data)
+            p_value = ttest_rel(actual_data, optimal_data).pvalue
             
             # Add Cohen's d and p-value to the plot as text
             plt.text(0.5, 1, f"Cohen's distance: {cohen_distance:.{3}g}, p-value: {p_value:.{3}g}", 
             horizontalalignment='center', verticalalignment='bottom', transform=plt.gca().transAxes, fontsize=10)
+            
             ax.set_xlabel(f'{metric_type.replace("_", " ").title()}')
-            ax.set_xticks(x)
             ax.set_ylabel('Count')
             ax.legend(title="Game Type")
 
@@ -740,8 +747,12 @@ class WordleAnalyzer:
             create_plot(plt.figure(figsize=(12, 10)))
             plt.show()
 
+    @staticmethod
     def cohen_d(x, y):
-        return (np.mean(x) - np.mean(y)) / (np.sqrt((np.std(x) ** 2 + np.std(y) ** 2) / 2))
+            nx = len(x)
+            ny = len(y)
+            dof = nx + ny - 2
+            return (np.mean(x) - np.mean(y)) / np.sqrt(((nx-1)*np.std(x, ddof=1) ** 2 + (ny-1)*np.std(y, ddof=1) ** 2) / dof)    
     
     def analyze_optimal_choices(self, n_games: int = None, save_pdf: bool = False) -> pd.DataFrame:
         """
@@ -807,8 +818,9 @@ class WordleAnalyzer:
             ax.set_ylabel('Percentage of Optimal Choices')
         
         # Add percentage labels on top of bars
-        for i, v in enumerate(summary_stats['optimal_percentage']):
-            plt.text(i + 1, v + 0.01, f'{v:.1%}', ha='center')
+            for i, v in enumerate(summary_stats['optimal_percentage']):
+                ax.text(i+2, v + 0.01, f'{v:.1%}', 
+                        ha='center', va='bottom')  # Set the label to the center and above the bar
         
         if save_pdf:
             self.save_plot(create_plot, f"Optimal Word Choice Percentage by Guess Position")
@@ -822,9 +834,11 @@ class WordleAnalyzer:
 # Example usage
 def main():
     # Initialize the analyzer with your CSV file
-    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv', load_pickle=False)
+    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv',\
+                load_pickle=False, avg_dec_place=2, specific_dec_places={"actual_avg_word2vec_distance": 1, "optimal_avg_word2vec_distance": 1,"actual_avg_glove_distance": 1, \
+                                                                        "optimal_avg_glove_distance": 1, "actual_avg_shared_chars": 1, "optimal_avg_shared_chars": 1, \
+                                                                        "actual_avg_levenshtein": 1, "optimal_avg_levenshtein": 1})
     analyzer.avg_func = "mean"
-    analyzer.avg_dec_place = 2
     # Get basic statistics
     print(f"Average guesses: {analyzer.get_average_guesses():.2f}")
     
@@ -845,52 +859,54 @@ def main():
     print(f"Hard Mode Average: {hard_mode_stats['hard_mode_avg']:.2f} ({hard_mode_stats['hard_mode_games']} games)")
     print(f"Normal Mode Average: {hard_mode_stats['normal_mode_avg']:.2f} ({hard_mode_stats['normal_mode_games']} games)")
     print("\n\n")
-
+    #analyzer.plot_comparison_histogram('avg_glove_distance', save_pdf=True, save_data=True)
+    #analyzer.dump_pickle_metrics() 
+    
     # Create visualizations
-    '''analyzer.plot_guess_distribution(save_pdf=True)
+    
+    analyzer.plot_guess_distribution(save_pdf=True)
     analyzer.plot_comparison_scatter('levenshtein', save_pdf=True, save_data=True)
     analyzer.dump_pickle_metrics() # TODO REMOVE THIS WHEN LOADING PICKLE
     analyzer.plot_comparison_scatter('avg_levenshtein', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('syllables', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_syllables', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('levenshtein', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_levenshtein', save_pdf=True, save_data=True)
 
     analyzer.plot_comparison_scatter('syllables', save_pdf=True, save_data=True)
     analyzer.plot_comparison_scatter('avg_syllables', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('shared_chars', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_shared_chars', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('syllables', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_syllables', save_pdf=True, save_data=True)
 
     analyzer.plot_comparison_scatter('shared_chars', save_pdf=True, save_data=True)  
     analyzer.plot_comparison_scatter('avg_shared_chars', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('glove_distance', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_glove_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('shared_chars', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_shared_chars', save_pdf=True, save_data=True)
     
     analyzer.plot_comparison_scatter('glove_distance', save_pdf=True, save_data=True)
     analyzer.plot_comparison_scatter('avg_glove_distance', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('word2vec_distance', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_word2vec_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('glove_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_glove_distance', save_pdf=True, save_data=True)
 
     analyzer.plot_comparison_scatter('word2vec_distance', save_pdf=True, save_data=True)
     analyzer.plot_comparison_scatter('avg_word2vec_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('word2vec_distance', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_word2vec_distance', save_pdf=True, save_data=True)
+
+    analyzer.plot_comparison_scatter('rhyme0_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('avg_rhyme0_count', save_pdf=True, save_data=True)  
     analyzer.plot_comparison_histogram('rhyme0_count', save_pdf=True, save_data=True)
     analyzer.plot_comparison_histogram('avg_rhyme0_count', save_pdf=True, save_data=True)
 
-    analyzer.plot_comparison_histogram('rhyme0_count', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_rhyme0_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('rhyme1_count', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_scatter('avg_rhyme1_count', save_pdf=True, save_data=True)
     analyzer.plot_comparison_histogram('rhyme1_count', save_pdf=True, save_data=True)
     analyzer.plot_comparison_histogram('avg_rhyme1_count', save_pdf=True, save_data=True)
-
-    analyzer.plot_comparison_histogram('rhyme1_count', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_rhyme1_count', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('gpt_tokens', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_gpt_tokens', save_pdf=True, save_data=True)
 
     analyzer.plot_comparison_scatter('gpt_tokens', save_pdf=True, save_data=True)
     analyzer.plot_comparison_scatter('avg_gpt_tokens', save_pdf=True, save_data=True)
     analyzer.plot_comparison_histogram('gpt_tokens', save_pdf=True, save_data=True)
-    analyzer.plot_comparison_histogram('avg_gpt_tokens', save_pdf=True, save_data=True)'''
-
+    analyzer.plot_comparison_histogram('avg_gpt_tokens', save_pdf=True, save_data=True)
+    
     print(analyzer.analyze_optimal_choices(save_pdf=True)[1])
-    #analyzer.plot_comparison_histogram('rhyme0_count')
 
 if __name__ == "__main__":
     main()
