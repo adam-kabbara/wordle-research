@@ -836,8 +836,8 @@ def main():
     # Initialize the analyzer with your CSV file
     analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv',\
                 load_pickle=False, avg_dec_place=2, specific_dec_places={"actual_avg_word2vec_distance": 1, "optimal_avg_word2vec_distance": 1,"actual_avg_glove_distance": 1, \
-                                                                        "optimal_avg_glove_distance": 1, "actual_avg_shared_chars": 1, "optimal_avg_shared_chars": 1, \
-                                                                        "actual_avg_levenshtein": 1, "optimal_avg_levenshtein": 1})
+                                                                        "optimal_avg_glove_distance": 1, "actual_avg_shared_chars": 0, "optimal_avg_shared_chars": 0, \
+                                                                        "actual_avg_levenshtein": 0, "optimal_avg_levenshtein": 0})
     analyzer.avg_func = "mean"
     # Get basic statistics
     print(f"Average guesses: {analyzer.get_average_guesses():.2f}")
@@ -863,7 +863,9 @@ def main():
     #analyzer.dump_pickle_metrics() 
     
     # Create visualizations
-    
+    analyzer.plot_comparison_histogram('avg_levenshtein', save_pdf=True, save_data=True)
+    analyzer.plot_comparison_histogram('avg_shared_chars', save_pdf=True, save_data=True)
+    '''
     analyzer.plot_guess_distribution(save_pdf=True)
     analyzer.plot_comparison_scatter('levenshtein', save_pdf=True, save_data=True)
     analyzer.dump_pickle_metrics() # TODO REMOVE THIS WHEN LOADING PICKLE
@@ -906,7 +908,7 @@ def main():
     analyzer.plot_comparison_histogram('gpt_tokens', save_pdf=True, save_data=True)
     analyzer.plot_comparison_histogram('avg_gpt_tokens', save_pdf=True, save_data=True)
     
-    print(analyzer.analyze_optimal_choices(save_pdf=True)[1])
+    print(analyzer.analyze_optimal_choices(save_pdf=True)[1])'''
 
 if __name__ == "__main__":
     main()
