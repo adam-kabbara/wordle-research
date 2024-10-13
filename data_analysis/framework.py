@@ -1,3 +1,11 @@
+"""
+TODO:
+- for rhyming avg you can just like avg u need to take avg of count - cause rhyming is tru or false its not a value
+"""
+
+
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -350,49 +358,49 @@ class WordleAnalyzer:
         optimal_sequence = self.get_optimal_guesses(game_index)
         metrics = {
             # levenshtein and acg_levenshtein_within
-            'actual_levenshtein': [], # todo: NAH DIS DONE
+            'actual_levenshtein': [],
             'actual_avg_levenshtein': [],
             'optimal_levenshtein': [],
             'optimal_avg_levenshtein': [],
 
             # common_syllables and avg_common_syllables_within
-            'actual_syllables': [], # todo: NAH DIS DONE
+            'actual_syllables': [],
             'actual_avg_syllables': [],
             'optimal_syllables': [],
             'optimal_avg_syllables': [],
 
             # shared_chars and avg_shared_chars_within
-            'actual_shared_chars': [], # todo: NAH DIS DONE
+            'actual_shared_chars': [], 
             'actual_avg_shared_chars': [],
             'optimal_shared_chars': [],
             'optimal_avg_shared_chars': [],
 
             # glove_distance and avg_glove_distance_within
-            'actual_glove_distance': [], # todo: NAH DIS DONE
+            'actual_glove_distance': [], 
             'actual_avg_glove_distance': [],
             'optimal_glove_distance': [],
             'optimal_avg_glove_distance': [],
 
             # word2vec_distance and avg_word2vec_distance_within
-            'actual_word2vec_distance': [], # todo: NAH DIS DONE
+            'actual_word2vec_distance': [], 
             'actual_avg_word2vec_distance': [],
             'optimal_word2vec_distance': [],
             'optimal_avg_word2vec_distance': [],
 
             # is_rhyme_0 and avg_rhyme_count
-            'actual_rhyme0_count': [], # todo: NAH DIS DONE
+            'actual_rhyme0_count': [], 
             'actual_avg_rhyme0_count': [],
             'optimal_rhyme0_count': [],
             'optimal_avg_rhyme0_count': [],
 
             # is_rhyme_1 and avg_rhyme_count
-            'actual_rhyme1_count': [], # todo: NAH DIS DONE
+            'actual_rhyme1_count': [], 
             'actual_avg_rhyme1_count': [],
             'optimal_rhyme1_count': [],
             'optimal_avg_rhyme1_count': [],
 
             # common_gpt_tokens and avg_common_gpt_tokens_within
-            'actual_gpt_tokens': [], # todo: NAH DIS DONE
+            'actual_gpt_tokens': [], 
             'actual_avg_gpt_tokens': [],
             'optimal_gpt_tokens': [],
             'optimal_avg_gpt_tokens': []

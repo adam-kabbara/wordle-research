@@ -2,6 +2,7 @@
 data1/
 processed_wordle_data.csv
 data_analysis/jupyter_notebooks/temp.ipynb
+data_analysis/jupyter_notebooks/test.ipynb
 .vscode
 data_analysis/generated_data
 data_analysis/ideas.txt
