@@ -91,7 +91,7 @@ class WordleAnalyzer:
         try:
             with open(self.pickle_path, 'rb') as f:
                 self.metrics = pickle.load(f)
-                print(f"Metrics loaded from {self.pickle_path}")
+                print(f"Metrics loaded from pickel file: {self.pickle_path}")
         except (FileNotFoundError, EOFError) as e:
             print(f"Error loading pickle file: {e}")
             self.metrics = {}
@@ -254,14 +254,16 @@ class WordleAnalyzer:
 
     # Function to compute distance between two words using GloVe
     @staticmethod
-    def glove_distance(word1: str, word2: str, model, dec_place=1) -> float:
+    def glove_distance(word1: str, word2: str, model=None, dec_place=1) -> float:
         """Compute distance between two words using GloVe embeddings."""
+        if model is None:
+            model = WordleAnalyzer.glove_distance_model
         if word1 in model and word2 in model:
             vec1 = model[word1]
             vec2 = model[word2]
             similarity = WordleAnalyzer.cosine_similarity(vec1, vec2)
             return round(1 - similarity, dec_place)
-        return WordleAnalyzer.MAX_DIST #None
+        return None #WordleAnalyzer.MAX_DIST
         # todo we assume that if the word is not in the model than the two words have max distance which is 2
     @staticmethod
     def avg_glove_distance_within(guess_list: List[str], start_idx: int, model, func: str = "mean", dec_place:int=1) -> Union[float, str]:
@@ -326,7 +328,7 @@ class WordleAnalyzer:
             distance = 1 - similarity  # Cosine distance
             
             return round(distance, dec_place)
-        return WordleAnalyzer.MAX_DIST #None
+        return None #WordleAnalyzer.MAX_DIST
     # todo we assume that if the word is not in the model than the two words have max distance which is 2 
     @staticmethod
     def avg_word2vec_distance_within(guess_list: List[str], start_idx: int, model, func:str="mean", dec_place:int=1) -> Union[float, str]:
@@ -352,7 +354,7 @@ class WordleAnalyzer:
         return games
 
     def get_comparison_metrics(self, game_index: int) -> Dict[str, List[float]]:
-        """Get comparison metrics for optimal vs actual game at specified index."""
+        """Get comparison metrics for optimal vs actual game at specified index."""        
         row = self.df.iloc[game_index]
         actual_guesses = row['wordle_guesses']
         optimal_sequence = self.get_optimal_guesses(game_index)
@@ -428,7 +430,7 @@ class WordleAnalyzer:
 
             temp_actual = self.glove_distance(actual_guesses[i], actual_guesses[i+1], WordleAnalyzer.glove_distance_model)
             temp_guess = self.glove_distance(cur_game[-1], cur_game[-2], WordleAnalyzer.glove_distance_model)
-            if temp_actual is not None and temp_guess is not None: #todo no need for this after max_dist assumption
+            if temp_actual is not None and temp_guess is not None:
                 metrics['actual_glove_distance'].append(temp_actual)
                 metrics['optimal_glove_distance'].append(temp_guess)
             metrics['actual_avg_glove_distance'].append(self.avg_glove_distance_within(actual_guesses, i+1, WordleAnalyzer.glove_distance_model, self.avg_func, self.dec_places["actual_avg_glove_distance"]))
@@ -436,7 +438,7 @@ class WordleAnalyzer:
 
             temp_actual = self.word2vec_distance(actual_guesses[i], actual_guesses[i+1], WordleAnalyzer.word2vec_model)
             temp_guess = self.word2vec_distance(cur_game[-1], cur_game[-2], WordleAnalyzer.word2vec_model)
-            if temp_actual is not None and temp_guess is not None: #todo no need for this after max_dist assumption
+            if temp_actual is not None and temp_guess is not None:
                 metrics['actual_word2vec_distance'].append(temp_actual)
                 metrics['optimal_word2vec_distance'].append(temp_guess)
             metrics['actual_avg_word2vec_distance'].append(self.avg_word2vec_distance_within(actual_guesses, i+1, WordleAnalyzer.word2vec_model, self.avg_func, self.dec_places["actual_avg_word2vec_distance"]))
@@ -462,6 +464,8 @@ class WordleAnalyzer:
     
     def plot_comparison_scatter(self, metric_type: str, n_games: int = None, sizes: Tuple[int, int] = (80, 800), save_pdf: bool = False, save_data: bool = False):
         """Create scatter plot with regression line comparing optimal vs actual games."""
+        print(f"Plotting comparison scatter for {metric_type}...")  
+
         if n_games is None:
             n_games = len(self.df)
 
@@ -523,12 +527,107 @@ class WordleAnalyzer:
             ax.legend()
 
         if save_pdf:
-            self.save_plot(create_plot, f"{metric_type.replace("_", " ").title()} Comparison - scatter")
+            self.save_plot(create_plot, f"{metric_type.replace('_', ' ').title()} Comparison - scatter")
         else:
             create_plot(plt.figure(figsize=(10, 10)))
             plt.show()
 
-    def plot_comparison_histogram(self, metric_type: str, n_games: int = None, bar_width: float = 0.35, save_pdf: bool = False, save_data: bool = False):
+    def plot_comparison_histogram(self, metric_type: str, n_games: int = None, bar_width: float = 0.35, overlay: bool = True, save_pdf: bool = False, save_data: bool = False):
+        """Create grouped or overlaid bar chart comparing optimal vs actual games distributions."""
+        print(f"Plotting comparison histogram for {metric_type}...")
+
+        if n_games is None:
+            n_games = len(self.df)
+
+        # Collect data
+        actual_data = []
+        optimal_data = []
+        sampled_indices = np.random.choice(self.df.index, size=min(n_games, len(self.df)), replace=False)
+        for i in tqdm.tqdm(sampled_indices):
+            if i not in self.metrics:
+                self.get_comparison_metrics(i)
+            metrics = self.metrics[i]
+            
+            actual_key = f'actual_{metric_type}'
+            optimal_key = f'optimal_{metric_type}'
+            
+            for actual, optimal in zip(metrics[actual_key], metrics[optimal_key]):
+                if actual is not None and optimal is not None:
+                    actual_data.append(actual)
+                    optimal_data.append(optimal)
+
+        def create_plot(fig):
+            ax = fig.add_subplot(111)
+
+            # Build counts & all_values exactly as before
+            optimal_counts = pd.Series(optimal_data).value_counts().sort_index()
+            actual_counts = pd.Series(actual_data).value_counts().sort_index()
+            all_values = sorted(set(optimal_counts.index) | set(actual_counts.index))
+            x = np.arange(len(all_values))
+            ax.set_xticks(x)
+            ax.set_xticklabels([str(v) for v in all_values])
+
+            optimal_heights = [optimal_counts.get(v, 0) for v in all_values]
+            actual_heights = [actual_counts.get(v, 0)  for v in all_values]
+
+            if overlay:
+                # draw both bars at the same x positions
+                ax.bar(x, optimal_heights,
+                       width=bar_width,
+                       label='Optimal',
+                       alpha=0.5,
+                       edgecolor='black',
+                       linewidth=1.2)
+                ax.bar(x, actual_heights,
+                       width=bar_width,
+                       label='Actual',
+                       alpha=0.5,
+                       edgecolor='black',
+                       linewidth=1.2)
+            else:
+                # side-by-side as you had it
+                ax.bar(x - bar_width/2, optimal_heights,
+                       width=bar_width,
+                       label='Optimal',
+                       alpha=0.7,
+                       edgecolor='black',
+                       linewidth=1.5)
+                ax.bar(x + bar_width/2, actual_heights,
+                       width=bar_width,
+                       label='Actual',
+                       alpha=0.7,
+                       edgecolor='black',
+                       linewidth=1.5)
+
+            # add statistics text, labels, legend, etc. (unchanged)
+            cohen_distance = WordleAnalyzer.cohen_d(actual_data, optimal_data)
+            p_value        = ttest_rel(actual_data, optimal_data).pvalue
+            ax.text(0.5, 1.03,
+                    f"Cohen's d: {cohen_distance:.3g}, p-value: {p_value:.3g}",
+                    ha='center', va='bottom', transform=ax.transAxes)
+
+            ax.set_xlabel(metric_type.replace('_', ' ').title())
+            ax.set_ylabel('Count')
+            ax.legend(title="Game Type")
+
+            if save_data:
+                pd.DataFrame({
+                    'Value': all_values,
+                    'Optimal_Count': optimal_heights,
+                    'Actual_Count': actual_heights
+                }).to_csv(
+                    os.path.join(self.main_dir, f'{metric_type}_histogram.csv'),
+                    index=False)
+
+        if save_pdf:
+            self.save_plot(create_plot,
+                           f"{metric_type.replace('_', ' ').title()} Comparison - {'overlayed' if overlay else 'side-by-side'} histogram")
+        else:
+            create_plot(plt.figure(figsize=(10, 8)))
+            plt.tight_layout()
+            plt.show()
+
+    def plot_comparison_histogram_0(self, metric_type: str, n_games: int = None, bar_width: float = 0.35, save_pdf: bool = False, save_data: bool = False, overlay: bool = False):
         """Create grouped bar chart comparing optimal vs actual games distributions."""
         if n_games is None:
             n_games = len(self.df)
@@ -842,8 +941,8 @@ class WordleAnalyzer:
 # Example usage
 def main():
     # Initialize the analyzer with your CSV file
-    analyzer = WordleAnalyzer(r'C:\Users\adamk\Documents\wordle_research\wordle-research\data_analysis\data\merged_data.csv',\
-                load_pickle=False, avg_dec_place=2, specific_dec_places={"actual_avg_word2vec_distance": 1, "optimal_avg_word2vec_distance": 1,"actual_avg_glove_distance": 1, \
+    analyzer = WordleAnalyzer(r'data_analysis\data\merged_data.csv',\
+                load_pickle=True, avg_dec_place=2, specific_dec_places={"actual_avg_word2vec_distance": 1, "optimal_avg_word2vec_distance": 1,"actual_avg_glove_distance": 1, \
                                                                         "optimal_avg_glove_distance": 1, "actual_avg_shared_chars": 0, "optimal_avg_shared_chars": 0, \
                                                                         "actual_avg_levenshtein": 0, "optimal_avg_levenshtein": 0})
     analyzer.avg_func = "mean"

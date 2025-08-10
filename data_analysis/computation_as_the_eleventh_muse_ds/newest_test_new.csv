@@ -1,0 +1,553 @@
+comment,creativity_score,num_guesses,wordle_guesses,wordle_answer,entry_id
+In a strategic way. CLK are all very common consonants that makes sense to guess in your first two guess esp with NS already being eliminated. Same with AU being the only vowels left after OIE being gone....,9,2,"['noise', 'caulk']",caulk,1
+"Best result so far! My choice of the first word was really helpful. Then considered &gt;!SPIRE!&lt; as #2, before opting for the correct answer instead.
+
+Wordle 212 2/6
+
+🟩⬛⬛🟩🟩 &gt;!SOARE!&lt;
+  
+🟩🟩🟩🟩🟩 &gt;!SHIRE!&lt;",9,2,"['soare', 'shire']",shire,2
+"I'd suggest swapping a few consonants for more common ones. Based on your strategy to hit all vowels in three words, maybe FLOAT-CRUDE-SHINY?
+
+Edit: Or TONAL-CRIED-MUSHY.",9,4,"['dogma', 'erupt', 'shiny', 'story']",story,3
+that is really really really fricking smart,9,5,"['deary', 'oinks', 'cough', 'jumbo', 'flout']",flout,4
+"Scoredle 293 3/6  
+
+12,972  
+* 🟩⬜🟩🟩🟩 &gt;!STARE!&lt; (7)  
+* ⬜⬜⬜🟨⬜ &gt;!PINCH!&lt; (1)  
+* 🟩🟩🟩🟩🟩 &gt;!SCARE!&lt;
+
+I usually play with the hard mode rules, but I've stopped bothering in situations like this. It takes more strategy to find a word that eliminates multiple possibilities than it does to just brute-force guesses.",9,3,"['stare', 'pinch', 'scare']",scare,5
+"Wordle 240 3/6
+
+⬛⬛⬛⬛⬛ &gt;!ABOUT!&lt;
+
+⬛🟨🟩⬛⬛ &gt;!MINES!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!CYNIC!&lt;
+
+Been forever since I got a three turn. I always start with those first two words as it gives me all five vowels as well as some big letters &gt;!(MNTS)!&lt;. Seeing I had the &gt;!N in the right spot and only an I!&lt; had me stumped at first but I worked through the word and letter patterns I knew. I couldn’t think of a word that started with &gt;!I and had four non vowels after it, even favoring in Y!&lt; so I knew it had to be the fourth or fifth letter. Again I couldn’t think of a word where it’s &gt;!three constants and an I so Y has to be in it and it would make the most sense to be YNI or YN_I!&lt; so let’s type that in, with X as a placeholder, and see if anything clicks. Now go through the alphabet. &gt;!C makes CYNIC!&lt; All green, here we go.",9,3,"['about', 'mines', 'cynic']",cynic,6
+"The 6 words remaining after &gt;!COULD!&lt; all start with  the same 3 letters. Guessing &gt;!CHEEK!&lt;, if it's wrong, can eliminate 2 other possible words, &gt;!CHEEP!&lt; and &gt;!CHECK!&lt;. Guessing &gt;!CHEEP!&lt; or &gt;!CHECK!&lt; can only eliminate &gt;!CHEEK!&lt;, and guessing any of the other words can only eliminate that word.",9,5,"['arise', 'could', 'chewy', 'check', 'cheek']",cheek,7
+"Scoredle 282 4/6  
+
+12,972  
+* ⬛⬛⬛🟩🟨 &gt;!PIANO!&lt; (121)  
+* ⬛🟨⬛⬛⬛ &gt;!MULES!&lt; (10)  
+* ⬛⬛⬛🟨⬛ &gt;!BARFS!&lt; (2)  
+* 🟩🟩🟩🟩🟩 &gt;!FOUND!&lt;
+
+After my first two openers, I realized the word was gonna end in ""&gt;!OUND!&lt;,"" probably &gt;!ROUND, FOUND, or BOUND!&lt;. So I figured I should submit a guess that includes &gt;!R F and B!&lt;. I think I was pretty successful at that 😅",9,4,"['piano', 'mules', 'barfs', 'found']",found,8
+"Scoredle 304 6/6  
+
+12,974  
+* ⬛🟩⬛🟨🟨 &gt;!SOARE!&lt; (88)  
+* ⬛⬛⬛⬛⬛ &gt;!TULIP!&lt; (53)  
+* ⬛🟩🟨🟩⬛ &gt;!BORED!&lt; (31)  
+* ⬛🟩⬛🟩🟩 &gt;!GONER!&lt; (20)  
+* ⬛🟩⬛🟩🟩 &gt;!COVER!&lt; (10)  
+* 🟩🟩🟩🟩🟩 &gt;!FOYER!&lt;
+
+I have legitimately lost MULITPLE wordle unlimited games to this damn word. The horrifying sense of glee and dread as I realized the situation on guess 6 is probably my proudest wordle guess ever. Practice pulled through where it counted!",9,6,"['soare', 'tulip', 'bored', 'goner', 'cover', 'foyer']",foyer,10
+"Wordle 212 3/6
+
+
+
+🟨⬛🟩🟨🟩 &gt;!RAISE!&lt;
+
+
+🟩⬛🟩🟩🟩 &gt;!SPIRE!&lt;
+
+
+🟩🟩🟩🟩🟩 &gt;!SHIRE!&lt;
+
+
+&gt;!RAISE crew rise up! It gave us enough to work from to know the exact order of letters, just needed to work through the endless list of possibilities hah. Luckily got it on my second guess!!&lt;",8,3,"['raise', 'spire', 'shire']",shire,12
+"Wordle 328 2/6
+
+🟨🟩⬛⬛🟨 &gt;!PIVOT!&lt; (1)
+
+🟩🟩🟩🟩🟩 &gt;!TIPSY!&lt;
+
+Okay, I'm actually fascinated by this. This was a fairly innocent first guess but it narrowed the remaining solutions down to just 1 word, according to wordle bot. How likely is this to happen? Has anyone analyzed first guesses that narrow the list down to just 1 for previous wordles? I might have to crack open some python.",8,2,"['pivot', 'tipsy']",tipsy,13
+"Wordle 219 4/6
+
+⬛⬛⬛⬛🟩 &gt;!EQUAL!&lt;  
+⬛⬛⬛🟨⬛ &gt;!IDIOT!&lt;  
+⬛⬛🟩⬛🟩 &gt;!WHORL!&lt;  
+🟩🟩🟩🟩🟩 &gt;!KNOLL!&lt;
+
+&gt;!That was a hard one! Took me a while, on that fourth guess at first I was trying to think of something that would fit with 'OOL' at the end, then when going for the 'OLL' I couldn't get 'DROLL' out of my head for a while.!&lt;",8,4,"['equal', 'idiot', 'whorl', 'knoll']",knoll,14
+"I never go with a mathematically recommended starting guess like &gt;!crane!&lt; but I did today and it really paid off. That gave me two green letters immediately and then it was just a a matter of making solid guesses.
+
+⬜⬜🟩⬜🟩 &gt;!crane!&lt;
+
+⬜⬜🟩⬜🟩 &gt;!plate!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!shake!&lt;",8,3,"['crane', 'plate', 'shake']",shake,15
+"Getting way better with pinging words with the third guess.  I read some articles on the weekend about using initial guesses to ping letter combos (like CH, ST, GH) so I'm working to combine that with my vowel based strategy
+
+So, on hard mode...
+
+Scoredle 268 3/6\*
+  
+
+  
+12,947
+  
+🟨⬜⬜⬜⬜ &gt;!TOUCH!&lt; (945)
+  
+⬜⬜⬜⬜🟩 &gt;!FAINT!&lt; (46)
+  
+🟩🟩🟩🟩🟩 &gt;!SMELT!&lt;  
+
+
+&gt;!Interesting spot after the second guess, down to the E for the vowel, but with major word combos struck out, like CH, NT, CR, GH, TR, FR.  To be honest, once the LT combo came to mind, SMELT kinda just lept out to me.  I think this probably the first Wordle I've done where I haven't used an R!!&lt;",8,3,"['touch', 'faint', 'smelt']",smelt,16
+"Scoredle 245 3/6
+
+12,947
+
+🟩🟨⬛⬛⬛ &gt;!SLATE!&lt; (66)
+
+🟩⬛⬛🟩🟩 &gt;!SKULL!&lt; (3)
+
+🟩🟩🟩🟩🟩 &gt;!SWILL!&lt;
+
+I so badly want 2/6. Once again, I had today's word on my list of possibilities after my first guess but I went with &gt;!skull!&lt; because I had a growing list of possible words and I thought if I was wrong, it would likely leave me with the fewest remaining options. Comparing my options on Scoredle after the fact, I was dead on.",8,3,"['slate', 'skull', 'swill']",swill,18
+"Wordle 263 3/6
+
+⬛⬛⬛⬛⬛ &gt;!EARLY!&lt;  
+⬛⬛🟨⬛⬛ &gt;!PIOUS!&lt;  
+🟩🟩🟩🟩🟩 &gt;!MONTH!&lt;  
+
+Nailed it.",8,3,"['early', 'pious', 'month']",month,19
+"Wordle 212 4/6
+
+* ⬛⬛⬛⬛🟨&gt;!MATCH!&lt;
+* 🟩⬛🟩⬛🟩&gt;!SPIKE!&lt;
+* 🟩🟩🟩⬛🟩&gt;!SHINE!&lt; (My first thought here was to guess&gt;!SHIRE!&lt; but I changed it to this since I'm not a native English speaker &amp; &gt;!only heard that word in lord of the rings!&lt;, so I wasn't sure if it'd be a good bet. Should've trusted my gut lol
+* 🟩🟩🟩🟩🟩&gt;!SHIRE!&lt;",8,4,"['match', 'spike', 'shine', 'shire']",shire,20
+"1. ⬜️🟩⬜️🟩⬜️ &gt;!AROSE!&lt; (Starting word)
+2. ⬜️⬜️⬜️🟨⬜️ &gt;!TULIP!&lt; (2nd word when starting word has no vowels)
+3. ⬜️⬜️🟩⬜️🟩 &gt;!CHINK!&lt; (Guess position of &gt;!I!&lt;, for which I thought the middle letter was most likely, plus 4 more letters.)
+4. 🟩🟩🟩🟩🟩 &gt;!BRISK!&lt; (Decided to just go for it, since the only other possibility I could think of was &gt;!FRISK!&lt;. Got lucky this time)
+
+Current Streak: 10",8,4,"['arose', 'tulip', 'chink', 'brisk']",brisk,22
+"Ooh that's an unusual starting word, I like it 👍
+
+Was it a tactical decision?",8,6,"['aegis', 'youth', 'brand', 'pinch', 'finch', 'cinch']",cinch,23
+"Wordle 301 4/6
+
+🟨⬛⬛⬛⬛ &gt;!EQUAL!&lt; (2460)  
+⬛⬛⬛⬛🟨 &gt;!POISE!&lt; (250)  
+⬛🟨⬛🟩⬛ &gt;!METER!&lt; (4)  
+🟩🟩🟩🟩🟩 &gt;!CHEEK!&lt;
+
+&gt;!I just *knew* there was a double vowel. I could smell it.!&lt;",8,4,"['equal', 'poise', 'meter', 'cheek']",cheek,24
+"⬛⬛⬛⬛⬛ &gt;!Quick!&lt;
+
+⬛⬛🟨🟨⬛ &gt;!Stare!&lt;
+
+🟨🟨⬛🟩⬛ &gt;!Arrow!&lt;
+
+🟨🟩⬛🟩🟩 &gt;!Vapor!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!Favor!&lt;
+
+&gt;!Arrow was a really good one as it led well to a green A O and R and from there the choices were very limited.!&lt;",8,5,"['quick', 'stare', 'arrow', 'vapor', 'favor']",favor,26
+"Wordle 233 4/6\*  
+⬜⬜⬜⬜⬜ &gt;!TOUCH!&lt;  
+⬜🟩🟨⬜🟨 &gt;!PLEAD!&lt;  
+⬜🟩⬜🟨🟨 &gt;!SLIDE!&lt;  
+🟩🟩🟩🟩🟩 &gt;!ELDER!&lt;
+
+Pretty proud of myself for this one, was staring at my third guess for way too long.",8,4,"['touch', 'plead', 'slide', 'elder']",elder,27
+"R was in the correct spot, the S made the most sense to me as letter two. &gt;!USURP!&lt; was the first word I could think of that fit those parameters 😀",8,2,"['soare', 'usurp']",usurp,28
+"I regret that you feel you have been lied to. I shared this because I was happy to have beaten the odds. It is a nice change to the times when I only get it on the last try or even fail completely. 
+
+BTW, if you input the first two words on Wordle Helper, you will see that most of the 129 potentials have two identical letters in them. Since I only had one letter at the time, I wanted to try one with no repeating letters to increase my chance of hitting more letters, and &gt;!GAWKY!&lt; looked good in that regard ;-) .",8,3,"['arise', 'lunch', 'gawky']",gawky,29
+The fact that you already had it by Guess 2 but chose to do &gt;!COCKS!&lt; anyway is legendary LMAO,8,4,"['maple', 'brick', 'cocks', 'choke']",choke,30
+Test other letters. It’s easier for me to guess the word if I know 4 letters than 2. Or if I know that certain letters aren’t in the word.,8,4,"['shake', 'route', 'filmy', 'dodge']",dodge,31
+"You got the &gt;!Es properly placed on the third word, and found the remaining vowel on your next play, so going right to that word playing hard mode would probably have yielded good results for you. Strategic stock second words can be overrated – except of course when the first word returns all black letters.!&lt;",8,5,"['deuce', 'sting', 'evade', 'emote', 'elope']",elope,32
+"Wordle 215 4/6
+
+🟩⬜⬜⬜⬜ &gt;!RAISE!&lt;
+
+🟩🟩⬜⬜⬜ &gt;!ROUND!&lt;
+
+🟨⬜⬜⬜⬜ &gt;!BUMPY!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!ROBOT!&lt;
+
+First time I’ve ever used a word I knew wasn’t going to be right to try and find another letter &gt;!bumpy!&lt; but it worked out for me",8,4,"['raise', 'round', 'bumpy', 'robot']",robot,33
+"Wordle 221 4/6  
+⬜🟨⬜⬜⬜ &gt;! paint !&lt;  
+⬜⬜🟩⬜⬜ &gt;! drags !&lt;  
+🟨⬜⬜⬜⬜ &gt;! clove !&lt;  
+🟩🟩🟩🟩🟩 &gt;! whack !&lt;
+
+this is the first time I've been able to deduce the word with so little discovered letters!",8,4,"['paint', 'drags', 'clove', 'whack']",whack,34
+"OK.  That's how I try to play it unless I'm just plain stumped.  And I'll give it a good 20 minutes, walk a way for a while, come back and try again before making an obvious wrong guess.",8,3,"['stole', 'ample', 'maple']",maple,35
+"I narrowed it down to &gt;!RAKER, FAKER, BAKER!&lt;. Not sure if the first one is really a valid answer but didn't want to chance it...so if my fifth guess came up all grey that's what I was going for.",8,6,"['dealt', 'cream', 'payer', 'waker', 'buffy', 'baker']",baker,36
+"Scoredle 265 4/6  
+🟨⬜🟨⬜⬜ &gt;!CRANE!&lt; (140)  
+⬜🟩🟩🟩🟩 &gt;!PATCH!&lt; (6)  
+🟩🟨⬜⬜⬜ &gt;!WHELM!&lt; (1)  
+🟩🟩🟩🟩🟩 &gt;!WATCH!&lt;
+
+&gt;!After PATCH, I had it down to WATCH, LATCH, MATCH, HATCH, so I needed to figure out which leading letter it is; WHELM includes those leading letter possibilities. In hindsight, not the best guess, since the H of WHELM doesn't tell me anything; should have used a word with H in position 1 (e.g. HELMS) to better guarantee a win.!&lt;
+
+&gt;!Also, BATCH and GATCH were possibilities, but I didn't think of those, never even head of GATCH before now: it's apparently a Persian variety of plaster of Paris. Go figure.!&lt;",8,4,"['crane', 'patch', 'whelm', 'watch']",watch,37
+"Tricky!
+
+Wordle: #409 2022-08-02
+
+Guesses: 5
+
+⬜⬜⬜⬜⬜ &gt;!QUART!&lt; (3022)
+
+🟩⬜🟨⬜⬜ &gt;!CHOKE!&lt; (50)
+
+🟩🟩⬜⬜⬜ &gt;!COMBO!&lt; (21)
+
+🟩🟩⬜🟩⬜ &gt;!COILS!&lt; (2)
+
+🟩🟩🟩🟩🟩 &gt;!COYLY!&lt; 
+
+https://www.wordlereplay.com/?date=2022-08-02",8,5,"['quart', 'choke', 'combo', 'coils', 'coyly']",coyly,38
+"Wordle 219 4/6
+  
+
+  
+⬜⬜⬜⬜⬜&gt;!STRAP!&lt;
+  
+⬜🟨⬜⬜⬜&gt;!CLIME!&lt;
+  
+⬜⬜🟩⬜🟩&gt;!GHOUL!&lt;
+  
+🟩🟩🟩🟩🟩&gt;!KNOLL!&lt;
+
+&gt;!Was thinking of possible words ending in -OWL or -OOL after my 3rd guess and couldn't get any. And that's when it struck: why am I completely ignoring -OLL. Lo and behold.!&lt;",8,4,"['strap', 'clime', 'ghoul', 'knoll']",knoll,39
+"Wordle 207 6/6
+
+⬛⬛⬛⬛🟩 &gt;!DINER!&lt;
+
+🟨⬛🟨⬛🟩 &gt;!ARMOUR!&lt;
+
+⬛🟩⬛🟩🟩 &gt;!RAZOR!&lt;
+
+⬛🟩⬛🟩🟩 &gt;!LABOR!&lt;
+
+⬛🟩⬛🟩🟩 &gt;!PAYOR!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!FAVOR!&lt;
+
+Phew indeed!",8,5,"['diner', 'razor', 'labor', 'payor', 'favor']",favor,40
+"&gt;	 Not sure what you mean.  
+
+FOUND is a legal second guess after TULIP in hard mode, but it isn’t the *only* legal guess. Per Scoredle, TULIP only narrows the field to 512.  
+
+If you want Hard, find a path from TULIP to FOUND such that: 
+
+-	every step is hard mode compliant 
+-	according to Scoredle, FOUND is the *only* hard mode compliant alternative after the penultimate guess
+
+For example, if the target word were BLEST (instead of FOUND), and the first guess were TULIP, here’s a four-step path:
+
+Scoredle 4/6  
+
+12,972  
+🟨⬛🟨⬛⬛ &gt;!TULIP!&lt; (158)  
+🟨⬛🟨⬛⬛ &gt;!LOTTO!&lt; (39)  
+🟨⬛🟨🟨⬛ &gt;!SALTY!&lt; (1)  
+🟩🟩🟩🟩🟩 &gt;!BLEST!&lt;  
+
+With a moment’s thought, I am sure you will find a three-step path, even though TULIP is the mandatory first guess.",8,4,"['tulip', 'lotto', 'salty', 'blest']",blest,41
+"Some combination of skill and luck. 
+
+Almost always start with the same 2 words. 
+
+My third guess used 3 letters from my first word and got 1 yellow - which was great. That meant that the other 2 letters had to be in the answer (along with 1 of those 3 letters).
+
+My fourth guess used those 2 letters and only got 1 green and 1 yellow - so those 2 letters were in and the other letters were out. 
+
+That gave me the &gt;!N!&lt; (looking good for the last letter, the &gt;!A!&lt; (either first or fourth), either the &gt;!R or I!&lt; and one out of &gt;!L, O or U!&lt;.
+
+Couldn’t find a word ending in &gt;!AN!&lt; so I worked on &gt;!A_ _ _ N!&lt;.  I tried the vowels first and found &gt;!AXION!&lt; (didn’t think of the double letter and knew &gt;!AVIAN!&lt; was a word but not &gt;!AVION!&lt;.  At that point I usually go with the first word I think of because it would be worse to try something else and have it turn out to be the first word I thought of.",8,5,"['train', 'louse', 'strip', 'eaten', 'axion']",axion,43
+"Out of 413 possibilities.  Wow.  Guess it was my day.  
+  
+12,974  
+⬜🟨🟨⬜⬜ &gt;!LEARN!&lt; (413)  
+🟩🟩🟩🟩🟩 &gt;!WASTE!&lt;  
+   
+And what's more, I made those two ""initial"" plays in about 10 seconds each.  Playing Wordle lasted 20 seconds today.  
+  
+No fair!  I still need my Wordle fix! ;)  
+  
+And I daresay there was a delicious &gt;!Caste,Haste,Paste,Baste!&lt; trap to fall into, there.  
+  
+Wait a second.  Why am I rooting against myself?",8,2,"['learn', 'waste']",waste,44
+"Wordle 325 2/6
+
+🟩⬜🟨⬜⬜ &gt;!GROUP!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!GECKO!&lt;
+
+feeling proud of this one!",8,2,"['group', 'gecko']",gecko,45
+"Wordle 222 2/6
+
+🟩🟩🟩⬜⬜ &gt;!MOUSE!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!MOUNT!&lt;
+
+My first 2/6! Not my usual starting word but I thought of it earlier today and thought it would be good to try. As the first 3 turned green I was in shock!",8,2,"['mouse', 'mount']",mount,46
+"Scoredle 295 4/6    
+12,972    
+⬛⬛⬛⬛⬛ &gt;!TIRED!&lt; (2,182)    
+🟨🟩⬛🟨🟩 &gt;!CLOAK!&lt; (5)    
+⬛⬛⬛⬛⬛ &gt;!SPIFF!&lt; (2)    
+🟩🟩🟩🟩🟩 &gt;!BLACK!&lt;  
+
+
+&gt;!almost went with black for my third guess at first, but then changed it to spiff after realizing slack, plack, and flack, could be possible!&lt;",8,4,"['tired', 'cloak', 'spiff', 'black']",black,47
+"Wordle 245 6/6
+
+⬛⬛⬛⬛🟨 &gt;!TUBES!&lt;
+
+⬛⬛⬛⬛⬛ &gt;!FLING!&lt;
+
+⬛🟨🟩⬛⬛ &gt;!CHAMP!&lt;
+
+🟨⬛⬛⬛⬛ &gt;!WORDY!&lt;
+
+🟩🟩🟩⬛🟩
+
+🟩🟩🟩🟩🟩
+
+I could have got it in 5 but i wasn't sure that it was the only arrangement of the letters to make the answer, and wanted to use another word (repeated the &gt;!R!&lt; ) to confirm 4/5 green if that makes sense.
+
+checking after the fact, that was the only arrangement that produced a valid word. shrug",8,5,"['tubes', 'fling', 'champ', 'wordy']",unknown,48
+"You must use the letters you found in subsequent guesses, and (if green), in the same spots.
+
+The place you run into trouble is if you have a prefix or suffix with a lot of answers and you want to burn a word to narrow things down faster.",8,3,"['stole', 'ample', 'maple']",maple,49
+"Scoredle 6/6  
+
+14,855  
+⬜⬜⬜🟨🟨 &gt;!CRANE!&lt; (403)  
+⬜🟩⬜⬜⬜ &gt;!TOILS!&lt; (24)  
+⬜🟩🟨🟩⬜ &gt;!HONEY!&lt; (10)  
+⬜🟩⬜🟩🟩 &gt;!DOZEN!&lt; (6)  
+🟩🟩⬜🟩🟩 &gt;!WOMEN!&lt; (3)  
+🟩🟩🟩🟩🟩 &gt;!WOKEN!&lt;
+
+After my fifth guess, WordleBot said: ""At this point, you will need some luck to solve the puzzle.""  
+
+If by ""luck,"" they meant ""the past answers list, so you know that &gt;!WOVEN!&lt; was already used,"" then yes—I needed luck.",8,6,"['crane', 'toils', 'honey', 'dozen', 'women', 'woken']",woken,50
+"&gt;!I was thinking I may have had to break from hard mode when I saw the 6 '\_OUND' words staring back at me. FOUND stood out and I typed it in. Hard Mode remained unbroken, but I did look for possible elimination words if the 'F' greyed.!&lt;",8,5,"['plane', 'sting', 'round', 'wombs', 'found']",found,51
+"Scoredle 319 4/6  
+
+12,974  
+🟨🟨🟨⬛⬛ &gt;!RAISE!&lt; (91)  
+⬛⬛🟩🟩🟨 &gt;!CHAIR!&lt; (15)  
+⬛⬛⬛🟩🟨 &gt;!DIGIT!&lt; (3)  
+🟩🟩🟩🟩🟩 &gt;!TRAIN!&lt;      
+  
+Third word use to eliminate all those possible answers. Worked a treat!",8,4,"['raise', 'chair', 'digit', 'train']",train,52
+I start with RENTS because there are a lot of consonants out there that need to be eliminated.  You can get through the vowels and still have a guess left.,8,5,"['adieu', 'storm', 'blown', 'loony', 'knoll']",knoll,53
+"Wordle 326 2/6
+
+🟩⬜🟩🟩🟩 &gt;!Force!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!Farce!&lt;
+
+&amp;#x200B;
+
+I'm pretty proud of this one",8,2,"['force', 'farce']",farce,54
+"Y'know, I don't like it when my Wordle looks like a Tetris board waiting for a straight tetromino. I used &gt;!yesterday's word!&lt; and spent my first three guesses &gt;!eliminating positions!&lt;.
+
+Scoredle 6/6  
+
+14,855  
+🟨🟨🟨🟨⬜ &gt;!AVERT!&lt; (29)  
+🟨🟨🟨🟨⬜ &gt;!RAVES!&lt; (6)  
+⬜🟩⬜🟩🟩 &gt;!PROVE!&lt; (4)  
+⬜🟩🟩🟩🟩 &gt;!GRAVE!&lt; (3)  
+⬜🟩🟩🟩🟩 &gt;!CRAVE!&lt; (2)  
+🟩🟩🟩🟩🟩 &gt;!BRAVE!&lt;",8,6,"['avert', 'raves', 'prove', 'grave', 'crave', 'brave']",brave,55
+"Scoredle 428 4/6  
+
+12,974  
+🟨⬛⬛⬛🟩 &gt;!ALIKE!&lt; (267)  
+🟨⬛🟨⬛⬛ &gt;!SHARP!&lt; (11)  
+🟨🟨⬛⬛🟩 &gt;!TWICE!&lt; (1)  
+🟩🟩🟩🟩🟩 &gt;!WASTE!&lt;
+
+I was going to guess &gt;!WASTE!&lt; for my 3rd word, literally had it typed out.
+
+But I realized &gt;!TASTE WASTE CASTE and BASTE!&lt; were all possible, so I went with &gt;!TWICE!&lt; even though I knew this was already a recent answer, just to eliminate all possibilities.",8,4,"['alike', 'sharp', 'twice', 'waste']",waste,57
+"u/TrackVol called it: Tracy Bennett is not only choosing specific words, but she’s choosing specific words that are contextual. Not cool.",8,1,['feast'],feast,58
+"Nice! Those were the two choices Scoredle said were possible after my third guess:
+
+⬜⬜🟩⬜🟩 &gt;!CHIME!&lt; (150)  
+⬜⬜⬜⬜⬜ &gt;!FUDGY!&lt; (98)  
+⬜⬜🟨🟨⬜ &gt;!PLANK!&lt; (2)  
+🟨⬜⬜⬜⬜ &gt;!ABORT!&lt; (1)  
+🟩🟩🟩🟩🟩 &gt;!NAIVE!&lt;
+
+I’m growing fond of my first three words; twice now I’ve used them to winnow my used letters, and with a quick fourth guess, figure out exactly what it is.",8,5,"['chime', 'fudgy', 'plank', 'abort', 'naive']",naive,59
+yo that’s genius,8,4,"['crate', 'those', 'novel', 'stove']",stove,60
+"Scoredle 284 4/6
+
+⬜⬜⬜🟨⬜ &gt;!CRWTH!&lt; (1,034)
+
+🟨🟨⬜🟨⬜ &gt;!TOAST!&lt; (27) Seeing multiple traps ahead: &gt;!STOO\_!&lt; and &gt;!STO\_E!&lt;, I tried a non-hard mode trick in my 3rd guess:
+
+⬜⬜🟨⬜⬜ &gt;!BLEND!&lt; (5)
+
+🟩🟩🟩🟩🟩 &gt;!STOVE!&lt;",8,4,"['crwth', 'toast', 'blend', 'stove']",stove,61
+"Scoredle 287 2/6\*
+
+12,972
+
+🟨🟨⬛🟨🟩 &gt;!ROUTE!&lt; (7)
+
+🟩🟩🟩🟩🟩 &gt;!TROPE!&lt;
+
+I always use &gt;!Route!&lt; and &gt;!Slain!&lt; for my first 2 words, to get rid of all the vowels and RSTLN.  But today I just guessed after 1 since I had so many already.  Woot.",8,2,"['route', 'trope']",trope,62
+"I don't play on hard mode by default but I normally follow the hard mode rules. That is until situations like these come up and I only have 3 guesses for 8 possibilities with only one letter missing! So it's basically risk/luck vs strategy. I know how my luck goes, so I chose strategy LOL. Also in hindsight I realize there were much better words I could have used for the 4th word but it happily worked out! 
+
+Scoredle 265 5/6  
+  
+
+  
+12,947  
+  
+⬜🟨🟨⬜⬜ &gt;!STARE!&lt; (257)  
+  
+🟨🟩🟨⬜⬜ &gt;!TACKY!&lt; (14)  
+  
+⬜🟩🟩🟩🟩 &gt;!CATCH!&lt; (8)  
+  
+🟩🟨⬜⬜⬜ &gt;!WHIMS!&lt; (1)  
+  
+🟩🟩🟩🟩🟩 &gt;!WATCH!&lt;",8,5,"['stare', 'tacky', 'catch', 'whims', 'watch']",watch,63
+"While I've had a 6, I think this one racked my brain the most. 
+
+Wordle 205 4/6\*
+  
+
+  
+⬜⬜🟨🟨⬜ &gt;!TARES!&lt;
+  
+🟨⬜⬜🟨🟨 &gt;!ROGUE!&lt;
+  
+🟨⬜⬜🟨🟨 &gt;!UNDER!&lt;
+  
+🟩🟩🟩🟩🟩 &gt;!QUERY!&lt;",8,4,"['tares', 'rogue', 'under', 'query']",query,64
+"Scoredle 354 3/6  
+
+12,974  
+🟩⬜🟩⬜⬜ &gt;!TWANG!&lt; (53)  
+⬜⬜🟨⬜🟩 &gt;!EVICT!&lt; (1)  
+🟩🟩🟩🟩🟩 &gt;!TRAIT!&lt;
+
+I wasn’t expecting such a return on what I thought was an outlier starter. Decided to see if I could guarantee a 3 by going out of hard mode. It worked, but I spent a fair amount of time coming up with the second word.",8,3,"['twang', 'evict', 'trait']",trait,66
+"Hard mode. If you turn it on you’re to use the green and/or yellow tiles in your first guess as a hint, as opposed to any other word.",8,1,['moist'],moist,67
+"Scoredle 264 4/6  
+
+12,947  
+⬛⬛⬛🟨⬛ &gt;!WORLD!&lt; (1,170)  
+⬛🟨🟨⬛⬛ &gt;!TEACH!&lt; (75)  
+🟩🟩🟩🟨⬛ &gt;!LAPEL!&lt; (2)  
+🟩🟩🟩🟩🟩 &gt;!LAPSE!&lt;
+
+I thought i was being so clever with that third one 😭😭 really wanted a 3/6",8,4,"['world', 'teach', 'lapel', 'lapse']",lapse,68
+"Wordle 255 3/6
+
+⬛🟩⬛⬛⬛ &gt;!ARISE!&lt;
+
+🟩🟩⬛🟩🟩 &gt;!WRONG!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!WRUNG!&lt;
+
+mixed up my starting word and it paid off",8,3,"['arise', 'wrong', 'wrung']",wrung,69
+"⬜⬜⬜⬜🟨 &gt;!CRANE!&lt; (1,295)  
+🟨⬜⬜🟨⬜ &gt;!TYPED!&lt; (93)  
+⬜🟨🟨🟨🟨 &gt;!BELTS!&lt; (4)  
+🟩🟩🟩🟩🟩 &gt;!SMELT!&lt;
+
+&gt;!Took me a while to come up with SMELT; thought of SWELT earlier, but seemed like too niche of a word to be a solution.!&lt;",8,4,"['crane', 'typed', 'belts', 'smelt']",smelt,70
+"Wordle 208 4/6
+
+⬛️🟨🟨🟨🟨 &gt;!MAYBE!&lt;
+
+🟩⬛️⬛️⬛️🟨 &gt;!ARISE!&lt;
+
+🟩🟩🟨⬛️⬛️ &gt;!ABYSS!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!ABBEY!&lt;
+
+&gt;! I start every day with ‘Maybe’ and today it paid off! My method is unorthodox, I know ‘Arise’ would be wrong but I try to find out positions of letters I haven’t used yet with words that come to mind first.!&lt;",8,4,"['maybe', 'arise', 'abyss', 'abbey']",abbey,71
+"I almost guessed &gt;!TRAIL!&lt; but then thought, ""Ah ha! Another nasty double letter solution.""
+
+Scoredle 354 3/6\*  
+12,974  
+⬜⬜⬜⬜⬜ &gt;!HOUSE!&lt; (1,228)  
+⬜🟨🟨⬜🟩 &gt;!PAINT!&lt; (12)  
+🟩🟩🟩🟩🟩 &gt;!TRAIT!&lt;",8,3,"['house', 'paint', 'trait']",trait,72
+"it eliminated the possibilities of letters, i was under the assumption there was more possibilities left so i used that guess to use my remaining letters and try to find out what the first letter is. kinda complicated but i’ll link something that explains it
+
+edit: [here](https://www.reddit.com/r/wordle/comments/tphmvn/daily_wordle_282_monday_28_mar_2022/i2d6wnr/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf&amp;context=3)",8,6,"['wrote', 'fowls', 'dowly', 'jowly', 'quack', 'lowly']",lowly,73
+"indeed, in scenarios like these the greens are actually limiting the number of letters you can eliminate per guess and this is especially detrimental in ⬛️🟩🟩⬛️🟩 for example. learnt this the hard way :/",8,5,"['deuce', 'slime', 'horse', 'grape', 'brave']",brave,74
+"Kind of a strange one, even more bizarrely of a progression. I'm amazed I got it in three.
+
+Scoredle 290 3/6  
+
+12,972  
+⬛⬛🟨🟨⬛ &gt;!CUNTS!&lt; (166)  
+⬛🟩⬛⬛⬛ &gt;!PAYED!&lt; (12)  
+🟩🟩🟩🟩🟩 &gt;!NATAL!&lt;
+
+&gt;!EDIT: The second word was inspired by a misspelling of the word 'paid' made by my friend. I found enough amusement in that mistake to use it as my second guess. To my surprise, the subsequent throwaway guess ended up being the word. Go figure.!&lt;",8,3,"['cunts', 'payed', 'natal']",natal,75
+Hmm -- &gt;!ANTSY!&lt; was an excellent guess!,8,4,"['tears', 'slime', 'antsy', 'nasty']",nasty,76
+"I’m also a &gt;!SLATE!&lt; opener, considered a word like &gt;!MIKED!&lt; , but then was like, what are the chances it’d be &gt;!STEAD!&lt;, which seems like a little used word to me, then cycled through &gt;!STEAK!&lt;, &gt;!STEAM!&lt;, and finally &gt;!STEAD!&lt;, for a 4-word finish. Ugh!",8,3,"['slate', 'miked', 'stead']",stead,77
+"Scoredle 259 3/6  
+
+12,947  
+
+⬛⬛🟨⬛🟩 &gt;!DANCE!&lt; (86)  
+
+🟩🟨⬛⬛🟩 &gt;!BIOME!&lt; (1)  
+
+🟩🟩🟩🟩🟩 &gt;!BRINE!&lt;
+
+This took me longer than usual because I couldn’t think of a 5-letter word that &gt;!ends in ‘e’!&lt; until I thought of &gt;!biome!&lt;",8,3,"['dance', 'biome', 'brine']",brine,78
+"Hard mode combines very well with challenge mode. You really need to think about what the remaining ""wordspace"" looks like.
+
+Absurdle 6/∞ (hard mode) (challenge mode)
+
+⬜⬜⬜⬜⬜ MONKS
+
+⬜⬜⬜🟨🟨 PILER
+
+⬜🟨⬜⬜🟨 BRAZE
+
+🟩🟩⬜⬜⬜ REEFY
+
+🟩🟩🟨⬜🟨 RECUT
+
+🟩🟩🟩🟩🟩 RETCH",8,5,"['deary', 'oinks', 'cough', 'jumbo', 'flout']",flout,79
+"Wordle 219 5/6
+
+⬛🟨⬛⬛⬛ &gt;!SLATE!&lt;
+
+⬛⬛🟩⬛⬛ &gt;!GROUP!&lt;
+
+⬛⬛🟨🟨⬛ &gt;!MINKS!&lt;
+
+⬛🟨🟩🟨🟨 &gt;!CLONK!&lt;
+
+🟩🟩🟩🟩🟩 &gt;!KNOLL!&lt;
+
+Had to do a lot of head scratching for this one",8,5,"['slate', 'group', 'minks', 'clonk', 'knoll']",knoll,80
+Hey at least you came through. Did you design guess 5 to eliminate specific potential words or just to reduce the possible letters left?,8,6,"['ocean', 'share', 'maize', 'valve', 'punky', 'badge']",badge,82
