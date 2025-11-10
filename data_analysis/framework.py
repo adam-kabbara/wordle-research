@@ -681,7 +681,7 @@ class WordleAnalyzer:
             p_value = ttest_rel(actual_data, optimal_data).pvalue
             
             # Add Cohen's d and p-value to the plot as text
-            plt.text(0.5, 1, f"Cohen's distance: {cohen_distance:.{3}g}, p-value: {p_value:.{3}g}", 
+            plt.text(0.5, 1, f"Cohen's d: {cohen_distance:.{3}g}, p-value: {p_value:.{3}g}", 
             horizontalalignment='center', verticalalignment='bottom', transform=plt.gca().transAxes, fontsize=10)
             
             ax.set_xlabel(f'{metric_type.replace("_", " ").title()}')
